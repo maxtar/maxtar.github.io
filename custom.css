@@ -1,0 +1,7 @@
+:root[color-theme="light"] {
+    --header-background: #4ec58a;
+}
+
+:root[color-theme="dark"] {
+    --header-background: #4ec58a;
+}
