@@ -1,6 +1,7 @@
 ---
 title: "Addons"
 date: 2022-10-01T22:23:09+03:00
+tags: [blender]
 ---
 
 * [Animation nodes](https://github.com/JacquesLucke/animation_nodes/releases). [Документация](http://animation-nodes-manual.readthedocs.io/en/latest/index.html). [Форум](https://blenderartists.org/forum/showthread.php?350296-Addon-Animation-Nodes). Позволяет анимировать различные сущности Blender. Сейчас уже не очень актуально, так как добавили геометрические ноды в Blender.

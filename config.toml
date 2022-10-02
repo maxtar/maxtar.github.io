@@ -29,7 +29,8 @@ disablePathToLower = true
   author = "Maxim Taran"
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "green"
+  geekdocTagsToMenu = true
 
 # Because has some issue in geekdoc theme. See https://geekdocs.de/usage/getting-started/#known-limitations.
-[minify]
-  disableHTML = true
+# [minify]
+  # disableHTML = true
