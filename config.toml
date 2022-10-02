@@ -1,5 +1,6 @@
 baseURL = "https://maxtar.github.io"
 languageCode = "ru-RU"
+defaultContentLanguage = "ru"
 title = "Max Wiki Site"
 
 # theme = "learn"
