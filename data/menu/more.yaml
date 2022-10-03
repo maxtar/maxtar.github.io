@@ -1,0 +1,5 @@
+---
+more:
+  - name: Tags
+    ref: "/tags"
+    icon: "gdoc_tag"
