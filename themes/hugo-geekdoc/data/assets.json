@@ -12,8 +12,8 @@
     "integrity": "sha512-25Qlbky4CO9ETeYAQAmBSOT32hziFxk1Z/A8/+2IQtqK1orAS5CcnGG3yKJGDLJHzHRxY/6k8tA7XXz6M8WAsA=="
   },
   "search.js": {
-    "src": "js/search-1c4cfb2d.bundle.min.js",
-    "integrity": "sha512-wK0vKlf8b3uje5GnRC4RN0aL7HzWDu7slqHlbfqCmCbHW30ede6D5H4rc/VqrpOx/Pf1ZfTV5L4Tx4pka1TwXQ=="
+    "src": "js/search-835dce8f.bundle.min.js",
+    "integrity": "sha512-oICUpB5+MT0N4ITwl9id3snSczwCRVDmbwKluD6mT8z/rYsIoekUCT2cfNAwEYWGlT/1D62C7Etz0n0qBlcDvg=="
   },
   "js/273-00ecdf63.chunk.min.js": {
     "src": "js/273-00ecdf63.chunk.min.js",
