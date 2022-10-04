@@ -1,6 +1,6 @@
 ---
 title: "Полезные библиотеки"
-date: 2022-10-05T01:28:55#03:00
+date: 2022-10-05T01:28:55+03:00
 tags: ["программирование", "c#"]
 ---
 
@@ -10,4 +10,4 @@ tags: ["программирование", "c#"]
 
 ## Работа с SSH
 
-* [SSH.NET](https://github.com/sshnet/SSH.NET). [Некоторые примеры](*https://gist.github.com/piccaso/d963331dcbf20611b094).
+* [SSH.NET](https://github.com/sshnet/SSH.NET). [Некоторые примеры](*https:/gist.github.com/piccaso/d963331dcbf20611b094).
