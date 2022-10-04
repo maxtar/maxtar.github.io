@@ -10,4 +10,4 @@ tags: ["программирование", "c#"]
 
 ## Работа с SSH
 
-* [SSH.NET](https://github.com/sshnet/SSH.NET). [Некоторые примеры](*https:/gist.github.com/piccaso/d963331dcbf20611b094).
+* [SSH.NET](https://github.com/sshnet/SSH.NET). [Некоторые примеры](https:/gist.github.com/piccaso/d963331dcbf20611b094).
