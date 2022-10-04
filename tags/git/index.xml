@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>git on Max Wiki Site</title><link>https://maxtar.github.io/tags/git/</link><description>Recent content in git on Max Wiki Site</description><generator>Hugo -- gohugo.io</generator><language>ru-RU</language><lastBuildDate>Mon, 03 Oct 2022 21:37:57 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub</title><link>https://maxtar.github.io/programming/github/</link><pubDate>Mon, 03 Oct 2022 21:37:57 +0300</pubDate><guid>https://maxtar.github.io/programming/github/</guid><description>Разная информация по работе с GitHub.com
-Влить исходный репозиторий в свой форканый Влить исходный репозиторий в свой форканый Информация взята из официальной документации github.
-Открыть консоль и перейти в директорию со своим репозиторием.
-Переключится, если надо на нужную ветку (обычно master)
-git checkout master Выкачать изменения из оригинального репозитория:
-git pull https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git BRANCH_NAME Если есть конфликты исправить их.
-Закоммитить изменения с результатом слияния
-Закачать изменения в свой репозиторий
-git push origin master</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>git on Max Wiki Site</title><link>https://maxtar.github.io/tags/git/</link><description>Recent content in git on Max Wiki Site</description><generator>Hugo -- gohugo.io</generator><language>ru-RU</language><lastBuildDate>Wed, 05 Oct 2022 00:45:43 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Полезная информация по git</title><link>https://maxtar.github.io/programming/useful-git/</link><pubDate>Wed, 05 Oct 2022 00:45:43 +0300</pubDate><guid>https://maxtar.github.io/programming/useful-git/</guid><description>Общая информация Как удалять ветки Удаление всех локальных изменений Настройка работы ssh с несколькими репозиториями Разная информация по работе с GitHub.com Влить исходный репозиторий в свой форканый Общая информация Официальная книга по Git.
+Как содержать репозиторий в чистоте
+Ещё полезная статья на Habrahabr.
+Как удалять ветки Локальные:
+git branch -d the_local_branch Удалённые:
+git push origin :the_remote_branch Удаление всех локальных изменений git clean -xdf Настройка работы ssh с несколькими репозиториями Создать файл config в директории .</description></item></channel></rss>
