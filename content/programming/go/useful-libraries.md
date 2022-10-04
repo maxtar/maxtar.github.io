@@ -219,10 +219,10 @@ tags: ["go", "программирование"]
 
 ## Работа с hardware
 
-* [Gobot](https://gobot.io)  
-    Библиотека позволяет программировать различные устройства. Репозиторий на [Guthub](https://github.com/hybridgroup/gobot). [Документация](https://gobot.io/documentation).
-* [Emgo](https://github.com/ziutek/emgo)  
-    Позволяет писать микропрограммы для ARM Cortex-M based MCUs. Репозиторий на [Github](https://github.com/ziutek/emgo). [Блог](https://ziutek.github.io/2018/03/30/go_on_very_small_hardware.html) как это всё работает.
+* [Gobot](https://gobot.io)\
+  Библиотека позволяет программировать различные устройства. Репозиторий на [Guthub](https://github.com/hybridgroup/gobot). [Документация](https://gobot.io/documentation).
+* [Emgo](https://github.com/ziutek/emgo)\
+  Позволяет писать микропрограммы для ARM Cortex-M based MCUs. Репозиторий на [Github](https://github.com/ziutek/emgo). [Блог](https://ziutek.github.io/2018/03/30/go_on_very_small_hardware.html) как это всё работает.
 * [Periph](https://periph.io/) от команды google [GitHub](https://github.com/google/periph). [GoDoc](https://godoc.org/periph.io/x/periph).
 * [Tinygo](https://tinygo.org/) [GitHub](https://github.com/tinygo-org/tinygo).
 * [TamaGo](https://github.com/f-secure-foundry/tamago) - bare metal Go for ARM SoCs . Позволяет писать на GO для голых чипов AMD
