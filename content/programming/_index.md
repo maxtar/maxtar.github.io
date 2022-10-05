@@ -9,7 +9,7 @@ tags: ["программирование"]
 {{< toc >}}
 
 Удобный поиск библиотек на разных языках [libhunt.com](https://www.libhunt.com).
-Книги по [Js на GitHub](https://github.com/getify/You-Dont-Know-JS).
+Книги по [JS на GitHub](https://github.com/getify/You-Dont-Know-JS).
 
 ## Трейс
 
