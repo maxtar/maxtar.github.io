@@ -8,7 +8,7 @@ tags: ["go", "программирование"]
 
 [Сайт](https://go.dev).
 
-{{< toc-tree >}}
+{{< toc >}}
 
 * [Основной репозиторий](https://go.googlesource.com/go), Зеркало на [github.com](https://github.com/golang/go).
 * [Документация по разным библиотекам (GoDoc)](https://godoc.org/).
