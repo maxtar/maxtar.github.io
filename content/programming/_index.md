@@ -9,7 +9,29 @@ tags: [программирование]
 {{< toc >}}
 
 Удобный поиск библиотек на разных языках [libhunt.com](https://www.libhunt.com).
+
 Книги по [JS на GitHub](https://github.com/getify/You-Dont-Know-JS).
+
+## Стили форматирования на разных языках
+
+Информация взята [отсюда](http://swagger.io/docs/#style-guide-26).
+
+* [Android](https://source.android.com/source/code-style.html)
+* C#: [Framework Design Guidelines](https://msdn.microsoft.com/en-us/library/ms229042.aspx), [C# Programming Guide](https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/index)
+* [C++](https://google.github.io/styleguide/cppguide.html)
+* [Haskell](https://github.com/tibbe/haskell-style-guide/blob/master/haskell-style.md)
+* [Java](https://google.github.io/styleguide/javaguide.html)
+* [JavaScript](https://github.com/airbnb/javascript/tree/master/es5)
+* [Groovy](http://groovy-lang.org/style-guide.html)
+* [Go](https://github.com/golang/go/wiki/CodeReviewComments)
+* [Objective C](https://github.com/NYTimes/objective-c-style-guide)
+* [Perl](https://perldoc.perl.org/perlstyle.html)
+* [PHP](https://www.php-fig.org/psr/psr-12)
+* [Python](https://www.python.org/dev/peps/pep-0008)
+* [Ruby](https://github.com/bbatsov/ruby-style-guide)
+* [Scala](http://docs.scala-lang.org/style)
+* [Swift](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html)
+* [TypeScript](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
 
 ## Трейс
 
@@ -18,7 +40,7 @@ tags: [программирование]
 * [Opencensus](https://opencensus.io) - распределённый мониторинг и трейсинг.
 * [jaegertracing](https://www.jaegertracing.io) tracing в Kubernetes [Документация](https://www.jaegertracing.io/docs/1.9/getting-started).
 
-------
+---
 
 Список популярных библиотек от пользователя [Arl](https://github.com/kaxap/arl).
 
