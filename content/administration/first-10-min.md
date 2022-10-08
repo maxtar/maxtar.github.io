@@ -4,17 +4,17 @@ date: 2022-10-09T00:38:39+03:00
 tag: [linux]
 ---
 
-Исходная статься на [Хабрахабре](*https://habrahabr.ru/company/rootwelt/blog/303462/).
+Исходная статься на [Хабрахабре](https://habrahabr.ru/company/rootwelt/blog/303462/).
 
 {{< toc >}}
 
 ## Азбука безопасности Ubuntu
 
-«[Мои первые 5 минут на сервере](*http://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers)» Брайана Кеннеди — отличное введение, как быстро обезопасить сервер от большинства атак. У нас есть несколько исправлений для этой инструкции, чтобы дополнить ею наше [полное руководство](*https://github.com/codelittinc/incubator-resources). Также хочется подробнее объяснить некоторые вещи для более юных инженеров.
+«[Мои первые 5 минут на сервере](http://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers)» Брайана Кеннеди — отличное введение, как быстро обезопасить сервер от большинства атак. У нас есть несколько исправлений для этой инструкции, чтобы дополнить ею наше [полное руководство](https://github.com/codelittinc/incubator-resources). Также хочется подробнее объяснить некоторые вещи для более юных инженеров.
 
 Каждое утро я проверяю почтовые уведомления logwatch и получаю основательное удовольствие, наблюдая несколько сотен (иногда тысяч) безуспешных попыток получить доступ. (Многие довольно прозаичны — попытки авторизоваться как `root` с паролем `1234` снова и снова). Приведённая здесь общая методика подходит для серверов Debian/Ubuntu, которые лично мы предпочитаем всем остальным. Они обычно служат только хостами для контейнеров Docker, но принципы те же.
 
-На больших масштабах лучше использовать полностью автоматические установки с инструментами вроде [Ansible](*https://github.com/ansible/ansible) или [Shipyard](*https://shipyard-project.com/), но иногда вы просто поднимаете единственный сервер или подбираете задачи для Ansible — для таких ситуаций предназначена инструкция.
+На больших масштабах лучше использовать полностью автоматические установки с инструментами вроде [Ansible](https://github.com/ansible/ansible) или [Shipyard](https://shipyard-project.com/), но иногда вы просто поднимаете единственный сервер или подбираете задачи для Ansible — для таких ситуаций предназначена инструкция.
 
 **Примечание: Эта справка создана как базовая азбука. Её следует расширить и дополнить в соответствие с вашими потребностями.**
 
@@ -26,7 +26,9 @@ tag: [linux]
 # passwd
 ```
 
-**Примечание: На [HN](*https://news.ycombinator.com/item?id=11909543) и [Reddit](*https://www.reddit.com/r/netsec/comments/4o7wpo/my_first_10_minutes_on_a_server/) развернулась интересная дискуссия о рутовых паролях. Её стоит почитать.**
+{{< hint title=Примечание >}}
+На [HN](https://news.ycombinator.com/item?id=11909543) и [Reddit](https://www.reddit.com/r/netsec/comments/4o7wpo/my_first_10_minutes_on_a_server/) развернулась интересная дискуссия о рутовых паролях. Её стоит почитать.
+{{< /hint >}}
 
 Теперь следует обновить репозитории и накатить последние патчи. Далее будет отдельный раздел по автоматизации установки обновлений безопасности.
 
@@ -110,8 +112,8 @@ usermod -a -G sudo deploy
 
 Это предоставит пользователю deploy доступ к sudo после введения пароля, который мы только что создали.
 
-{{< hint >}}
-Замечание к исправлению: спасибо пользователю [ackackacksyn](https://www.reddit.com/r/netsec/comments/4o7wpo/my_first_10_minutes_on_a_server/d4aeajf) на Reddit за верное замечание, что не следует добавлять пользователей напрямую в список sudo.
+{{< hint title="Замечание к исправлению" >}}
+Спасибо пользователю [ackackacksyn](https://www.reddit.com/r/netsec/comments/4o7wpo/my_first_10_minutes_on_a_server/d4aeajf) на Reddit за верное замечание, что не следует добавлять пользователей напрямую в список sudo.
 {{< /hint >}}
 
 ## Активируем вход по ключу ssh
@@ -147,7 +149,7 @@ service ssh restart
 Во-первых, следует убедиться в поддержке IPv6. Откройте конфигурационный файл.
 
 ```bash
-vim /etc/default/ufw
+sudo vim /etc/default/ufw
 ```
 
 Установите IPv6 в значение **yes**.
@@ -167,10 +169,10 @@ sudo ufw enable
 ```
 
 Первое — это избыточная мера, которая гарантирует, что только соединения с нашего IP-адреса могут соединяться по SSH (стандартный порт SSH)[^2] Вторая и третья команда открывают трафик http и https.
-[^2]: Мнения расходятся, назначать ли для соединений SSH стандартный или нестандартный порт. См. [здесь](*https://www.adayinthelifeof.nl/2012/03/12/why-putting-ssh-on-another-port-than-22-is-bad-idea/) и [здесь](*https://major.io/2013/05/14/changing-your-ssh-servers-port-from-the-default-is-it-worth-it/) аргументы обеих сторон.
+[^2]: Мнения расходятся, назначать ли для соединений SSH стандартный или нестандартный порт. См. [здесь](https://www.adayinthelifeof.nl/2012/03/12/why-putting-ssh-on-another-port-than-22-is-bad-idea/) и [здесь](https://major.io/2013/05/14/changing-your-ssh-servers-port-from-the-default-is-it-worth-it/) аргументы обеих сторон.
 
-{{< hint >}}
-Примечание: Спасибо [chrisfosterelli](*https://news.ycombinator.com/item?id=11910341) за замечание, что если вы собираетесь установить первое правило (а вам следует это сделать), то убедитесь, что у вас статичный IP-адрес или безопасный VPN, к которому вы подключаетесь. Динамический IP-адрес оставит вас без доступа к серверу когда-нибудь в будущем.
+{{< hint title=Примечание >}}
+Спасибо [chrisfosterelli](https://news.ycombinator.com/item?id=11910341) за замечание, что если вы собираетесь установить первое правило (а вам следует это сделать), то убедитесь, что у вас статичный IP-адрес или безопасный VPN, к которому вы подключаетесь. Динамический IP-адрес оставит вас без доступа к серверу когда-нибудь в будущем.
 {{< /hint >}}
 
 ## Автоматические обновления безопасности
@@ -178,7 +180,7 @@ sudo ufw enable
 Мне они нравятся. Они не идеальны, но это лучше, чем пропустить патчи после их выхода.
 
 ```bash
-apt-get install unattended-upgrades
+sudo apt-get install unattended-upgrades
 vim /etc/apt/apt.conf.d/10periodic
 ```
 
@@ -194,7 +196,7 @@ APT::Periodic::Unattended-Upgrade "1";
 Я в целом согласен с Брайаном, что лучше отключить обычные обновления, а оставить только обновления безопасности. Идея в том, что будет не очень хорошо, если приложение внезапно перестанет работать из-за обновления какого-то пакета с зависимостями, в то время как обновления безопасности очень редко создают проблемы с зависимостями на уровне приложения.
 
 ```bash
-vim /etc/apt/apt.conf.d/50unattended-upgrades
+sudo vim /etc/apt/apt.conf.d/50unattended-upgrades
 ```
 
 Отредактируйте файл следующим образом:
@@ -215,7 +217,7 @@ Unattended-Upgrade::Allowed-Origins {
 fail2ban — отличный пакет, который проактивно блокирует подозрительную активность, как только она обнаружена. В их [вики](http://www.fail2ban.org/wiki/index.php/Main_Page) сказано, что fail2ban сканирует файлы логов (например, `/var/log/apache/error_log`) и банит IP-адреса, которые проявляют подозрительные признаки — слишком много попыток ввода неправильного пароля, поиск эксплоитов и проч… Сразу после установки Fail2Ban оснащён фильтрами для различных сервисов (apache, courier, ssh и др.).
 
 ```bash
-apt-get install fail2ban
+sudo apt-get install fail2ban
 ```
 
 ## Двухфакторная аутентификация
@@ -232,7 +234,7 @@ apt-get install fail2ban
 Устанавливаем пакет.
 
 ```bash
-apt-get install libpam-google-authenticator
+sudo apt-get install libpam-google-authenticator
 ```
 
 Для установки запускаем команду и следуем инструкциям:
@@ -251,19 +253,19 @@ google-authenticator
 У DigitalOcean есть [отличное описание установки и настройки Logwatch](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-logwatch-log-analyzer-and-reporter-on-a-vps), но если мы хотим уложиться в 10 минут, то просто установим его и сделаем задание cron для ежедневного запуска и отправки письма по электронной почте.
 
 ```bash
-apt-get install logwatch
+sudo apt-get install logwatch
 ```
 
 Добавляем задание cron.
 
 ```bash
-vim /etc/cron.daily/00logwatch
+sudo vim /etc/cron.daily/00logwatch
 ```
 
 Добавьте следующую строку в файл cron:
 
 ```bash
-/usr/sbin/logwatch --output mail --mailto you@example.com --detail high
+sudo /usr/sbin/logwatch --output mail --mailto you@example.com --detail high
 ```
 
 ## Всё готово
