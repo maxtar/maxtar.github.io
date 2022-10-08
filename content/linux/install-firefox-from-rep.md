@@ -1,7 +1,7 @@
 ---
 title: "Установка Firefox из репозитория"
 date: 2022-10-03T12:59:56+03:00
-tags: ["linux", "firefox"]
+tags: [linux, firefox]
 ---
 
 1. Удалите Firefox Snap, выполнив следующую команду в новом окне терминала:

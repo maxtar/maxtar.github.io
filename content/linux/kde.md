@@ -1,7 +1,7 @@
 ---
 title: "Оптимизация KDE5"
 date: 2022-10-05T01:54:53+03:00
-tags: ["linux"]
+tags: [linux]
 ---
 
 {{< toc >}}

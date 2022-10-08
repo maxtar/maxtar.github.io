@@ -1,7 +1,7 @@
 ---
 title: "Полезная информация по разным командам Linux"
 date: 2022-10-01
-tags: ["linux", "shell"]
+tags: [linux, shell]
 ---
 
 {{< toc >}}

@@ -1,7 +1,7 @@
 ---
 title: "Mikrotik"
 date: 2022-10-03T21:56:08+03:00
-tags: ["администрирование", "mikrotik"]
+tags: [администрирование, mikrotik]
 ---
 
 ## Полезная информация по настройке RouterOs от Mikrotik

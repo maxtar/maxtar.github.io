@@ -1,7 +1,7 @@
 ---
 title: "Настройка hibernate на linux без использования swap раздела"
 date: 2022-10-03T13:28:23+03:00
-tags: ["linux"]
+tags: [linux]
 ---
 
 Взято [отсюда](https://ubuntuhandbook.org/index.php/2021/08/enable-hibernate-ubuntu-21-10).
