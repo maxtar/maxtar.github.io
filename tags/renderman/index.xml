@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>renderman on Max Wiki Site</title><link>https://maxtar.github.io/tags/renderman/</link><description>Recent content in renderman on Max Wiki Site</description><generator>Hugo -- gohugo.io</generator><language>ru-RU</language><lastBuildDate>Sat, 08 Oct 2022 20:29:42 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/renderman/index.xml" rel="self" type="application/rss+xml"/><item><title>Как установить Renderman в Ubuntu</title><link>https://maxtar.github.io/blender/install-renderman-linux/</link><pubDate>Sat, 08 Oct 2022 20:29:42 +0300</pubDate><guid>https://maxtar.github.io/blender/install-renderman-linux/</guid><description> Скачать установщик.
+Преобразовать в deb формат командой
+alien -c renderman-installer...rpm На выходе получится .deb файл. Дальше его установить как обычно:
+sudo dpkg -i renderman-installer...deb Если в процессе не запустится установщик сервера:
+cd /opt/pixar/RenderMan-Installer-ncr-&amp;lt;version&amp;gt;/bin sudo ./RenderManInstaller</description></item></channel></rss>
