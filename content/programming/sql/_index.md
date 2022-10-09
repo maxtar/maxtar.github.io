@@ -8,7 +8,7 @@ tags: [программирование, sql]
 
 ## Join
 
-[Отличное описание разных Join](*http://www.skillz.ru/dev/php/article-Obyasnenie_SQL_obedinenii_JOIN_INNER_OUTER.html).
+[Отличное описание разных Join](http://www.skillz.ru/dev/php/article-Obyasnenie_SQL_obedinenii_JOIN_INNER_OUTER.html).
 
 ![image](https://habrastorage.org/webt/2j/nx/26/2jnx26unkkrjzncio2kjbbe77ik.jpeg)
 

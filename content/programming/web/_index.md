@@ -7,8 +7,8 @@ tags: [программирование, web]
  Здесь указаны разные frameworks для написания web-приложений
 
 * [Vue.js](https://vuejs.org/). Перспективный Framework [Документация на русском](https://ru.vuejs.org/v2/guide/).
-  * [Gui Framework для него](*http://element.eleme.io).
-  * Ещё один - [Material Design](*http://vuematerial.io).
+  * [Gui Framework для него](https://element.eleme.io).
+  * Ещё один - [Material Design](https://vuematerial.io).
 * [AngularJs](https://angularjs.org/). Framework, поддерживаемый Google. [Документация](https://docs.angularjs.org/guide).
 * [React](https://facebook.github.io/react/). Framework от [Facebook](https://facebook.com). [Документация](https://facebook.github.io/react/docs/hello-world.html).
 * [Flutter](https://flutter.io) - SDK от Google для написания мобильных и Web-приложений. [Документация](https://flutter.io/docs).
