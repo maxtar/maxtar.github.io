@@ -6,6 +6,8 @@ tags: [программирование, ссылки]
 
 Ссылки на разные проекты.
 
+{{< toc >}}
+
 ## Библиотеки для раскрашивания синтаксиса
 
 Информация взята [отсюда](https://gohugo.io/extras/highlighting/#client-side).
@@ -15,6 +17,8 @@ tags: [программирование, ссылки]
 * [Rainbow](http://craig.is/making/rainbows).
 * [Syntax Highlighter](http://alexgorbatchev.com/SyntaxHighlighter/).
 * [Google Prettify](https://github.com/google/code-prettify).
+
+---
 
 ## Список ресурсов для поднятия навыков программирования
 
@@ -26,3 +30,15 @@ tags: [программирование, ссылки]
 * [codefights.com](https://codefights.com)
 * [codingame.com](https://codingame.com)
 * [codeforces.com](https://codeforces.com)
+
+---
+
+## Markdown
+
+Описание [классического синтаксиса](*https://daringfireball.net/projects/markdown) от создателя.
+
+[Online редактор](*https://daringfireball.net/projects/markdown/dingus).
+
+Описание [на-русском](*http://ido-maupfib.kg/help.php?file=markdown.html).
+
+Описание [на Github](*https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). И его перевод [на русский](*https://github.com/sandino/Markdown-Cheatsheet).
