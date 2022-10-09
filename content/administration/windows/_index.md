@@ -29,3 +29,9 @@ Source Network Address: 50.24.123.168
 ```cmd
 gpresult /USER <domen>\<user> /V
 ```
+
+## Как собрать дампы памяти
+
+TODO: добавить небольшое описание со страницы [WER Settings](https://msdn.microsoft.com/en-us/library/windows/desktop/bb513638(v=vs.85).aspx)
+
+[Различные способы собрать дампы памяти в Windows](https://blogs.msdn.microsoft.com/cobold/2010/03/01/collecting-crash-dumps)
