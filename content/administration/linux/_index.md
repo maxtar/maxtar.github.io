@@ -32,3 +32,7 @@ tags: [linux]
 * [Ubuntu](https://www.ubuntu.com)
 * [Kubuntu](https://kubuntu.org/) - основан на Ubuntu. В качестве рабочей среды используется KDE.
 * [Lubuntu](https://lubuntu.me) - лёгкий дистрибутив, основанный на Ubuntu. В качестве рабочей среды используется LXQt.
+
+## Резервное копирование системы
+
+[Здесь](http://compizomania.blogspot.com/2014/07/systemback-linux.html) описана программа [Systemback](https://launchpad.net/~nemh/+archive/ubuntu/systemback).
