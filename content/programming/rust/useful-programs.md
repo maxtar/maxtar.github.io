@@ -6,4 +6,4 @@ tags: [rust, программы]
 
 ## Анализ данных
 
-* [Xsv](*https://github.com/BurntSushi/xsv) - анализ csv файлов в консоли.
+* [Xsv](https://github.com/BurntSushi/xsv) - анализ csv файлов в консоли.
