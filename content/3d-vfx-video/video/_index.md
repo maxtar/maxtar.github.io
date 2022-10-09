@@ -9,3 +9,7 @@ tags: [видео, графика, видеомонтаж]
 {{< toc-tree >}}
 
 [Параметры ffmpeg](https://help.ubuntu.ru/wiki/ffmpeg)
+
+## Полезные программы
+
+* [Handbrake](https://handbrake.fr/) - конвертер видео.

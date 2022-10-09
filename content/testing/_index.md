@@ -47,6 +47,7 @@ tags: [тестирование]
 * [slow_cooker](https://github.com/BuoyantIO/slow_cooker) - также, написанный, на Go пакет для тестирования под заданной нагрузкой.
 * [k6](https://k6.io/) - тесты пишутся на JavaScript. Сам фреймоворк написан на Go. [Документация](https://docs.k6.io/docs).
 * [Predator](https://www.predator.dev) - распределённая нагрузка в докере. [Документация](https://zooz.github.io/predator/myfirsttest.html). [GitHub](https://github.com/Zooz/predator).
+* [Wrk](https://github.com/wg/wrk) Нагрузочная утилита для Linux.
 
 ## Тестирование баз
 

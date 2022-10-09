@@ -1,11 +1,9 @@
 ---
 title: "Разные полезные программы"
 date: 2022-10-09T02:03:08+03:00
-tags: [программы, ссылки, todo]
+tags: [программы, ссылки]
 ---
 
-* [Wrk](https://github.com/wg/wrk) Нагрузочная утилита для Linux.
-* [Hugo](https://gohugo.io/). [Документация](https://gohugo.io/overview/introduction/). Framework для создания статического сайта на основе [markdown](https://daringfireball.net/projects/markdown/syntax).
 * Форум [Discourse](https://github.com/discourse/discourse). На нём работает [automated-testing.info](http://automated-testing.info) и [forum.golangbridge.org](https://forum.golangbridge.org).
 * Система развёртывания [pulumi](https://pulumi.io). Исходный код на [GitHub](https://github.com/pulumi/pulumi).
 
@@ -22,14 +20,6 @@ tags: [программы, ссылки, todo]
 
 [OBSProject](https://obsproject.com/ru) - кросс-платформенный пакет для записи с экрана и/или трансляции.
 
----
-
-## Мониторинг и информация по системе
-
-[HWInfo](https://www.hwinfo.com/) - бесплатная утилита для получения разнообразной информации о системе.
-
----
-
 ## Рисование
 
 [Pencil](https://pencil.evolus.vn) - рисование GUI, диаграмм действия.
@@ -42,6 +32,7 @@ tags: [программы, ссылки, todo]
 * [Zettlr](https://www.zettlr.com). [Документация](https://www.zettlr.com/docs). [GitHub](https://github.com/Zettlr/Zettlr).
 
 ---
+
 ## Работа со звуком
 
 * [Musicbrainz Picard](https://picard.musicbrainz.org) - программа для автоматического заполнения тегов файлов. Загрузка обложек и т.д.
@@ -49,4 +40,3 @@ tags: [программы, ссылки, todo]
 ## Конвертеры
 
 * [Pandoc](https://pandoc.org/index.html) - конвертер различных текстовых форматов.
-* [Handbrake](https://handbrake.fr/) - конвертер видео.
