@@ -4,8 +4,8 @@
     "integrity": "sha512-KfjmJn9/csyFT9kE/7rim3xU19ul/7X1pIPDtJmLXDMAuVgmECTwXU2q7SOnfNZH3AV5wjfTHsxmSZQ8L9I7nw=="
   },
   "mermaid.js": {
-    "src": "js/mermaid-d10ccc5b.bundle.min.js",
-    "integrity": "sha512-LMHXE1uWEUhBuUgxrXjIRVGV16JjiKyeIPywoZj+TrQ0LX4QSfGwCt+y41AcmUnifvbX0gd7BebrvEu5VmdilA=="
+    "src": "js/mermaid-b1066407.bundle.min.js",
+    "integrity": "sha512-ImiE7OJ9tFwPXPx620EKFyh1zX+9BJskNZzyRHoid8xb2FFEsCj2qGuKgkgUUtLqFu3XJRg5+gogs2zUNQXo1g=="
   },
   "katex.js": {
     "src": "js/katex-8d0741cb.bundle.min.js",
