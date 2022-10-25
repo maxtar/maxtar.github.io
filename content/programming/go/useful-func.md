@@ -134,7 +134,7 @@ func (dtf *DateTimeFlag) Set(value string) (err error) {
 Чтобы добавить в свою программу возможность использования данного типа делаем следующее:
 
 * Объявить переменные созданного типа
-* Добавить в секцию {{init()}} регистрацию этих переменных в качестве флагов.
+* Добавить в секцию `init()` регистрацию этих переменных в качестве флагов.
 
 ```go
 var date DateTimeFlag
@@ -167,7 +167,7 @@ fmt.Println(*date)
 Информация взята из [SliceTricks](https://github.com/golang/go/wiki/SliceTricks).
 
 ```go
-a = append(a[:i], a[i#1:]...)
+a = append(a[:i], a[i+1:]...)
 ```
 
 ------
