@@ -178,6 +178,12 @@ tags: [go, программирование]
 
 ---
 
+## OpenAPI
+
+* [ogen](https://github.com/ogen-go/ogen). [Официальный сайт](https://ogen.dev).
+
+---
+
 ## Работа с сетью
 
 * [Evio](https://github.com/tidwall/evio) - работа с сетью, основанная на событиях.
