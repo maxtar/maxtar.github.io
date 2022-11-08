@@ -98,6 +98,10 @@ tags: [go, программы]
 
 * [ion](https://github.com/pion/ion) - распределённая система общения. [Документация](https://pionion.github.io).
 
+## Соцсети, fediverse
+
+* [GoToSocial](https://github.com/superseriousbusiness/gotosocial) - реализация сервера ActivityPub. Поддерживает mastodon. [Официальная документация](https://docs.gotosocial.org/en/latest).
+
 ## Безопасность
 
 * [gitleaks (https://github.com/zricethezav/gitleaks)](https://github.com/zricethezav/gitleaks) - сканирует репозитории кода на всякие утечки типа паролей.
