@@ -1,8 +1,10 @@
 ---
-title: "Различные настройки iptables"
+title: "iptables"
 date: 2022-11-08T17:01:34+03:00
 tags: [linux]
 ---
+
+Различные настройки iptables
 
 {{< toc >}}
 
@@ -14,13 +16,28 @@ tags: [linux]
 iptables -t nat -A POSTROUTING -o eth0 -s 192.168.0.0/24 -j MASQUERADE
 ```
 
+## Разрешить подключения к нужным портам
+
+```bash
+iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+```
+
+где **22** - это порт, который надо открыть
+
 ## Все входящие запрещены
 
 ```bash
-$ iptables -A INPUT -p tcp --dport 22 -j ACCEPT
-# and block everything else (default deny)
-$ iptables -P INPUT DROP
+iptables -P INPUT DROP
 ```
+
+{{< hint type=important title="Внимание" >}}
+Для того, чтобы при этом работали локальные подключения надо добавить следующее правило:
+
+```bash
+iptables -A INPUT -i lo -j ACCEPT
+```
+
+{{< /hint >}}
 
 ## Разрешить уже установленные соединения
 
