@@ -37,15 +37,21 @@ tags: [go, программирование]
 
 ---
 
-## GUI
+## UI
 
-* Пользовательский интерфейс в терминале
-  [Отличная статья](https://appliedgo.net/tui) с обзором разных библиотек для написания text-based GUI.
-  * [Пользовательский интерфейс в терминале (https://github.com/nsf/termbox-go)](https://github.com/nsf/termbox-go).
-  * [Ещё одна реализация (https://github.com/gdamore/tcell)](https://github.com/gdamore/tcell). Почти полностью совместима с [termbox-go](https://github.com/nsf/termbox-go).
-  * [gocui](https://github.com/jroimartin/gocui). [Godoc](https://godoc.org/github.com/jroimartin/gocui).
-  * [TermUI](https://github.com/gizak/termui). [Документация](https://github.com/gizak/termui/wiki).
-  * [Bubble Tea (Bubble Tea)](https://github.com/charmbracelet/bubbletea) - от создателей [Glow](https://github.com/charmbracelet/glow).
+### Пользовательский интерфейс в терминале
+
+[Отличная статья](https://appliedgo.net/tui) с обзором разных библиотек для написания text-based GUI.
+
+* [Пользовательский интерфейс в терминале (https://github.com/nsf/termbox-go)](https://github.com/nsf/termbox-go).
+* [Ещё одна реализация (https://github.com/gdamore/tcell)](https://github.com/gdamore/tcell). Почти полностью совместима с [termbox-go](https://github.com/nsf/termbox-go).
+* [gocui](https://github.com/jroimartin/gocui). [Godoc](https://godoc.org/github.com/jroimartin/gocui).
+* [TermUI](https://github.com/gizak/termui). [Документация](https://github.com/gizak/termui/wiki).
+* [Bubble Tea (Bubble Tea)](https://github.com/charmbracelet/bubbletea) - от создателей [Glow](https://github.com/charmbracelet/glow).
+* [Box CLI Maker](https://github.com/Delta456/box-cli-maker) - позволяет создавать приветственные окна.
+
+### GUI
+
 * [Реализация node.js socket (https://github.com/googollee/go-socket.io)](https://github.com/googollee/go-socket.io). Полезно при использовании [electron](http://electron.atom.io) в качестве UI.
 * [Библиотека для написания GUI на Electron (https://github.com/asticode/go-astilectron)](https://github.com/asticode/go-astilectron).
 * [Walk.](https://github.com/lxn/walk) Библиотека позволяет писать GUI под Windows. Является обёрткой над win32 API.
