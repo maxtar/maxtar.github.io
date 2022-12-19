@@ -359,6 +359,7 @@ tags: [go, программирование]
 * [ants](https://github.com/panjf2000/ants). Позволяет создавать с пулом goroutings. [GoDoc](https://godoc.org/github.com/panjf2000/ants).
 * Управление gouroutines [Run](https://github.com/oklog/run). [Godoc](https://godoc.org/github.com/oklog/run).
 * [tunny](https://github.com/Jeffail/tunny) - создание пулов gorouting. Похоже как в джаве сделаны Executors. [GoDoc](https://pkg.go.dev/github.com/Jeffail/tunny).
+* [goleak](https://github.com/uber-go/goleak) - поиск утечек в рутинах.
 
 ---
 
