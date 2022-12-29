@@ -53,6 +53,10 @@ tags: [программирование]
 * [twirp](https://github.com/twitchtv/twirp) - RPC протокол от Twitch. На основе protobuf, но через http/1.1
 * [Roaring Bitmaps](https://roaringbitmap.org/) - реализация разреженной матрицы на разных языках. Репозиторий на [GitHub](https://github.com/RoaringBitmap).
 
+## Базы данных
+
+* [KeyDB](https://docs.keydb.dev) - keydb. :) [GitHub](https://github.com/Snapchat/KeyDB).
+
 ## Continious integration
 
 * [CDS](https://ovh.github.io/cds) - CI с возможностью настройки через GUI. [GitHub](https://github.com/ovh/cds).
