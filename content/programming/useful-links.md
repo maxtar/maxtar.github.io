@@ -35,10 +35,10 @@ tags: [программирование, ссылки]
 
 ## Markdown
 
-Описание [классического синтаксиса](*https://daringfireball.net/projects/markdown) от создателя.
+Описание [классического синтаксиса](https://daringfireball.net/projects/markdown) от создателя.
 
-[Online редактор](*https://daringfireball.net/projects/markdown/dingus).
+[Online редактор](https://daringfireball.net/projects/markdown/dingus).
 
-Описание [на-русском](*http://ido-maupfib.kg/help.php?file=markdown.html).
+Описание [на-русском](http://ido-maupfib.kg/help.php?file=markdown.html).
 
-Описание [на Github](*https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). И его перевод [на русский](*https://github.com/sandino/Markdown-Cheatsheet).
+Описание [на Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). И его перевод [на русский](https://github.com/sandino/Markdown-Cheatsheet).
