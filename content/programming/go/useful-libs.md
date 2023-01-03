@@ -94,6 +94,7 @@ tags: [go, программирование]
 * [Gorm](http://gorm.io/) - ORM для Go. [Github](https://github.com/jinzhu/gorm). [GoDoc](https://godoc.org/github.com/jinzhu/gorm). [Docs](http://gorm.io/docs/).
 * [go-sqlbuilder](https://github.com/huandu/go-sqlbuilder) - постритель запросов к базе. [GoDoc](https://pkg.go.dev/github.com/huandu/go-sqlbuilder?tab=doc).
 * [squirrel](https://github.com/Masterminds/squirrel) - sql генератор. [GoDoc](https://pkg.go.dev/github.com/Masterminds/squirrel?tab=doc).
+* [go-memdb](https://github.com/hashicorp/go-memdb) - база в памяти, близка к Redis. поддерживает транзакции.
 
 ---
 
@@ -150,6 +151,7 @@ tags: [go, программирование]
 
 * [fasthttp](https://github.com/valyala/fasthttp) - на сегодняшний момент самая быстрая реализация http сервера на Go. [API](https://godoc.org/github.com/valyala/fasthttp)
 * [resty](https://github.com/go-resty/resty) - rest-client, позволяющий удобно делать запросы и разбирать ответы. Автоматически измеряет время ответа от сервера. [GoDoc](https://godoc.org/gopkg.in/resty.v1).
+* [quic-go](https://github.com/lucas-clemente/quic-go) - реализация протокола quic на Go.
 
 ---
 
