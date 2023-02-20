@@ -76,8 +76,8 @@ tags: [go, программирование]
 * [PTerm](https://pterm.sh) - ещё одна реализация цветного терминала. Очень прикольный. [GitHub](https://github.com/pterm/pterm).
 * [lipgloss](https://github.com/charmbracelet/lipgloss) - ещё одна библиотека для создания интерфсов в терминале.
 * Анимация в командной строке [Wow](https://github.com/gernest/wow).
-* [progressbar](https://github.com/schollz/progressbar) - простой progressbar в консоли. [GoDoc](https://godoc.org/github.com/schollz/progressbar).
 * [progressbar](https://github.com/schollz/progressbar) от автора croc. [GoDoc](https://pkg.go.dev/github.com/schollz/progressbar/v3).
+* [go-pretty](https://github.com/jedib0t/go-pretty) - утилиты для красивого вывода в консоль таблиц, листов, progress-bars, текста и т.д. [GoDoc](https://pkg.go.dev/github.com/jedib0t/go-pretty/v6).
 
 ---
 
