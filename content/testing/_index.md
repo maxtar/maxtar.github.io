@@ -61,3 +61,4 @@ tags: [тестирование]
 ## Разное
 
 * [ClusterFuzz](https://opensource.googleblog.com/2019/02/open-sourcing-clusterfuzz.html) от Google. [Github (https://github.com/google/clusterfuzz)](https://github.com/google/clusterfuzz).
+* [Чит-лист функционального тестирования, памятка тестировщику](https://habr.com/ru/post/715262).
