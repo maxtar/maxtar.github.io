@@ -34,6 +34,7 @@ tags: [go, программирование]
 * [go-spew](https://github.com/davecgh/go-spew) - красивый вывод в консоль данных для отладки. [GoDoc](https://pkg.go.dev/github.com/davecgh/go-spew@v1.1.1/spew?tab=doc).
 * [httpretty](https://github.com/henvic/httpretty) - удобное логирование в консоль http запросов как на сервере, так и на клиенте. [GoDoc](https://pkg.go.dev/github.com/henvic/httpretty?tab=doc).
 * [zlog](https://github.com/m-mizutani/zlog) - логер позволяет скрывать чувствительную информацию из логирования. [GoDoc](https://pkg.go.dev/github.com/m-mizutani/zlog@v0.2.0).
+* [Log](https://github.com/charmbracelet/log) - простенький логер с подсветкой вывода от создателей [Bubble Tea](https://github.com/charmbracelet/bubbletea). [GoDoc](https://pkg.go.dev/github.com/charmbracelet/log).
 
 ---
 
@@ -47,7 +48,7 @@ tags: [go, программирование]
 * [Ещё одна реализация (https://github.com/gdamore/tcell)](https://github.com/gdamore/tcell). Почти полностью совместима с [termbox-go](https://github.com/nsf/termbox-go).
 * [gocui](https://github.com/jroimartin/gocui). [Godoc](https://godoc.org/github.com/jroimartin/gocui).
 * [TermUI](https://github.com/gizak/termui). [Документация](https://github.com/gizak/termui/wiki).
-* [Bubble Tea (Bubble Tea)](https://github.com/charmbracelet/bubbletea) - от создателей [Glow](https://github.com/charmbracelet/glow).
+* [Bubble Tea](https://github.com/charmbracelet/bubbletea) - от создателей [Glow](https://github.com/charmbracelet/glow).
 * [Box CLI Maker](https://github.com/Delta456/box-cli-maker) - позволяет создавать приветственные окна.
 
 ### GUI
