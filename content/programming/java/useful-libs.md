@@ -14,8 +14,11 @@ tags: [java,программирование]
 ## Прочее
 
 * Ожидание разных событий [awaitility (https://github.com/awaitility/awaitility)](https://github.com/awaitility/awaitility). [Документация](https://github.com/awaitility/awaitility/wiki/Usage).
-* [Java-faker (https://github.com/DiUS/java-faker)](https://github.com/DiUS/java-faker) - генерация всяких случайных данных разных типов. [JavaDocs](http://dius.github.io/java-faker/apidocs/index.html).
 * [disruptor](https://github.com/LMAX-Exchange/disruptor) - быстрый кольцевой буфер.
+* 
+### Генераторы данных
+* [Java-faker (https://github.com/DiUS/java-faker)](https://github.com/DiUS/java-faker) - генерация всяких случайных данных разных типов. [JavaDocs](http://dius.github.io/java-faker/apidocs/index.html).
+* [Data Faker](https://www.datafaker.net) - ещё один генератор, но активно развивается. [GitHub](https://github.com/datafaker-net/datafaker/).
 
 ------
 
