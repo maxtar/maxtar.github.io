@@ -42,3 +42,5 @@ func _input(event) -> void:
         rotate_object_local(Vector3(-1, 0, 0), rot_y) # then rotate in X
 
 ```
+
+Можно взять готовый скрипт под godot 4 от [adamviola](https://github.com/adamviola/simple-free-look-camera).
