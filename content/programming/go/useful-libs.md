@@ -363,6 +363,7 @@ tags: [go, программирование]
 * Управление gouroutines [Run](https://github.com/oklog/run). [Godoc](https://godoc.org/github.com/oklog/run).
 * [tunny](https://github.com/Jeffail/tunny) - создание пулов gorouting. Похоже как в джаве сделаны Executors. [GoDoc](https://pkg.go.dev/github.com/Jeffail/tunny).
 * [goleak](https://github.com/uber-go/goleak) - поиск утечек в рутинах.
+* [Conc](https://github.com/sourcegraph/conc) - ещё одна реализация часто встречающихся операций с потоками. Пулы, параллельная работа с мапами и т.д.
 
 ---
 
