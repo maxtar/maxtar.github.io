@@ -96,6 +96,7 @@ tags: [go, программирование]
 * [go-sqlbuilder](https://github.com/huandu/go-sqlbuilder) - постритель запросов к базе. [GoDoc](https://pkg.go.dev/github.com/huandu/go-sqlbuilder?tab=doc).
 * [squirrel](https://github.com/Masterminds/squirrel) - sql генератор. [GoDoc](https://pkg.go.dev/github.com/Masterminds/squirrel?tab=doc).
 * [go-memdb](https://github.com/hashicorp/go-memdb) - база в памяти, близка к Redis. поддерживает транзакции.
+* [sqlite](https://gitlab.com/cznic/sqlite) - реализация sqlite на чистом Go.
 
 ---
 
