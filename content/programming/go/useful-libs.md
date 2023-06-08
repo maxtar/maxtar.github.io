@@ -213,6 +213,7 @@ tags: [go, программирование]
 
 * [Now](https://github.com/jinzhu/now) - библиотека расширяет некоторые методы для работы с датой. [Документация](https://godoc.org/github.com/jinzhu/now).
 * [cron](https://github.com/robfig/cron) - реализация cron на GO. [GoDoc](https://pkg.go.dev/github.com/robfig/cron).
+* [when](https://github.com/olebedev/when) - парсер времени с натурального языка.
 
 ---
 
