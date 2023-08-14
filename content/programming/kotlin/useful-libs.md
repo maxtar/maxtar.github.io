@@ -27,3 +27,7 @@ tags: [kotlin, программирование]
 ## Логирование
 
 * [kotlin-logging](https://github.com/MicroUtils/kotlin-logging) - удобная библиотека для Kotlin. Пока, пожалуй, самая лучшая.
+
+## Кросплатформенная разработка
+
+* [Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/) - разработка мультиплатформенных GUI-приложений.
