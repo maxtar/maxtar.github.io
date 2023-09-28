@@ -20,11 +20,12 @@ OAuth2 oauth2_proxy - программа поддерживает несколь
 auto eth0 iface eth0 inet dhcp Таким образом будет инициализировать интерфейс eth0 без участия NetworkManager.</description></item><item><title>Разные полезные программы</title><link>https://maxtar.github.io/other/useful-programs/</link><pubDate>Sun, 09 Oct 2022 02:03:08 +0300</pubDate><guid>https://maxtar.github.io/other/useful-programs/</guid><description>Форум Discourse. На нём работает automated-testing.info и forum.golangbridge.org. Система развёртывания pulumi. Исходный код на GitHub. Общение Аналог Slack, который можно развернуть локально mattermost.com. Исходный код на github. Чат tinode. Есть клиент на Android, web. Запись с экрана (Screencast) OBSProject - кросс-платформенный пакет для записи с экрана и/или трансляции.
 Рисование Pencil - рисование GUI, диаграмм действия.
 Заметки Outwiker. Zettlr. Документация. GitHub. Работа со звуком Musicbrainz Picard - программа для автоматического заполнения тегов файлов.</description></item><item><title>Полезные ссылки</title><link>https://maxtar.github.io/programming/useful-links/</link><pubDate>Sun, 09 Oct 2022 01:59:18 +0300</pubDate><guid>https://maxtar.github.io/programming/useful-links/</guid><description>Ссылки на разные проекты.
-Библиотеки для раскрашивания синтаксиса Список ресурсов для поднятия навыков программирования Markdown Библиотеки для раскрашивания синтаксиса Информация взята отсюда.
+Библиотеки для раскрашивания синтаксиса Список ресурсов для поднятия навыков программирования Markdown Разное Библиотеки для раскрашивания синтаксиса Информация взята отсюда.
 Highlight.js Prism. Rainbow. Syntax Highlighter. Google Prettify. Список ресурсов для поднятия навыков программирования hackerrank.com exercism.io projecteuler.net codewars.com leetcode.com codefights.com codingame.com codeforces.com Markdown Описание классического синтаксиса от создателя.
 Online редактор.
 Описание на-русском.
-Описание на Github. И его перевод на русский.</description></item><item><title>Docker</title><link>https://maxtar.github.io/programming/docker/</link><pubDate>Sun, 09 Oct 2022 01:53:38 +0300</pubDate><guid>https://maxtar.github.io/programming/docker/</guid><description>Полезная информация по Docker
+Описание на Github. И его перевод на русский.
+Разное Transform - как CopyAsJson. Позволяет преобразовывать json в DTO на языке программирования.</description></item><item><title>Docker</title><link>https://maxtar.github.io/programming/docker/</link><pubDate>Sun, 09 Oct 2022 01:53:38 +0300</pubDate><guid>https://maxtar.github.io/programming/docker/</guid><description>Полезная информация по Docker
 Как полностью удалить образы вместе с контейнерами Чтобы посмотреть все контейнеры нужно выполнить команду:
 docker container ls -a Ключ -a указывает, что надо показывать все существующие контейнеры.
 После того, как мы получим список образов выбираем нужный и удаляем его следующей командой:
