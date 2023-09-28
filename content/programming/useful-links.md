@@ -42,3 +42,9 @@ tags: [программирование, ссылки]
 Описание [на-русском](http://ido-maupfib.kg/help.php?file=markdown.html).
 
 Описание [на Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). И его перевод [на русский](https://github.com/sandino/Markdown-Cheatsheet).
+
+---
+
+## Разное
+
+* [Transform](https://transform.tools) - как CopyAsJson. Позволяет преобразовывать json в DTO на языке программирования.
