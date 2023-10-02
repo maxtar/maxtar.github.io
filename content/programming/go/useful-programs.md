@@ -40,6 +40,7 @@ tags: [go, программы]
 * Система хранения и версионирования кода - [Gogs](https://gogs.io/). [Github](https://github.com/gogits/gogs).
 * [Gitea](https://gitea.io) - склонированная и расширенная версия Gogs. Разворачивается локально. Исходники на [GitHub](https://github.com/go-gitea/gitea).
 * [Lazygit (https://github.com/jesseduffield/lazygit)](https://github.com/jesseduffield/lazygit). Консольный клиент для работы с git.
+* [Gitness](https://gitness.com) - opensource проект. Разворачивается локально. [GitHub](https://github.com/harness/gitness).
 
 ## Нагрузочное тестирование
 
