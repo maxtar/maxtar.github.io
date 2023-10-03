@@ -56,6 +56,7 @@ tags: [программирование]
 ## Базы данных
 
 * [KeyDB](https://docs.keydb.dev) - keydb. :) [GitHub](https://github.com/Snapchat/KeyDB).
+* [goose](https://github.com/pressly/goose) - утилита для миграции баз данных. Наката изменений в БД. Также может использоваться как Go-бибилиотека.
 
 ## Continious integration
 
