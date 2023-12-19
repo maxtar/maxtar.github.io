@@ -147,6 +147,12 @@ tags: [go, программирование]
 * [chromedr](https://github.com/chromedp/chromedp) - реализация Chrome driver API на Go. [GoDoc](https://pkg.go.dev/github.com/chromedp/chromedp?tab=doc).
 * [gocheck](https://labix.org/gocheck) - конкурент [testify](https://github.com/stretchr/testify).
 
+### Генерация данных
+
+* [Fake](https://github.com/icrowley/fake). Библиотека для генерации различных данных на русском и английском языках.   [GoDoc](https://godoc.org/github.com/icrowley/fake).
+* [Faker](https://github.com/bxcodec/faker) - ещё одна библиотека. [GoDoc](https://pkg.go.dev/github.com/bxcodec/faker?tab=doc).
+* [gofakeit](https://github.com/brianvoe/gofakeit) - тоже для генерации данных.
+
 ---
 
 ## HTTP
@@ -384,6 +390,12 @@ tags: [go, программирование]
 
 ---
 
+## Интеграция с другими ЯП
+
+* [py](https://gitlab.com/pygolo/py) - интеграция с Python. [GoDoc](https://pkg.go.dev/gitlab.com/pygolo/py).
+
+---
+
 ## Разное
 
 * [Распознавание естественных языков](https://github.com/abadojack/whatlanggo).
@@ -404,9 +416,6 @@ tags: [go, программирование]
 * [Gosec](https://github.com/securego/gosec). Библиотека для сканирования исходного кода на Go и выявление проблем с безопасностью.
 * [Detective](https://github.com/sohamkamani/detective) - мониторинг распределённых систем. [GoDoc](https://godoc.org/github.com/sohamkamani/detective).
 * [Charlatan](https://github.com/percolate/charlatan) позволяет автоматически создавать заглушки для программных интерфейсов.
-* [Fake](https://github.com/icrowley/fake). Библиотека для генерации различных данных на русском и английском языках.   [GoDoc](https://godoc.org/github.com/icrowley/fake).
-* [Faker](https://github.com/bxcodec/faker) - ещё одна библиотека. [GoDoc](https://pkg.go.dev/github.com/bxcodec/faker?tab=doc).
-* [gofakeit](https://github.com/brianvoe/gofakeit) - тоже для генерации данных.
 * [Tablewriter](https://github.com/olekukonko/tablewriter) - вывод таблиц в текстовом форматре.
 * [Chroma](https://github.com/alecthomas/chroma) - подсветка синтаксиса. [Godoc](https://godoc.org/github.com/alecthomas/chroma).
 * [Prototool](https://github.com/uber/prototool) от Uber. Альтернативная работа с protobuf. [Godoc](https://godoc.org/github.com/uber/prototool).
