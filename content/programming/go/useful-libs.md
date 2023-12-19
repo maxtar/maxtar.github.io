@@ -199,6 +199,7 @@ tags: [go, программирование]
 * [Evio](https://github.com/tidwall/evio) - работа с сетью, основанная на событиях.
 * [Noise](https://github.com/perlin-network/noise). Библиотека, позволяющая писать децентрализованные P2P приложения. [Godoc](https://godoc.org/github.com/perlin-network/noise).
 * [limiter](https://github.com/ulule/limiter) - библиотека для разных ограничений в сети, типа количества запросов в секунду.
+* [GoPacket](https://github.com/google/gopacket) - библиотека для работы с сетевыми пакетами от Google. [GoDoc](https://pkg.go.dev/github.com/google/gopacket).
 
 ---
 
