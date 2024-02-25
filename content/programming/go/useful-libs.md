@@ -72,13 +72,13 @@ tags: [go, программирование]
 
 ## Консоль
 
-* [go-pretty](https://github.com/jedib0t/go-pretty) - упрощает вывод текста, таблиц, списков в консоль. Progressbar. [GoDoc.](https://pkg.go.dev/github.com/jedib0t/go-pretty?tab=doc)
+* [go-pretty](https://github.com/jedib0t/go-pretty) - упрощает вывод текста, таблиц, списков в консоль. Progressbar. [GoDoc](https://pkg.go.dev/github.com/jedib0t/go-pretty?tab=doc)
 * [gchalk](https://github.com/jwalton/gchalk) - позволяет выводить в консоль разноцветный текст. [GoDoc](https://pkg.go.dev/github.com/jwalton/gchalk?readme=expanded#section-documentation).
 * [PTerm](https://pterm.sh) - ещё одна реализация цветного терминала. Очень прикольный. [GitHub](https://github.com/pterm/pterm).
 * [lipgloss](https://github.com/charmbracelet/lipgloss) - ещё одна библиотека для создания интерфсов в терминале.
 * Анимация в командной строке [Wow](https://github.com/gernest/wow).
 * [progressbar](https://github.com/schollz/progressbar) от автора croc. [GoDoc](https://pkg.go.dev/github.com/schollz/progressbar/v3).
-* [go-pretty](https://github.com/jedib0t/go-pretty) - утилиты для красивого вывода в консоль таблиц, листов, progress-bars, текста и т.д. [GoDoc](https://pkg.go.dev/github.com/jedib0t/go-pretty/v6).
+* [color](https://github.com/fatih/color) - позволяет раскрашивать вывод в консоль. [GoDoc](https://pkg.go.dev/github.com/fatih/color)
 
 ---
 
