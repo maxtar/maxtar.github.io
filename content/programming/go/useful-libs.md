@@ -78,7 +78,8 @@ tags: [go, программирование]
 * [lipgloss](https://github.com/charmbracelet/lipgloss) - ещё одна библиотека для создания интерфсов в терминале.
 * Анимация в командной строке [Wow](https://github.com/gernest/wow).
 * [progressbar](https://github.com/schollz/progressbar) от автора croc. [GoDoc](https://pkg.go.dev/github.com/schollz/progressbar/v3).
-* [color](https://github.com/fatih/color) - позволяет раскрашивать вывод в консоль. [GoDoc](https://pkg.go.dev/github.com/fatih/color)
+* [color](https://github.com/fatih/color) - позволяет раскрашивать вывод в консоль. [GoDoc](https://pkg.go.dev/github.com/fatih/color).
+* [ishell](https://github.com/abiosoft/ishell) - библиотека позволяет создавать интерактивные консольные приложения. 
 
 ---
 
@@ -96,7 +97,7 @@ tags: [go, программирование]
 * [go-sqlbuilder](https://github.com/huandu/go-sqlbuilder) - постритель запросов к базе. [GoDoc](https://pkg.go.dev/github.com/huandu/go-sqlbuilder?tab=doc).
 * [squirrel](https://github.com/Masterminds/squirrel) - sql генератор. [GoDoc](https://pkg.go.dev/github.com/Masterminds/squirrel?tab=doc).
 * [go-memdb](https://github.com/hashicorp/go-memdb) - база в памяти, близка к Redis. поддерживает транзакции.
-* [sqlite](https://gitlab.com/cznic/sqlite) - реализация sqlite на чистом Go.
+* [sqlite](https://gitlab.com/cznic/sqlite) - реализация sqlite на чистом Go. [GoDoc](https://pkg.go.dev/github.com/abiosoft/ishell).
 
 ---
 
