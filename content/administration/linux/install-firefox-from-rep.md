@@ -4,6 +4,8 @@ date: 2022-10-03T12:59:56+03:00
 tags: [linux, firefox]
 ---
 
+{{< toc >}}
+
 ## От самой Mozilla
 
 [Установка .deb-пакета Firefox для основанных на Debian дистрибутивов](https://support.mozilla.org/ru/kb/ustanovka-firefox-na-linux#w_ustanovka-deb-paketa-firefox-dlia-osnovannykh-na-debian-distributivov)
