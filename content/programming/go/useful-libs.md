@@ -120,7 +120,6 @@ tags: [go, программирование]
 ## HTML, парсинг сайтов
 
 * [goquery](https://github.com/PuerkitoBio/goquery) - позволяет работать со страницой как Jquery только на GO. Удобно для разбора. [GoDoc](https://pkg.go.dev/github.com/PuerkitoBio/goquery?tab=doc).
-* [goquery](https://github.com/PuerkitoBio/goquery) - типа j-qury на Go. Позволяет работать с html через запросы.
 
 ---
 
@@ -153,6 +152,12 @@ tags: [go, программирование]
 * [Fake](https://github.com/icrowley/fake). Библиотека для генерации различных данных на русском и английском языках.   [GoDoc](https://godoc.org/github.com/icrowley/fake).
 * [Faker](https://github.com/bxcodec/faker) - ещё одна библиотека. [GoDoc](https://pkg.go.dev/github.com/bxcodec/faker?tab=doc).
 * [gofakeit](https://github.com/brianvoe/gofakeit) - тоже для генерации данных.
+
+---
+
+## Шаблоны
+
+* [templ](https://github.com/a-h/templ) - написание html шаблонов на Go. [Документация](https://templ.guide).
 
 ---
 
