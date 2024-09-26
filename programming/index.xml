@@ -1,25 +1,193 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Программирование on Max Wiki Site</title><link>https://maxtar.github.io/programming/</link><description>Recent content in Программирование on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 15:30:44 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Мониторинг</title><link>https://maxtar.github.io/programming/monitoring/</link><pubDate>Sun, 09 Oct 2022 15:30:44 +0300</pubDate><guid>https://maxtar.github.io/programming/monitoring/</guid><description>Prometheus Вычисление процентов загрузки CPU на основании времени использования Checkup Pyroscope Prometheus Сайт
-Официальная документация. Информация по запросам.
-Блог создателей Prometheus со всякой полезной информацией.
-Вычисление процентов загрузки CPU на основании времени использования Информация взята из understanding-machine-cpu-usage блога разработчиков Prometheus.
-При использовании node_exporter:
-100 - (avg by (instance) (irate(node_cpu_seconds_total{job=&amp;#34;node&amp;#34;,mode=&amp;#34;idle&amp;#34;}[5m])) * 100) где node - имя node_exporter, заданное в настройках Prometheus.
-Для метрик, взятых из прочих экспортёров, где подсчитывается только время затраченное экспортером в секундах:</description></item><item><title>Полезные ссылки</title><link>https://maxtar.github.io/programming/useful-links/</link><pubDate>Sun, 09 Oct 2022 01:59:18 +0300</pubDate><guid>https://maxtar.github.io/programming/useful-links/</guid><description>Ссылки на разные проекты.
-Библиотеки для раскрашивания синтаксиса Список ресурсов для поднятия навыков программирования Markdown Разное Библиотеки для раскрашивания синтаксиса Информация взята отсюда.
-Highlight.js Prism. Rainbow. Syntax Highlighter. Google Prettify. Список ресурсов для поднятия навыков программирования hackerrank.com exercism.io projecteuler.net codewars.com leetcode.com codefights.com codingame.com codeforces.com Markdown Описание классического синтаксиса от создателя.
-Online редактор.
-Описание на-русском.
-Описание на Github. И его перевод на русский.
-Разное Transform - как CopyAsJson. Позволяет преобразовывать json в DTO на языке программирования.</description></item><item><title>Docker</title><link>https://maxtar.github.io/programming/docker/</link><pubDate>Sun, 09 Oct 2022 01:53:38 +0300</pubDate><guid>https://maxtar.github.io/programming/docker/</guid><description>Полезная информация по Docker
-Как полностью удалить образы вместе с контейнерами Чтобы посмотреть все контейнеры нужно выполнить команду:
-docker container ls -a Ключ -a указывает, что надо показывать все существующие контейнеры.
-После того, как мы получим список образов выбираем нужный и удаляем его следующей командой:
-docker container rm -v &amp;lt;image_name&amp;gt; где:
--v - ключ удаления связанного контейнера на диске, &amp;lt;image_name&amp;gt; - имя образа полученного, предыдущей командой. Теперь удаляем образы. Для получения всех образов выполняем команду:</description></item><item><title>Регулярные выражения</title><link>https://maxtar.github.io/programming/regexp/</link><pubDate>Sun, 09 Oct 2022 01:14:30 +0300</pubDate><guid>https://maxtar.github.io/programming/regexp/</guid><description>Исключение строк, содержащих определённое значение Время с обязательным ведущим нулём в часе Время без обязательного ведущего нуля в часе Полный путь файла в Windows Просто название файла в Windows e-mail URL Исключение строк, содержащих определённое значение Например есть список файлов:
-MaxFullResult.txt 8fd88cjjd88cjjjbbj simple.txt resultSimple.txt 8fd88cjjd88cjjjbbj full.txt Чтобы исключить все файлы, содержащие &amp;ldquo;result&amp;rdquo; можно использовать следующее выражение:
-^((?i)(?!result).)*\.txt$ Время с обязательным ведущим нулём в часе ([0-2]\d):([0-5]\d):([0-5]\d) Время без обязательного ведущего нуля в часе ((|[0-2])\d):([0-5]\d):([0-5]\d) Полный путь файла в Windows ([(?</description></item><item><title>Полезная информация по git</title><link>https://maxtar.github.io/programming/useful-git/</link><pubDate>Wed, 05 Oct 2022 00:45:43 +0300</pubDate><guid>https://maxtar.github.io/programming/useful-git/</guid><description>Общая информация Как удалять ветки Удаление всех локальных изменений Настройка работы ssh с несколькими репозиториями Разная информация по работе с GitHub.com Влить исходный репозиторий в свой форканый Общая информация Официальная книга по Git.
-Как содержать репозиторий в чистоте
-Ещё полезная статья на Habrahabr.
-Как удалять ветки Локальные:
-git branch -d the_local_branch Удалённые:
-git push origin :the_remote_branch Удаление всех локальных изменений git clean -xdf Настройка работы ssh с несколькими репозиториями Создать файл config в директории .</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Программирование on Max Wiki Site</title><link>https://maxtar.github.io/programming/</link><description>Recent content in Программирование on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 15:30:44 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Мониторинг</title><link>https://maxtar.github.io/programming/monitoring/</link><pubDate>Sun, 09 Oct 2022 15:30:44 +0300</pubDate><guid>https://maxtar.github.io/programming/monitoring/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#prometheus">Prometheus&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#вычисление-процентов-загрузки-cpu-на-основании-времени-использования">Вычисление процентов загрузки CPU на основании времени использования&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;li>&lt;a href="#checkup">Checkup&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#pyroscope">Pyroscope&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="prometheus"
+ >
+ Prometheus
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/monitoring/#prometheus" class="gdoc-page__anchor clip flex align-center" title=" Prometheus" aria-label=" Prometheus" href="#prometheus">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>&lt;a href="https://prometheus.io" target="_blank" >Сайт&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://prometheus.io/docs/introduction/overview" target="_blank" >Официальная документация&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Информация по &lt;a href="https://prometheus.io/docs/prometheus/latest/querying/basics" target="_blank" >запросам&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://www.robustperception.io/blog" target="_blank" >Блог&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> создателей &lt;a href="https://prometheus.io" target="_blank" >Prometheus&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> со всякой полезной информацией.&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h3 id="вычисление-процентов-загрузки-cpu-на-основании-времени-использования"
+ >
+ Вычисление процентов загрузки CPU на основании времени использования
+ &lt;/h3>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/monitoring/#вычисление-процентов-загрузки-cpu-на-основании-времени-использования" class="gdoc-page__anchor clip flex align-center" title=" Вычисление процентов загрузки CPU на основании времени использования" aria-label=" Вычисление процентов загрузки CPU на основании времени использования" href="#%d0%b2%d1%8b%d1%87%d0%b8%d1%81%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d1%86%d0%b5%d0%bd%d1%82%d0%be%d0%b2-%d0%b7%d0%b0%d0%b3%d1%80%d1%83%d0%b7%d0%ba%d0%b8-cpu-%d0%bd%d0%b0-%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b8-%d0%b2%d1%80%d0%b5%d0%bc%d0%b5%d0%bd%d0%b8-%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Информация взята из &lt;a href="https://www.robustperception.io/understanding-machine-cpu-usage" target="_blank" >understanding-machine-cpu-usage&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> блога разработчиков &lt;a href="https://prometheus.io" target="_blank" >Prometheus&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p></description></item><item><title>Полезные ссылки</title><link>https://maxtar.github.io/programming/useful-links/</link><pubDate>Sun, 09 Oct 2022 01:59:18 +0300</pubDate><guid>https://maxtar.github.io/programming/useful-links/</guid><description>&lt;p>Ссылки на разные проекты.&lt;/p>
+&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#библиотеки-для-раскрашивания-синтаксиса">Библиотеки для раскрашивания синтаксиса&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#список-ресурсов-для-поднятия-навыков-программирования">Список ресурсов для поднятия навыков программирования&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#markdown">Markdown&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#разное">Разное&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="библиотеки-для-раскрашивания-синтаксиса"
+ >
+ Библиотеки для раскрашивания синтаксиса
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/useful-links/#библиотеки-для-раскрашивания-синтаксиса" class="gdoc-page__anchor clip flex align-center" title=" Библиотеки для раскрашивания синтаксиса" aria-label=" Библиотеки для раскрашивания синтаксиса" href="#%d0%b1%d0%b8%d0%b1%d0%bb%d0%b8%d0%be%d1%82%d0%b5%d0%ba%d0%b8-%d0%b4%d0%bb%d1%8f-%d1%80%d0%b0%d1%81%d0%ba%d1%80%d0%b0%d1%88%d0%b8%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f-%d1%81%d0%b8%d0%bd%d1%82%d0%b0%d0%ba%d1%81%d0%b8%d1%81%d0%b0">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Информация взята &lt;a href="https://gohugo.io/extras/highlighting/#client-side" target="_blank" >отсюда&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://highlightjs.org/" target="_blank" >Highlight.js&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://prismjs.com/" target="_blank" >Prism&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="http://craig.is/making/rainbows" target="_blank" >Rainbow&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="http://alexgorbatchev.com/SyntaxHighlighter/" target="_blank" >Syntax Highlighter&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://github.com/google/code-prettify" target="_blank" >Google Prettify&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="список-ресурсов-для-поднятия-навыков-программирования"
+ >
+ Список ресурсов для поднятия навыков программирования
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/useful-links/#список-ресурсов-для-поднятия-навыков-программирования" class="gdoc-page__anchor clip flex align-center" title=" Список ресурсов для поднятия навыков программирования" aria-label=" Список ресурсов для поднятия навыков программирования" href="#%d1%81%d0%bf%d0%b8%d1%81%d0%be%d0%ba-%d1%80%d0%b5%d1%81%d1%83%d1%80%d1%81%d0%be%d0%b2-%d0%b4%d0%bb%d1%8f-%d0%bf%d0%be%d0%b4%d0%bd%d1%8f%d1%82%d0%b8%d1%8f-%d0%bd%d0%b0%d0%b2%d1%8b%d0%ba%d0%be%d0%b2-%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%bc%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://hackerrank.com" target="_blank" >hackerrank.com&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://exercism.io" target="_blank" >exercism.io&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://projecteuler.net" target="_blank" >projecteuler.net&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://codewars.com" target="_blank" >codewars.com&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://leetcode.com" target="_blank" >leetcode.com&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://codefights.com" target="_blank" >codefights.com&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://codingame.com" target="_blank" >codingame.com&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://codeforces.com" target="_blank" >codeforces.com&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="markdown"
+ >
+ Markdown
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/useful-links/#markdown" class="gdoc-page__anchor clip flex align-center" title=" Markdown" aria-label=" Markdown" href="#markdown">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Описание &lt;a href="https://daringfireball.net/projects/markdown" target="_blank" >классического синтаксиса&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> от создателя.&lt;/p></description></item><item><title>Docker</title><link>https://maxtar.github.io/programming/docker/</link><pubDate>Sun, 09 Oct 2022 01:53:38 +0300</pubDate><guid>https://maxtar.github.io/programming/docker/</guid><description>&lt;p>Полезная информация по &lt;a href="https://www.docker.com/" target="_blank" >Docker&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="как-полностью-удалить-образы-вместе-с-контейнерами"
+ >
+ Как полностью удалить образы вместе с контейнерами
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/docker/#как-полностью-удалить-образы-вместе-с-контейнерами" class="gdoc-page__anchor clip flex align-center" title=" Как полностью удалить образы вместе с контейнерами" aria-label=" Как полностью удалить образы вместе с контейнерами" href="#%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d0%bb%d0%bd%d0%be%d1%81%d1%82%d1%8c%d1%8e-%d1%83%d0%b4%d0%b0%d0%bb%d0%b8%d1%82%d1%8c-%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d1%8b-%d0%b2%d0%bc%d0%b5%d1%81%d1%82%d0%b5-%d1%81-%d0%ba%d0%be%d0%bd%d1%82%d0%b5%d0%b9%d0%bd%d0%b5%d1%80%d0%b0%d0%bc%d0%b8">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Чтобы посмотреть все контейнеры нужно выполнить команду:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">docker container ls -a
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Ключ &lt;strong>-a&lt;/strong> указывает, что надо показывать все существующие контейнеры.&lt;/p>
+&lt;p>После того, как мы получим список образов выбираем нужный и удаляем его следующей командой:&lt;/p></description></item><item><title>Регулярные выражения</title><link>https://maxtar.github.io/programming/regexp/</link><pubDate>Sun, 09 Oct 2022 01:14:30 +0300</pubDate><guid>https://maxtar.github.io/programming/regexp/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#исключение-строк-содержащих-определённое-значение">Исключение строк, содержащих определённое значение&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#время-с-обязательным-ведущим-нулём-в-часе">Время с обязательным ведущим нулём в часе&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#время-без-обязательного-ведущего-нуля-в-часе">Время без обязательного ведущего нуля в часе&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#полный-путь-файла-в-windows">Полный путь файла в Windows&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#просто-название-файла-в-windows">Просто название файла в Windows&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#e-mail">e-mail&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#url">URL&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h3 id="исключение-строк-содержащих-определённое-значение"
+ >
+ Исключение строк, содержащих определённое значение
+ &lt;/h3>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/regexp/#исключение-строк-содержащих-определённое-значение" class="gdoc-page__anchor clip flex align-center" title=" Исключение строк, содержащих определённое значение" aria-label=" Исключение строк, содержащих определённое значение" href="#%d0%b8%d1%81%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d1%82%d1%80%d0%be%d0%ba-%d1%81%d0%be%d0%b4%d0%b5%d1%80%d0%b6%d0%b0%d1%89%d0%b8%d1%85-%d0%be%d0%bf%d1%80%d0%b5%d0%b4%d0%b5%d0%bb%d1%91%d0%bd%d0%bd%d0%be%d0%b5-%d0%b7%d0%bd%d0%b0%d1%87%d0%b5%d0%bd%d0%b8%d0%b5">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Например есть список файлов:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="cl">MaxFullResult.txt
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">8fd88cjjd88cjjjbbj simple.txt
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">resultSimple.txt
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">8fd88cjjd88cjjjbbj full.txt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Чтобы исключить все файлы, содержащие &amp;ldquo;result&amp;rdquo; можно использовать следующее выражение:&lt;/p></description></item><item><title>Полезная информация по git</title><link>https://maxtar.github.io/programming/useful-git/</link><pubDate>Wed, 05 Oct 2022 00:45:43 +0300</pubDate><guid>https://maxtar.github.io/programming/useful-git/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#общая-информация">Общая информация&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#как-удалять-ветки">Как удалять ветки&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#удаление-всех-локальных-изменений">Удаление всех локальных изменений&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#настройка-работы-ssh-с-несколькими-репозиториями">Настройка работы ssh с несколькими репозиториями&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#разная-информация-по-работе-с-githubcom">Разная информация по работе с GitHub.com&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#влить-исходный-репозиторий-в-свой-форканый">Влить исходный репозиторий в свой форканый&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="общая-информация"
+ >
+ Общая информация
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/useful-git/#общая-информация" class="gdoc-page__anchor clip flex align-center" title=" Общая информация" aria-label=" Общая информация" href="#%d0%be%d0%b1%d1%89%d0%b0%d1%8f-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Официальная &lt;a href="https://git-scm.com/book/ru/v1" target="_blank" >книга&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> по Git.&lt;/p>
+&lt;p>&lt;a href="http://railsware.com/blog/2014/08/11/git-housekeeping-tutorial-clean-up-outdated-branches-in-local-and-remote-repositories/" target="_blank" >Как содержать репозиторий в чистоте&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/p>
+&lt;p>Ещё полезная статья на &lt;a href="https://habrahabr.ru/post/336708/" target="_blank" >Habrahabr&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="как-удалять-ветки"
+ >
+ Как удалять ветки
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/useful-git/#как-удалять-ветки" class="gdoc-page__anchor clip flex align-center" title=" Как удалять ветки" aria-label=" Как удалять ветки" href="#%d0%ba%d0%b0%d0%ba-%d1%83%d0%b4%d0%b0%d0%bb%d1%8f%d1%82%d1%8c-%d0%b2%d0%b5%d1%82%d0%ba%d0%b8">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Локальные:&lt;/p></description></item></channel></rss>

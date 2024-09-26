@@ -1,1 +1,188 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shell on Max Wiki Site</title><link>https://maxtar.github.io/tags/shell/</link><description>Recent content in Shell on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 12 Apr 2023 22:29:30 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml"/><item><title>Очень полезные команды Linux на одном листе</title><link>https://maxtar.github.io/administration/linux/useful-commands/</link><pubDate>Wed, 12 Apr 2023 22:29:30 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/useful-commands/</guid><description>Системная информация Остановка системы Файлы и директории Поиск файлов Монтирование файловых систем Дисковое пространство Пользователи и группы Выставление/изменение полномочий на файлы Специальные атрибуты файлов Архивирование и сжатие файлов RPM пакеты (Fedora, Red Hat и тому подобное) YUM - средство обновления пакетов(Fedora, RedHat и тому подобное) DEB пакеты (Debian, Ubuntu и тому подобное) APT - средство управление пакетами (Debian, Ubuntu и тому подобное) Просмотр содержимого файлов Манипуляции с текстом Преобразование наборов символов и файловых форматов Анализ файловых систем Форматирование файловых систем swap-пространство Создание резервных копий (backup) CDROM Сеть (LAN и WiFi) Microsoft Windows networks(SAMBA) IPTABLES (firewall) Мониторинг и отладка Другие полезные команды Системная информация Команда Описание arch отобразить архитектуру компьютера uname -m &amp;ndash; // &amp;ndash; uname -r отобразить используемую версию ядра dmidecode -q показать аппаратные системные компоненты - (SMBIOS / DMI) hdparm -i /dev/hda вывести характеристики жесткого диска hdparm -tT /dev/sda протестировать производительность чтения данных с жесткого диска cat /proc/cpuinfo отобразить информацию о процессоре cat /proc/interrupts показать прерывания cat /proc/meminfo проверить использование памяти cat /proc/swaps показать файл(ы) подкачки cat /proc/version вывести версию ядра cat /proc/net/dev показать сетевые интерфейсы и статистику по ним cat /proc/mounts отобразить смонтированные файловые системы lspci -tv показать в виде дерева PCI устройства lsusb -tv показать в виде дерева USB устройства date вывести системную дату cal 2007 вывести таблицу-календарь 2007-го года date 041217002007.</description></item><item><title>Полезная информация по разным командам Linux</title><link>https://maxtar.github.io/administration/linux/useful-information/</link><pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate><guid>https://maxtar.github.io/administration/linux/useful-information/</guid><description>Просмотр журнала Описание NetworkManager Необновляемые пакеты Просмотр версии дистрибутива (только для LSB дистрибутивов) Команда удаления всех старых версий ядра Автоматическое подтверждение перезаписи файлов при копировании Снятие сетевого дампа Разрешение приложению слушать порты ниже 1024 Увеличение используемого диапазона портов Запуск процесса в фоне с перенаправлением вывода в указанный файл Проверка DNS Дефрагментация Копирование/перемещение заданного количества файлов из одного каталога в другой Перемещение Копирование** Можно использовать find Чтобы не пыталось копировать файл &amp;ldquo;.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shell on Max Wiki Site</title><link>https://maxtar.github.io/tags/shell/</link><description>Recent content in Shell on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 12 Apr 2023 22:29:30 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml"/><item><title>Очень полезные команды Linux на одном листе</title><link>https://maxtar.github.io/administration/linux/useful-commands/</link><pubDate>Wed, 12 Apr 2023 22:29:30 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/useful-commands/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#системная-информация">Системная информация&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#остановка-системы">Остановка системы&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#файлы-и-директории">Файлы и директории&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#поиск-файлов">Поиск файлов&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#монтирование-файловых-систем">Монтирование файловых систем&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#дисковое-пространство">Дисковое пространство&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#пользователи-и-группы">Пользователи и группы&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#выставлениеизменение-полномочий-на-файлы">Выставление/изменение полномочий на файлы&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#специальные-атрибуты-файлов">Специальные атрибуты файлов&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#архивирование-и-сжатие-файлов">Архивирование и сжатие файлов&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#rpm-пакеты-fedora-red-hat-и-тому-подобное">RPM пакеты (Fedora, Red Hat и тому подобное)&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#yum---средство-обновления-пакетовfedora-redhat-и-тому-подобное">YUM - средство обновления пакетов(Fedora, RedHat и тому подобное)&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#deb-пакеты-debian-ubuntu-и-тому-подобное">DEB пакеты (Debian, Ubuntu и тому подобное)&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#apt---средство-управление-пакетами-debian-ubuntu-и-тому-подобное">APT - средство управление пакетами (Debian, Ubuntu и тому подобное)&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#просмотр-содержимого-файлов">Просмотр содержимого файлов&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#манипуляции-с-текстом">Манипуляции с текстом&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#преобразование-наборов-символов-и-файловых-форматов">Преобразование наборов символов и файловых форматов&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#анализ-файловых-систем">Анализ файловых систем&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#форматирование-файловых-систем">Форматирование файловых систем&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#swap-пространство">swap-пространство&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#создание-резервных-копий-backup">Создание резервных копий (backup)&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#cdrom">CDROM&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#сеть-lan-и-wifi">Сеть (LAN и WiFi)&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#microsoft-windows-networkssamba">Microsoft Windows networks(SAMBA)&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#iptables-firewall">IPTABLES (firewall)&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#мониторинг-и-отладка">Мониторинг и отладка&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#другие-полезные-команды">Другие полезные команды&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="системная-информация"
+ >
+ Системная информация
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/useful-commands/#системная-информация" class="gdoc-page__anchor clip flex align-center" title=" Системная информация" aria-label=" Системная информация" href="#%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%bd%d0%b0%d1%8f-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;strong>Команда&lt;/strong>&lt;/th>
+ &lt;th style="text-align: left">&lt;strong>Описание&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">arch&lt;/td>
+ &lt;td style="text-align: left">отобразить архитектуру компьютера&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">uname -m&lt;/td>
+ &lt;td style="text-align: left">&amp;ndash; // &amp;ndash;&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">uname -r&lt;/td>
+ &lt;td style="text-align: left">отобразить используемую версию ядра&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">dmidecode -q&lt;/td>
+ &lt;td style="text-align: left">показать аппаратные системные компоненты - (SMBIOS / DMI)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">hdparm -i /dev/hda&lt;/td>
+ &lt;td style="text-align: left">вывести характеристики жесткого диска&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">hdparm -tT /dev/sda&lt;/td>
+ &lt;td style="text-align: left">протестировать производительность чтения данных с жесткого диска&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">cat /proc/cpuinfo&lt;/td>
+ &lt;td style="text-align: left">отобразить информацию о процессоре&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">cat /proc/interrupts&lt;/td>
+ &lt;td style="text-align: left">показать прерывания&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">cat /proc/meminfo&lt;/td>
+ &lt;td style="text-align: left">проверить использование памяти&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">cat /proc/swaps&lt;/td>
+ &lt;td style="text-align: left">показать файл(ы) подкачки&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">cat /proc/version&lt;/td>
+ &lt;td style="text-align: left">вывести версию ядра&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">cat /proc/net/dev&lt;/td>
+ &lt;td style="text-align: left">показать сетевые интерфейсы и статистику по ним&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">cat /proc/mounts&lt;/td>
+ &lt;td style="text-align: left">отобразить смонтированные файловые системы&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">lspci -tv&lt;/td>
+ &lt;td style="text-align: left">показать в виде дерева PCI устройства&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">lsusb -tv&lt;/td>
+ &lt;td style="text-align: left">показать в виде дерева USB устройства&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">date&lt;/td>
+ &lt;td style="text-align: left">вывести системную дату&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">cal 2007&lt;/td>
+ &lt;td style="text-align: left">вывести таблицу-календарь 2007-го года&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">date 041217002007.00&lt;/td>
+ &lt;td style="text-align: left">установить системные дату и время ММДДЧЧммГГГГ.СС (МесяцДеньЧасМинутыГод.Секунды)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">clock -w&lt;/td>
+ &lt;td style="text-align: left">сохранить системное время в BIOS&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="остановка-системы"
+ >
+ Остановка системы
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/useful-commands/#остановка-системы" class="gdoc-page__anchor clip flex align-center" title=" Остановка системы" aria-label=" Остановка системы" href="#%d0%be%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d1%8b">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>| &lt;strong>Команда&lt;/strong> | &lt;strong>Описание&lt;/strong> |&lt;/p></description></item><item><title>Полезная информация по разным командам Linux</title><link>https://maxtar.github.io/administration/linux/useful-information/</link><pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate><guid>https://maxtar.github.io/administration/linux/useful-information/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#просмотр-журнала">Просмотр журнала&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#описание-networkmanagerhttpshelpubuntucomcommunitynetworkmanager">&lt;a href="https://help.ubuntu.com/community/NetworkManager">Описание NetworkManager&lt;/a>&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#необновляемые-пакеты">Необновляемые пакеты&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#просмотр-версии-дистрибутива-только-для-lsb-дистрибутивов">Просмотр версии дистрибутива (только для LSB дистрибутивов)&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#команда-удаления-всех-старых-версий-ядра">Команда удаления всех старых версий ядра&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#автоматическое-подтверждение-перезаписи-файлов-при-копировании">Автоматическое подтверждение перезаписи файлов при копировании&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#снятие-сетевого-дампа">Снятие сетевого дампа&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#разрешение-приложению-слушать-порты-ниже-1024">Разрешение приложению слушать порты ниже 1024&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#увеличение-используемого-диапазона-портов">Увеличение используемого диапазона портов&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#запуск-процесса-в-фоне-с-перенаправлением-вывода-в-указанный-файл">Запуск процесса в фоне с перенаправлением вывода в указанный файл&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#проверка-dns">Проверка DNS&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#дефрагментация">Дефрагментация&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#копированиеперемещение-заданного-количества-файлов-из-одного-каталога-в-другой">Копирование/перемещение заданного количества файлов из одного каталога в другой&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#перемещение">Перемещение&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#копирование">Копирование**&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#можно-использовать-find">Можно использовать find&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#чтобы-не-пыталось-копировать-файл--лучше-задать-фильтр-файлов">Чтобы не пыталось копировать файл &amp;ldquo;.&amp;rdquo; лучше задать фильтр файлов&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#также-можно-использовать-параметр--exec">Также можно использовать параметр -exec&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;li>&lt;a href="#изменение-временной-зоны-из-консоли">Изменение временной зоны из консоли&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#создание-архива-zip">Создание архива zip&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#настройка-максимального-количества-открытых-файлов">Настройка максимального количества открытых файлов&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="просмотр-журнала"
+ >
+ Просмотр журнала
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/useful-information/#просмотр-журнала" class="gdoc-page__anchor clip flex align-center" title=" Просмотр журнала" aria-label=" Просмотр журнала" href="#%d0%bf%d1%80%d0%be%d1%81%d0%bc%d0%be%d1%82%d1%80-%d0%b6%d1%83%d1%80%d0%bd%d0%b0%d0%bb%d0%b0">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">journalctl -b -xe -u NetworkManager
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>где:&lt;/p></description></item></channel></rss>

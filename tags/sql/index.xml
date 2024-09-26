@@ -1,2 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sql on Max Wiki Site</title><link>https://maxtar.github.io/tags/sql/</link><description>Recent content in Sql on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sat, 08 Oct 2022 20:58:25 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/sql/index.xml" rel="self" type="application/rss+xml"/><item><title>SQL</title><link>https://maxtar.github.io/programming/sql/</link><pubDate>Sat, 08 Oct 2022 20:58:25 +0300</pubDate><guid>https://maxtar.github.io/programming/sql/</guid><description>Разные аспекты SQL
-Join Отличное описание разных Join.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sql on Max Wiki Site</title><link>https://maxtar.github.io/tags/sql/</link><description>Recent content in Sql on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sat, 08 Oct 2022 20:58:25 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/sql/index.xml" rel="self" type="application/rss+xml"/><item><title>SQL</title><link>https://maxtar.github.io/programming/sql/</link><pubDate>Sat, 08 Oct 2022 20:58:25 +0300</pubDate><guid>https://maxtar.github.io/programming/sql/</guid><description>&lt;p>Разные аспекты SQL&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="join"
+ >
+ Join
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/sql/#join" class="gdoc-page__anchor clip flex align-center" title=" Join" aria-label=" Join" href="#join">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>&lt;a href="http://www.skillz.ru/dev/php/article-Obyasnenie_SQL_obedinenii_JOIN_INNER_OUTER.html" target="_blank" >Отличное описание разных Join&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p>
+&lt;p>&lt;img
+ src="https://habrastorage.org/webt/2j/nx/26/2jnx26unkkrjzncio2kjbbe77ik.jpeg"
+ alt="image"
+ 
+/>&lt;/p>
+&lt;p>&lt;img
+ src="https://habrastorage.org/webt/vm/1u/mc/vm1umcjqsqh6inlyoms8jvl4nnu.jpeg"
+ alt="image"
+ 
+/>&lt;/p></description></item></channel></rss>

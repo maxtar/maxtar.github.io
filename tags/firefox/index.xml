@@ -1,6 +1,79 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Firefox on Max Wiki Site</title><link>https://maxtar.github.io/tags/firefox/</link><description>Recent content in Firefox on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 01:25:11 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/firefox/index.xml" rel="self" type="application/rss+xml"/><item><title>Firefox</title><link>https://maxtar.github.io/administration/firefox/</link><pubDate>Sun, 09 Oct 2022 01:25:11 +0300</pubDate><guid>https://maxtar.github.io/administration/firefox/</guid><description>В этом разделе собраны разные настройки Mozilla Firefox.
-Чтобы новые вкладки открывались в конце Отключение прокрутки вкладок Проблемы при воспроизведении видео Чтобы закладки всегда открывались в новой вкладке Указание директории для кеша Чтобы грузились локальные ресурсы Чтобы новые вкладки открывались в конце Открываем Firefox В адресной строке пишем: about:config Соглашаемся, что будем осторожны. Вводим в строке поиска: browser.tabs.insertRelatedAfterCurrent Устанавливаем false. Отключение прокрутки вкладок Чтобы отключить прокрутку, для начала необходимо найти, где находится профайл пользователя.</description></item><item><title>Установка Firefox из репозитория</title><link>https://maxtar.github.io/administration/linux/install-firefox-from-rep/</link><pubDate>Mon, 03 Oct 2022 12:59:56 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/install-firefox-from-rep/</guid><description>От самой Mozilla Установка других языков в Firefox с помощью .deb-файлов Вариант с beta-версиями От самой Mozilla Установка .deb-пакета Firefox для основанных на Debian дистрибутивов
-Чтобы установить пакет .deb из репозитория APT, сделайте следующее:
-Создайте директорию для хранения ключей репозитория APT, если её ещё нет:
-sudo install -d -m 0755 /etc/apt/keyrings Импортируйте подписанные ключи APT-репозитория Mozilla:
-wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc &amp;gt; /dev/null Отпечаток должен быть таким: 35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Firefox on Max Wiki Site</title><link>https://maxtar.github.io/tags/firefox/</link><description>Recent content in Firefox on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 01:25:11 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/firefox/index.xml" rel="self" type="application/rss+xml"/><item><title>Firefox</title><link>https://maxtar.github.io/administration/firefox/</link><pubDate>Sun, 09 Oct 2022 01:25:11 +0300</pubDate><guid>https://maxtar.github.io/administration/firefox/</guid><description>&lt;p>В этом разделе собраны разные настройки Mozilla Firefox.&lt;/p>
+&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#чтобы-новые-вкладки-открывались-в-конце">Чтобы новые вкладки открывались в конце&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#отключение-прокрутки-вкладок">Отключение прокрутки вкладок&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#проблемы-при-воспроизведении-видео">Проблемы при воспроизведении видео&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#чтобы-закладки-всегда-открывались-в-новой-вкладке">Чтобы закладки всегда открывались в новой вкладке&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#указание-директории-для-кеша">Указание директории для кеша&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#чтобы-грузились-локальные-ресурсы">Чтобы грузились локальные ресурсы&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="чтобы-новые-вкладки-открывались-в-конце"
+ >
+ Чтобы новые вкладки открывались в конце
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/firefox/#чтобы-новые-вкладки-открывались-в-конце" class="gdoc-page__anchor clip flex align-center" title=" Чтобы новые вкладки открывались в конце" aria-label=" Чтобы новые вкладки открывались в конце" href="#%d1%87%d1%82%d0%be%d0%b1%d1%8b-%d0%bd%d0%be%d0%b2%d1%8b%d0%b5-%d0%b2%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b8-%d0%be%d1%82%d0%ba%d1%80%d1%8b%d0%b2%d0%b0%d0%bb%d0%b8%d1%81%d1%8c-%d0%b2-%d0%ba%d0%be%d0%bd%d1%86%d0%b5">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ol>
+&lt;li>Открываем Firefox&lt;/li>
+&lt;li>В адресной строке пишем: &lt;code>about:config&lt;/code>&lt;/li>
+&lt;li>Соглашаемся, что будем осторожны.&lt;/li>
+&lt;li>Вводим в строке поиска: &lt;code>browser.tabs.insertRelatedAfterCurrent&lt;/code>&lt;/li>
+&lt;li>Устанавливаем &lt;code>false&lt;/code>.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="отключение-прокрутки-вкладок"
+ >
+ Отключение прокрутки вкладок
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/firefox/#отключение-прокрутки-вкладок" class="gdoc-page__anchor clip flex align-center" title=" Отключение прокрутки вкладок" aria-label=" Отключение прокрутки вкладок" href="#%d0%be%d1%82%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d0%ba%d1%80%d1%83%d1%82%d0%ba%d0%b8-%d0%b2%d0%ba%d0%bb%d0%b0%d0%b4%d0%be%d0%ba">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Чтобы отключить прокрутку, для начала необходимо найти, где находится профайл пользователя.&lt;/p></description></item><item><title>Установка Firefox из репозитория</title><link>https://maxtar.github.io/administration/linux/install-firefox-from-rep/</link><pubDate>Mon, 03 Oct 2022 12:59:56 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/install-firefox-from-rep/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#от-самой-mozilla">От самой Mozilla&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#установка-других-языков-в-firefox-с-помощью-deb-файлов">Установка других языков в Firefox с помощью .deb-файлов&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;li>&lt;a href="#вариант-с-beta-версиями">Вариант с beta-версиями&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="от-самой-mozilla"
+ >
+ От самой Mozilla
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/install-firefox-from-rep/#от-самой-mozilla" class="gdoc-page__anchor clip flex align-center" title=" От самой Mozilla" aria-label=" От самой Mozilla" href="#%d0%be%d1%82-%d1%81%d0%b0%d0%bc%d0%be%d0%b9-mozilla">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>&lt;a href="https://support.mozilla.org/ru/kb/ustanovka-firefox-na-linux#w_ustanovka-deb-paketa-firefox-dlia-osnovannykh-na-debian-distributivov" target="_blank" >Установка .deb-пакета Firefox для основанных на Debian дистрибутивов&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/p>
+&lt;p>Чтобы установить пакет &lt;strong>.deb&lt;/strong> из репозитория APT, сделайте следующее:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Создайте директорию для хранения ключей репозитория APT, если её ещё нет:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo install -d -m &lt;span class="m">0755&lt;/span> /etc/apt/keyrings
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Импортируйте подписанные ключи APT-репозитория Mozilla:&lt;/p></description></item></channel></rss>

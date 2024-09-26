@@ -1,7 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Мониторинг on Max Wiki Site</title><link>https://maxtar.github.io/tags/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/</link><description>Recent content in Мониторинг on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 15:30:44 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/index.xml" rel="self" type="application/rss+xml"/><item><title>Мониторинг</title><link>https://maxtar.github.io/programming/monitoring/</link><pubDate>Sun, 09 Oct 2022 15:30:44 +0300</pubDate><guid>https://maxtar.github.io/programming/monitoring/</guid><description>Prometheus Вычисление процентов загрузки CPU на основании времени использования Checkup Pyroscope Prometheus Сайт
-Официальная документация. Информация по запросам.
-Блог создателей Prometheus со всякой полезной информацией.
-Вычисление процентов загрузки CPU на основании времени использования Информация взята из understanding-machine-cpu-usage блога разработчиков Prometheus.
-При использовании node_exporter:
-100 - (avg by (instance) (irate(node_cpu_seconds_total{job=&amp;#34;node&amp;#34;,mode=&amp;#34;idle&amp;#34;}[5m])) * 100) где node - имя node_exporter, заданное в настройках Prometheus.
-Для метрик, взятых из прочих экспортёров, где подсчитывается только время затраченное экспортером в секундах:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Мониторинг on Max Wiki Site</title><link>https://maxtar.github.io/tags/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/</link><description>Recent content in Мониторинг on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 15:30:44 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/index.xml" rel="self" type="application/rss+xml"/><item><title>Мониторинг</title><link>https://maxtar.github.io/programming/monitoring/</link><pubDate>Sun, 09 Oct 2022 15:30:44 +0300</pubDate><guid>https://maxtar.github.io/programming/monitoring/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#prometheus">Prometheus&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#вычисление-процентов-загрузки-cpu-на-основании-времени-использования">Вычисление процентов загрузки CPU на основании времени использования&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;li>&lt;a href="#checkup">Checkup&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#pyroscope">Pyroscope&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="prometheus"
+ >
+ Prometheus
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/monitoring/#prometheus" class="gdoc-page__anchor clip flex align-center" title=" Prometheus" aria-label=" Prometheus" href="#prometheus">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>&lt;a href="https://prometheus.io" target="_blank" >Сайт&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://prometheus.io/docs/introduction/overview" target="_blank" >Официальная документация&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Информация по &lt;a href="https://prometheus.io/docs/prometheus/latest/querying/basics" target="_blank" >запросам&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://www.robustperception.io/blog" target="_blank" >Блог&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> создателей &lt;a href="https://prometheus.io" target="_blank" >Prometheus&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> со всякой полезной информацией.&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h3 id="вычисление-процентов-загрузки-cpu-на-основании-времени-использования"
+ >
+ Вычисление процентов загрузки CPU на основании времени использования
+ &lt;/h3>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/monitoring/#вычисление-процентов-загрузки-cpu-на-основании-времени-использования" class="gdoc-page__anchor clip flex align-center" title=" Вычисление процентов загрузки CPU на основании времени использования" aria-label=" Вычисление процентов загрузки CPU на основании времени использования" href="#%d0%b2%d1%8b%d1%87%d0%b8%d1%81%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d1%86%d0%b5%d0%bd%d1%82%d0%be%d0%b2-%d0%b7%d0%b0%d0%b3%d1%80%d1%83%d0%b7%d0%ba%d0%b8-cpu-%d0%bd%d0%b0-%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b8-%d0%b2%d1%80%d0%b5%d0%bc%d0%b5%d0%bd%d0%b8-%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Информация взята из &lt;a href="https://www.robustperception.io/understanding-machine-cpu-usage" target="_blank" >understanding-machine-cpu-usage&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> блога разработчиков &lt;a href="https://prometheus.io" target="_blank" >Prometheus&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p></description></item></channel></rss>

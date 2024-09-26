@@ -1,3 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Разная информация on Max Wiki Site</title><link>https://maxtar.github.io/other/</link><description>Recent content in Разная информация on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 02:03:08 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/other/index.xml" rel="self" type="application/rss+xml"/><item><title>Разные полезные программы</title><link>https://maxtar.github.io/other/useful-programs/</link><pubDate>Sun, 09 Oct 2022 02:03:08 +0300</pubDate><guid>https://maxtar.github.io/other/useful-programs/</guid><description>Форум Discourse. На нём работает automated-testing.info и forum.golangbridge.org. Система развёртывания pulumi. Исходный код на GitHub. Общение Аналог Slack, который можно развернуть локально mattermost.com. Исходный код на github. Чат tinode. Есть клиент на Android, web. Запись с экрана (Screencast) OBSProject - кросс-платформенный пакет для записи с экрана и/или трансляции.
-Рисование Pencil - рисование GUI, диаграмм действия.
-Заметки Outwiker. Zettlr. Документация. GitHub. Работа со звуком Musicbrainz Picard - программа для автоматического заполнения тегов файлов.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Разная информация on Max Wiki Site</title><link>https://maxtar.github.io/other/</link><description>Recent content in Разная информация on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 02:03:08 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/other/index.xml" rel="self" type="application/rss+xml"/><item><title>Разные полезные программы</title><link>https://maxtar.github.io/other/useful-programs/</link><pubDate>Sun, 09 Oct 2022 02:03:08 +0300</pubDate><guid>https://maxtar.github.io/other/useful-programs/</guid><description>&lt;ul>
+&lt;li>Форум &lt;a href="https://github.com/discourse/discourse" target="_blank" >Discourse&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. На нём работает &lt;a href="http://automated-testing.info" target="_blank" >automated-testing.info&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> и &lt;a href="https://forum.golangbridge.org" target="_blank" >forum.golangbridge.org&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>Система развёртывания &lt;a href="https://pulumi.io" target="_blank" >pulumi&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Исходный код на &lt;a href="https://github.com/pulumi/pulumi" target="_blank" >GitHub&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="общение"
+ >
+ Общение
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/other/useful-programs/#общение" class="gdoc-page__anchor clip flex align-center" title=" Общение" aria-label=" Общение" href="#%d0%be%d0%b1%d1%89%d0%b5%d0%bd%d0%b8%d0%b5">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>Аналог &lt;a href="https://slack.com" target="_blank" >Slack&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>, который можно развернуть локально &lt;a href="https://mattermost.com" target="_blank" >mattermost.com&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Исходный код на &lt;a href="https://github.com/mattermost/platform" target="_blank" >github&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>Чат &lt;a href="https://github.com/tinode/chat" target="_blank" >tinode&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Есть клиент на Android, web.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="запись-с-экрана-screencast"
+ >
+ Запись с экрана (Screencast)
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/other/useful-programs/#запись-с-экрана-screencast" class="gdoc-page__anchor clip flex align-center" title=" Запись с экрана (Screencast)" aria-label=" Запись с экрана (Screencast)" href="#%d0%b7%d0%b0%d0%bf%d0%b8%d1%81%d1%8c-%d1%81-%d1%8d%d0%ba%d1%80%d0%b0%d0%bd%d0%b0-screencast">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>&lt;a href="https://obsproject.com/ru" target="_blank" >OBSProject&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - кросс-платформенный пакет для записи с экрана и/или трансляции.&lt;/p></description></item></channel></rss>

@@ -1,5 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rapberry Pi on Max Wiki Site</title><link>https://maxtar.github.io/administration/rapberry-pi/</link><description>Recent content in Rapberry Pi on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 01:40:26 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/administration/rapberry-pi/index.xml" rel="self" type="application/rss+xml"/><item><title>Raspbian</title><link>https://maxtar.github.io/administration/rapberry-pi/raspbian/</link><pubDate>Sun, 09 Oct 2022 01:40:26 +0300</pubDate><guid>https://maxtar.github.io/administration/rapberry-pi/raspbian/</guid><description>Различная информация об операционной системе Raspbian для Raspberry Pi
-Настройки Включение ssh Официальная документация.
-Настройки Некоторые критичные настройки делаются при помощи утилиты raspi-config. Она предоставляет графический консольный интерфейс для удобной настройки.
-Включение ssh После установки операционной системы Raspbian по-умолчанию демон ssh отключен. Чтобы его включить надо выполнить следующие действия (информация взята с официального сайта):
-Запустить raspi-config в терминале: {{sudo raspi-config}}. Выбрать Interfacing Options. Выбрать SSH. Потом Yes. Нажать Ok. И, наконец - Finish.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rapberry Pi on Max Wiki Site</title><link>https://maxtar.github.io/administration/rapberry-pi/</link><description>Recent content in Rapberry Pi on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 01:40:26 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/administration/rapberry-pi/index.xml" rel="self" type="application/rss+xml"/><item><title>Raspbian</title><link>https://maxtar.github.io/administration/rapberry-pi/raspbian/</link><pubDate>Sun, 09 Oct 2022 01:40:26 +0300</pubDate><guid>https://maxtar.github.io/administration/rapberry-pi/raspbian/</guid><description>&lt;p>Различная информация об операционной системе Raspbian для Raspberry Pi&lt;/p>
+&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#настройки">Настройки&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#включение-ssh">Включение ssh&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;p>&lt;a href="https://www.raspberrypi.org/documentation/" target="_blank" >Официальная документация&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="настройки"
+ >
+ Настройки
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/rapberry-pi/raspbian/#настройки" class="gdoc-page__anchor clip flex align-center" title=" Настройки" aria-label=" Настройки" href="#%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b8">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Некоторые критичные настройки делаются при помощи утилиты &lt;a href="https://www.raspberrypi.org/documentation/configuration/raspi-config.md" target="_blank" >raspi-config&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.
+Она предоставляет графический консольный интерфейс для удобной настройки.&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h3 id="включение-ssh"
+ >
+ Включение ssh
+ &lt;/h3>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/rapberry-pi/raspbian/#включение-ssh" class="gdoc-page__anchor clip flex align-center" title=" Включение ssh" aria-label=" Включение ssh" href="#%d0%b2%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-ssh">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>После установки операционной системы Raspbian по-умолчанию демон ssh отключен. Чтобы его включить надо выполнить следующие действия (информация взята с &lt;a href="https://www.raspberrypi.org/documentation/remote-access/ssh/#" target="_blank" >официального сайта&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>):&lt;/p></description></item></channel></rss>

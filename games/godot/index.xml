@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Godot on Max Wiki Site</title><link>https://maxtar.github.io/games/godot/</link><description>Recent content in Godot on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 26 Feb 2023 15:56:15 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/games/godot/index.xml" rel="self" type="application/rss+xml"/><item><title>GdScript</title><link>https://maxtar.github.io/games/godot/gdscript/</link><pubDate>Sun, 26 Feb 2023 15:56:15 +0300</pubDate><guid>https://maxtar.github.io/games/godot/gdscript/</guid><description>Информация по языку программирования GdScript Простейший контроллер для управления камерой от первого лица Этот код можно прицепить прямо к камере. В нём реализован поворот мышкой и перемещение вперёд, назад, влево, вправо.
-extends Camera # accumulators var rot_x = 0 # сохраняет текущее вращение по оси X. var rot_y = 0 # сохраняет текущее вращение по оси Y. export var LOOKAROUND_SPEED = 0.01 # Скорости обзора. export var MOVE_SPEED = 0.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Godot on Max Wiki Site</title><link>https://maxtar.github.io/games/godot/</link><description>Recent content in Godot on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 26 Feb 2023 15:56:15 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/games/godot/index.xml" rel="self" type="application/rss+xml"/><item><title>GdScript</title><link>https://maxtar.github.io/games/godot/gdscript/</link><pubDate>Sun, 26 Feb 2023 15:56:15 +0300</pubDate><guid>https://maxtar.github.io/games/godot/gdscript/</guid><description>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h1 id="информация-по-языку-программирования-gdscript"
+ >
+ Информация по языку программирования GdScript
+ &lt;/h1>
+ &lt;a data-clipboard-text="https://maxtar.github.io/games/godot/gdscript/#информация-по-языку-программирования-gdscript" class="gdoc-page__anchor clip flex align-center" title=" Информация по языку программирования GdScript" aria-label=" Информация по языку программирования GdScript" href="#%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f-%d0%bf%d0%be-%d1%8f%d0%b7%d1%8b%d0%ba%d1%83-%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%bc%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f-gdscript">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="простейший-контроллер-для-управления-камерой-от-первого-лица"
+ >
+ Простейший контроллер для управления камерой от первого лица
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/games/godot/gdscript/#простейший-контроллер-для-управления-камерой-от-первого-лица" class="gdoc-page__anchor clip flex align-center" title=" Простейший контроллер для управления камерой от первого лица" aria-label=" Простейший контроллер для управления камерой от первого лица" href="#%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%b5%d0%b9%d1%88%d0%b8%d0%b9-%d0%ba%d0%be%d0%bd%d1%82%d1%80%d0%be%d0%bb%d0%bb%d0%b5%d1%80-%d0%b4%d0%bb%d1%8f-%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d1%8f-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80%d0%be%d0%b9-%d0%be%d1%82-%d0%bf%d0%b5%d1%80%d0%b2%d0%be%d0%b3%d0%be-%d0%bb%d0%b8%d1%86%d0%b0">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Этот код можно прицепить прямо к камере. В нём реализован поворот мышкой и перемещение вперёд, назад, влево, вправо.&lt;/p></description></item></channel></rss>

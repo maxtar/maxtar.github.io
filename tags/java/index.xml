@@ -1,3 +1,118 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java on Max Wiki Site</title><link>https://maxtar.github.io/tags/java/</link><description>Recent content in Java on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 05 Oct 2022 02:07:47 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/java/index.xml" rel="self" type="application/rss+xml"/><item><title>Полезные библиотеки</title><link>https://maxtar.github.io/programming/java/useful-libs/</link><pubDate>Wed, 05 Oct 2022 02:07:47 +0300</pubDate><guid>https://maxtar.github.io/programming/java/useful-libs/</guid><description>На странице собрана информация о различных Java-библиотеках
-Json Библиотека от Google Gson. UserGuide. Прочее Ожидание разных событий awaitility (https://github.com/awaitility/awaitility). Документация. disruptor - быстрый кольцевой буфер. Генераторы данных Java-faker (https://github.com/DiUS/java-faker) - генерация всяких случайных данных разных типов. JavaDocs. Data Faker - ещё один генератор, но активно развивается. GitHub. Работа с географическими и навигационными данными geotools.org. Документация. REST Unirest-Java. GitHub. Retrofit. GitHub. Асинхронное программирование VERT.X - реактивные приложения в JVM. Используются события, вроде.</description></item><item><title>Java</title><link>https://maxtar.github.io/programming/java/</link><pubDate>Sun, 02 Oct 2022 22:18:04 +0300</pubDate><guid>https://maxtar.github.io/programming/java/</guid><description>Информация о Java, примеры использования и библиотеки
-JVM Быстрая памятка по настройке логирования в Java JVM Liberica - сборка openjdk от BellSoft. Принимают участие в развитии openjdk и вообще всячески лицензированы oracle. GraalVM - позволяет запускать не только java, но и JavaScript, Python, Ruby, R, C, C++. AdoptOpenJDK - ещё одна сборка openjdk. Также есть реализация Openj9 вирутальной машины. Быстрая памятка по настройке логирования в Java Для добавления логирования в проект надо добавить следующие зависимости:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java on Max Wiki Site</title><link>https://maxtar.github.io/tags/java/</link><description>Recent content in Java on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 05 Oct 2022 02:07:47 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/java/index.xml" rel="self" type="application/rss+xml"/><item><title>Полезные библиотеки</title><link>https://maxtar.github.io/programming/java/useful-libs/</link><pubDate>Wed, 05 Oct 2022 02:07:47 +0300</pubDate><guid>https://maxtar.github.io/programming/java/useful-libs/</guid><description>&lt;p>На странице собрана информация о различных Java-библиотеках&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="json"
+ >
+ Json
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/java/useful-libs/#json" class="gdoc-page__anchor clip flex align-center" title=" Json" aria-label=" Json" href="#json">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>Библиотека от Google &lt;a href="https://github.com/google/gson" target="_blank" >Gson&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://github.com/google/gson/blob/master/UserGuide.md" target="_blank" >UserGuide&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="прочее"
+ >
+ Прочее
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/java/useful-libs/#прочее" class="gdoc-page__anchor clip flex align-center" title=" Прочее" aria-label=" Прочее" href="#%d0%bf%d1%80%d0%be%d1%87%d0%b5%d0%b5">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>Ожидание разных событий &lt;a href="https://github.com/awaitility/awaitility" target="_blank" >awaitility (https://github.com/awaitility/awaitility)&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://github.com/awaitility/awaitility/wiki/Usage" target="_blank" >Документация&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://github.com/LMAX-Exchange/disruptor" target="_blank" >disruptor&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - быстрый кольцевой буфер.&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h3 id="генераторы-данных"
+ >
+ Генераторы данных
+ &lt;/h3>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/java/useful-libs/#генераторы-данных" class="gdoc-page__anchor clip flex align-center" title=" Генераторы данных" aria-label=" Генераторы данных" href="#%d0%b3%d0%b5%d0%bd%d0%b5%d1%80%d0%b0%d1%82%d0%be%d1%80%d1%8b-%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/DiUS/java-faker" target="_blank" >Java-faker (https://github.com/DiUS/java-faker)&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - генерация всяких случайных данных разных типов. &lt;a href="http://dius.github.io/java-faker/apidocs/index.html" target="_blank" >JavaDocs&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://www.datafaker.net" target="_blank" >Data Faker&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - ещё один генератор, но активно развивается. &lt;a href="https://github.com/datafaker-net/datafaker/" target="_blank" >GitHub&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="работа-с-географическими-и-навигационными-данными"
+ >
+ Работа с географическими и навигационными данными
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/java/useful-libs/#работа-с-географическими-и-навигационными-данными" class="gdoc-page__anchor clip flex align-center" title=" Работа с географическими и навигационными данными" aria-label=" Работа с географическими и навигационными данными" href="#%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0-%d1%81-%d0%b3%d0%b5%d0%be%d0%b3%d1%80%d0%b0%d1%84%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%bc%d0%b8-%d0%b8-%d0%bd%d0%b0%d0%b2%d0%b8%d0%b3%d0%b0%d1%86%d0%b8%d0%be%d0%bd%d0%bd%d1%8b%d0%bc%d0%b8-%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d0%bc%d0%b8">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://geotools.org" target="_blank" >geotools.org&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://docs.geotools.org/" target="_blank" >Документация&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="rest"
+ >
+ REST
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/java/useful-libs/#rest" class="gdoc-page__anchor clip flex align-center" title=" REST" aria-label=" REST" href="#rest">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="http://kong.github.io/unirest-java" target="_blank" >Unirest-Java&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://github.com/kong/unirest-java" target="_blank" >GitHub&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://square.github.io/retrofit" target="_blank" >Retrofit&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://github.com/square/retrofit" target="_blank" >GitHub&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="асинхронное-программирование"
+ >
+ Асинхронное программирование
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/java/useful-libs/#асинхронное-программирование" class="gdoc-page__anchor clip flex align-center" title=" Асинхронное программирование" aria-label=" Асинхронное программирование" href="#%d0%b0%d1%81%d0%b8%d0%bd%d1%85%d1%80%d0%be%d0%bd%d0%bd%d0%be%d0%b5-%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%bc%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://vertx.io/" target="_blank" >VERT.X&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - реактивные приложения в JVM. Используются события, вроде. &lt;a href="https://habr.com/ru/company/rshb/blog/520240/" target="_blank" >Статья на Хабре&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;/ul></description></item><item><title>Java</title><link>https://maxtar.github.io/programming/java/</link><pubDate>Sun, 02 Oct 2022 22:18:04 +0300</pubDate><guid>https://maxtar.github.io/programming/java/</guid><description>&lt;p>Информация о Java, примеры использования и библиотеки&lt;/p>
+&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#jvm">JVM&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#быстрая-памятка-по-настройке-логирования-в-java">Быстрая памятка по настройке логирования в Java&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="jvm"
+ >
+ JVM
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/java/#jvm" class="gdoc-page__anchor clip flex align-center" title=" JVM" aria-label=" JVM" href="#jvm">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://bell-sw.com/pages/products/" target="_blank" >Liberica&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - сборка openjdk от BellSoft. Принимают участие в развитии openjdk и вообще всячески лицензированы oracle.&lt;/li>
+&lt;li>&lt;a href="https://www.graalvm.org/" target="_blank" >GraalVM&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - позволяет запускать не только java, но и JavaScript, Python, Ruby, R, C, C++.&lt;/li>
+&lt;li>&lt;a href="https://adoptopenjdk.net/" target="_blank" >AdoptOpenJDK&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - ещё одна сборка openjdk. Также есть реализация Openj9 вирутальной машины.&lt;/li>
+&lt;/ul>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="быстрая-памятка-по-настройке-логирования-в-java"
+ >
+ Быстрая памятка по настройке логирования в Java
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/java/#быстрая-памятка-по-настройке-логирования-в-java" class="gdoc-page__anchor clip flex align-center" title=" Быстрая памятка по настройке логирования в Java" aria-label=" Быстрая памятка по настройке логирования в Java" href="#%d0%b1%d1%8b%d1%81%d1%82%d1%80%d0%b0%d1%8f-%d0%bf%d0%b0%d0%bc%d1%8f%d1%82%d0%ba%d0%b0-%d0%bf%d0%be-%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b5-%d0%bb%d0%be%d0%b3%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f-%d0%b2-java">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Для добавления логирования в проект надо добавить следующие зависимости:&lt;/p></description></item></channel></rss>

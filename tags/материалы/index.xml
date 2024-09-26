@@ -1,2 +1,108 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Материалы on Max Wiki Site</title><link>https://maxtar.github.io/tags/%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/</link><description>Recent content in Материалы on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 14:35:02 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>Текстуры и материалы</title><link>https://maxtar.github.io/3d-vfx-video/textures-and-materials/</link><pubDate>Sun, 09 Oct 2022 14:35:02 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/textures-and-materials/</guid><description>Ссылки на архивы тестур и программы для их создания
-Текстуры BlendFab - библиотека, в том числе, бесплатных текстур, материалов и моделей. Можно скачать сразу .blender-файлы. Текстура Луны от NASA. Включает карту основного цвета и displacement. Текстуры от 3d Wolf. Планеты, листва. Poliigon - есть бесплатные текстуры. Quixel. Была куплена Epic Games, теперь бесплатна при использовании в unrealEngine. в остальных проектах - по подписке. SharedTextures - 500 бесплатных текстур. Public Domain Textures - от Frederic Hoffmann.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Материалы on Max Wiki Site</title><link>https://maxtar.github.io/tags/%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/</link><description>Recent content in Материалы on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 14:35:02 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>Текстуры и материалы</title><link>https://maxtar.github.io/3d-vfx-video/textures-and-materials/</link><pubDate>Sun, 09 Oct 2022 14:35:02 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/textures-and-materials/</guid><description>&lt;p>Ссылки на архивы тестур и программы для их создания&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="текстуры"
+ >
+ Текстуры
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/textures-and-materials/#текстуры" class="gdoc-page__anchor clip flex align-center" title=" Текстуры" aria-label=" Текстуры" href="#%d1%82%d0%b5%d0%ba%d1%81%d1%82%d1%83%d1%80%d1%8b">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://www.blendfab.com/asset-online-library/" target="_blank" >BlendFab&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - библиотека, в том числе, бесплатных текстур, материалов и моделей. Можно скачать сразу .blender-файлы.&lt;/li>
+&lt;li>Текстура Луны от &lt;a href="https://svs.gsfc.nasa.gov/4720" target="_blank" >NASA&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Включает карту основного цвета и displacement.&lt;/li>
+&lt;li>Текстуры от &lt;a href="https://3d-wolf.com/products/materials" target="_blank" >3d Wolf&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.
+Планеты, листва.&lt;/li>
+&lt;li>&lt;a href="https://www.poliigon.com" target="_blank" >Poliigon&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - есть бесплатные текстуры.&lt;/li>
+&lt;li>&lt;a href="https://quixel.com/megascans/library/latest" target="_blank" >Quixel&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Была куплена Epic Games, теперь бесплатна при использовании в unrealEngine. в остальных проектах - по подписке.&lt;/li>
+&lt;li>&lt;a href="https://www.sharetextures.com/" target="_blank" >SharedTextures&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - 500 бесплатных текстур.&lt;/li>
+&lt;li>&lt;a href="https://publicdomaintextures.com/" target="_blank" >Public Domain Textures&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - от Frederic Hoffmann.&lt;/li>
+&lt;li>&lt;a href="https://texturebox.com" target="_blank" >texturebox.com&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - бесплатные текстуры от группы товарищей.&lt;/li>
+&lt;li>&lt;a href="https://cc0textures.com" target="_blank" >cc0textures.com&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - набор бесплатных текстур.&lt;/li>
+&lt;li>&lt;a href="https://freepbr.com" target="_blank" >FreePBR&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - набор беслатных PBR текстур.&lt;/li>
+&lt;li>&lt;a href="https://www.textures.com" target="_blank" >Textures.com&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - один из старейших ресурсов. Но нет бесплатных.&lt;/li>
+&lt;li>&lt;a href="https://gametextures.com" target="_blank" >Gametextures&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - заточка под игровые движки, но может пригодится. Есть бесплатные.&lt;/li>
+&lt;li>&lt;a href="https://3djungle.ru" target="_blank" >3DJungle&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - набор бесплатных текстур.&lt;/li>
+&lt;li>&lt;a href="https://gumroad.com/l/uHyhPT" target="_blank" >Free 42k Earth Displacement Map&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://3dassets.one" target="_blank" >3dassets.one&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - поиск текстур.&lt;/li>
+&lt;li>&lt;a href="https://polyhaven.com/textures" target="_blank" >Текстуры&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> на PolyHeaven.&lt;/li>
+&lt;li>Материалы от &lt;a href="https://matlib.gpuopen.com/main/materials/all" target="_blank" >AMD&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> в формате materialX. Можно руками настроить в Blender.&lt;/li>
+&lt;li>&lt;a href="https://www.cgbookcase.com/textures" target="_blank" >cgbookcase.com&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - бесплатные текстуры, плюс полезная информация.&lt;/li>
+&lt;li>&lt;a href="https://textureninja.com" target="_blank" >textureninja&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - много текстур. Но без карт нормальей и прочих.&lt;/li>
+&lt;/ul>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="hdri"
+ >
+ HDRI
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/textures-and-materials/#hdri" class="gdoc-page__anchor clip flex align-center" title=" HDRI" aria-label=" HDRI" href="#hdri">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://hdrmaps.com" target="_blank" >hdrmaps&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - большой набор текстур.
+Чтобы скачать бесплатно надо после выбора текстуры выбрать &lt;strong>Free 2K sample Download&lt;/strong>.&lt;/li>
+&lt;li>&lt;a href="https://locationtextures.com/panoramas" target="_blank" >LocationTextures&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - бесплатно можно скачать в разрешении 4k.&lt;/li>
+&lt;li>&lt;a href="https://hdrihaven.com/" target="_blank" >HDRIHeaven&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - куча HDRI-карт и текстур.&lt;/li>
+&lt;li>От &lt;a href="https://www.ihdri.com/hdris" target="_blank" >Элвиса Поса&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://polyhaven.com/hdris" target="_blank" >HDRI&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> на Poly Heaven.&lt;/li>
+&lt;/ul>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="программы-для-создания-текстур"
+ >
+ Программы для создания текстур
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/textures-and-materials/#программы-для-создания-текстур" class="gdoc-page__anchor clip flex align-center" title=" Программы для создания текстур" aria-label=" Программы для создания текстур" href="#%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%bc%d1%8b-%d0%b4%d0%bb%d1%8f-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d0%bd%d0%b8%d1%8f-%d1%82%d0%b5%d0%ba%d1%81%d1%82%d1%83%d1%80">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://armorpaint.org/index.html" target="_blank" >Armorpaint&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - свободный аналог substance Painter. &lt;a href="https://github.com/armory3d/armorpaint" target="_blank" >GitHub&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://rodzilla.itch.io/material-maker" target="_blank" >Material Maker&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - генератор текстур на базе игрового движка &lt;a href="https://godotengine.org/" target="_blank" >Godot&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://quixel.com/mixer" target="_blank" >MIXER&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - бесплатный софт для создания текстур. Для подписчиков Unreal Engine ещё и куча материалов.&lt;/li>
+&lt;/ul>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="декали"
+ >
+ Декали
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/textures-and-materials/#декали" class="gdoc-page__anchor clip flex align-center" title=" Декали" aria-label=" Декали" href="#%d0%b4%d0%b5%d0%ba%d0%b0%d0%bb%d0%b8">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>Набор декалей от &lt;a href="https://gumroad.com/l/vsutI" target="_blank" >Sanctus&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://www.youtube.com/watch?v=VPQE5cbXFzY" target="_blank" >Видео&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> как их можно использовать в Blender.&lt;/li>
+&lt;li>Наборы от &lt;a href="https://gumroad.com/chuckcg" target="_blank" >Chuck CG&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="разные-наборы"
+ >
+ Разные наборы
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/textures-and-materials/#разные-наборы" class="gdoc-page__anchor clip flex align-center" title=" Разные наборы" aria-label=" Разные наборы" href="#%d1%80%d0%b0%d0%b7%d0%bd%d1%8b%d0%b5-%d0%bd%d0%b0%d0%b1%d0%be%d1%80%d1%8b">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>CG-студия Kaiserbold
+&lt;ul>
+&lt;li>&lt;a href="https://gumroad.com/l/free-png-tree" target="_blank" >Деревья&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://gumroad.com/l/free_cutouts" target="_blank" >Люди&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://gumroad.com/l/free_sky_backgrounds" target="_blank" >Небо&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://gumroad.com/l/freecutouts1" target="_blank" >Деревья&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="материалы"
+ >
+ Материалы
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/textures-and-materials/#материалы" class="gdoc-page__anchor clip flex align-center" title=" Материалы" aria-label=" Материалы" href="#%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>Бесплатные материалы от &lt;a href="https://gumroad.com/juliosillet?sort=page_layout" target="_blank" >Julio Sillet&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>Материал леса от &lt;a href="https://www.cyn-prod.com/projects/wood.php" target="_blank" >Gabriel de Laubier&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;/ul></description></item></channel></rss>

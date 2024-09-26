@@ -1,7 +1,158 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Видео on Max Wiki Site</title><link>https://maxtar.github.io/tags/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/</link><description>Recent content in Видео on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 14:14:05 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>Kdenlive</title><link>https://maxtar.github.io/3d-vfx-video/video/kdenlive/</link><pubDate>Sun, 09 Oct 2022 14:14:05 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/video/kdenlive/</guid><description>Всякие разности редактора нелинейного монтажа Kdenlive.
-Официальный сайт.
-Решение проблемы с невозможностью управлять курсором на монтажном столе Краткое описание эффектов в видеоредакторе kdenlive Решение проблемы с невозможностью управлять курсором на монтажном столе Если:
-Курсором на монтажном столе невозможно управлять мышкой. Не работают клавиши стрелок для перехода на один кадр. То, скорее всего, проблема в настройке MLT. А точнее - в количестве потоков обработки. Значения больше единицы поддерживаются пока в экспериментальном режиме.</description></item><item><title>Видео</title><link>https://maxtar.github.io/3d-vfx-video/video/</link><pubDate>Sun, 09 Oct 2022 14:10:38 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/video/</guid><description>В этом разделе собрана информация по видемонтажу и прочей работой с видео.
-Kdenlive Параметры ffmpeg
-Полезные программы Handbrake - конвертер видео.</description></item><item><title>3D, VFX, Видео</title><link>https://maxtar.github.io/3d-vfx-video/</link><pubDate>Sun, 09 Oct 2022 14:05:32 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/</guid><description>В разделе собрана различная информация по работе с видеомонтажом, компьютерной графикой и тому подобное.
-Blender Addons Как избавиться от светлячков Полезные команды и клавиатурные сокращения Blender Полезные ссылки Разные вопросы по renderman Видео Kdenlive Текстуры и материалы remove.bg - cервис удаления фона фотографий.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Видео on Max Wiki Site</title><link>https://maxtar.github.io/tags/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/</link><description>Recent content in Видео on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 14:14:05 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>Kdenlive</title><link>https://maxtar.github.io/3d-vfx-video/video/kdenlive/</link><pubDate>Sun, 09 Oct 2022 14:14:05 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/video/kdenlive/</guid><description>&lt;p>Всякие разности редактора нелинейного монтажа Kdenlive.&lt;/p>
+&lt;p>&lt;a href="https://kdenlive.org/" target="_blank" >Официальный сайт&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p>
+&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#решение-проблемы-с-невозможностью-управлять-курсором-на-монтажном-столе">Решение проблемы с невозможностью управлять курсором на монтажном столе&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#краткое-описание-эффектов-в-видеоредакторе-kdenlive">Краткое описание эффектов в видеоредакторе kdenlive&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="решение-проблемы-с-невозможностью-управлять-курсором-на-монтажном-столе"
+ >
+ Решение проблемы с невозможностью управлять курсором на монтажном столе
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/video/kdenlive/#решение-проблемы-с-невозможностью-управлять-курсором-на-монтажном-столе" class="gdoc-page__anchor clip flex align-center" title=" Решение проблемы с невозможностью управлять курсором на монтажном столе" aria-label=" Решение проблемы с невозможностью управлять курсором на монтажном столе" href="#%d1%80%d0%b5%d1%88%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d0%b1%d0%bb%d0%b5%d0%bc%d1%8b-%d1%81-%d0%bd%d0%b5%d0%b2%d0%be%d0%b7%d0%bc%d0%be%d0%b6%d0%bd%d0%be%d1%81%d1%82%d1%8c%d1%8e-%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d1%8f%d1%82%d1%8c-%d0%ba%d1%83%d1%80%d1%81%d0%be%d1%80%d0%be%d0%bc-%d0%bd%d0%b0-%d0%bc%d0%be%d0%bd%d1%82%d0%b0%d0%b6%d0%bd%d0%be%d0%bc-%d1%81%d1%82%d0%be%d0%bb%d0%b5">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Если:&lt;/p>
+&lt;ol>
+&lt;li>Курсором на монтажном столе невозможно управлять мышкой.&lt;/li>
+&lt;li>Не работают клавиши стрелок для перехода на один кадр.&lt;/li>
+&lt;/ol>
+&lt;p>То, скорее всего, проблема в настройке MLT. А точнее - в количестве потоков обработки. Значения больше единицы поддерживаются пока в экспериментальном режиме. Поэтому лучше поставить единицу:&lt;/p></description></item><item><title>Видео</title><link>https://maxtar.github.io/3d-vfx-video/video/</link><pubDate>Sun, 09 Oct 2022 14:10:38 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/video/</guid><description>&lt;p>В этом разделе собрана информация по видемонтажу и прочей работой с видео.&lt;/p>
+
+ &lt;div class="gdoc-toc gdoc-toc__level--6">
+ 
+ &lt;ul>
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/3d-vfx-video/video/kdenlive/" class="gdoc-toc__entry">Kdenlive
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+
+
+
+
+&lt;p>&lt;a href="https://help.ubuntu.ru/wiki/ffmpeg" target="_blank" >Параметры ffmpeg&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="полезные-программы"
+ >
+ Полезные программы
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/video/#полезные-программы" class="gdoc-page__anchor clip flex align-center" title=" Полезные программы" aria-label=" Полезные программы" href="#%d0%bf%d0%be%d0%bb%d0%b5%d0%b7%d0%bd%d1%8b%d0%b5-%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%bc%d1%8b">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://handbrake.fr/" target="_blank" >Handbrake&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - конвертер видео.&lt;/li>
+&lt;/ul></description></item><item><title>3D, VFX, Видео</title><link>https://maxtar.github.io/3d-vfx-video/</link><pubDate>Sun, 09 Oct 2022 14:05:32 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/</guid><description>&lt;p>В разделе собрана различная информация по работе с видеомонтажом, компьютерной графикой и тому подобное.&lt;/p>
+
+ &lt;div class="gdoc-toc gdoc-toc__level--6">
+ 
+ &lt;ul>
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/3d-vfx-video/blender/" class="gdoc-toc__entry">Blender
+ &lt;/a>
+ &lt;/span>
+ &lt;ul>
+ 
+ 
+
+ 
+
+ 
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/3d-vfx-video/blender/addons/" class="gdoc-toc__entry">Addons
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/3d-vfx-video/blender/remove-fireflies/" class="gdoc-toc__entry">Как избавиться от светлячков
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/3d-vfx-video/blender/keys/" class="gdoc-toc__entry">Полезные команды и клавиатурные сокращения Blender
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/3d-vfx-video/blender/links/" class="gdoc-toc__entry">Полезные ссылки
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/3d-vfx-video/blender/renderman/" class="gdoc-toc__entry">Разные вопросы по renderman
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/3d-vfx-video/video/" class="gdoc-toc__entry">Видео
+ &lt;/a>
+ &lt;/span>
+ &lt;ul>
+ 
+ 
+
+ 
+
+ 
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/3d-vfx-video/video/kdenlive/" class="gdoc-toc__entry">Kdenlive
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/3d-vfx-video/textures-and-materials/" class="gdoc-toc__entry">Текстуры и материалы
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+
+
+
+
+&lt;ul>
+&lt;li>&lt;a href="https://www.remove.bg" target="_blank" >remove.bg&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - cервис удаления фона фотографий.&lt;/li>
+&lt;/ul></description></item></channel></rss>

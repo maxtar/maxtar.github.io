@@ -1,15 +1,540 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Администрирование on Max Wiki Site</title><link>https://maxtar.github.io/tags/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link><description>Recent content in Администрирование on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 12 Oct 2022 18:36:05 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/index.xml" rel="self" type="application/rss+xml"/><item><title>Полезные программы</title><link>https://maxtar.github.io/administration/windows/useful-programs/</link><pubDate>Wed, 12 Oct 2022 18:36:05 +0300</pubDate><guid>https://maxtar.github.io/administration/windows/useful-programs/</guid><description>Список программ, полезных для администрирования Windows.
-Системные утилиты Hayabusa - утилита для анализа Windows Events.</description></item><item><title>Полезные программы</title><link>https://maxtar.github.io/administration/useful-programs/</link><pubDate>Sun, 09 Oct 2022 15:27:31 +0300</pubDate><guid>https://maxtar.github.io/administration/useful-programs/</guid><description>Описание разных, программ, используемых в администрировании.
-OAuth2 oauth2_proxy - программа поддерживает несколько способов авторизации, включая, через Azure. Vpn и прочее Global Socket - позволяет общаться компьютерам прозрачно между собой. Работает, в том числе и через VPN. Мониторинг и информация по системе (Windows) HWInfo - бесплатная утилита для получения разнообразной информации о системе.</description></item><item><title>Windows</title><link>https://maxtar.github.io/administration/windows/</link><pubDate>Sun, 09 Oct 2022 14:54:20 +0300</pubDate><guid>https://maxtar.github.io/administration/windows/</guid><description>Различная информация по Windows.
-Просмотр IP с которого было подключение по RDP Просмотр доменных групп, в которых состоит пользователь Как собрать дампы памяти Просмотр IP с которого было подключение по RDP Открыть системную оснастку Просмотр событий/Event viewer. Далее открыть Журналы приложений и служб/Microsoft/TerminalServices-RemoteConnectionManager/Operational (Applications and Services Logs/Microsoft/TerminalServices-RemoteConnectionManager/Operational). В списке нужно найти запись с EventID=1149 за требуемое время. В этом событие будет информация типа:
-Remote Desktop Services: User authentication succeeded: User: &amp;lt;user&amp;gt; Domain: &amp;lt;domain&amp;gt; Source Network Address: 50.</description></item><item><title>Raspbian</title><link>https://maxtar.github.io/administration/rapberry-pi/raspbian/</link><pubDate>Sun, 09 Oct 2022 01:40:26 +0300</pubDate><guid>https://maxtar.github.io/administration/rapberry-pi/raspbian/</guid><description>Различная информация об операционной системе Raspbian для Raspberry Pi
-Настройки Включение ssh Официальная документация.
-Настройки Некоторые критичные настройки делаются при помощи утилиты raspi-config. Она предоставляет графический консольный интерфейс для удобной настройки.
-Включение ssh После установки операционной системы Raspbian по-умолчанию демон ssh отключен. Чтобы его включить надо выполнить следующие действия (информация взята с официального сайта):
-Запустить raspi-config в терминале: {{sudo raspi-config}}. Выбрать Interfacing Options. Выбрать SSH. Потом Yes. Нажать Ok. И, наконец - Finish.</description></item><item><title>Rapberry Pi</title><link>https://maxtar.github.io/administration/rapberry-pi/</link><pubDate>Sun, 09 Oct 2022 01:38:17 +0300</pubDate><guid>https://maxtar.github.io/administration/rapberry-pi/</guid><description>Различная информация по Raspberry PI
-GPIO последних моделей Общая информация по GPIO. Схема контактов. Pinout for GPIO connectors. Интерактивная распиновка. Обучалка на Python.</description></item><item><title>Firefox</title><link>https://maxtar.github.io/administration/firefox/</link><pubDate>Sun, 09 Oct 2022 01:25:11 +0300</pubDate><guid>https://maxtar.github.io/administration/firefox/</guid><description>В этом разделе собраны разные настройки Mozilla Firefox.
-Чтобы новые вкладки открывались в конце Отключение прокрутки вкладок Проблемы при воспроизведении видео Чтобы закладки всегда открывались в новой вкладке Указание директории для кеша Чтобы грузились локальные ресурсы Чтобы новые вкладки открывались в конце Открываем Firefox В адресной строке пишем: about:config Соглашаемся, что будем осторожны. Вводим в строке поиска: browser.tabs.insertRelatedAfterCurrent Устанавливаем false. Отключение прокрутки вкладок Чтобы отключить прокрутку, для начала необходимо найти, где находится профайл пользователя.</description></item><item><title>Mikrotik</title><link>https://maxtar.github.io/administration/mikrotik/</link><pubDate>Mon, 03 Oct 2022 21:56:08 +0300</pubDate><guid>https://maxtar.github.io/administration/mikrotik/</guid><description>Полезная информация по настройке RouterOs от Mikrotik Настройка фильтрации трафика на Mikrotik. Часть 1. Настройка фильтрации трафика на Mikrotik. Часть 2. Настройка фильтрации трафика на Mikrotik. Часть 3. Настройка фильтрации трафика на Mikrotik. Часть 4. Блог интернет магазина ASP24.ru Общий раздел по настройке Mikrotik</description></item><item><title>Curl</title><link>https://maxtar.github.io/administration/curl/</link><pubDate>Sun, 02 Oct 2022 22:27:44 +0300</pubDate><guid>https://maxtar.github.io/administration/curl/</guid><description>Полезная информация по работе с curl.
-Использование клиентского сертификата для скачивания Ограничение скорости закачки Расширенное логирование Вывод произвольной информации о загрузке Использование клиентского сертификата для скачивания curl -O https://url --cert cert.pem --key client.key --cacert ca.pem Ограничение скорости закачки Ключ --limit-rate &amp;lt;speed&amp;gt; Могут быть следующие суффиксы:
-&amp;ldquo;k&amp;rdquo;, &amp;ldquo;K&amp;rdquo; - килобайты. &amp;ldquo;m&amp;rdquo;, &amp;ldquo;M&amp;rdquo; - мегабайты. &amp;ldquo;g&amp;rdquo;, &amp;ldquo;G&amp;rdquo; - гигабайты. Например: 200K, 3m или 1G.
-Расширенное логирование Для расширенного логирования необходимо добавить ключ --trace.</description></item><item><title>Общие вопросы</title><link>https://maxtar.github.io/administration/common/</link><pubDate>Sat, 01 Oct 2022 21:24:41 +0300</pubDate><guid>https://maxtar.github.io/administration/common/</guid><description>Сети Конвертация сертификата из cer формата в pem Сохранение клиентского ключа Сохранение корневого ключа Сохранение в один файл, который содержит и ключ и сертификат Сохранение информации в отдельные файлы Сохранение частного ключа Сохранение только сертификата Удаление пароля из файла с ключом Сохранение доверенных сертификатов из цепочки Сети Сети для самых маленьких.
-Конвертация сертификата из cer формата в pem Сохранение клиентского ключа openssl pkcs12 -in client_ssl.pfx -out client_ssl.pem -clcerts Сохранение корневого ключа openssl pkcs12 -in client_ssl.</description></item><item><title>Администрирование</title><link>https://maxtar.github.io/administration/</link><pubDate>Sat, 01 Oct 2022 21:21:26 +0300</pubDate><guid>https://maxtar.github.io/administration/</guid><description> Разная информация по администрированию Curl Firefox Linux iptables Автозагрузка Настройка hibernate на linux без использования swap раздела Настройка swap Оптимизация KDE5 Очень полезные команды Linux на одном листе Полезная информация по разным командам Linux Полезные установки Решение разных проблем Список команд POSIX и их описание Установка Firefox из репозитория Установка проприетарных драйверов NVidia Mikrotik Rapberry Pi Raspbian Windows Полезные программы Общие вопросы Первые 10 минут на сервере Полезные программы</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Администрирование on Max Wiki Site</title><link>https://maxtar.github.io/tags/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link><description>Recent content in Администрирование on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 12 Oct 2022 18:36:05 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/index.xml" rel="self" type="application/rss+xml"/><item><title>Полезные программы</title><link>https://maxtar.github.io/administration/windows/useful-programs/</link><pubDate>Wed, 12 Oct 2022 18:36:05 +0300</pubDate><guid>https://maxtar.github.io/administration/windows/useful-programs/</guid><description>&lt;p>Список программ, полезных для администрирования Windows.&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="системные-утилиты"
+ >
+ Системные утилиты
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/windows/useful-programs/#системные-утилиты" class="gdoc-page__anchor clip flex align-center" title=" Системные утилиты" aria-label=" Системные утилиты" href="#%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%bd%d1%8b%d0%b5-%d1%83%d1%82%d0%b8%d0%bb%d0%b8%d1%82%d1%8b">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/Yamato-Security/hayabusa" target="_blank" >Hayabusa&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - утилита для анализа Windows Events.&lt;/li>
+&lt;/ul></description></item><item><title>Полезные программы</title><link>https://maxtar.github.io/administration/useful-programs/</link><pubDate>Sun, 09 Oct 2022 15:27:31 +0300</pubDate><guid>https://maxtar.github.io/administration/useful-programs/</guid><description>&lt;p>Описание разных, программ, используемых в администрировании.&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="oauth2"
+ >
+ OAuth2
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/useful-programs/#oauth2" class="gdoc-page__anchor clip flex align-center" title=" OAuth2" aria-label=" OAuth2" href="#oauth2">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://pusher.github.io/oauth2_proxy" target="_blank" >oauth2_proxy&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - программа поддерживает несколько способов авторизации, включая, через Azure.&lt;/li>
+&lt;/ul>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="vpn-и-прочее"
+ >
+ Vpn и прочее
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/useful-programs/#vpn-и-прочее" class="gdoc-page__anchor clip flex align-center" title=" Vpn и прочее" aria-label=" Vpn и прочее" href="#vpn-%d0%b8-%d0%bf%d1%80%d0%be%d1%87%d0%b5%d0%b5">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://www.gsocket.io" target="_blank" >Global Socket&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - позволяет общаться компьютерам прозрачно между собой. Работает, в том числе и через VPN.&lt;/li>
+&lt;/ul>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="мониторинг-и-информация-по-системе-windows"
+ >
+ Мониторинг и информация по системе (Windows)
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/useful-programs/#мониторинг-и-информация-по-системе-windows" class="gdoc-page__anchor clip flex align-center" title=" Мониторинг и информация по системе (Windows)" aria-label=" Мониторинг и информация по системе (Windows)" href="#%d0%bc%d0%be%d0%bd%d0%b8%d1%82%d0%be%d1%80%d0%b8%d0%bd%d0%b3-%d0%b8-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f-%d0%bf%d0%be-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%b5-windows">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://www.hwinfo.com/" target="_blank" >HWInfo&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - бесплатная утилита для получения разнообразной информации о системе.&lt;/li>
+&lt;/ul></description></item><item><title>Windows</title><link>https://maxtar.github.io/administration/windows/</link><pubDate>Sun, 09 Oct 2022 14:54:20 +0300</pubDate><guid>https://maxtar.github.io/administration/windows/</guid><description>&lt;p>Различная информация по Windows.&lt;/p>
+&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#просмотр-ip-с-которого-было-подключение-по-rdp">Просмотр IP с которого было подключение по RDP&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#просмотр-доменных-групп-в-которых-состоит-пользователь">Просмотр доменных групп, в которых состоит пользователь&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#как-собрать-дампы-памяти">Как собрать дампы памяти&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="просмотр-ip-с-которого-было-подключение-по-rdp"
+ >
+ Просмотр IP с которого было подключение по RDP
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/windows/#просмотр-ip-с-которого-было-подключение-по-rdp" class="gdoc-page__anchor clip flex align-center" title=" Просмотр IP с которого было подключение по RDP" aria-label=" Просмотр IP с которого было подключение по RDP" href="#%d0%bf%d1%80%d0%be%d1%81%d0%bc%d0%be%d1%82%d1%80-ip-%d1%81-%d0%ba%d0%be%d1%82%d0%be%d1%80%d0%be%d0%b3%d0%be-%d0%b1%d1%8b%d0%bb%d0%be-%d0%bf%d0%be%d0%b4%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d0%be-rdp">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Открыть системную оснастку &lt;em>&lt;strong>Просмотр событий/Event viewer&lt;/strong>&lt;/em>. Далее открыть &lt;em>&lt;strong>Журналы приложений и служб/Microsoft/TerminalServices-RemoteConnectionManager/Operational&lt;/strong>&lt;/em> (&lt;em>&lt;strong>Applications and Services Logs/Microsoft/TerminalServices-RemoteConnectionManager/Operational&lt;/strong>&lt;/em>).
+В списке нужно найти запись с &lt;code>EventID=1149&lt;/code> за требуемое время.
+В этом событие будет информация типа:&lt;/p></description></item><item><title>Raspbian</title><link>https://maxtar.github.io/administration/rapberry-pi/raspbian/</link><pubDate>Sun, 09 Oct 2022 01:40:26 +0300</pubDate><guid>https://maxtar.github.io/administration/rapberry-pi/raspbian/</guid><description>&lt;p>Различная информация об операционной системе Raspbian для Raspberry Pi&lt;/p>
+&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#настройки">Настройки&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#включение-ssh">Включение ssh&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;p>&lt;a href="https://www.raspberrypi.org/documentation/" target="_blank" >Официальная документация&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="настройки"
+ >
+ Настройки
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/rapberry-pi/raspbian/#настройки" class="gdoc-page__anchor clip flex align-center" title=" Настройки" aria-label=" Настройки" href="#%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b8">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Некоторые критичные настройки делаются при помощи утилиты &lt;a href="https://www.raspberrypi.org/documentation/configuration/raspi-config.md" target="_blank" >raspi-config&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.
+Она предоставляет графический консольный интерфейс для удобной настройки.&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h3 id="включение-ssh"
+ >
+ Включение ssh
+ &lt;/h3>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/rapberry-pi/raspbian/#включение-ssh" class="gdoc-page__anchor clip flex align-center" title=" Включение ssh" aria-label=" Включение ssh" href="#%d0%b2%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-ssh">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>После установки операционной системы Raspbian по-умолчанию демон ssh отключен. Чтобы его включить надо выполнить следующие действия (информация взята с &lt;a href="https://www.raspberrypi.org/documentation/remote-access/ssh/#" target="_blank" >официального сайта&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>):&lt;/p></description></item><item><title>Rapberry Pi</title><link>https://maxtar.github.io/administration/rapberry-pi/</link><pubDate>Sun, 09 Oct 2022 01:38:17 +0300</pubDate><guid>https://maxtar.github.io/administration/rapberry-pi/</guid><description>&lt;p>Различная информация по Raspberry PI&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="gpio-последних-моделей"
+ >
+ GPIO последних моделей
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/rapberry-pi/#gpio-последних-моделей" class="gdoc-page__anchor clip flex align-center" title=" GPIO последних моделей" aria-label=" GPIO последних моделей" href="#gpio-%d0%bf%d0%be%d1%81%d0%bb%d0%b5%d0%b4%d0%bd%d0%b8%d1%85-%d0%bc%d0%be%d0%b4%d0%b5%d0%bb%d0%b5%d0%b9">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://www.raspberrypi.org/documentation/hardware/raspberrypi/gpio/README.md" target="_blank" >Общая информация по GPIO&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://www.raspberrypi.org/documentation/usage/gpio-plus-and-raspi2/README.md" target="_blank" >Схема контактов&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://www.raspberrypi.org/blog/pinout-for-gpio-connectors" target="_blank" >Pinout for GPIO connectors&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://pinout.xyz" target="_blank" >Интерактивная распиновка&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://www.raspberrypi.org/learning/python-quick-reaction-game/" target="_blank" >Обучалка на Python&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;/ul></description></item><item><title>Firefox</title><link>https://maxtar.github.io/administration/firefox/</link><pubDate>Sun, 09 Oct 2022 01:25:11 +0300</pubDate><guid>https://maxtar.github.io/administration/firefox/</guid><description>&lt;p>В этом разделе собраны разные настройки Mozilla Firefox.&lt;/p>
+&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#чтобы-новые-вкладки-открывались-в-конце">Чтобы новые вкладки открывались в конце&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#отключение-прокрутки-вкладок">Отключение прокрутки вкладок&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#проблемы-при-воспроизведении-видео">Проблемы при воспроизведении видео&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#чтобы-закладки-всегда-открывались-в-новой-вкладке">Чтобы закладки всегда открывались в новой вкладке&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#указание-директории-для-кеша">Указание директории для кеша&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#чтобы-грузились-локальные-ресурсы">Чтобы грузились локальные ресурсы&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="чтобы-новые-вкладки-открывались-в-конце"
+ >
+ Чтобы новые вкладки открывались в конце
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/firefox/#чтобы-новые-вкладки-открывались-в-конце" class="gdoc-page__anchor clip flex align-center" title=" Чтобы новые вкладки открывались в конце" aria-label=" Чтобы новые вкладки открывались в конце" href="#%d1%87%d1%82%d0%be%d0%b1%d1%8b-%d0%bd%d0%be%d0%b2%d1%8b%d0%b5-%d0%b2%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b8-%d0%be%d1%82%d0%ba%d1%80%d1%8b%d0%b2%d0%b0%d0%bb%d0%b8%d1%81%d1%8c-%d0%b2-%d0%ba%d0%be%d0%bd%d1%86%d0%b5">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ol>
+&lt;li>Открываем Firefox&lt;/li>
+&lt;li>В адресной строке пишем: &lt;code>about:config&lt;/code>&lt;/li>
+&lt;li>Соглашаемся, что будем осторожны.&lt;/li>
+&lt;li>Вводим в строке поиска: &lt;code>browser.tabs.insertRelatedAfterCurrent&lt;/code>&lt;/li>
+&lt;li>Устанавливаем &lt;code>false&lt;/code>.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="отключение-прокрутки-вкладок"
+ >
+ Отключение прокрутки вкладок
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/firefox/#отключение-прокрутки-вкладок" class="gdoc-page__anchor clip flex align-center" title=" Отключение прокрутки вкладок" aria-label=" Отключение прокрутки вкладок" href="#%d0%be%d1%82%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d0%ba%d1%80%d1%83%d1%82%d0%ba%d0%b8-%d0%b2%d0%ba%d0%bb%d0%b0%d0%b4%d0%be%d0%ba">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Чтобы отключить прокрутку, для начала необходимо найти, где находится профайл пользователя.&lt;/p></description></item><item><title>Mikrotik</title><link>https://maxtar.github.io/administration/mikrotik/</link><pubDate>Mon, 03 Oct 2022 21:56:08 +0300</pubDate><guid>https://maxtar.github.io/administration/mikrotik/</guid><description>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="полезная-информация-по-настройке-routeros-от-mikrotik"
+ >
+ Полезная информация по настройке RouterOs от Mikrotik
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/mikrotik/#полезная-информация-по-настройке-routeros-от-mikrotik" class="gdoc-page__anchor clip flex align-center" title=" Полезная информация по настройке RouterOs от Mikrotik" aria-label=" Полезная информация по настройке RouterOs от Mikrotik" href="#%d0%bf%d0%be%d0%bb%d0%b5%d0%b7%d0%bd%d0%b0%d1%8f-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f-%d0%bf%d0%be-%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b5-routeros-%d0%be%d1%82-mikrotik">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="http://spw.ru/solutions/nastrojka_filtracii_trafika_na_mikrotik/" target="_blank" >Настройка фильтрации трафика на Mikrotik. Часть 1&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="http://spw.ru/solutions/nastrojka_fajrvolla_na_mikrotik_chast_2/" target="_blank" >Настройка фильтрации трафика на Mikrotik. Часть 2&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="http://spw.ru/solutions/nastrojka_filtracii_trafika_na_mikrotik_chast_3/" target="_blank" >Настройка фильтрации трафика на Mikrotik. Часть 3&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="http://spw.ru/solutions/nastrojka_filtracii_trafika_na_mikrotik_chast_4/" target="_blank" >Настройка фильтрации трафика на Mikrotik. Часть 4&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="блог-интернет-магазина-asp24ru"
+ >
+ Блог интернет магазина ASP24.ru
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/mikrotik/#блог-интернет-магазина-asp24ru" class="gdoc-page__anchor clip flex align-center" title=" Блог интернет магазина ASP24.ru" aria-label=" Блог интернет магазина ASP24.ru" href="#%d0%b1%d0%bb%d0%be%d0%b3-%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%bd%d0%b5%d1%82-%d0%bc%d0%b0%d0%b3%d0%b0%d0%b7%d0%b8%d0%bd%d0%b0-asp24ru">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>&lt;a href="https://asp24.ru/mikrotik" target="_blank" >Общий раздел по настройке Mikrotik&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/p></description></item><item><title>Curl</title><link>https://maxtar.github.io/administration/curl/</link><pubDate>Sun, 02 Oct 2022 22:27:44 +0300</pubDate><guid>https://maxtar.github.io/administration/curl/</guid><description>&lt;p>Полезная информация по работе с curl.&lt;/p>
+&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#использование-клиентского-сертификата-для-скачивания">Использование клиентского сертификата для скачивания&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#ограничение-скорости-закачки">Ограничение скорости закачки&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#расширенное-логирование">Расширенное логирование&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#вывод-произвольной-информации-о-загрузке">Вывод произвольной информации о загрузке&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="использование-клиентского-сертификата-для-скачивания"
+ >
+ Использование клиентского сертификата для скачивания
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/curl/#использование-клиентского-сертификата-для-скачивания" class="gdoc-page__anchor clip flex align-center" title=" Использование клиентского сертификата для скачивания" aria-label=" Использование клиентского сертификата для скачивания" href="#%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%ba%d0%bb%d0%b8%d0%b5%d0%bd%d1%82%d1%81%d0%ba%d0%be%d0%b3%d0%be-%d1%81%d0%b5%d1%80%d1%82%d0%b8%d1%84%d0%b8%d0%ba%d0%b0%d1%82%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%81%d0%ba%d0%b0%d1%87%d0%b8%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">curl -O https://url --cert cert.pem --key client.key --cacert ca.pem
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="ограничение-скорости-закачки"
+ >
+ Ограничение скорости закачки
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/curl/#ограничение-скорости-закачки" class="gdoc-page__anchor clip flex align-center" title=" Ограничение скорости закачки" aria-label=" Ограничение скорости закачки" href="#%d0%be%d0%b3%d1%80%d0%b0%d0%bd%d0%b8%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d0%ba%d0%be%d1%80%d0%be%d1%81%d1%82%d0%b8-%d0%b7%d0%b0%d0%ba%d0%b0%d1%87%d0%ba%d0%b8">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Ключ &lt;code>--limit-rate &amp;lt;speed&amp;gt;&lt;/code>
+Могут быть следующие суффиксы:&lt;/p></description></item><item><title>Общие вопросы</title><link>https://maxtar.github.io/administration/common/</link><pubDate>Sat, 01 Oct 2022 21:24:41 +0300</pubDate><guid>https://maxtar.github.io/administration/common/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#сети">Сети&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#конвертация-сертификата-из-cer-формата-в-pem">Конвертация сертификата из cer формата в pem&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#сохранение-клиентского-ключа">Сохранение клиентского ключа&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#сохранение-корневого-ключа">Сохранение корневого ключа&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#сохранение-в-один-файл-который-содержит-и-ключ-и-сертификат">Сохранение в один файл, который содержит и ключ и сертификат&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#сохранение-информации-в-отдельные-файлы">Сохранение информации в отдельные файлы&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#сохранение-частного-ключа">Сохранение частного ключа&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#сохранение-только-сертификата">Сохранение только сертификата&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#удаление-пароля-из-файла-с-ключом">Удаление пароля из файла с ключом&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#сохранение-доверенных-сертификатов-из-цепочки">Сохранение доверенных сертификатов из цепочки&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="сети"
+ >
+ Сети
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/common/#сети" class="gdoc-page__anchor clip flex align-center" title=" Сети" aria-label=" Сети" href="#%d1%81%d0%b5%d1%82%d0%b8">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>&lt;a href="https://linkmeup.ru/blog/11.html" target="_blank" >Сети для самых маленьких&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="конвертация-сертификата-из-cer-формата-в-pem"
+ >
+ Конвертация сертификата из cer формата в pem
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/common/#конвертация-сертификата-из-cer-формата-в-pem" class="gdoc-page__anchor clip flex align-center" title=" Конвертация сертификата из cer формата в pem" aria-label=" Конвертация сертификата из cer формата в pem" href="#%d0%ba%d0%be%d0%bd%d0%b2%d0%b5%d1%80%d1%82%d0%b0%d1%86%d0%b8%d1%8f-%d1%81%d0%b5%d1%80%d1%82%d0%b8%d1%84%d0%b8%d0%ba%d0%b0%d1%82%d0%b0-%d0%b8%d0%b7-cer-%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%82%d0%b0-%d0%b2-pem">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h3 id="сохранение-клиентского-ключа"
+ >
+ Сохранение клиентского ключа
+ &lt;/h3>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/common/#сохранение-клиентского-ключа" class="gdoc-page__anchor clip flex align-center" title=" Сохранение клиентского ключа" aria-label=" Сохранение клиентского ключа" href="#%d1%81%d0%be%d1%85%d1%80%d0%b0%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d0%ba%d0%bb%d0%b8%d0%b5%d0%bd%d1%82%d1%81%d0%ba%d0%be%d0%b3%d0%be-%d0%ba%d0%bb%d1%8e%d1%87%d0%b0">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">openssl pkcs12 -in client_ssl.pfx -out client_ssl.pem -clcerts
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h3 id="сохранение-корневого-ключа"
+ >
+ Сохранение корневого ключа
+ &lt;/h3>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/common/#сохранение-корневого-ключа" class="gdoc-page__anchor clip flex align-center" title=" Сохранение корневого ключа" aria-label=" Сохранение корневого ключа" href="#%d1%81%d0%be%d1%85%d1%80%d0%b0%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d0%ba%d0%be%d1%80%d0%bd%d0%b5%d0%b2%d0%be%d0%b3%d0%be-%d0%ba%d0%bb%d1%8e%d1%87%d0%b0">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">openssl pkcs12 -in client_ssl.pfx -out root.pem -cacerts
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h3 id="сохранение-в-один-файл-который-содержит-и-ключ-и-сертификат"
+ >
+ Сохранение в один файл, который содержит и ключ и сертификат
+ &lt;/h3>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/common/#сохранение-в-один-файл-который-содержит-и-ключ-и-сертификат" class="gdoc-page__anchor clip flex align-center" title=" Сохранение в один файл, который содержит и ключ и сертификат" aria-label=" Сохранение в один файл, который содержит и ключ и сертификат" href="#%d1%81%d0%be%d1%85%d1%80%d0%b0%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b2-%d0%be%d0%b4%d0%b8%d0%bd-%d1%84%d0%b0%d0%b9%d0%bb-%d0%ba%d0%be%d1%82%d0%be%d1%80%d1%8b%d0%b9-%d1%81%d0%be%d0%b4%d0%b5%d1%80%d0%b6%d0%b8%d1%82-%d0%b8-%d0%ba%d0%bb%d1%8e%d1%87-%d0%b8-%d1%81%d0%b5%d1%80%d1%82%d0%b8%d1%84%d0%b8%d0%ba%d0%b0%d1%82">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">openssl pkcs12 -in source.pfx -out dest.pem -nodes
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h3 id="сохранение-информации-в-отдельные-файлы"
+ >
+ Сохранение информации в отдельные файлы
+ &lt;/h3>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/common/#сохранение-информации-в-отдельные-файлы" class="gdoc-page__anchor clip flex align-center" title=" Сохранение информации в отдельные файлы" aria-label=" Сохранение информации в отдельные файлы" href="#%d1%81%d0%be%d1%85%d1%80%d0%b0%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d0%b8-%d0%b2-%d0%be%d1%82%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d1%84%d0%b0%d0%b9%d0%bb%d1%8b">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h4 id="сохранение-частного-ключа"
+ >
+ Сохранение частного ключа
+ &lt;/h4>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/common/#сохранение-частного-ключа" class="gdoc-page__anchor clip flex align-center" title=" Сохранение частного ключа" aria-label=" Сохранение частного ключа" href="#%d1%81%d0%be%d1%85%d1%80%d0%b0%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d1%87%d0%b0%d1%81%d1%82%d0%bd%d0%be%d0%b3%d0%be-%d0%ba%d0%bb%d1%8e%d1%87%d0%b0">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">openssl pkcs12 -in source.pfx -nocerts -out key.pem
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h4 id="сохранение-только-сертификата"
+ >
+ Сохранение только сертификата
+ &lt;/h4>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/common/#сохранение-только-сертификата" class="gdoc-page__anchor clip flex align-center" title=" Сохранение только сертификата" aria-label=" Сохранение только сертификата" href="#%d1%81%d0%be%d1%85%d1%80%d0%b0%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d1%82%d0%be%d0%bb%d1%8c%d0%ba%d0%be-%d1%81%d0%b5%d1%80%d1%82%d0%b8%d1%84%d0%b8%d0%ba%d0%b0%d1%82%d0%b0">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">openssl pkcs12 -in source.pfx -clcerts -nokeys -out cert.pem
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h4 id="удаление-пароля-из-файла-с-ключом"
+ >
+ Удаление пароля из файла с ключом
+ &lt;/h4>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/common/#удаление-пароля-из-файла-с-ключом" class="gdoc-page__anchor clip flex align-center" title=" Удаление пароля из файла с ключом" aria-label=" Удаление пароля из файла с ключом" href="#%d1%83%d0%b4%d0%b0%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d0%b0%d1%80%d0%be%d0%bb%d1%8f-%d0%b8%d0%b7-%d1%84%d0%b0%d0%b9%d0%bb%d0%b0-%d1%81-%d0%ba%d0%bb%d1%8e%d1%87%d0%be%d0%bc">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">openssl rsa -in key.pem -out client.key
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h4 id="сохранение-доверенных-сертификатов-из-цепочки"
+ >
+ Сохранение доверенных сертификатов из цепочки
+ &lt;/h4>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/common/#сохранение-доверенных-сертификатов-из-цепочки" class="gdoc-page__anchor clip flex align-center" title=" Сохранение доверенных сертификатов из цепочки" aria-label=" Сохранение доверенных сертификатов из цепочки" href="#%d1%81%d0%be%d1%85%d1%80%d0%b0%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b4%d0%be%d0%b2%d0%b5%d1%80%d0%b5%d0%bd%d0%bd%d1%8b%d1%85-%d1%81%d0%b5%d1%80%d1%82%d0%b8%d1%84%d0%b8%d0%ba%d0%b0%d1%82%d0%be%d0%b2-%d0%b8%d0%b7-%d1%86%d0%b5%d0%bf%d0%be%d1%87%d0%ba%d0%b8">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">openssl pkcs12 -in source.pfx -out ca.pem -cacerts -nokeys
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Администрирование</title><link>https://maxtar.github.io/administration/</link><pubDate>Sat, 01 Oct 2022 21:21:26 +0300</pubDate><guid>https://maxtar.github.io/administration/</guid><description>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="разная-информация-по-администрированию"
+ >
+ Разная информация по администрированию
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/#разная-информация-по-администрированию" class="gdoc-page__anchor clip flex align-center" title=" Разная информация по администрированию" aria-label=" Разная информация по администрированию" href="#%d1%80%d0%b0%d0%b7%d0%bd%d0%b0%d1%8f-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f-%d0%bf%d0%be-%d0%b0%d0%b4%d0%bc%d0%b8%d0%bd%d0%b8%d1%81%d1%82%d1%80%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8e">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+
+ &lt;div class="gdoc-toc gdoc-toc__level--6">
+ 
+ &lt;ul>
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/curl/" class="gdoc-toc__entry">Curl
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/firefox/" class="gdoc-toc__entry">Firefox
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/linux/" class="gdoc-toc__entry">Linux
+ &lt;/a>
+ &lt;/span>
+ &lt;ul>
+ 
+ 
+
+ 
+
+ 
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/linux/iptables/" class="gdoc-toc__entry">iptables
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/linux/autostart/" class="gdoc-toc__entry">Автозагрузка
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/linux/hibernate/" class="gdoc-toc__entry">Настройка hibernate на linux без использования swap раздела
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/linux/swap/" class="gdoc-toc__entry">Настройка swap
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/linux/kde/" class="gdoc-toc__entry">Оптимизация KDE5
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/linux/useful-commands/" class="gdoc-toc__entry">Очень полезные команды Linux на одном листе
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/linux/useful-information/" class="gdoc-toc__entry">Полезная информация по разным командам Linux
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/linux/settings-after-installing/" class="gdoc-toc__entry">Полезные установки
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/linux/troubleshooting/" class="gdoc-toc__entry">Решение разных проблем
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/linux/commands/" class="gdoc-toc__entry">Список команд POSIX и их описание
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/linux/install-firefox-from-rep/" class="gdoc-toc__entry">Установка Firefox из репозитория
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/linux/install-nvidia/" class="gdoc-toc__entry">Установка проприетарных драйверов NVidia
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/mikrotik/" class="gdoc-toc__entry">Mikrotik
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/rapberry-pi/" class="gdoc-toc__entry">Rapberry Pi
+ &lt;/a>
+ &lt;/span>
+ &lt;ul>
+ 
+ 
+
+ 
+
+ 
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/rapberry-pi/raspbian/" class="gdoc-toc__entry">Raspbian
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/windows/" class="gdoc-toc__entry">Windows
+ &lt;/a>
+ &lt;/span>
+ &lt;ul>
+ 
+ 
+
+ 
+
+ 
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/windows/useful-programs/" class="gdoc-toc__entry">Полезные программы
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/common/" class="gdoc-toc__entry">Общие вопросы
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/first-10-min/" class="gdoc-toc__entry">Первые 10 минут на сервере
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;li>
+ &lt;span>
+ &lt;a href="https://maxtar.github.io/administration/useful-programs/" class="gdoc-toc__entry">Полезные программы
+ &lt;/a>
+ &lt;/span>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div></description></item></channel></rss>

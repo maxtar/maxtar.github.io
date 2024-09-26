@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Max Wiki Site</title><link>https://maxtar.github.io/tags/windows/</link><description>Recent content in Windows on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 12 Oct 2022 18:36:05 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Полезные программы</title><link>https://maxtar.github.io/administration/windows/useful-programs/</link><pubDate>Wed, 12 Oct 2022 18:36:05 +0300</pubDate><guid>https://maxtar.github.io/administration/windows/useful-programs/</guid><description>Список программ, полезных для администрирования Windows.
-Системные утилиты Hayabusa - утилита для анализа Windows Events.</description></item><item><title>Windows</title><link>https://maxtar.github.io/administration/windows/</link><pubDate>Sun, 09 Oct 2022 14:54:20 +0300</pubDate><guid>https://maxtar.github.io/administration/windows/</guid><description>Различная информация по Windows.
-Просмотр IP с которого было подключение по RDP Просмотр доменных групп, в которых состоит пользователь Как собрать дампы памяти Просмотр IP с которого было подключение по RDP Открыть системную оснастку Просмотр событий/Event viewer. Далее открыть Журналы приложений и служб/Microsoft/TerminalServices-RemoteConnectionManager/Operational (Applications and Services Logs/Microsoft/TerminalServices-RemoteConnectionManager/Operational). В списке нужно найти запись с EventID=1149 за требуемое время. В этом событие будет информация типа:
-Remote Desktop Services: User authentication succeeded: User: &amp;lt;user&amp;gt; Domain: &amp;lt;domain&amp;gt; Source Network Address: 50.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Max Wiki Site</title><link>https://maxtar.github.io/tags/windows/</link><description>Recent content in Windows on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 12 Oct 2022 18:36:05 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Полезные программы</title><link>https://maxtar.github.io/administration/windows/useful-programs/</link><pubDate>Wed, 12 Oct 2022 18:36:05 +0300</pubDate><guid>https://maxtar.github.io/administration/windows/useful-programs/</guid><description>&lt;p>Список программ, полезных для администрирования Windows.&lt;/p>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="системные-утилиты"
+ >
+ Системные утилиты
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/windows/useful-programs/#системные-утилиты" class="gdoc-page__anchor clip flex align-center" title=" Системные утилиты" aria-label=" Системные утилиты" href="#%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%bd%d1%8b%d0%b5-%d1%83%d1%82%d0%b8%d0%bb%d0%b8%d1%82%d1%8b">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/Yamato-Security/hayabusa" target="_blank" >Hayabusa&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - утилита для анализа Windows Events.&lt;/li>
+&lt;/ul></description></item><item><title>Windows</title><link>https://maxtar.github.io/administration/windows/</link><pubDate>Sun, 09 Oct 2022 14:54:20 +0300</pubDate><guid>https://maxtar.github.io/administration/windows/</guid><description>&lt;p>Различная информация по Windows.&lt;/p>
+&lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>
+ &lt;ul>
+ &lt;li>&lt;a href="#просмотр-ip-с-которого-было-подключение-по-rdp">Просмотр IP с которого было подключение по RDP&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#просмотр-доменных-групп-в-которых-состоит-пользователь">Просмотр доменных групп, в которых состоит пользователь&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#как-собрать-дампы-памяти">Как собрать дампы памяти&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;hr />
+ &lt;/div>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h2 id="просмотр-ip-с-которого-было-подключение-по-rdp"
+ >
+ Просмотр IP с которого было подключение по RDP
+ &lt;/h2>
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/windows/#просмотр-ip-с-которого-было-подключение-по-rdp" class="gdoc-page__anchor clip flex align-center" title=" Просмотр IP с которого было подключение по RDP" aria-label=" Просмотр IP с которого было подключение по RDP" href="#%d0%bf%d1%80%d0%be%d1%81%d0%bc%d0%be%d1%82%d1%80-ip-%d1%81-%d0%ba%d0%be%d1%82%d0%be%d1%80%d0%be%d0%b3%d0%be-%d0%b1%d1%8b%d0%bb%d0%be-%d0%bf%d0%be%d0%b4%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d0%be-rdp">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;p>Открыть системную оснастку &lt;em>&lt;strong>Просмотр событий/Event viewer&lt;/strong>&lt;/em>. Далее открыть &lt;em>&lt;strong>Журналы приложений и служб/Microsoft/TerminalServices-RemoteConnectionManager/Operational&lt;/strong>&lt;/em> (&lt;em>&lt;strong>Applications and Services Logs/Microsoft/TerminalServices-RemoteConnectionManager/Operational&lt;/strong>&lt;/em>).
+В списке нужно найти запись с &lt;code>EventID=1149&lt;/code> за требуемое время.
+В этом событие будет информация типа:&lt;/p></description></item></channel></rss>

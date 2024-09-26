@@ -1,6 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nvidia on Max Wiki Site</title><link>https://maxtar.github.io/tags/nvidia/</link><description>Recent content in Nvidia on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sat, 08 Oct 2022 20:52:28 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/nvidia/index.xml" rel="self" type="application/rss+xml"/><item><title>Установка проприетарных драйверов NVidia</title><link>https://maxtar.github.io/administration/linux/install-nvidia/</link><pubDate>Sat, 08 Oct 2022 20:52:28 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/install-nvidia/</guid><description>Добавить этот репозиторий.
-sudo add-apt-repository ppa:graphics-drivers/ppa sudo apt-get update Поставить родные драйверы от NVIDIA:
-sudo apt-get install nvidia-&amp;lt;actual_number&amp;gt; Удалить свободные драйвера для NVIDIA:
-sudo apt-get purge nouveau Перегрузиться. Проверить, что в меню настроек появились настройки NVIDIA. Открыть, проверить, что видеокарта определилась нормально.
-Если после этого blender не определил видеокарту, нужно будет доставить nvidia-cuda-toolkit:
-sudo apt-get install nvidia-cuda-toolkit После этого должно всё заработать.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nvidia on Max Wiki Site</title><link>https://maxtar.github.io/tags/nvidia/</link><description>Recent content in Nvidia on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sat, 08 Oct 2022 20:52:28 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/nvidia/index.xml" rel="self" type="application/rss+xml"/><item><title>Установка проприетарных драйверов NVidia</title><link>https://maxtar.github.io/administration/linux/install-nvidia/</link><pubDate>Sat, 08 Oct 2022 20:52:28 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/install-nvidia/</guid><description>&lt;ol>
+&lt;li>
+&lt;p>Добавить &lt;a href="https://launchpad.net/~graphics-drivers/&amp;#43;archive/ubuntu/ppa" target="_blank" >этот&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> репозиторий.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo add-apt-repository ppa:graphics-drivers/ppa
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt-get update
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Поставить родные драйверы от NVIDIA:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo apt-get install nvidia-&amp;lt;actual_number&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Удалить свободные драйвера для NVIDIA:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo apt-get purge nouveau
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Перегрузиться. Проверить, что в меню настроек появились настройки NVIDIA. Открыть, проверить, что видеокарта определилась нормально.&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+
+
+
+
+&lt;blockquote class="gdoc-hint tip">
+ &lt;div class="gdoc-hint__title flex align-center">&lt;i class="fa tip" title="Tip">&lt;/i>&lt;/div>
+ &lt;div class="gdoc-hint__text">&lt;p>Если после этого blender не определил видеокарту, нужно будет доставить &lt;code>nvidia-cuda-toolkit&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo apt-get install nvidia-cuda-toolkit
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>После этого должно всё заработать.&lt;/p></description></item></channel></rss>
