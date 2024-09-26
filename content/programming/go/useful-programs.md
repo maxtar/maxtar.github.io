@@ -117,4 +117,4 @@ tags: [go, программы]
 * [immudb](https://www.codenotary.com/technologies/immudb/) - база данных на основе Block-chain. Обеспечивает целостность данных. Можно использовать как библиотеку в программах на Go. [Документация](https://docs.immudb.io/master). [GitHub](https://github.com/codenotary/immudb).
 * [usql](https://github.com/xo/usql) - утилита для работы с разными БД. [GoDoc](https://pkg.go.dev/github.com/xo/usql).
 * [Vault](https://www.vaultproject.io) - хранение паролей и прочей чувствительной информации. [GitHub](https://github.com/hashicorp/vault).
-* [immudb](https://github.com/codenotary/immudb) - база данных для хранения чувствительной информации, например, данных пользователей. [Документация](https://docs.immudb.io/master). [Официальный сайт](https://codenotary.com/technologies/immudb).
+* [Dolt](https://github.com/dolthub/dolt) - база данных с версионированием. Наподобие git.
