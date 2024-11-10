@@ -363,6 +363,7 @@ tags: [go, программирование]
 
 * [gocv](https://gocv.io/) - библиотека для работы с OpenCv из Go. [GitHub](https://github.com/hybridgroup/gocv).
 * [Работа с открытой библиотека OpenCV](https://github.com/go-opencv/go-opencv) - wrapper для OpenCv на Go.
+* [GoCV](https://github.com/hybridgroup/gocv) - ещё один wrapper. Поддерживает cuda.
 
 ---
 

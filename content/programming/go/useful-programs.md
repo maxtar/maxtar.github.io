@@ -54,6 +54,10 @@ tags: [go, программы]
 * [Casbin forum](https://github.com/casbin/casbin-forum) - реализация форума на Go и ReactJS.
 * [sftpgo](https://github.com/drakkan/sftpgo) - сервер, поддерживающий различные протоколы: SFTP, HTTP, FTP/S and WebDAV. И также различные системы хранения: local filesystem, encrypted local filesystem, S3 (compatible) Object Storage, Google Cloud Storage, Azure Blob Storage.
 
+### Web-приложения
+
+* [wasmVision](https://github.com/wasmvision/wasmvision) - wasm-приложения, использующее openCv для работы с камерой. Накладывает эффекты, типа размытия.
+
 ## Рисование графиков
 
 [Chart](https://github.com/marianogappa/chart) - рисует график на основании данных из стандартного потока ввода. [Примеры отображения](https://marianogappa.github.io/chart). [Статья об использовании](https://movio.co/blog/improving-with-sql-and-charts).
