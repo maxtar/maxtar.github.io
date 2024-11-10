@@ -48,86 +48,86 @@
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">&lt;strong>Команда&lt;/strong>&lt;/th>
- &lt;th style="text-align: left">&lt;strong>Описание&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Команда&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Описание&lt;/strong>&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">arch&lt;/td>
- &lt;td style="text-align: left">отобразить архитектуру компьютера&lt;/td>
+ &lt;td>arch&lt;/td>
+ &lt;td>отобразить архитектуру компьютера&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">uname -m&lt;/td>
- &lt;td style="text-align: left">&amp;ndash; // &amp;ndash;&lt;/td>
+ &lt;td>uname -m&lt;/td>
+ &lt;td>&amp;ndash; // &amp;ndash;&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">uname -r&lt;/td>
- &lt;td style="text-align: left">отобразить используемую версию ядра&lt;/td>
+ &lt;td>uname -r&lt;/td>
+ &lt;td>отобразить используемую версию ядра&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">dmidecode -q&lt;/td>
- &lt;td style="text-align: left">показать аппаратные системные компоненты - (SMBIOS / DMI)&lt;/td>
+ &lt;td>dmidecode -q&lt;/td>
+ &lt;td>показать аппаратные системные компоненты - (SMBIOS / DMI)&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">hdparm -i /dev/hda&lt;/td>
- &lt;td style="text-align: left">вывести характеристики жесткого диска&lt;/td>
+ &lt;td>hdparm -i /dev/hda&lt;/td>
+ &lt;td>вывести характеристики жесткого диска&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">hdparm -tT /dev/sda&lt;/td>
- &lt;td style="text-align: left">протестировать производительность чтения данных с жесткого диска&lt;/td>
+ &lt;td>hdparm -tT /dev/sda&lt;/td>
+ &lt;td>протестировать производительность чтения данных с жесткого диска&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cat /proc/cpuinfo&lt;/td>
- &lt;td style="text-align: left">отобразить информацию о процессоре&lt;/td>
+ &lt;td>cat /proc/cpuinfo&lt;/td>
+ &lt;td>отобразить информацию о процессоре&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cat /proc/interrupts&lt;/td>
- &lt;td style="text-align: left">показать прерывания&lt;/td>
+ &lt;td>cat /proc/interrupts&lt;/td>
+ &lt;td>показать прерывания&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cat /proc/meminfo&lt;/td>
- &lt;td style="text-align: left">проверить использование памяти&lt;/td>
+ &lt;td>cat /proc/meminfo&lt;/td>
+ &lt;td>проверить использование памяти&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cat /proc/swaps&lt;/td>
- &lt;td style="text-align: left">показать файл(ы) подкачки&lt;/td>
+ &lt;td>cat /proc/swaps&lt;/td>
+ &lt;td>показать файл(ы) подкачки&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cat /proc/version&lt;/td>
- &lt;td style="text-align: left">вывести версию ядра&lt;/td>
+ &lt;td>cat /proc/version&lt;/td>
+ &lt;td>вывести версию ядра&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cat /proc/net/dev&lt;/td>
- &lt;td style="text-align: left">показать сетевые интерфейсы и статистику по ним&lt;/td>
+ &lt;td>cat /proc/net/dev&lt;/td>
+ &lt;td>показать сетевые интерфейсы и статистику по ним&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cat /proc/mounts&lt;/td>
- &lt;td style="text-align: left">отобразить смонтированные файловые системы&lt;/td>
+ &lt;td>cat /proc/mounts&lt;/td>
+ &lt;td>отобразить смонтированные файловые системы&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">lspci -tv&lt;/td>
- &lt;td style="text-align: left">показать в виде дерева PCI устройства&lt;/td>
+ &lt;td>lspci -tv&lt;/td>
+ &lt;td>показать в виде дерева PCI устройства&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">lsusb -tv&lt;/td>
- &lt;td style="text-align: left">показать в виде дерева USB устройства&lt;/td>
+ &lt;td>lsusb -tv&lt;/td>
+ &lt;td>показать в виде дерева USB устройства&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">date&lt;/td>
- &lt;td style="text-align: left">вывести системную дату&lt;/td>
+ &lt;td>date&lt;/td>
+ &lt;td>вывести системную дату&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cal 2007&lt;/td>
- &lt;td style="text-align: left">вывести таблицу-календарь 2007-го года&lt;/td>
+ &lt;td>cal 2007&lt;/td>
+ &lt;td>вывести таблицу-календарь 2007-го года&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">date 041217002007.00&lt;/td>
- &lt;td style="text-align: left">установить системные дату и время ММДДЧЧммГГГГ.СС (МесяцДеньЧасМинутыГод.Секунды)&lt;/td>
+ &lt;td>date 041217002007.00&lt;/td>
+ &lt;td>установить системные дату и время ММДДЧЧммГГГГ.СС (МесяцДеньЧасМинутыГод.Секунды)&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">clock -w&lt;/td>
- &lt;td style="text-align: left">сохранить системное время в BIOS&lt;/td>
+ &lt;td>clock -w&lt;/td>
+ &lt;td>сохранить системное время в BIOS&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>

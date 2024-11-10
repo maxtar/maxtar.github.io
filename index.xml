@@ -48,86 +48,86 @@
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">&lt;strong>Команда&lt;/strong>&lt;/th>
- &lt;th style="text-align: left">&lt;strong>Описание&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Команда&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Описание&lt;/strong>&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">arch&lt;/td>
- &lt;td style="text-align: left">отобразить архитектуру компьютера&lt;/td>
+ &lt;td>arch&lt;/td>
+ &lt;td>отобразить архитектуру компьютера&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">uname -m&lt;/td>
- &lt;td style="text-align: left">&amp;ndash; // &amp;ndash;&lt;/td>
+ &lt;td>uname -m&lt;/td>
+ &lt;td>&amp;ndash; // &amp;ndash;&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">uname -r&lt;/td>
- &lt;td style="text-align: left">отобразить используемую версию ядра&lt;/td>
+ &lt;td>uname -r&lt;/td>
+ &lt;td>отобразить используемую версию ядра&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">dmidecode -q&lt;/td>
- &lt;td style="text-align: left">показать аппаратные системные компоненты - (SMBIOS / DMI)&lt;/td>
+ &lt;td>dmidecode -q&lt;/td>
+ &lt;td>показать аппаратные системные компоненты - (SMBIOS / DMI)&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">hdparm -i /dev/hda&lt;/td>
- &lt;td style="text-align: left">вывести характеристики жесткого диска&lt;/td>
+ &lt;td>hdparm -i /dev/hda&lt;/td>
+ &lt;td>вывести характеристики жесткого диска&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">hdparm -tT /dev/sda&lt;/td>
- &lt;td style="text-align: left">протестировать производительность чтения данных с жесткого диска&lt;/td>
+ &lt;td>hdparm -tT /dev/sda&lt;/td>
+ &lt;td>протестировать производительность чтения данных с жесткого диска&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cat /proc/cpuinfo&lt;/td>
- &lt;td style="text-align: left">отобразить информацию о процессоре&lt;/td>
+ &lt;td>cat /proc/cpuinfo&lt;/td>
+ &lt;td>отобразить информацию о процессоре&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cat /proc/interrupts&lt;/td>
- &lt;td style="text-align: left">показать прерывания&lt;/td>
+ &lt;td>cat /proc/interrupts&lt;/td>
+ &lt;td>показать прерывания&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cat /proc/meminfo&lt;/td>
- &lt;td style="text-align: left">проверить использование памяти&lt;/td>
+ &lt;td>cat /proc/meminfo&lt;/td>
+ &lt;td>проверить использование памяти&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cat /proc/swaps&lt;/td>
- &lt;td style="text-align: left">показать файл(ы) подкачки&lt;/td>
+ &lt;td>cat /proc/swaps&lt;/td>
+ &lt;td>показать файл(ы) подкачки&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cat /proc/version&lt;/td>
- &lt;td style="text-align: left">вывести версию ядра&lt;/td>
+ &lt;td>cat /proc/version&lt;/td>
+ &lt;td>вывести версию ядра&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cat /proc/net/dev&lt;/td>
- &lt;td style="text-align: left">показать сетевые интерфейсы и статистику по ним&lt;/td>
+ &lt;td>cat /proc/net/dev&lt;/td>
+ &lt;td>показать сетевые интерфейсы и статистику по ним&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cat /proc/mounts&lt;/td>
- &lt;td style="text-align: left">отобразить смонтированные файловые системы&lt;/td>
+ &lt;td>cat /proc/mounts&lt;/td>
+ &lt;td>отобразить смонтированные файловые системы&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">lspci -tv&lt;/td>
- &lt;td style="text-align: left">показать в виде дерева PCI устройства&lt;/td>
+ &lt;td>lspci -tv&lt;/td>
+ &lt;td>показать в виде дерева PCI устройства&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">lsusb -tv&lt;/td>
- &lt;td style="text-align: left">показать в виде дерева USB устройства&lt;/td>
+ &lt;td>lsusb -tv&lt;/td>
+ &lt;td>показать в виде дерева USB устройства&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">date&lt;/td>
- &lt;td style="text-align: left">вывести системную дату&lt;/td>
+ &lt;td>date&lt;/td>
+ &lt;td>вывести системную дату&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cal 2007&lt;/td>
- &lt;td style="text-align: left">вывести таблицу-календарь 2007-го года&lt;/td>
+ &lt;td>cal 2007&lt;/td>
+ &lt;td>вывести таблицу-календарь 2007-го года&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">date 041217002007.00&lt;/td>
- &lt;td style="text-align: left">установить системные дату и время ММДДЧЧммГГГГ.СС (МесяцДеньЧасМинутыГод.Секунды)&lt;/td>
+ &lt;td>date 041217002007.00&lt;/td>
+ &lt;td>установить системные дату и время ММДДЧЧммГГГГ.СС (МесяцДеньЧасМинутыГод.Секунды)&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">clock -w&lt;/td>
- &lt;td style="text-align: left">сохранить системное время в BIOS&lt;/td>
+ &lt;td>clock -w&lt;/td>
+ &lt;td>сохранить системное время в BIOS&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -635,7 +635,11 @@
  &lt;li>&lt;a href="#работа-с-файлами">Работа с файлами&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#хранение-и-версионирование-кода">Хранение и версионирование кода&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#нагрузочное-тестирование">Нагрузочное тестирование&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#web">WEB&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#web">WEB&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#web-приложения">Web-приложения&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
  &lt;li>&lt;a href="#рисование-графиков">Рисование графиков&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#обработка-и-трансформация-данных">Обработка и трансформация данных&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#сеть">Сеть&lt;/a>&lt;/li>
@@ -750,6 +754,18 @@
 &lt;li>&lt;a href="https://github.com/fatedier/frp" target="_blank" >FRP&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - reverse-proxy.&lt;/li>
 &lt;li>&lt;a href="https://github.com/casbin/casbin-forum" target="_blank" >Casbin forum&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - реализация форума на Go и ReactJS.&lt;/li>
 &lt;li>&lt;a href="https://github.com/drakkan/sftpgo" target="_blank" >sftpgo&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - сервер, поддерживающий различные протоколы: SFTP, HTTP, FTP/S and WebDAV. И также различные системы хранения: local filesystem, encrypted local filesystem, S3 (compatible) Object Storage, Google Cloud Storage, Azure Blob Storage.&lt;/li>
+&lt;/ul>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h3 id="web-приложения"
+ >
+ Web-приложения
+ &lt;/h3>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#web-приложения" class="gdoc-page__anchor clip flex align-center" title=" Web-приложения" aria-label=" Web-приложения" href="#web-%d0%bf%d1%80%d0%b8%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%b8%d1%8f">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/wasmvision/wasmvision" target="_blank" >wasmVision&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - wasm-приложения, использующее openCv для работы с камерой. Накладывает эффекты, типа размытия.&lt;/li>
 &lt;/ul>
 &lt;div class="flex align-center gdoc-page__anchorwrap">
  &lt;h2 id="рисование-графиков"
@@ -925,290 +941,290 @@
 &lt;p>«&lt;a href="http://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers" target="_blank" >Мои первые 5 минут на сервере&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>» Брайана Кеннеди — отличное введение, как быстро обезопасить сервер от большинства атак. У нас есть несколько исправлений для этой инструкции, чтобы дополнить ею наше &lt;a href="https://github.com/codelittinc/incubator-resources" target="_blank" >полное руководство&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Также хочется подробнее объяснить некоторые вещи для более юных инженеров.&lt;/p></description></item><item><title>Список команд POSIX и их описание</title><link>https://maxtar.github.io/administration/linux/commands/</link><pubDate>Sat, 08 Oct 2022 21:02:30 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/commands/</guid><description>&lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Название&lt;/th>
- &lt;th style="text-align: left">Краткое описание&lt;/th>
+ &lt;th>Название&lt;/th>
+ &lt;th>Краткое описание&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">type&lt;/td>
- &lt;td style="text-align: left">Выводит тип команды (внутренняя, внешняя, alias)&lt;/td>
+ &lt;td>type&lt;/td>
+ &lt;td>Выводит тип команды (внутренняя, внешняя, alias)&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">set&lt;/td>
- &lt;td style="text-align: left">+x - включение расширенного логирования для команд _&lt;/td>
+ &lt;td>set&lt;/td>
+ &lt;td>+x - включение расширенного логирования для команд _&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">-x - выключение логирования для команд&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>-x - выключение логирования для команд&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">whatis&lt;/td>
- &lt;td style="text-align: left">Краткое описание команды&lt;/td>
+ &lt;td>whatis&lt;/td>
+ &lt;td>Краткое описание команды&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">apropos&lt;/td>
- &lt;td style="text-align: left">описание команд по поиску&lt;/td>
+ &lt;td>apropos&lt;/td>
+ &lt;td>описание команд по поиску&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">who am i&lt;/td>
- &lt;td style="text-align: left">Информация о текущем пользователе&lt;/td>
+ &lt;td>who am i&lt;/td>
+ &lt;td>Информация о текущем пользователе&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">w&lt;/td>
- &lt;td style="text-align: left">Информация о подключённых пользователях&lt;/td>
+ &lt;td>w&lt;/td>
+ &lt;td>Информация о подключённых пользователях&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">mkdir -p&lt;/td>
- &lt;td style="text-align: left">Создание вложенных директорий&lt;/td>
+ &lt;td>mkdir -p&lt;/td>
+ &lt;td>Создание вложенных директорий&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">stat&lt;/td>
- &lt;td style="text-align: left">Информация из inode&lt;/td>
+ &lt;td>stat&lt;/td>
+ &lt;td>Информация из inode&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">ls -i&lt;/td>
- &lt;td style="text-align: left">Показ inodes в списке&lt;/td>
+ &lt;td>ls -i&lt;/td>
+ &lt;td>Показ inodes в списке&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">lsof&lt;/td>
- &lt;td style="text-align: left">Список открытых файлов&lt;/td>
+ &lt;td>lsof&lt;/td>
+ &lt;td>Список открытых файлов&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">df -i&lt;/td>
- &lt;td style="text-align: left">Показывает использование inodes&lt;/td>
+ &lt;td>df -i&lt;/td>
+ &lt;td>Показывает использование inodes&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">touch&lt;/td>
- &lt;td style="text-align: left">Изменение даты создания файла&lt;/td>
+ &lt;td>touch&lt;/td>
+ &lt;td>Изменение даты создания файла&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">file&lt;/td>
- &lt;td style="text-align: left">Информация о файле&lt;/td>
+ &lt;td>file&lt;/td>
+ &lt;td>Информация о файле&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">strings&lt;/td>
- &lt;td style="text-align: left">Показывает все читаемые символы (разные операции со строками)&lt;/td>
+ &lt;td>strings&lt;/td>
+ &lt;td>Показывает все читаемые символы (разные операции со строками)&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">profile&lt;/td>
- &lt;td style="text-align: left">В текущем каталоге пользователя&lt;/td>
+ &lt;td>profile&lt;/td>
+ &lt;td>В текущем каталоге пользователя&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">env _&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>env _&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">export&lt;/td>
- &lt;td style="text-align: left">Показ переменных окружения (и задания для последующей команды)&lt;/td>
+ &lt;td>export&lt;/td>
+ &lt;td>Показ переменных окружения (и задания для последующей команды)&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">set&lt;/td>
- &lt;td style="text-align: left">bash и системные переменные&lt;/td>
+ &lt;td>set&lt;/td>
+ &lt;td>bash и системные переменные&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">unset&lt;/td>
- &lt;td style="text-align: left">Очистка переменной&lt;/td>
+ &lt;td>unset&lt;/td>
+ &lt;td>Очистка переменной&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">source&lt;/td>
- &lt;td style="text-align: left">Выполнение из файла&lt;/td>
+ &lt;td>source&lt;/td>
+ &lt;td>Выполнение из файла&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">tee&lt;/td>
- &lt;td style="text-align: left">Перенаправление потока вывода в файл и дальше в поток вывода по pipe&lt;/td>
+ &lt;td>tee&lt;/td>
+ &lt;td>Перенаправление потока вывода в файл и дальше в поток вывода по pipe&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">wc&lt;/td>
- &lt;td style="text-align: left">Подсчёт слов, строк, символов&lt;/td>
+ &lt;td>wc&lt;/td>
+ &lt;td>Подсчёт слов, строк, символов&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">strace&lt;/td>
- &lt;td style="text-align: left">Трассировка вызова команд&lt;/td>
+ &lt;td>strace&lt;/td>
+ &lt;td>Трассировка вызова команд&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">sort&lt;/td>
- &lt;td style="text-align: left">Сортировка строк:&lt;/td>
+ &lt;td>sort&lt;/td>
+ &lt;td>Сортировка строк:&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">-n сортировка как чисел (-t - разделитель)&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>-n сортировка как чисел (-t - разделитель)&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">-u вывод только уникальных значений&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>-u вывод только уникальных значений&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">h сортировка значений, представляенных в удобном для человека виде. Например, вывод команды ls -lh&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>h сортировка значений, представляенных в удобном для человека виде. Например, вывод команды ls -lh&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">tr&lt;/td>
- &lt;td style="text-align: left">Замена символов&lt;/td>
+ &lt;td>tr&lt;/td>
+ &lt;td>Замена символов&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">sed&lt;/td>
- &lt;td style="text-align: left">Изменение символов на потоке&lt;/td>
+ &lt;td>sed&lt;/td>
+ &lt;td>Изменение символов на потоке&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">awk&lt;/td>
- &lt;td style="text-align: left">Мощный редактор обработки строк. Например:&lt;/td>
+ &lt;td>awk&lt;/td>
+ &lt;td>Мощный редактор обработки строк. Например:&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">-F: разделитель&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>-F: разделитель&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">paste&lt;/td>
- &lt;td style="text-align: left">Объединение файлов в виде колонок&lt;/td>
+ &lt;td>paste&lt;/td>
+ &lt;td>Объединение файлов в виде колонок&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">split&lt;/td>
- &lt;td style="text-align: left">Разделение файлов на отдельные&lt;/td>
+ &lt;td>split&lt;/td>
+ &lt;td>Разделение файлов на отдельные&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">comm&lt;/td>
- &lt;td style="text-align: left">Сравнение сортированных файлов&lt;/td>
+ &lt;td>comm&lt;/td>
+ &lt;td>Сравнение сортированных файлов&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">diff&lt;/td>
- &lt;td style="text-align: left">Сравнение файлов построчно&lt;/td>
+ &lt;td>diff&lt;/td>
+ &lt;td>Сравнение файлов построчно&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">ps&lt;/td>
- &lt;td style="text-align: left">Просмотр запущенных процессов&lt;/td>
+ &lt;td>ps&lt;/td>
+ &lt;td>Просмотр запущенных процессов&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">-L - количество запущенных потоков&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>-L - количество запущенных потоков&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">ulimit&lt;/td>
- &lt;td style="text-align: left">Ограничения процессов пользователя&lt;/td>
+ &lt;td>ulimit&lt;/td>
+ &lt;td>Ограничения процессов пользователя&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">nice&lt;/td>
- &lt;td style="text-align: left">Задание приоритета&lt;/td>
+ &lt;td>nice&lt;/td>
+ &lt;td>Задание приоритета&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">renice&lt;/td>
- &lt;td style="text-align: left">Установка приоритета для запущенного процесса&lt;/td>
+ &lt;td>renice&lt;/td>
+ &lt;td>Установка приоритета для запущенного процесса&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">vmstat&lt;/td>
- &lt;td style="text-align: left">Информацияо памяти&lt;/td>
+ &lt;td>vmstat&lt;/td>
+ &lt;td>Информацияо памяти&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">fuser&lt;/td>
- &lt;td style="text-align: left">Процессы, использующие указанную директорию&lt;/td>
+ &lt;td>fuser&lt;/td>
+ &lt;td>Процессы, использующие указанную директорию&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">pkill&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>pkill&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">ldd&lt;/td>
- &lt;td style="text-align: left">Показывает какие библиотеки использует программа&lt;/td>
+ &lt;td>ldd&lt;/td>
+ &lt;td>Показывает какие библиотеки использует программа&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">LD_LIBRARY_PATH&lt;/td>
- &lt;td style="text-align: left">Переменная указывающая пути, в которых ищутся библиотеки&lt;/td>
+ &lt;td>LD_LIBRARY_PATH&lt;/td>
+ &lt;td>Переменная указывающая пути, в которых ищутся библиотеки&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">find&lt;/td>
- &lt;td style="text-align: left">Поиск файлов&lt;/td>
+ &lt;td>find&lt;/td>
+ &lt;td>Поиск файлов&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">-iname - регистронезависимый поиск&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>-iname - регистронезависимый поиск&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">-exec - выполнить команду с результатами поиска в качестве результатов&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>-exec - выполнить команду с результатами поиска в качестве результатов&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">tar&lt;/td>
- &lt;td style="text-align: left">Архиватор, разорхиватор&lt;/td>
+ &lt;td>tar&lt;/td>
+ &lt;td>Архиватор, разорхиватор&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">slevipt???&lt;/td>
- &lt;td style="text-align: left">Запись терминала УТОЧНИТЬ!&lt;/td>
+ &lt;td>slevipt???&lt;/td>
+ &lt;td>Запись терминала УТОЧНИТЬ!&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">dd&lt;/td>
- &lt;td style="text-align: left">disk dump - Утилита для работы с диском&lt;/td>
+ &lt;td>dd&lt;/td>
+ &lt;td>disk dump - Утилита для работы с диском&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">run level&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>run level&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">telinit&lt;/td>
- &lt;td style="text-align: left">Изменение уровня загрузки (/etc/rc.d/init.d)&lt;/td>
+ &lt;td>telinit&lt;/td>
+ &lt;td>Изменение уровня загрузки (/etc/rc.d/init.d)&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">chkconfig&lt;/td>
- &lt;td style="text-align: left">Статус сервисов&lt;/td>
+ &lt;td>chkconfig&lt;/td>
+ &lt;td>Статус сервисов&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">sysctl&lt;/td>
- &lt;td style="text-align: left">Настройка ядра (/etc/sysctl.config)&lt;/td>
+ &lt;td>sysctl&lt;/td>
+ &lt;td>Настройка ядра (/etc/sysctl.config)&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">systemctl&lt;/td>
- &lt;td style="text-align: left">Управление systemd&lt;/td>
+ &lt;td>systemctl&lt;/td>
+ &lt;td>Управление systemd&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">journalctl&lt;/td>
- &lt;td style="text-align: left">Чтение журнала операционной системы&lt;/td>
+ &lt;td>journalctl&lt;/td>
+ &lt;td>Чтение журнала операционной системы&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">cron&lt;/td>
- &lt;td style="text-align: left">Демон расписания&lt;/td>
+ &lt;td>cron&lt;/td>
+ &lt;td>Демон расписания&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">af&lt;/td>
- &lt;td style="text-align: left">Отложенное выполнение по времени&lt;/td>
+ &lt;td>af&lt;/td>
+ &lt;td>Отложенное выполнение по времени&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">vimtutor&lt;/td>
- &lt;td style="text-align: left">Обучение Vi&lt;/td>
+ &lt;td>vimtutor&lt;/td>
+ &lt;td>Обучение Vi&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">Ctrl+z&lt;/td>
- &lt;td style="text-align: left">Остановка процесса&lt;/td>
+ &lt;td>Ctrl+z&lt;/td>
+ &lt;td>Остановка процесса&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">bg&lt;/td>
- &lt;td style="text-align: left">Перевод процесса в фоновый режим&lt;/td>
+ &lt;td>bg&lt;/td>
+ &lt;td>Перевод процесса в фоновый режим&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">fg&lt;/td>
- &lt;td style="text-align: left">Перевод процесса обратно на консоль&lt;/td>
+ &lt;td>fg&lt;/td>
+ &lt;td>Перевод процесса обратно на консоль&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">nohup&lt;/td>
- &lt;td style="text-align: left">Отвязка процесса от консоли&lt;/td>
+ &lt;td>nohup&lt;/td>
+ &lt;td>Отвязка процесса от консоли&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">nstat&lt;/td>
- &lt;td style="text-align: left">Сетевая информация&lt;/td>
+ &lt;td>nstat&lt;/td>
+ &lt;td>Сетевая информация&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">-r - показ таблицы маршрутизации&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>-r - показ таблицы маршрутизации&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">nslookup&lt;/td>
- &lt;td style="text-align: left">Определение IP по имени хоста&lt;/td>
+ &lt;td>nslookup&lt;/td>
+ &lt;td>Определение IP по имени хоста&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">dig&lt;/td>
- &lt;td style="text-align: left">Получение информации по домену&lt;/td>
+ &lt;td>dig&lt;/td>
+ &lt;td>Получение информации по домену&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">host&lt;/td>
- &lt;td style="text-align: left">Как nslookup, только сокращённая информация&lt;/td>
+ &lt;td>host&lt;/td>
+ &lt;td>Как nslookup, только сокращённая информация&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>

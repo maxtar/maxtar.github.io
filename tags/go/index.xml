@@ -9,7 +9,11 @@
  &lt;li>&lt;a href="#работа-с-файлами">Работа с файлами&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#хранение-и-версионирование-кода">Хранение и версионирование кода&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#нагрузочное-тестирование">Нагрузочное тестирование&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#web">WEB&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#web">WEB&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#web-приложения">Web-приложения&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
  &lt;li>&lt;a href="#рисование-графиков">Рисование графиков&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#обработка-и-трансформация-данных">Обработка и трансформация данных&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#сеть">Сеть&lt;/a>&lt;/li>
@@ -124,6 +128,18 @@
 &lt;li>&lt;a href="https://github.com/fatedier/frp" target="_blank" >FRP&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - reverse-proxy.&lt;/li>
 &lt;li>&lt;a href="https://github.com/casbin/casbin-forum" target="_blank" >Casbin forum&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - реализация форума на Go и ReactJS.&lt;/li>
 &lt;li>&lt;a href="https://github.com/drakkan/sftpgo" target="_blank" >sftpgo&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - сервер, поддерживающий различные протоколы: SFTP, HTTP, FTP/S and WebDAV. И также различные системы хранения: local filesystem, encrypted local filesystem, S3 (compatible) Object Storage, Google Cloud Storage, Azure Blob Storage.&lt;/li>
+&lt;/ul>
+&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;h3 id="web-приложения"
+ >
+ Web-приложения
+ &lt;/h3>
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#web-приложения" class="gdoc-page__anchor clip flex align-center" title=" Web-приложения" aria-label=" Web-приложения" href="#web-%d0%bf%d1%80%d0%b8%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%b8%d1%8f">
+ &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/wasmvision/wasmvision" target="_blank" >wasmVision&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - wasm-приложения, использующее openCv для работы с камерой. Накладывает эффекты, типа размытия.&lt;/li>
 &lt;/ul>
 &lt;div class="flex align-center gdoc-page__anchorwrap">
  &lt;h2 id="рисование-графиков"
