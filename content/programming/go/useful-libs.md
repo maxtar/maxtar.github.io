@@ -65,8 +65,9 @@ tags: [go, программирование]
 * [Gi](https://github.com/goki/gi) - ещё один framework, но зависит от cgo.
 * [fyne](https://github.com/fyne-io/fyne) - кроссплатформенная библиотека. Под виндой собралась. [GoDoc](https://pkg.go.dev/fyne.io/fyne?tab=doc). Документация на [сайте разработчика](https://fyne.io/develop/).
 * [giu](https://github.com/AllenDang/giu) - обёртка над [Dear ImGui](https://github.com/ocornut/imgui). Поддерживает lua. [GoDoc](https://pkg.go.dev/github.com/AllenDang/giu?tab=doc).
-* [govcl(https://github.com/ying32/govcl)](https://github.com/ying32/govcl) - биндинг над графической библиотекой lazurus. Мне кажется очень перспективная. [README](https://github.com/ying32/govcl/blob/master/README.en-US.md).
+* [govcl](https://github.com/ying32/govcl) - биндинг над графической библиотекой lazurus. Мне кажется очень перспективная. [README](https://github.com/ying32/govcl/blob/master/README.en-US.md).
 * [pix](https://embeddedgo.github.io/2022/03/09/pix_a_minimalistic_graphic_library_part1.html) - какая-то минималистическая библиотека. [GoDoc](https://pkg.go.dev/github.com/embeddedgo/display/pix).
+* [Cogent Core](https://www.cogentcore.org/core/) - написание GUI с использование Wasp. На всех платформах. [GitHub](https://github.com/cogentcore/core).
 
 ---
 
