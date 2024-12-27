@@ -61,7 +61,7 @@ tags: [go, программирование]
 * [QT(https://github.com/therecipe/qt)](https://github.com/therecipe/qt) - биндинг QT для Go. [Wiki](https://github.com/therecipe/qt/wiki).
 * [WUI(https://github.com/gonutz/wui)](https://github.com/gonutz/wui) - позволяет создавать простые GUI в Windows. [GoDoc](https://godoc.org/github.com/gonutz/wui).
 * [Systray](https://github.com/getlantern/systray) - позволяет выводить информацию в tray.
-* [Gio](https://git.sr.ht/~eliasnaur/gio) - пилит чувак из Google. Надо следить. Основной сайт  [gioui](https://gioui.org).
+* [Gio](https://git.sr.ht/~eliasnaur/gio) - пилит чувак из Google. Надо следить. Основной сайт  [gioui](https://gioui.org). [Статья](https://habr.com/ru/companies/oleg-bunin/articles/865292) на Хабре.
 * [Gi](https://github.com/goki/gi) - ещё один framework, но зависит от cgo.
 * [fyne](https://github.com/fyne-io/fyne) - кроссплатформенная библиотека. Под виндой собралась. [GoDoc](https://pkg.go.dev/fyne.io/fyne?tab=doc). Документация на [сайте разработчика](https://fyne.io/develop/).
 * [giu](https://github.com/AllenDang/giu) - обёртка над [Dear ImGui](https://github.com/ocornut/imgui). Поддерживает lua. [GoDoc](https://pkg.go.dev/github.com/AllenDang/giu?tab=doc).
