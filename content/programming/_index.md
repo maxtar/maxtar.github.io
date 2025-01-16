@@ -57,6 +57,7 @@ tags: [программирование]
 
 * [KeyDB](https://docs.keydb.dev) - keydb. :) [GitHub](https://github.com/Snapchat/KeyDB).
 * [goose](https://github.com/pressly/goose) - утилита для миграции баз данных. Наката изменений в БД. Также может использоваться как Go-бибилиотека.
+* [rqlite](https://rqlite.io/) - основанная на sqlite распределённая БД. [GitHub](https://github.com/rqlite/rqlite).
 
 ## Continious integration
 
