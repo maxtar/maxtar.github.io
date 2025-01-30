@@ -220,6 +220,8 @@ tags: [go, программирование]
 
 * [Dateparse](https://github.com/araddon/dateparse) - библиотека для парсинга строк, представляющих из себя различные форматы дат. [Документация](https://godoc.org/github.com/araddon/dateparse).
 * [GoAWK](https://github.com/benhoyt/goawk) - реализация парсера языка AWK на Go. Есть возможность использовать прямо внутри Go. [GoDoc](https://godoc.org/github.com/benhoyt/goawk).
+* [Expr](https://expr-lang.org/docs/getting-started) - позволяет парсить различные выражаения, в том числе и математические. [GitHub](https://github.com/expr-lang/expr). [GoDoc](https://pkg.go.dev/github.com/expr-lang/expr).
+* [govaluate](https://github.com/Knetic/govaluate) - парсер математических и логических выражений. Позволяет писать свои функции. [GoDoc](https://pkg.go.dev/github.com/Knetic/govaluate).
 
 ---
 
