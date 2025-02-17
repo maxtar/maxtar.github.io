@@ -40,6 +40,10 @@ tags: [тестирование]
 
 * [toxyproxy](https://github.com/shopify/toxiproxy) - прокси, позволяет ограничивать скорость соединения. Есть обёртки для нескольких языков. Также позволяет запускаться как самостоятельное приложение.
 
+## E-Mail
+
+* [https://github.com/axllent/mailpit](https://github.com/axllent/mailpit) - pop, smtp сервер для тестирования.
+
 ## Нагрузочное тестирование
 
 * [SuperBenchmarker](https://github.com/aliostad/SuperBenchmarker) - утилита для нагрузочного тестирования на C#. Рисует графики. Отчёты.
