@@ -19,10 +19,9 @@
 
 
 
-
-
 &lt;blockquote class="gdoc-hint tip">
- &lt;div class="gdoc-hint__title flex align-center">&lt;i class="fa tip" title="Tip">&lt;/i>&lt;/div>
+ &lt;div class="gdoc-hint__title flex gap-8 align-center">&lt;i class="fa tip">&lt;/i>
+ &lt;span>Tip&lt;/span>&lt;/div>
  &lt;div class="gdoc-hint__text">&lt;p>Если после этого blender не определил видеокарту, нужно будет доставить &lt;code>nvidia-cuda-toolkit&lt;/code>:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo apt-get install nvidia-cuda-toolkit
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>После этого должно всё заработать.&lt;/p></description></item></channel></rss>

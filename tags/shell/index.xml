@@ -146,7 +146,7 @@
  &lt;li>
  &lt;ul>
  &lt;li>&lt;a href="#просмотр-журнала">Просмотр журнала&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#описание-networkmanagerhttpshelpubuntucomcommunitynetworkmanager">&lt;a href="https://help.ubuntu.com/community/NetworkManager">Описание NetworkManager&lt;/a>&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#описание-networkmanager">&lt;a href="https://help.ubuntu.com/community/NetworkManager">Описание NetworkManager&lt;/a>&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#необновляемые-пакеты">Необновляемые пакеты&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#просмотр-версии-дистрибутива-только-для-lsb-дистрибутивов">Просмотр версии дистрибутива (только для LSB дистрибутивов)&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#команда-удаления-всех-старых-версий-ядра">Команда удаления всех старых версий ядра&lt;/a>&lt;/li>

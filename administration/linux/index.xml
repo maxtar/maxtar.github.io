@@ -517,10 +517,9 @@
 
 
 
-
-
 &lt;blockquote class="gdoc-hint tip">
- &lt;div class="gdoc-hint__title flex align-center">&lt;i class="fa tip" title="Tip">&lt;/i>&lt;/div>
+ &lt;div class="gdoc-hint__title flex gap-8 align-center">&lt;i class="fa tip">&lt;/i>
+ &lt;span>Tip&lt;/span>&lt;/div>
  &lt;div class="gdoc-hint__text">&lt;p>Если после этого blender не определил видеокарту, нужно будет доставить &lt;code>nvidia-cuda-toolkit&lt;/code>:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo apt-get install nvidia-cuda-toolkit
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>После этого должно всё заработать.&lt;/p></description></item><item><title>Настройка swap</title><link>https://maxtar.github.io/administration/linux/swap/</link><pubDate>Sat, 08 Oct 2022 20:33:35 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/swap/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
@@ -674,7 +673,7 @@
  &lt;li>
  &lt;ul>
  &lt;li>&lt;a href="#просмотр-журнала">Просмотр журнала&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#описание-networkmanagerhttpshelpubuntucomcommunitynetworkmanager">&lt;a href="https://help.ubuntu.com/community/NetworkManager">Описание NetworkManager&lt;/a>&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#описание-networkmanager">&lt;a href="https://help.ubuntu.com/community/NetworkManager">Описание NetworkManager&lt;/a>&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#необновляемые-пакеты">Необновляемые пакеты&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#просмотр-версии-дистрибутива-только-для-lsb-дистрибутивов">Просмотр версии дистрибутива (только для LSB дистрибутивов)&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#команда-удаления-всех-старых-версий-ядра">Команда удаления всех старых версий ядра&lt;/a>&lt;/li>
