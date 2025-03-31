@@ -267,6 +267,8 @@ tags: [go, программирование]
 
 * [TarsGo](https://github.com/TarsCloud/TarsGo). Реализация tars протокола для Go. [GoDoc](https://godoc.org/github.com/TarsCloud/TarsGo/tars).
 
+---
+
 ## Списки и наборы
 
 * [Go-Set](https://github.com/scylladb/go-set) - набор разных типов коллекций и операций с ними. [GoDoc](https://godoc.org/github.com/scylladb/go-set).
@@ -280,6 +282,7 @@ tags: [go, программирование]
 * [Ebiten](https://hajimehoshi.github.io/ebiten/). Позволяет писать двухмерные игры. [Godoc](https://godoc.org/github.com/hajimehoshi/ebiten). Краткая [справка](https://github.com/hajimehoshi/ebiten/wiki/Cheat-Sheet). [GitHub](https://hajimehoshi.github.io/ebiten).
 * [Prototype](https://github.com/gonutz/prototype). Простая библиотека для работы с канвой. [GoDoc](https://godoc.org/github.com/gonutz/prototype/draw).
 * Библиотека для написания игр [pixel](https://github.com/faiface/pixel).
+* [Physix.go](https://github.com/rudransh61/Physix-go) - реализация физики. Можно использовать совместно с Ebiten.
 
 ---
 
@@ -290,6 +293,7 @@ tags: [go, программирование]
 * [colorgrad](https://github.com/mazznoer/colorgrad) - позволяет делать градиенты, шкалы цветов и всё такое. [GoDoc](https://pkg.go.dev/github.com/mazznoer/colorgrad).
 * [generativeart](https://github.com/jdxyw/generativeart) - позволяет создавать абстрактные рисунки.
 * [imaging](https://github.com/disintegration/imaging) - изменение изображений - изменение масштаба, поворот и т.д.
+* [Goavatar](https://github.com/MuhammadSaim/goavatar) - библиотека для генерации аватарки на основании строки.
 
 ---
 
