@@ -198,6 +198,7 @@ tags: [go, программирование]
 * [GopherJS](https://github.com/gopherjs/gopherjs) - компилятор из go в JS. [GoDoc](https://pkg.go.dev/github.com/gopherjs/gopherjs/js).
 * [flogo](https://www.flogo.io) - framework для создания микро-сервисов. [GitHub](https://github.com/project-flogo).
 * [bud](https://github.com/livebud/bud) - очередной мощный фреймворк для создания сайтов. Пока требует node.js. Будем наблюдать.
+* [GoVisual](https://github.com/doganarif/govisual) - визуализатор HTTP-запросов для отладки и проверки локально web-приложений.
 
 ---
 
