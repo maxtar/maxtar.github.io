@@ -45,7 +45,7 @@
 &lt;li>&lt;a href="https://echo.labstack.com" target="_blank" >Простой Web Framework Echo&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/peterhellberg/wiki" target="_blank" >Лёгкая wiki&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
 &lt;li>&lt;a href="https://ketchuphq.com" target="_blank" >Ketchup CMS&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>, &lt;a href="https://github.com/ketchuphq/ketchup" target="_blank" >github&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://github.com/42wim/matterbridge" target="_blank" >matterbridge&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Мост для объединения различных средств общения (slack, tegeram, mattermost и т.д.).&lt;/li>
+&lt;li>&lt;a href="https://github.com/42wim/matterbridge" target="_blank" >matterbridge&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Мост для объединения различных средств общения (slack, telegram, mattermost и т.д.).&lt;/li>
 &lt;li>&lt;a href="https://github.com/George3d6/Hermes" target="_blank" >Hermes&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - сервер для обмена файлами.&lt;/li>
 &lt;li>&lt;a href="https://github.com/schollz/croc" target="_blank" >Croc&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - клиент-сервер для посылки файлов.&lt;/li>
 &lt;li>Go из Shell &lt;a href="https://neugram.io/" target="_blank" >neugram&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
@@ -267,7 +267,11 @@
  &lt;li>&lt;a href="#графика">Графика&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#видео">Видео&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#статистика-и-математика">Статистика и математика&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#обработка-данных-на-потоке-и-прочее">Обработка данных на потоке и прочее&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#обработка-данных-на-потоке-и-прочее">Обработка данных на потоке и прочее&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#kafka">Kafka&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
  &lt;li>&lt;a href="#парсеры">Парсеры&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#коллекции">Коллекции&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#встраивание-ресурсов-теперь-не-актуально-так-как-с-версии-16-есть-встроенный-механизм">Встраивание ресурсов (теперь не актуально, так как с версии 1.6 есть встроенный механизм)&lt;/a>&lt;/li>
