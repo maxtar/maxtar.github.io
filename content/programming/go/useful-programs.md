@@ -13,7 +13,7 @@ tags: [go, программы]
 * [Простой Web Framework Echo](https://echo.labstack.com)
 * [Лёгкая wiki](https://github.com/peterhellberg/wiki).
 * [Ketchup CMS](https://ketchuphq.com), [github](https://github.com/ketchuphq/ketchup).
-* [matterbridge](https://github.com/42wim/matterbridge). Мост для объединения различных средств общения (slack, tegeram, mattermost и т.д.).
+* [matterbridge](https://github.com/42wim/matterbridge). Мост для объединения различных средств общения (slack, telegram, mattermost и т.д.).
 * [Hermes](https://github.com/George3d6/Hermes) - сервер для обмена файлами.
 * [Croc](https://github.com/schollz/croc) - клиент-сервер для посылки файлов.
 * Go из Shell [neugram](https://neugram.io/).

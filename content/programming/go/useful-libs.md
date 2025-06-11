@@ -238,16 +238,16 @@ tags: [go, программирование]
 
 Информация взята [отсюда](https://blog.kowalczyk.info/article/JyRZ/generating-good-random-and-unique-ids-in-go.html?utm_source=golangweekly&utm_medium=email).
 
-| Пакет | Пример | Описание формата |
-| - | - | - |
-| [ksuid](https://github.com/segmentio/ksuid) | 0pPKHjWprnVxGH7dEsAoXX2YQvU | 4 bytes of time (seconds) # 16 random bytes |
-| [xid](https://github.com/rs/) | b50vl5e54p1000fo3gh0 | 4 bytes of time (seconds) # 3 byte machine id # 2 byte process id # 3 bytes random |
-| [betterguid](https://github.com/kjk/betterguid) | -Kmdih_fs4ZZccpx2Hl1 | 8 bytes of time (milliseconds) # 9 random bytes |
-| [sonyflake](https://github.com/sony/sonyflake) | 20f8707d6000108 | ~6 bytes of time (10 ms) # 1 byte sequence # 2 bytes machine id |
-| [ulid](https://github.com/oklog/ulid) | 01BJMVNPBBZC3E36FJTGVF0C4S | 6 bytes of time (milliseconds) # 8 bytes random |
-| [sid](https://github.com/chilts/sid) | 1JADkqpWxPx-4qaWY47~FqI | 8 bytes of time (ns) # 8 random bytes |
-| [go.uuid](https://github.com/satori/go.uuid) | 5b52d72c-82b3-4f8e-beb5-437a974842c | UUIDv4 from [RFC 4112](http://tools.ietf.org/html/rfc4122) for comparison |
-| [uuid](https://github.com/google/uuid) | UUIDs based on RFC 4122 |  |
+| Пакет                                           | Пример                              | Описание формата                                                                   |
+| ----------------------------------------------- | ----------------------------------- | ---------------------------------------------------------------------------------- |
+| [ksuid](https://github.com/segmentio/ksuid)     | 0pPKHjWprnVxGH7dEsAoXX2YQvU         | 4 bytes of time (seconds) # 16 random bytes                                        |
+| [xid](https://github.com/rs/)                   | b50vl5e54p1000fo3gh0                | 4 bytes of time (seconds) # 3 byte machine id # 2 byte process id # 3 bytes random |
+| [betterguid](https://github.com/kjk/betterguid) | -Kmdih_fs4ZZccpx2Hl1                | 8 bytes of time (milliseconds) # 9 random bytes                                    |
+| [sonyflake](https://github.com/sony/sonyflake)  | 20f8707d6000108                     | ~6 bytes of time (10 ms) # 1 byte sequence # 2 bytes machine id                    |
+| [ulid](https://github.com/oklog/ulid)           | 01BJMVNPBBZC3E36FJTGVF0C4S          | 6 bytes of time (milliseconds) # 8 bytes random                                    |
+| [sid](https://github.com/chilts/sid)            | 1JADkqpWxPx-4qaWY47~FqI             | 8 bytes of time (ns) # 8 random bytes                                              |
+| [go.uuid](https://github.com/satori/go.uuid)    | 5b52d72c-82b3-4f8e-beb5-437a974842c | UUIDv4 from [RFC 4112](http://tools.ietf.org/html/rfc4122) for comparison          |
+| [uuid](https://github.com/google/uuid)          | UUIDs based on RFC 4122             |                                                                                    |
 
 ---
 
@@ -318,6 +318,11 @@ tags: [go, программирование]
 * [Bigslice](https://bigslice.io/) - аналог Spark на Go. [GitHub](https://github.com/grailbio/bigslice). [GoDoc](https://pkg.go.dev/github.com/grailbio/bigslice?tab=doc).
 * [watermill](https://github.com/ThreeDotsLabs/watermill) - работа с сообщениями. Возможность интегрироваться с Kafka, RabbitMQ.
 
+### Kafka
+
+* [Sarama](https://github.com/IBM/sarama) - наверное самый популярный клиент для работы с kafka.
+* [franz-go](https://github.com/twmb/franz-go) - альтерантивный клиент для работы с Kafka.
+
 ---
 
 ## Парсеры
@@ -347,6 +352,7 @@ tags: [go, программирование]
 ## Вспомогательные утилиты
 
 * [Goweight](https://github.com/jondot/goweight) - анализ размера используемых пакетов.
+* [Go binary size SVG treemap](https://github.com/nikolaydubina/go-binsize-treemap) - также рисует содержимое бинарника в виде treemap.
 * [go-mod-outdated (go-mod-outdated)](https://github.com/psampaz/go-mod-outdated) - анализ устаревших пакетов в зависимостях.
 * [Spaghetti](https://github.com/adonovan/spaghetti) - анализ зависимостей в браузере.
 * [Go binary size SVG treemap](https://github.com/nikolaydubina/go-binsize-treemap) - рисует SVG карту библиотек в бинарнике. Примерно как Goweight.
