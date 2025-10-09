@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Swap on Max Wiki Site</title><link>https://maxtar.github.io/tags/swap/</link><description>Recent content in Swap on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sat, 08 Oct 2022 20:33:35 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/swap/index.xml" rel="self" type="application/rss+xml"/><item><title>Настройка swap</title><link>https://maxtar.github.io/administration/linux/swap/</link><pubDate>Sat, 08 Oct 2022 20:33:35 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/swap/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#процент-при-котором-информация-из-памяти-скидывается-в-swap">Процент, при котором информация из памяти скидывается в swap&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#как-задать-нужный-размер-swap-файла">Как задать нужный размер Swap-файла&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Swap on Max Wiki Site</title><link>https://maxtar.github.io/tags/swap/</link><description>Recent content in Swap on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sat, 08 Oct 2022 20:33:35 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/swap/index.xml" rel="self" type="application/rss+xml"/><item><title>Настройка swap</title><link>https://maxtar.github.io/administration/linux/swap/</link><pubDate>Sat, 08 Oct 2022 20:33:35 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/swap/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#процент-при-котором-информация-из-памяти-скидывается-в-swap"&gt;Процент, при котором информация из памяти скидывается в swap&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#как-задать-нужный-размер-swap-файла"&gt;Как задать нужный размер Swap-файла&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="процент-при-котором-информация-из-памяти-скидывается-в-swap"
- >
+ &gt;
  Процент, при котором информация из памяти скидывается в swap
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/swap/#процент-при-котором-информация-из-памяти-скидывается-в-swap" class="gdoc-page__anchor clip flex align-center" title=" Процент, при котором информация из памяти скидывается в swap" aria-label=" Процент, при котором информация из памяти скидывается в swap" href="#%d0%bf%d1%80%d0%be%d1%86%d0%b5%d0%bd%d1%82-%d0%bf%d1%80%d0%b8-%d0%ba%d0%be%d1%82%d0%be%d1%80%d0%be%d0%bc-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f-%d0%b8%d0%b7-%d0%bf%d0%b0%d0%bc%d1%8f%d1%82%d0%b8-%d1%81%d0%ba%d0%b8%d0%b4%d1%8b%d0%b2%d0%b0%d0%b5%d1%82%d1%81%d1%8f-%d0%b2-swap">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>&lt;a href="http://kubuntu.ru/node/13153" target="_blank" >Информация взята отсюда&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/p>
-&lt;p>Обычно рано или поздно у всех возникает вопрос: &amp;ldquo;Почему начинает заполнятся swap, когда у меня ещё много свободной оперативной памяти?&amp;rdquo;. И вот тут нам приходит в помощь такой параметр, как &lt;code>vm.swappiness&lt;/code>. Для начала в консоли выполним команду:&lt;/p></description></item></channel></rss>
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/swap/#процент-при-котором-информация-из-памяти-скидывается-в-swap" class="gdoc-page__anchor clip flex align-center" title=" Процент, при котором информация из памяти скидывается в swap" aria-label=" Процент, при котором информация из памяти скидывается в swap" href="#%d0%bf%d1%80%d0%be%d1%86%d0%b5%d0%bd%d1%82-%d0%bf%d1%80%d0%b8-%d0%ba%d0%be%d1%82%d0%be%d1%80%d0%be%d0%bc-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f-%d0%b8%d0%b7-%d0%bf%d0%b0%d0%bc%d1%8f%d1%82%d0%b8-%d1%81%d0%ba%d0%b8%d0%b4%d1%8b%d0%b2%d0%b0%d0%b5%d1%82%d1%81%d1%8f-%d0%b2-swap"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="http://kubuntu.ru/node/13153" target="_blank" &gt;Информация взята отсюда&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Обычно рано или поздно у всех возникает вопрос: &amp;ldquo;Почему начинает заполнятся swap, когда у меня ещё много свободной оперативной памяти?&amp;rdquo;. И вот тут нам приходит в помощь такой параметр, как &lt;code&gt;vm.swappiness&lt;/code&gt;. Для начала в консоли выполним команду:&lt;/p&gt;</description></item></channel></rss>

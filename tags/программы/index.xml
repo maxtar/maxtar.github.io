@@ -1,267 +1,267 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Программы on Max Wiki Site</title><link>https://maxtar.github.io/tags/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/</link><description>Recent content in Программы on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 15:30:44 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>Мониторинг</title><link>https://maxtar.github.io/programming/monitoring/</link><pubDate>Sun, 09 Oct 2022 15:30:44 +0300</pubDate><guid>https://maxtar.github.io/programming/monitoring/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#prometheus">Prometheus&lt;/a>
- &lt;ul>
- &lt;li>&lt;a href="#вычисление-процентов-загрузки-cpu-на-основании-времени-использования">Вычисление процентов загрузки CPU на основании времени использования&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;li>&lt;a href="#checkup">Checkup&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#pyroscope">Pyroscope&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Программы on Max Wiki Site</title><link>https://maxtar.github.io/tags/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/</link><description>Recent content in Программы on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 15:30:44 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>Мониторинг</title><link>https://maxtar.github.io/programming/monitoring/</link><pubDate>Sun, 09 Oct 2022 15:30:44 +0300</pubDate><guid>https://maxtar.github.io/programming/monitoring/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#prometheus"&gt;Prometheus&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#вычисление-процентов-загрузки-cpu-на-основании-времени-использования"&gt;Вычисление процентов загрузки CPU на основании времени использования&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#checkup"&gt;Checkup&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#pyroscope"&gt;Pyroscope&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="prometheus"
- >
+ &gt;
  Prometheus
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/monitoring/#prometheus" class="gdoc-page__anchor clip flex align-center" title=" Prometheus" aria-label=" Prometheus" href="#prometheus">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>&lt;a href="https://prometheus.io" target="_blank" >Сайт&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://prometheus.io/docs/introduction/overview" target="_blank" >Официальная документация&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Информация по &lt;a href="https://prometheus.io/docs/prometheus/latest/querying/basics" target="_blank" >запросам&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p>
-&lt;p>&lt;a href="https://www.robustperception.io/blog" target="_blank" >Блог&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> создателей &lt;a href="https://prometheus.io" target="_blank" >Prometheus&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> со всякой полезной информацией.&lt;/p>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/monitoring/#prometheus" class="gdoc-page__anchor clip flex align-center" title=" Prometheus" aria-label=" Prometheus" href="#prometheus"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://prometheus.io" target="_blank" &gt;Сайт&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://prometheus.io/docs/introduction/overview" target="_blank" &gt;Официальная документация&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. Информация по &lt;a href="https://prometheus.io/docs/prometheus/latest/querying/basics" target="_blank" &gt;запросам&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.robustperception.io/blog" target="_blank" &gt;Блог&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; создателей &lt;a href="https://prometheus.io" target="_blank" &gt;Prometheus&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; со всякой полезной информацией.&lt;/p&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h3 id="вычисление-процентов-загрузки-cpu-на-основании-времени-использования"
- >
+ &gt;
  Вычисление процентов загрузки CPU на основании времени использования
- &lt;/h3>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/monitoring/#вычисление-процентов-загрузки-cpu-на-основании-времени-использования" class="gdoc-page__anchor clip flex align-center" title=" Вычисление процентов загрузки CPU на основании времени использования" aria-label=" Вычисление процентов загрузки CPU на основании времени использования" href="#%d0%b2%d1%8b%d1%87%d0%b8%d1%81%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d1%86%d0%b5%d0%bd%d1%82%d0%be%d0%b2-%d0%b7%d0%b0%d0%b3%d1%80%d1%83%d0%b7%d0%ba%d0%b8-cpu-%d0%bd%d0%b0-%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b8-%d0%b2%d1%80%d0%b5%d0%bc%d0%b5%d0%bd%d0%b8-%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>Информация взята из &lt;a href="https://www.robustperception.io/understanding-machine-cpu-usage" target="_blank" >understanding-machine-cpu-usage&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> блога разработчиков &lt;a href="https://prometheus.io" target="_blank" >Prometheus&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p></description></item><item><title>Полезные программы</title><link>https://maxtar.github.io/administration/useful-programs/</link><pubDate>Sun, 09 Oct 2022 15:27:31 +0300</pubDate><guid>https://maxtar.github.io/administration/useful-programs/</guid><description>&lt;p>Описание разных, программ, используемых в администрировании.&lt;/p>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h3&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/monitoring/#вычисление-процентов-загрузки-cpu-на-основании-времени-использования" class="gdoc-page__anchor clip flex align-center" title=" Вычисление процентов загрузки CPU на основании времени использования" aria-label=" Вычисление процентов загрузки CPU на основании времени использования" href="#%d0%b2%d1%8b%d1%87%d0%b8%d1%81%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d1%86%d0%b5%d0%bd%d1%82%d0%be%d0%b2-%d0%b7%d0%b0%d0%b3%d1%80%d1%83%d0%b7%d0%ba%d0%b8-cpu-%d0%bd%d0%b0-%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b8-%d0%b2%d1%80%d0%b5%d0%bc%d0%b5%d0%bd%d0%b8-%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;Информация взята из &lt;a href="https://www.robustperception.io/understanding-machine-cpu-usage" target="_blank" &gt;understanding-machine-cpu-usage&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; блога разработчиков &lt;a href="https://prometheus.io" target="_blank" &gt;Prometheus&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Полезные программы</title><link>https://maxtar.github.io/administration/useful-programs/</link><pubDate>Sun, 09 Oct 2022 15:27:31 +0300</pubDate><guid>https://maxtar.github.io/administration/useful-programs/</guid><description>&lt;p&gt;Описание разных, программ, используемых в администрировании.&lt;/p&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="oauth2"
- >
+ &gt;
  OAuth2
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/useful-programs/#oauth2" class="gdoc-page__anchor clip flex align-center" title=" OAuth2" aria-label=" OAuth2" href="#oauth2">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://pusher.github.io/oauth2_proxy" target="_blank" >oauth2_proxy&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - программа поддерживает несколько способов авторизации, включая, через Azure.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/useful-programs/#oauth2" class="gdoc-page__anchor clip flex align-center" title=" OAuth2" aria-label=" OAuth2" href="#oauth2"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pusher.github.io/oauth2_proxy" target="_blank" &gt;oauth2_proxy&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - программа поддерживает несколько способов авторизации, включая, через Azure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="vpn-и-прочее"
- >
+ &gt;
  Vpn и прочее
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/useful-programs/#vpn-и-прочее" class="gdoc-page__anchor clip flex align-center" title=" Vpn и прочее" aria-label=" Vpn и прочее" href="#vpn-%d0%b8-%d0%bf%d1%80%d0%be%d1%87%d0%b5%d0%b5">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://www.gsocket.io" target="_blank" >Global Socket&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - позволяет общаться компьютерам прозрачно между собой. Работает, в том числе и через VPN.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/useful-programs/#vpn-и-прочее" class="gdoc-page__anchor clip flex align-center" title=" Vpn и прочее" aria-label=" Vpn и прочее" href="#vpn-%d0%b8-%d0%bf%d1%80%d0%be%d1%87%d0%b5%d0%b5"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.gsocket.io" target="_blank" &gt;Global Socket&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - позволяет общаться компьютерам прозрачно между собой. Работает, в том числе и через VPN.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="мониторинг-и-информация-по-системе-windows"
- >
+ &gt;
  Мониторинг и информация по системе (Windows)
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/useful-programs/#мониторинг-и-информация-по-системе-windows" class="gdoc-page__anchor clip flex align-center" title=" Мониторинг и информация по системе (Windows)" aria-label=" Мониторинг и информация по системе (Windows)" href="#%d0%bc%d0%be%d0%bd%d0%b8%d1%82%d0%be%d1%80%d0%b8%d0%bd%d0%b3-%d0%b8-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f-%d0%bf%d0%be-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%b5-windows">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://www.hwinfo.com/" target="_blank" >HWInfo&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - бесплатная утилита для получения разнообразной информации о системе.&lt;/li>
-&lt;/ul></description></item><item><title>Разные полезные программы</title><link>https://maxtar.github.io/other/useful-programs/</link><pubDate>Sun, 09 Oct 2022 02:03:08 +0300</pubDate><guid>https://maxtar.github.io/other/useful-programs/</guid><description>&lt;ul>
-&lt;li>Форум &lt;a href="https://github.com/discourse/discourse" target="_blank" >Discourse&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. На нём работает &lt;a href="http://automated-testing.info" target="_blank" >automated-testing.info&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> и &lt;a href="https://forum.golangbridge.org" target="_blank" >forum.golangbridge.org&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>Система развёртывания &lt;a href="https://pulumi.io" target="_blank" >pulumi&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Исходный код на &lt;a href="https://github.com/pulumi/pulumi" target="_blank" >GitHub&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/useful-programs/#мониторинг-и-информация-по-системе-windows" class="gdoc-page__anchor clip flex align-center" title=" Мониторинг и информация по системе (Windows)" aria-label=" Мониторинг и информация по системе (Windows)" href="#%d0%bc%d0%be%d0%bd%d0%b8%d1%82%d0%be%d1%80%d0%b8%d0%bd%d0%b3-%d0%b8-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f-%d0%bf%d0%be-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%b5-windows"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.hwinfo.com/" target="_blank" &gt;HWInfo&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - бесплатная утилита для получения разнообразной информации о системе.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Разные полезные программы</title><link>https://maxtar.github.io/other/useful-programs/</link><pubDate>Sun, 09 Oct 2022 02:03:08 +0300</pubDate><guid>https://maxtar.github.io/other/useful-programs/</guid><description>&lt;ul&gt;
+&lt;li&gt;Форум &lt;a href="https://github.com/discourse/discourse" target="_blank" &gt;Discourse&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. На нём работает &lt;a href="http://automated-testing.info" target="_blank" &gt;automated-testing.info&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; и &lt;a href="https://forum.golangbridge.org" target="_blank" &gt;forum.golangbridge.org&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Система развёртывания &lt;a href="https://pulumi.io" target="_blank" &gt;pulumi&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. Исходный код на &lt;a href="https://github.com/pulumi/pulumi" target="_blank" &gt;GitHub&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="общение"
- >
+ &gt;
  Общение
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/other/useful-programs/#общение" class="gdoc-page__anchor clip flex align-center" title=" Общение" aria-label=" Общение" href="#%d0%be%d0%b1%d1%89%d0%b5%d0%bd%d0%b8%d0%b5">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>Аналог &lt;a href="https://slack.com" target="_blank" >Slack&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>, который можно развернуть локально &lt;a href="https://mattermost.com" target="_blank" >mattermost.com&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Исходный код на &lt;a href="https://github.com/mattermost/platform" target="_blank" >github&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>Чат &lt;a href="https://github.com/tinode/chat" target="_blank" >tinode&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Есть клиент на Android, web.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/other/useful-programs/#общение" class="gdoc-page__anchor clip flex align-center" title=" Общение" aria-label=" Общение" href="#%d0%be%d0%b1%d1%89%d0%b5%d0%bd%d0%b8%d0%b5"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Аналог &lt;a href="https://slack.com" target="_blank" &gt;Slack&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;, который можно развернуть локально &lt;a href="https://mattermost.com" target="_blank" &gt;mattermost.com&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. Исходный код на &lt;a href="https://github.com/mattermost/platform" target="_blank" &gt;github&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Чат &lt;a href="https://github.com/tinode/chat" target="_blank" &gt;tinode&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. Есть клиент на Android, web.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="запись-с-экрана-screencast"
- >
+ &gt;
  Запись с экрана (Screencast)
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/other/useful-programs/#запись-с-экрана-screencast" class="gdoc-page__anchor clip flex align-center" title=" Запись с экрана (Screencast)" aria-label=" Запись с экрана (Screencast)" href="#%d0%b7%d0%b0%d0%bf%d0%b8%d1%81%d1%8c-%d1%81-%d1%8d%d0%ba%d1%80%d0%b0%d0%bd%d0%b0-screencast">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>&lt;a href="https://obsproject.com/ru" target="_blank" >OBSProject&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - кросс-платформенный пакет для записи с экрана и/или трансляции.&lt;/p></description></item><item><title>Полезные программы на Go</title><link>https://maxtar.github.io/programming/go/useful-programs/</link><pubDate>Sun, 09 Oct 2022 01:46:24 +0300</pubDate><guid>https://maxtar.github.io/programming/go/useful-programs/</guid><description>&lt;p>Различные программы, написанные на Go.&lt;/p>
-&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#разное">Разное&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#консольные-приложения">Консольные приложения&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#работа-с-файлами">Работа с файлами&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#хранение-и-версионирование-кода">Хранение и версионирование кода&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#нагрузочное-тестирование">Нагрузочное тестирование&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#web">WEB&lt;/a>
- &lt;ul>
- &lt;li>&lt;a href="#web-приложения">Web-приложения&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;li>&lt;a href="#рисование-графиков">Рисование графиков&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#обработка-и-трансформация-данных">Обработка и трансформация данных&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#сеть">Сеть&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#мониторинг">Мониторинг&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#служебные">Служебные&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#работа-с-графикой">Работа с графикой&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#работа-с-json">Работа с JSON&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#работа-с-картами-координатами-и-тд">Работа с картами, координатами и т.д.&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#общение">Общение&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#соцсети-fediverse">Соцсети, fediverse&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#безопасность">Безопасность&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#базы-данных-и-прочее">Базы данных и прочее&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/other/useful-programs/#запись-с-экрана-screencast" class="gdoc-page__anchor clip flex align-center" title=" Запись с экрана (Screencast)" aria-label=" Запись с экрана (Screencast)" href="#%d0%b7%d0%b0%d0%bf%d0%b8%d1%81%d1%8c-%d1%81-%d1%8d%d0%ba%d1%80%d0%b0%d0%bd%d0%b0-screencast"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://obsproject.com/ru" target="_blank" &gt;OBSProject&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - кросс-платформенный пакет для записи с экрана и/или трансляции.&lt;/p&gt;</description></item><item><title>Полезные программы на Go</title><link>https://maxtar.github.io/programming/go/useful-programs/</link><pubDate>Sun, 09 Oct 2022 01:46:24 +0300</pubDate><guid>https://maxtar.github.io/programming/go/useful-programs/</guid><description>&lt;p&gt;Различные программы, написанные на Go.&lt;/p&gt;
+&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#разное"&gt;Разное&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#консольные-приложения"&gt;Консольные приложения&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#работа-с-файлами"&gt;Работа с файлами&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#хранение-и-версионирование-кода"&gt;Хранение и версионирование кода&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#нагрузочное-тестирование"&gt;Нагрузочное тестирование&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#web"&gt;WEB&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#web-приложения"&gt;Web-приложения&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#рисование-графиков"&gt;Рисование графиков&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#обработка-и-трансформация-данных"&gt;Обработка и трансформация данных&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#сеть"&gt;Сеть&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#мониторинг"&gt;Мониторинг&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#служебные"&gt;Служебные&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#работа-с-графикой"&gt;Работа с графикой&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#работа-с-json"&gt;Работа с JSON&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#работа-с-картами-координатами-и-тд"&gt;Работа с картами, координатами и т.д.&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#общение"&gt;Общение&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#соцсети-fediverse"&gt;Соцсети, fediverse&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#безопасность"&gt;Безопасность&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#базы-данных-и-прочее"&gt;Базы данных и прочее&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="разное"
- >
+ &gt;
  Разное
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#разное" class="gdoc-page__anchor clip flex align-center" title=" Разное" aria-label=" Разное" href="#%d1%80%d0%b0%d0%b7%d0%bd%d0%be%d0%b5">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://echo.labstack.com" target="_blank" >Простой Web Framework Echo&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/peterhellberg/wiki" target="_blank" >Лёгкая wiki&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://ketchuphq.com" target="_blank" >Ketchup CMS&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>, &lt;a href="https://github.com/ketchuphq/ketchup" target="_blank" >github&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://github.com/42wim/matterbridge" target="_blank" >matterbridge&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Мост для объединения различных средств общения (slack, telegram, mattermost и т.д.).&lt;/li>
-&lt;li>&lt;a href="https://github.com/George3d6/Hermes" target="_blank" >Hermes&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - сервер для обмена файлами.&lt;/li>
-&lt;li>&lt;a href="https://github.com/schollz/croc" target="_blank" >Croc&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - клиент-сервер для посылки файлов.&lt;/li>
-&lt;li>Go из Shell &lt;a href="https://neugram.io/" target="_blank" >neugram&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>Различные утилиты для проверки сетей (сканеры, парсеры сертификатов и т.д.) &lt;a href="https://zmap.io/" target="_blank" >Zmap&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> &lt;a href="https://github.com/zmap" target="_blank" >Github&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
-&lt;li>Вывод дерева зависимостей &lt;a href="https://github.com/KyleBanks/depth" target="_blank" >depth&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://kylewbanks.com/blog/visualize-golang-dependency-trees-with-depth" target="_blank" >Блог&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.
-&lt;ul>
-&lt;li>В графическом виде &lt;a href="https://github.com/TrueFurby/go-callvis" target="_blank" >go-callvis&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="https://github.com/claudiodangelis/qrcp" target="_blank" >qrcp&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - передача файлов с компа на мобилку, например, по QRCode.&lt;/li>
-&lt;li>&lt;a href="https://magefile.org" target="_blank" >mage&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - замена make на Go. Исходники на &lt;a href="https://github.com/magefile/mage" target="_blank" >GitHub&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#разное" class="gdoc-page__anchor clip flex align-center" title=" Разное" aria-label=" Разное" href="#%d1%80%d0%b0%d0%b7%d0%bd%d0%be%d0%b5"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://echo.labstack.com" target="_blank" &gt;Простой Web Framework Echo&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/peterhellberg/wiki" target="_blank" &gt;Лёгкая wiki&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ketchuphq.com" target="_blank" &gt;Ketchup CMS&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;, &lt;a href="https://github.com/ketchuphq/ketchup" target="_blank" &gt;github&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/42wim/matterbridge" target="_blank" &gt;matterbridge&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. Мост для объединения различных средств общения (slack, telegram, mattermost и т.д.).&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/George3d6/Hermes" target="_blank" &gt;Hermes&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - сервер для обмена файлами.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/schollz/croc" target="_blank" &gt;Croc&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - клиент-сервер для посылки файлов.&lt;/li&gt;
+&lt;li&gt;Go из Shell &lt;a href="https://neugram.io/" target="_blank" &gt;neugram&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Различные утилиты для проверки сетей (сканеры, парсеры сертификатов и т.д.) &lt;a href="https://zmap.io/" target="_blank" &gt;Zmap&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; &lt;a href="https://github.com/zmap" target="_blank" &gt;Github&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Вывод дерева зависимостей &lt;a href="https://github.com/KyleBanks/depth" target="_blank" &gt;depth&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. &lt;a href="https://kylewbanks.com/blog/visualize-golang-dependency-trees-with-depth" target="_blank" &gt;Блог&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;В графическом виде &lt;a href="https://github.com/TrueFurby/go-callvis" target="_blank" &gt;go-callvis&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/claudiodangelis/qrcp" target="_blank" &gt;qrcp&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - передача файлов с компа на мобилку, например, по QRCode.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://magefile.org" target="_blank" &gt;mage&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - замена make на Go. Исходники на &lt;a href="https://github.com/magefile/mage" target="_blank" &gt;GitHub&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="консольные-приложения"
- >
+ &gt;
  Консольные приложения
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#консольные-приложения" class="gdoc-page__anchor clip flex align-center" title=" Консольные приложения" aria-label=" Консольные приложения" href="#%d0%ba%d0%be%d0%bd%d1%81%d0%be%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bf%d1%80%d0%b8%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%b8%d1%8f">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/schachmat/wego" target="_blank" >wego&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - показ погоды в консоли.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#консольные-приложения" class="gdoc-page__anchor clip flex align-center" title=" Консольные приложения" aria-label=" Консольные приложения" href="#%d0%ba%d0%be%d0%bd%d1%81%d0%be%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bf%d1%80%d0%b8%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%b8%d1%8f"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/schachmat/wego" target="_blank" &gt;wego&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - показ погоды в консоли.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="работа-с-файлами"
- >
+ &gt;
  Работа с файлами
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#работа-с-файлами" class="gdoc-page__anchor clip flex align-center" title=" Работа с файлами" aria-label=" Работа с файлами" href="#%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0-%d1%81-%d1%84%d0%b0%d0%b9%d0%bb%d0%b0%d0%bc%d0%b8">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/viktomas/godu" target="_blank" >godu&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - позволяет быстро просматривать каталоги с большим количеством файлов.&lt;/li>
-&lt;li>&lt;a href="https://github.com/gokcehan/lf" target="_blank" >lf&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - консольный менеджер файлов на Go.&lt;/li>
-&lt;li>&lt;a href="https://github.com/eltaline/wzd" target="_blank" >wzd&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - веб-сервер для работы с огромным количеством файлов.&lt;/li>
-&lt;li>&lt;a href="https://github.com/muesli/duf" target="_blank" >duf&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - отображение информации про диски. Работает только под Unix.&lt;/li>
-&lt;li>&lt;a href="https://github.com/kashav/fsql" target="_blank" >fsql&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - поиск файлов в виде SQL.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#работа-с-файлами" class="gdoc-page__anchor clip flex align-center" title=" Работа с файлами" aria-label=" Работа с файлами" href="#%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0-%d1%81-%d1%84%d0%b0%d0%b9%d0%bb%d0%b0%d0%bc%d0%b8"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/viktomas/godu" target="_blank" &gt;godu&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - позволяет быстро просматривать каталоги с большим количеством файлов.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/gokcehan/lf" target="_blank" &gt;lf&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - консольный менеджер файлов на Go.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/eltaline/wzd" target="_blank" &gt;wzd&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - веб-сервер для работы с огромным количеством файлов.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/muesli/duf" target="_blank" &gt;duf&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - отображение информации про диски. Работает только под Unix.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/kashav/fsql" target="_blank" &gt;fsql&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - поиск файлов в виде SQL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="хранение-и-версионирование-кода"
- >
+ &gt;
  Хранение и версионирование кода
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#хранение-и-версионирование-кода" class="gdoc-page__anchor clip flex align-center" title=" Хранение и версионирование кода" aria-label=" Хранение и версионирование кода" href="#%d1%85%d1%80%d0%b0%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b8-%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d0%be%d0%bd%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%ba%d0%be%d0%b4%d0%b0">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>Система хранения и версионирования кода - &lt;a href="https://gogs.io/" target="_blank" >Gogs&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://github.com/gogits/gogs" target="_blank" >Github&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://gitea.io" target="_blank" >Gitea&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - склонированная и расширенная версия Gogs. Разворачивается локально. Исходники на &lt;a href="https://github.com/go-gitea/gitea" target="_blank" >GitHub&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://github.com/jesseduffield/lazygit" target="_blank" >Lazygit (https://github.com/jesseduffield/lazygit)&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Консольный клиент для работы с git.&lt;/li>
-&lt;li>&lt;a href="https://gitness.com" target="_blank" >Gitness&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - opensource проект. Разворачивается локально. &lt;a href="https://github.com/harness/gitness" target="_blank" >GitHub&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#хранение-и-версионирование-кода" class="gdoc-page__anchor clip flex align-center" title=" Хранение и версионирование кода" aria-label=" Хранение и версионирование кода" href="#%d1%85%d1%80%d0%b0%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b8-%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d0%be%d0%bd%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%ba%d0%be%d0%b4%d0%b0"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Система хранения и версионирования кода - &lt;a href="https://gogs.io/" target="_blank" &gt;Gogs&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. &lt;a href="https://github.com/gogits/gogs" target="_blank" &gt;Github&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gitea.io" target="_blank" &gt;Gitea&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - склонированная и расширенная версия Gogs. Разворачивается локально. Исходники на &lt;a href="https://github.com/go-gitea/gitea" target="_blank" &gt;GitHub&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jesseduffield/lazygit" target="_blank" &gt;Lazygit (https://github.com/jesseduffield/lazygit)&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. Консольный клиент для работы с git.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gitness.com" target="_blank" &gt;Gitness&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - opensource проект. Разворачивается локально. &lt;a href="https://github.com/harness/gitness" target="_blank" &gt;GitHub&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="нагрузочное-тестирование"
- >
+ &gt;
  Нагрузочное тестирование
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#нагрузочное-тестирование" class="gdoc-page__anchor clip flex align-center" title=" Нагрузочное тестирование" aria-label=" Нагрузочное тестирование" href="#%d0%bd%d0%b0%d0%b3%d1%80%d1%83%d0%b7%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/loadimpact/k6" target="_blank" >K6&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://docs.k6.io/docs/running-k6" target="_blank" >Документация&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://github.com/tsenart/vegeta" target="_blank" >vegeta (https://github.com/tsenart/vegeta)&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - подключается, либо как библиотека, либо используется из командной строки.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#нагрузочное-тестирование" class="gdoc-page__anchor clip flex align-center" title=" Нагрузочное тестирование" aria-label=" Нагрузочное тестирование" href="#%d0%bd%d0%b0%d0%b3%d1%80%d1%83%d0%b7%d0%be%d1%87%d0%bd%d0%be%d0%b5-%d1%82%d0%b5%d1%81%d1%82%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/loadimpact/k6" target="_blank" &gt;K6&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. &lt;a href="https://docs.k6.io/docs/running-k6" target="_blank" &gt;Документация&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tsenart/vegeta" target="_blank" &gt;vegeta (https://github.com/tsenart/vegeta)&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - подключается, либо как библиотека, либо используется из командной строки.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="web"
- >
+ &gt;
  WEB
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#web" class="gdoc-page__anchor clip flex align-center" title=" WEB" aria-label=" WEB" href="#web">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://caddyserver.com" target="_blank" >Caddy&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - лёгкий и быстрый http-сервер как Nginx или Apache. &lt;a href="https://caddyserver.com" target="_blank" >Документация&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Исходники на &lt;a href="https://github.com/caddyserver/caddy" target="_blank" >github&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://github.com/fatedier/frp" target="_blank" >FRP&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - reverse-proxy.&lt;/li>
-&lt;li>&lt;a href="https://github.com/casbin/casbin-forum" target="_blank" >Casbin forum&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - реализация форума на Go и ReactJS.&lt;/li>
-&lt;li>&lt;a href="https://github.com/drakkan/sftpgo" target="_blank" >sftpgo&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - сервер, поддерживающий различные протоколы: SFTP, HTTP, FTP/S and WebDAV. И также различные системы хранения: local filesystem, encrypted local filesystem, S3 (compatible) Object Storage, Google Cloud Storage, Azure Blob Storage.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#web" class="gdoc-page__anchor clip flex align-center" title=" WEB" aria-label=" WEB" href="#web"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://caddyserver.com" target="_blank" &gt;Caddy&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - лёгкий и быстрый http-сервер как Nginx или Apache. &lt;a href="https://caddyserver.com" target="_blank" &gt;Документация&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. Исходники на &lt;a href="https://github.com/caddyserver/caddy" target="_blank" &gt;github&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/fatedier/frp" target="_blank" &gt;FRP&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - reverse-proxy.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/casbin/casbin-forum" target="_blank" &gt;Casbin forum&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - реализация форума на Go и ReactJS.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/drakkan/sftpgo" target="_blank" &gt;sftpgo&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - сервер, поддерживающий различные протоколы: SFTP, HTTP, FTP/S and WebDAV. И также различные системы хранения: local filesystem, encrypted local filesystem, S3 (compatible) Object Storage, Google Cloud Storage, Azure Blob Storage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h3 id="web-приложения"
- >
+ &gt;
  Web-приложения
- &lt;/h3>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#web-приложения" class="gdoc-page__anchor clip flex align-center" title=" Web-приложения" aria-label=" Web-приложения" href="#web-%d0%bf%d1%80%d0%b8%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%b8%d1%8f">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/wasmvision/wasmvision" target="_blank" >wasmVision&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - wasm-приложения, использующее openCv для работы с камерой. Накладывает эффекты, типа размытия.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h3&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#web-приложения" class="gdoc-page__anchor clip flex align-center" title=" Web-приложения" aria-label=" Web-приложения" href="#web-%d0%bf%d1%80%d0%b8%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%b8%d1%8f"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/wasmvision/wasmvision" target="_blank" &gt;wasmVision&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - wasm-приложения, использующее openCv для работы с камерой. Накладывает эффекты, типа размытия.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="рисование-графиков"
- >
+ &gt;
  Рисование графиков
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#рисование-графиков" class="gdoc-page__anchor clip flex align-center" title=" Рисование графиков" aria-label=" Рисование графиков" href="#%d1%80%d0%b8%d1%81%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b3%d1%80%d0%b0%d1%84%d0%b8%d0%ba%d0%be%d0%b2">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>&lt;a href="https://github.com/marianogappa/chart" target="_blank" >Chart&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - рисует график на основании данных из стандартного потока ввода. &lt;a href="https://marianogappa.github.io/chart" target="_blank" >Примеры отображения&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://movio.co/blog/improving-with-sql-and-charts" target="_blank" >Статья об использовании&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p></description></item><item><title>Полезные программы на Rust</title><link>https://maxtar.github.io/programming/rust/useful-programs/</link><pubDate>Sun, 09 Oct 2022 01:44:05 +0300</pubDate><guid>https://maxtar.github.io/programming/rust/useful-programs/</guid><description>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/go/useful-programs/#рисование-графиков" class="gdoc-page__anchor clip flex align-center" title=" Рисование графиков" aria-label=" Рисование графиков" href="#%d1%80%d0%b8%d1%81%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b3%d1%80%d0%b0%d1%84%d0%b8%d0%ba%d0%be%d0%b2"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://github.com/marianogappa/chart" target="_blank" &gt;Chart&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - рисует график на основании данных из стандартного потока ввода. &lt;a href="https://marianogappa.github.io/chart" target="_blank" &gt;Примеры отображения&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. &lt;a href="https://movio.co/blog/improving-with-sql-and-charts" target="_blank" &gt;Статья об использовании&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Полезные программы на Rust</title><link>https://maxtar.github.io/programming/rust/useful-programs/</link><pubDate>Sun, 09 Oct 2022 01:44:05 +0300</pubDate><guid>https://maxtar.github.io/programming/rust/useful-programs/</guid><description>&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="анализ-данных"
- >
+ &gt;
  Анализ данных
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/rust/useful-programs/#анализ-данных" class="gdoc-page__anchor clip flex align-center" title=" Анализ данных" aria-label=" Анализ данных" href="#%d0%b0%d0%bd%d0%b0%d0%bb%d0%b8%d0%b7-%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/BurntSushi/xsv" target="_blank" >Xsv&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - анализ csv файлов в консоли.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/rust/useful-programs/#анализ-данных" class="gdoc-page__anchor clip flex align-center" title=" Анализ данных" aria-label=" Анализ данных" href="#%d0%b0%d0%bd%d0%b0%d0%bb%d0%b8%d0%b7-%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/BurntSushi/xsv" target="_blank" &gt;Xsv&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - анализ csv файлов в консоли.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

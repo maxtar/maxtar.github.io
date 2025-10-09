@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Видео on Max Wiki Site</title><link>https://maxtar.github.io/3d-vfx-video/video/</link><description>Recent content in Видео on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 14:14:05 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/3d-vfx-video/video/index.xml" rel="self" type="application/rss+xml"/><item><title>Kdenlive</title><link>https://maxtar.github.io/3d-vfx-video/video/kdenlive/</link><pubDate>Sun, 09 Oct 2022 14:14:05 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/video/kdenlive/</guid><description>&lt;p>Всякие разности редактора нелинейного монтажа Kdenlive.&lt;/p>
-&lt;p>&lt;a href="https://kdenlive.org/" target="_blank" >Официальный сайт&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p>
-&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#решение-проблемы-с-невозможностью-управлять-курсором-на-монтажном-столе">Решение проблемы с невозможностью управлять курсором на монтажном столе&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#краткое-описание-эффектов-в-видеоредакторе-kdenlive">Краткое описание эффектов в видеоредакторе kdenlive&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Видео on Max Wiki Site</title><link>https://maxtar.github.io/3d-vfx-video/video/</link><description>Recent content in Видео on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 14:14:05 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/3d-vfx-video/video/index.xml" rel="self" type="application/rss+xml"/><item><title>Kdenlive</title><link>https://maxtar.github.io/3d-vfx-video/video/kdenlive/</link><pubDate>Sun, 09 Oct 2022 14:14:05 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/video/kdenlive/</guid><description>&lt;p&gt;Всякие разности редактора нелинейного монтажа Kdenlive.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kdenlive.org/" target="_blank" &gt;Официальный сайт&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#решение-проблемы-с-невозможностью-управлять-курсором-на-монтажном-столе"&gt;Решение проблемы с невозможностью управлять курсором на монтажном столе&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#краткое-описание-эффектов-в-видеоредакторе-kdenlive"&gt;Краткое описание эффектов в видеоредакторе kdenlive&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="решение-проблемы-с-невозможностью-управлять-курсором-на-монтажном-столе"
- >
+ &gt;
  Решение проблемы с невозможностью управлять курсором на монтажном столе
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/video/kdenlive/#решение-проблемы-с-невозможностью-управлять-курсором-на-монтажном-столе" class="gdoc-page__anchor clip flex align-center" title=" Решение проблемы с невозможностью управлять курсором на монтажном столе" aria-label=" Решение проблемы с невозможностью управлять курсором на монтажном столе" href="#%d1%80%d0%b5%d1%88%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d0%b1%d0%bb%d0%b5%d0%bc%d1%8b-%d1%81-%d0%bd%d0%b5%d0%b2%d0%be%d0%b7%d0%bc%d0%be%d0%b6%d0%bd%d0%be%d1%81%d1%82%d1%8c%d1%8e-%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d1%8f%d1%82%d1%8c-%d0%ba%d1%83%d1%80%d1%81%d0%be%d1%80%d0%be%d0%bc-%d0%bd%d0%b0-%d0%bc%d0%be%d0%bd%d1%82%d0%b0%d0%b6%d0%bd%d0%be%d0%bc-%d1%81%d1%82%d0%be%d0%bb%d0%b5">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>Если:&lt;/p>
-&lt;ol>
-&lt;li>Курсором на монтажном столе невозможно управлять мышкой.&lt;/li>
-&lt;li>Не работают клавиши стрелок для перехода на один кадр.&lt;/li>
-&lt;/ol>
-&lt;p>То, скорее всего, проблема в настройке MLT. А точнее - в количестве потоков обработки. Значения больше единицы поддерживаются пока в экспериментальном режиме. Поэтому лучше поставить единицу:&lt;/p></description></item></channel></rss>
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/video/kdenlive/#решение-проблемы-с-невозможностью-управлять-курсором-на-монтажном-столе" class="gdoc-page__anchor clip flex align-center" title=" Решение проблемы с невозможностью управлять курсором на монтажном столе" aria-label=" Решение проблемы с невозможностью управлять курсором на монтажном столе" href="#%d1%80%d0%b5%d1%88%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d0%b1%d0%bb%d0%b5%d0%bc%d1%8b-%d1%81-%d0%bd%d0%b5%d0%b2%d0%be%d0%b7%d0%bc%d0%be%d0%b6%d0%bd%d0%be%d1%81%d1%82%d1%8c%d1%8e-%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d1%8f%d1%82%d1%8c-%d0%ba%d1%83%d1%80%d1%81%d0%be%d1%80%d0%be%d0%bc-%d0%bd%d0%b0-%d0%bc%d0%be%d0%bd%d1%82%d0%b0%d0%b6%d0%bd%d0%be%d0%bc-%d1%81%d1%82%d0%be%d0%bb%d0%b5"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;Если:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Курсором на монтажном столе невозможно управлять мышкой.&lt;/li&gt;
+&lt;li&gt;Не работают клавиши стрелок для перехода на один кадр.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;То, скорее всего, проблема в настройке MLT. А точнее - в количестве потоков обработки. Значения больше единицы поддерживаются пока в экспериментальном режиме. Поэтому лучше поставить единицу:&lt;/p&gt;</description></item></channel></rss>

@@ -1,104 +1,104 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kotlin on Max Wiki Site</title><link>https://maxtar.github.io/tags/kotlin/</link><description>Recent content in Kotlin on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 05 Oct 2022 02:13:08 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/kotlin/index.xml" rel="self" type="application/rss+xml"/><item><title>Полезные библиотеки</title><link>https://maxtar.github.io/programming/kotlin/useful-libs/</link><pubDate>Wed, 05 Oct 2022 02:13:08 +0300</pubDate><guid>https://maxtar.github.io/programming/kotlin/useful-libs/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#web">WEB&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#бд">БД&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#конфигурация">Конфигурация&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#математика-и-статистика">Математика и статистика&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#логирование">Логирование&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#кросплатформенная-разработка">Кросплатформенная разработка&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kotlin on Max Wiki Site</title><link>https://maxtar.github.io/tags/kotlin/</link><description>Recent content in Kotlin on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 05 Oct 2022 02:13:08 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/kotlin/index.xml" rel="self" type="application/rss+xml"/><item><title>Полезные библиотеки</title><link>https://maxtar.github.io/programming/kotlin/useful-libs/</link><pubDate>Wed, 05 Oct 2022 02:13:08 +0300</pubDate><guid>https://maxtar.github.io/programming/kotlin/useful-libs/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#web"&gt;WEB&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#бд"&gt;БД&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#конфигурация"&gt;Конфигурация&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#математика-и-статистика"&gt;Математика и статистика&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#логирование"&gt;Логирование&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#кросплатформенная-разработка"&gt;Кросплатформенная разработка&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="web"
- >
+ &gt;
  WEB
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/kotlin/useful-libs/#web" class="gdoc-page__anchor clip flex align-center" title=" WEB" aria-label=" WEB" href="#web">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/kittinunf/Fuel" target="_blank" >Fuel&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - библиотека для работы с HTTP. &lt;a href="https://fuel.gitbook.io/documentation" target="_blank" >Документация&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Правда, кажется заброшенной&amp;hellip;&lt;/li>
-&lt;li>&lt;a href="https://ktor.io/" target="_blank" >Ktor&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - framework для написания web-приложений.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/kotlin/useful-libs/#web" class="gdoc-page__anchor clip flex align-center" title=" WEB" aria-label=" WEB" href="#web"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/kittinunf/Fuel" target="_blank" &gt;Fuel&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - библиотека для работы с HTTP. &lt;a href="https://fuel.gitbook.io/documentation" target="_blank" &gt;Документация&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. Правда, кажется заброшенной&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ktor.io/" target="_blank" &gt;Ktor&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - framework для написания web-приложений.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="бд"
- >
+ &gt;
  БД
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/kotlin/useful-libs/#бд" class="gdoc-page__anchor clip flex align-center" title=" БД" aria-label=" БД" href="#%d0%b1%d0%b4">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/JetBrains/Exposed" target="_blank" >Exposed&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - DSL для SQL от Jetbrains. &lt;a href="https://www.baeldung.com/kotlin/exposed-persistence" target="_blank" >Краткое описание&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> от кого-то.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/kotlin/useful-libs/#бд" class="gdoc-page__anchor clip flex align-center" title=" БД" aria-label=" БД" href="#%d0%b1%d0%b4"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/JetBrains/Exposed" target="_blank" &gt;Exposed&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - DSL для SQL от Jetbrains. &lt;a href="https://www.baeldung.com/kotlin/exposed-persistence" target="_blank" &gt;Краткое описание&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; от кого-то.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="конфигурация"
- >
+ &gt;
  Конфигурация
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/kotlin/useful-libs/#конфигурация" class="gdoc-page__anchor clip flex align-center" title=" Конфигурация" aria-label=" Конфигурация" href="#%d0%ba%d0%be%d0%bd%d1%84%d0%b8%d0%b3%d1%83%d1%80%d0%b0%d1%86%d0%b8%d1%8f">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/uchuhimo/konf" target="_blank" >konf&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - работа с конфигурацией из различных источников.&lt;/li>
-&lt;li>&lt;a href="https://github.com/sksamuel/hoplite" target="_blank" >hoplite&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - очень похожа на konf.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/kotlin/useful-libs/#конфигурация" class="gdoc-page__anchor clip flex align-center" title=" Конфигурация" aria-label=" Конфигурация" href="#%d0%ba%d0%be%d0%bd%d1%84%d0%b8%d0%b3%d1%83%d1%80%d0%b0%d1%86%d0%b8%d1%8f"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/uchuhimo/konf" target="_blank" &gt;konf&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - работа с конфигурацией из различных источников.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/sksamuel/hoplite" target="_blank" &gt;hoplite&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - очень похожа на konf.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="математика-и-статистика"
- >
+ &gt;
  Математика и статистика
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/kotlin/useful-libs/#математика-и-статистика" class="gdoc-page__anchor clip flex align-center" title=" Математика и статистика" aria-label=" Математика и статистика" href="#%d0%bc%d0%b0%d1%82%d0%b5%d0%bc%d0%b0%d1%82%d0%b8%d0%ba%d0%b0-%d0%b8-%d1%81%d1%82%d0%b0%d1%82%d0%b8%d1%81%d1%82%d0%b8%d0%ba%d0%b0">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/thomasnield/kotlin-statistics" target="_blank" >Kotlin Statistics&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/kotlin/useful-libs/#математика-и-статистика" class="gdoc-page__anchor clip flex align-center" title=" Математика и статистика" aria-label=" Математика и статистика" href="#%d0%bc%d0%b0%d1%82%d0%b5%d0%bc%d0%b0%d1%82%d0%b8%d0%ba%d0%b0-%d0%b8-%d1%81%d1%82%d0%b0%d1%82%d0%b8%d1%81%d1%82%d0%b8%d0%ba%d0%b0"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/thomasnield/kotlin-statistics" target="_blank" &gt;Kotlin Statistics&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="логирование"
- >
+ &gt;
  Логирование
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/kotlin/useful-libs/#логирование" class="gdoc-page__anchor clip flex align-center" title=" Логирование" aria-label=" Логирование" href="#%d0%bb%d0%be%d0%b3%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/MicroUtils/kotlin-logging" target="_blank" >kotlin-logging&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - удобная библиотека для Kotlin. Пока, пожалуй, самая лучшая.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/kotlin/useful-libs/#логирование" class="gdoc-page__anchor clip flex align-center" title=" Логирование" aria-label=" Логирование" href="#%d0%bb%d0%be%d0%b3%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/MicroUtils/kotlin-logging" target="_blank" &gt;kotlin-logging&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - удобная библиотека для Kotlin. Пока, пожалуй, самая лучшая.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="кросплатформенная-разработка"
- >
+ &gt;
  Кросплатформенная разработка
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/kotlin/useful-libs/#кросплатформенная-разработка" class="gdoc-page__anchor clip flex align-center" title=" Кросплатформенная разработка" aria-label=" Кросплатформенная разработка" href="#%d0%ba%d1%80%d0%be%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d1%84%d0%be%d1%80%d0%bc%d0%b5%d0%bd%d0%bd%d0%b0%d1%8f-%d1%80%d0%b0%d0%b7%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b0">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://www.jetbrains.com/lp/compose-multiplatform/" target="_blank" >Compose Multiplatform&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - разработка мультиплатформенных GUI-приложений.&lt;/li>
-&lt;/ul></description></item><item><title>Kotlin</title><link>https://maxtar.github.io/programming/kotlin/</link><pubDate>Sun, 02 Oct 2022 22:21:45 +0300</pubDate><guid>https://maxtar.github.io/programming/kotlin/</guid><description>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/kotlin/useful-libs/#кросплатформенная-разработка" class="gdoc-page__anchor clip flex align-center" title=" Кросплатформенная разработка" aria-label=" Кросплатформенная разработка" href="#%d0%ba%d1%80%d0%be%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d1%84%d0%be%d1%80%d0%bc%d0%b5%d0%bd%d0%bd%d0%b0%d1%8f-%d1%80%d0%b0%d0%b7%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b0"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.jetbrains.com/lp/compose-multiplatform/" target="_blank" &gt;Compose Multiplatform&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - разработка мультиплатформенных GUI-приложений.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Kotlin</title><link>https://maxtar.github.io/programming/kotlin/</link><pubDate>Sun, 02 Oct 2022 22:21:45 +0300</pubDate><guid>https://maxtar.github.io/programming/kotlin/</guid><description>&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="информация-по-kotlin"
- >
+ &gt;
  Информация по Kotlin
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/kotlin/#информация-по-kotlin" class="gdoc-page__anchor clip flex align-center" title=" Информация по Kotlin" aria-label=" Информация по Kotlin" href="#%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f-%d0%bf%d0%be-kotlin">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>&lt;a href="https://kotlinlang.org" target="_blank" >Официальный сайт&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://kotlinlang.org/docs/reference/using-gradle.html" target="_blank" >Добавление поддержки Kotlin в gradle&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://kotlinlang.ru/" target="_blank" >kotlinlang.ru&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - сайт, посвящённый Kotlin на-русском.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/kotlin/#информация-по-kotlin" class="gdoc-page__anchor clip flex align-center" title=" Информация по Kotlin" aria-label=" Информация по Kotlin" href="#%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f-%d0%bf%d0%be-kotlin"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://kotlinlang.org" target="_blank" &gt;Официальный сайт&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://kotlinlang.org/docs/reference/using-gradle.html" target="_blank" &gt;Добавление поддержки Kotlin в gradle&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kotlinlang.ru/" target="_blank" &gt;kotlinlang.ru&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - сайт, посвящённый Kotlin на-русском.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

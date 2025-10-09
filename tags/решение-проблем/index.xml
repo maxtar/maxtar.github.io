@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Решение Проблем on Max Wiki Site</title><link>https://maxtar.github.io/tags/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC/</link><description>Recent content in Решение Проблем on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 02:09:29 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>Решение разных проблем</title><link>https://maxtar.github.io/administration/linux/troubleshooting/</link><pubDate>Sun, 09 Oct 2022 02:09:29 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/troubleshooting/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#networkmanager-не-управляет-сетью-по-различным-причинам">NetworkManager не управляет сетью по различным причинам&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Решение Проблем on Max Wiki Site</title><link>https://maxtar.github.io/tags/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC/</link><description>Recent content in Решение Проблем on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 02:09:29 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>Решение разных проблем</title><link>https://maxtar.github.io/administration/linux/troubleshooting/</link><pubDate>Sun, 09 Oct 2022 02:09:29 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/troubleshooting/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#networkmanager-не-управляет-сетью-по-различным-причинам"&gt;NetworkManager не управляет сетью по различным причинам&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="networkmanager-не-управляет-сетью-по-различным-причинам"
- >
+ &gt;
  NetworkManager не управляет сетью по различным причинам
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/troubleshooting/#networkmanager-не-управляет-сетью-по-различным-причинам" class="gdoc-page__anchor clip flex align-center" title=" NetworkManager не управляет сетью по различным причинам" aria-label=" NetworkManager не управляет сетью по различным причинам" href="#networkmanager-%d0%bd%d0%b5-%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d1%8f%d0%b5%d1%82-%d1%81%d0%b5%d1%82%d1%8c%d1%8e-%d0%bf%d0%be-%d1%80%d0%b0%d0%b7%d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%bc-%d0%bf%d1%80%d0%b8%d1%87%d0%b8%d0%bd%d0%b0%d0%bc">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>В случае, если интерфейсов немного. Например, как на обычном компьютере то быстро исправить проблему можно следующим образом.
-В файл &lt;code>/etc/network/interfaces&lt;/code> добавить следующие настройки для нужного проводного интерфейса:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">auto eth0
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">iface eth0 inet dhcp
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Таким образом будет инициализировать интерфейс eth0 без участия NetworkManager.&lt;/p></description></item></channel></rss>
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/troubleshooting/#networkmanager-не-управляет-сетью-по-различным-причинам" class="gdoc-page__anchor clip flex align-center" title=" NetworkManager не управляет сетью по различным причинам" aria-label=" NetworkManager не управляет сетью по различным причинам" href="#networkmanager-%d0%bd%d0%b5-%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d1%8f%d0%b5%d1%82-%d1%81%d0%b5%d1%82%d1%8c%d1%8e-%d0%bf%d0%be-%d1%80%d0%b0%d0%b7%d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%bc-%d0%bf%d1%80%d0%b8%d1%87%d0%b8%d0%bd%d0%b0%d0%bc"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;В случае, если интерфейсов немного. Например, как на обычном компьютере то быстро исправить проблему можно следующим образом.
+В файл &lt;code&gt;/etc/network/interfaces&lt;/code&gt; добавить следующие настройки для нужного проводного интерфейса:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;auto eth0
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;iface eth0 inet dhcp
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Таким образом будет инициализировать интерфейс eth0 без участия NetworkManager.&lt;/p&gt;</description></item></channel></rss>

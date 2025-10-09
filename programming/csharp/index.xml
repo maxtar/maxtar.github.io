@@ -1,66 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C# on Max Wiki Site</title><link>https://maxtar.github.io/programming/csharp/</link><description>Recent content in C# on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 05 Oct 2022 01:42:05 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/programming/csharp/index.xml" rel="self" type="application/rss+xml"/><item><title>Полезные функции</title><link>https://maxtar.github.io/programming/csharp/useful-func/</link><pubDate>Wed, 05 Oct 2022 01:42:05 +0300</pubDate><guid>https://maxtar.github.io/programming/csharp/useful-func/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#преобразование-числа-в-ip-адрес">Преобразование числа в IP-адрес&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#преобразование-ip-адреса-в-число-в-прямом-порядке-be">Преобразование IP-адреса в число в прямом порядке (BE)&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C# on Max Wiki Site</title><link>https://maxtar.github.io/programming/csharp/</link><description>Recent content in C# on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 05 Oct 2022 01:42:05 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/programming/csharp/index.xml" rel="self" type="application/rss+xml"/><item><title>Полезные функции</title><link>https://maxtar.github.io/programming/csharp/useful-func/</link><pubDate>Wed, 05 Oct 2022 01:42:05 +0300</pubDate><guid>https://maxtar.github.io/programming/csharp/useful-func/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#преобразование-числа-в-ip-адрес"&gt;Преобразование числа в IP-адрес&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#преобразование-ip-адреса-в-число-в-прямом-порядке-be"&gt;Преобразование IP-адреса в число в прямом порядке (BE)&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="преобразование-числа-в-ip-адрес"
- >
+ &gt;
  Преобразование числа в IP-адрес
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/csharp/useful-func/#преобразование-числа-в-ip-адрес" class="gdoc-page__anchor clip flex align-center" title=" Преобразование числа в IP-адрес" aria-label=" Преобразование числа в IP-адрес" href="#%d0%bf%d1%80%d0%b5%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d1%87%d0%b8%d1%81%d0%bb%d0%b0-%d0%b2-ip-%d0%b0%d0%b4%d1%80%d0%b5%d1%81">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c#" data-lang="c#">&lt;span class="line">&lt;span class="cl">&lt;span class="k">new&lt;/span> &lt;span class="n">System&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Net&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">IPAddress&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">36546&lt;/span>&lt;span class="p">)).&lt;/span>&lt;span class="n">ToString&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/csharp/useful-func/#преобразование-числа-в-ip-адрес" class="gdoc-page__anchor clip flex align-center" title=" Преобразование числа в IP-адрес" aria-label=" Преобразование числа в IP-адрес" href="#%d0%bf%d1%80%d0%b5%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d1%87%d0%b8%d1%81%d0%bb%d0%b0-%d0%b2-ip-%d0%b0%d0%b4%d1%80%d0%b5%d1%81"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-c#" data-lang="c#"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Net&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;IPAddress&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;36546&lt;/span&gt;&lt;span class="p"&gt;)).&lt;/span&gt;&lt;span class="n"&gt;ToString&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="преобразование-ip-адреса-в-число-в-прямом-порядке-be"
- >
+ &gt;
  Преобразование IP-адреса в число в прямом порядке (BE)
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/csharp/useful-func/#преобразование-ip-адреса-в-число-в-прямом-порядке-be" class="gdoc-page__anchor clip flex align-center" title=" Преобразование IP-адреса в число в прямом порядке (BE)" aria-label=" Преобразование IP-адреса в число в прямом порядке (BE)" href="#%d0%bf%d1%80%d0%b5%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-ip-%d0%b0%d0%b4%d1%80%d0%b5%d1%81%d0%b0-%d0%b2-%d1%87%d0%b8%d1%81%d0%bb%d0%be-%d0%b2-%d0%bf%d1%80%d1%8f%d0%bc%d0%be%d0%bc-%d0%bf%d0%be%d1%80%d1%8f%d0%b4%d0%ba%d0%b5-be">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c#" data-lang="c#">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">byte&lt;/span>&lt;span class="p">[]&lt;/span> &lt;span class="n">ipNums&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">ip&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Split&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sc">&amp;#39;.&amp;#39;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="n">Select&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="kt">byte&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Parse&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">s&lt;/span>&lt;span class="p">)).&lt;/span>&lt;span class="n">ToArray&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">uint&lt;/span> &lt;span class="n">res&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">res&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">res&lt;/span> &lt;span class="p">+&lt;/span> &lt;span class="n">ipNums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="p">&amp;lt;&amp;lt;&lt;/span> &lt;span class="m">8&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">res&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">res&lt;/span> &lt;span class="p">+&lt;/span> &lt;span class="n">ipNums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="p">&amp;lt;&amp;lt;&lt;/span> &lt;span class="m">8&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">res&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">res&lt;/span> &lt;span class="p">+&lt;/span> &lt;span class="n">ipNums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="m">2&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="p">&amp;lt;&amp;lt;&lt;/span> &lt;span class="m">8&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">res&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">res&lt;/span> &lt;span class="p">+&lt;/span> &lt;span class="n">ipNums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="m">3&lt;/span>&lt;span class="p">];&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">res&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Полезные библиотеки</title><link>https://maxtar.github.io/programming/csharp/useful-libs/</link><pubDate>Wed, 05 Oct 2022 01:28:55 +0300</pubDate><guid>https://maxtar.github.io/programming/csharp/useful-libs/</guid><description>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/csharp/useful-func/#преобразование-ip-адреса-в-число-в-прямом-порядке-be" class="gdoc-page__anchor clip flex align-center" title=" Преобразование IP-адреса в число в прямом порядке (BE)" aria-label=" Преобразование IP-адреса в число в прямом порядке (BE)" href="#%d0%bf%d1%80%d0%b5%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-ip-%d0%b0%d0%b4%d1%80%d0%b5%d1%81%d0%b0-%d0%b2-%d1%87%d0%b8%d1%81%d0%bb%d0%be-%d0%b2-%d0%bf%d1%80%d1%8f%d0%bc%d0%be%d0%bc-%d0%bf%d0%be%d1%80%d1%8f%d0%b4%d0%ba%d0%b5-be"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-c#" data-lang="c#"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kt"&gt;byte&lt;/span&gt;&lt;span class="p"&gt;[]&lt;/span&gt; &lt;span class="n"&gt;ipNums&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Split&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;&amp;#39;.&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="n"&gt;Select&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="kt"&gt;byte&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Parse&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;)).&lt;/span&gt;&lt;span class="n"&gt;ToArray&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kt"&gt;uint&lt;/span&gt; &lt;span class="n"&gt;res&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;res&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;res&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="n"&gt;ipNums&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="m"&gt;8&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;res&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;res&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="n"&gt;ipNums&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="m"&gt;8&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;res&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;res&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="n"&gt;ipNums&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="m"&gt;8&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;res&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;res&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="n"&gt;ipNums&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;res&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Полезные библиотеки</title><link>https://maxtar.github.io/programming/csharp/useful-libs/</link><pubDate>Wed, 05 Oct 2022 01:28:55 +0300</pubDate><guid>https://maxtar.github.io/programming/csharp/useful-libs/</guid><description>&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="работа-с-базой"
- >
+ &gt;
  Работа с базой
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/csharp/useful-libs/#работа-с-базой" class="gdoc-page__anchor clip flex align-center" title=" Работа с базой" aria-label=" Работа с базой" href="#%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0-%d1%81-%d0%b1%d0%b0%d0%b7%d0%be%d0%b9">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/StackExchange/Dapper" target="_blank" >Dapper&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/csharp/useful-libs/#работа-с-базой" class="gdoc-page__anchor clip flex align-center" title=" Работа с базой" aria-label=" Работа с базой" href="#%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0-%d1%81-%d0%b1%d0%b0%d0%b7%d0%be%d0%b9"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/StackExchange/Dapper" target="_blank" &gt;Dapper&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="работа-с-ssh"
- >
+ &gt;
  Работа с SSH
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/csharp/useful-libs/#работа-с-ssh" class="gdoc-page__anchor clip flex align-center" title=" Работа с SSH" aria-label=" Работа с SSH" href="#%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0-%d1%81-ssh">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/sshnet/SSH.NET" target="_blank" >SSH.NET&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https:/gist.github.com/piccaso/d963331dcbf20611b094" target="_blank" >Некоторые примеры&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/csharp/useful-libs/#работа-с-ssh" class="gdoc-page__anchor clip flex align-center" title=" Работа с SSH" aria-label=" Работа с SSH" href="#%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0-%d1%81-ssh"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/sshnet/SSH.NET" target="_blank" &gt;SSH.NET&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. &lt;a href="https:/gist.github.com/piccaso/d963331dcbf20611b094" target="_blank" &gt;Некоторые примеры&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust on Max Wiki Site</title><link>https://maxtar.github.io/programming/rust/</link><description>Recent content in Rust on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 01:44:05 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/programming/rust/index.xml" rel="self" type="application/rss+xml"/><item><title>Полезные программы на Rust</title><link>https://maxtar.github.io/programming/rust/useful-programs/</link><pubDate>Sun, 09 Oct 2022 01:44:05 +0300</pubDate><guid>https://maxtar.github.io/programming/rust/useful-programs/</guid><description>&lt;div class="flex align-center gdoc-page__anchorwrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust on Max Wiki Site</title><link>https://maxtar.github.io/programming/rust/</link><description>Recent content in Rust on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 01:44:05 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/programming/rust/index.xml" rel="self" type="application/rss+xml"/><item><title>Полезные программы на Rust</title><link>https://maxtar.github.io/programming/rust/useful-programs/</link><pubDate>Sun, 09 Oct 2022 01:44:05 +0300</pubDate><guid>https://maxtar.github.io/programming/rust/useful-programs/</guid><description>&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="анализ-данных"
- >
+ &gt;
  Анализ данных
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/rust/useful-programs/#анализ-данных" class="gdoc-page__anchor clip flex align-center" title=" Анализ данных" aria-label=" Анализ данных" href="#%d0%b0%d0%bd%d0%b0%d0%bb%d0%b8%d0%b7-%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/BurntSushi/xsv" target="_blank" >Xsv&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - анализ csv файлов в консоли.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/rust/useful-programs/#анализ-данных" class="gdoc-page__anchor clip flex align-center" title=" Анализ данных" aria-label=" Анализ данных" href="#%d0%b0%d0%bd%d0%b0%d0%bb%d0%b8%d0%b7-%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/BurntSushi/xsv" target="_blank" &gt;Xsv&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - анализ csv файлов в консоли.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

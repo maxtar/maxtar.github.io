@@ -1,865 +1,865 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Max Wiki Site</title><link>https://maxtar.github.io/tags/linux/</link><description>Recent content in Linux on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 12 Apr 2023 22:29:30 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Очень полезные команды Linux на одном листе</title><link>https://maxtar.github.io/administration/linux/useful-commands/</link><pubDate>Wed, 12 Apr 2023 22:29:30 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/useful-commands/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#системная-информация">Системная информация&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#остановка-системы">Остановка системы&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#файлы-и-директории">Файлы и директории&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#поиск-файлов">Поиск файлов&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#монтирование-файловых-систем">Монтирование файловых систем&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#дисковое-пространство">Дисковое пространство&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#пользователи-и-группы">Пользователи и группы&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#выставлениеизменение-полномочий-на-файлы">Выставление/изменение полномочий на файлы&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#специальные-атрибуты-файлов">Специальные атрибуты файлов&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#архивирование-и-сжатие-файлов">Архивирование и сжатие файлов&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#rpm-пакеты-fedora-red-hat-и-тому-подобное">RPM пакеты (Fedora, Red Hat и тому подобное)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#yum---средство-обновления-пакетовfedora-redhat-и-тому-подобное">YUM - средство обновления пакетов(Fedora, RedHat и тому подобное)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#deb-пакеты-debian-ubuntu-и-тому-подобное">DEB пакеты (Debian, Ubuntu и тому подобное)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#apt---средство-управление-пакетами-debian-ubuntu-и-тому-подобное">APT - средство управление пакетами (Debian, Ubuntu и тому подобное)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#просмотр-содержимого-файлов">Просмотр содержимого файлов&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#манипуляции-с-текстом">Манипуляции с текстом&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#преобразование-наборов-символов-и-файловых-форматов">Преобразование наборов символов и файловых форматов&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#анализ-файловых-систем">Анализ файловых систем&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#форматирование-файловых-систем">Форматирование файловых систем&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#swap-пространство">swap-пространство&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#создание-резервных-копий-backup">Создание резервных копий (backup)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#cdrom">CDROM&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#сеть-lan-и-wifi">Сеть (LAN и WiFi)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#microsoft-windows-networkssamba">Microsoft Windows networks(SAMBA)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#iptables-firewall">IPTABLES (firewall)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#мониторинг-и-отладка">Мониторинг и отладка&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#другие-полезные-команды">Другие полезные команды&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Max Wiki Site</title><link>https://maxtar.github.io/tags/linux/</link><description>Recent content in Linux on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 12 Apr 2023 22:29:30 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Очень полезные команды Linux на одном листе</title><link>https://maxtar.github.io/administration/linux/useful-commands/</link><pubDate>Wed, 12 Apr 2023 22:29:30 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/useful-commands/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#системная-информация"&gt;Системная информация&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#остановка-системы"&gt;Остановка системы&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#файлы-и-директории"&gt;Файлы и директории&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#поиск-файлов"&gt;Поиск файлов&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#монтирование-файловых-систем"&gt;Монтирование файловых систем&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#дисковое-пространство"&gt;Дисковое пространство&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#пользователи-и-группы"&gt;Пользователи и группы&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#выставлениеизменение-полномочий-на-файлы"&gt;Выставление/изменение полномочий на файлы&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#специальные-атрибуты-файлов"&gt;Специальные атрибуты файлов&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#архивирование-и-сжатие-файлов"&gt;Архивирование и сжатие файлов&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#rpm-пакеты-fedora-red-hat-и-тому-подобное"&gt;RPM пакеты (Fedora, Red Hat и тому подобное)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#yum---средство-обновления-пакетовfedora-redhat-и-тому-подобное"&gt;YUM - средство обновления пакетов(Fedora, RedHat и тому подобное)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#deb-пакеты-debian-ubuntu-и-тому-подобное"&gt;DEB пакеты (Debian, Ubuntu и тому подобное)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#apt---средство-управление-пакетами-debian-ubuntu-и-тому-подобное"&gt;APT - средство управление пакетами (Debian, Ubuntu и тому подобное)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#просмотр-содержимого-файлов"&gt;Просмотр содержимого файлов&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#манипуляции-с-текстом"&gt;Манипуляции с текстом&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#преобразование-наборов-символов-и-файловых-форматов"&gt;Преобразование наборов символов и файловых форматов&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#анализ-файловых-систем"&gt;Анализ файловых систем&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#форматирование-файловых-систем"&gt;Форматирование файловых систем&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#swap-пространство"&gt;swap-пространство&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#создание-резервных-копий-backup"&gt;Создание резервных копий (backup)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#cdrom"&gt;CDROM&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#сеть-lan-и-wifi"&gt;Сеть (LAN и WiFi)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#microsoft-windows-networkssamba"&gt;Microsoft Windows networks(SAMBA)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#iptables-firewall"&gt;IPTABLES (firewall)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#мониторинг-и-отладка"&gt;Мониторинг и отладка&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#другие-полезные-команды"&gt;Другие полезные команды&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="системная-информация"
- >
+ &gt;
  Системная информация
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/useful-commands/#системная-информация" class="gdoc-page__anchor clip flex align-center" title=" Системная информация" aria-label=" Системная информация" href="#%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%bd%d0%b0%d1%8f-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>&lt;strong>Команда&lt;/strong>&lt;/th>
- &lt;th>&lt;strong>Описание&lt;/strong>&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>arch&lt;/td>
- &lt;td>отобразить архитектуру компьютера&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>uname -m&lt;/td>
- &lt;td>&amp;ndash; // &amp;ndash;&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>uname -r&lt;/td>
- &lt;td>отобразить используемую версию ядра&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>dmidecode -q&lt;/td>
- &lt;td>показать аппаратные системные компоненты - (SMBIOS / DMI)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>hdparm -i /dev/hda&lt;/td>
- &lt;td>вывести характеристики жесткого диска&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>hdparm -tT /dev/sda&lt;/td>
- &lt;td>протестировать производительность чтения данных с жесткого диска&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cat /proc/cpuinfo&lt;/td>
- &lt;td>отобразить информацию о процессоре&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cat /proc/interrupts&lt;/td>
- &lt;td>показать прерывания&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cat /proc/meminfo&lt;/td>
- &lt;td>проверить использование памяти&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cat /proc/swaps&lt;/td>
- &lt;td>показать файл(ы) подкачки&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cat /proc/version&lt;/td>
- &lt;td>вывести версию ядра&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cat /proc/net/dev&lt;/td>
- &lt;td>показать сетевые интерфейсы и статистику по ним&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cat /proc/mounts&lt;/td>
- &lt;td>отобразить смонтированные файловые системы&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>lspci -tv&lt;/td>
- &lt;td>показать в виде дерева PCI устройства&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>lsusb -tv&lt;/td>
- &lt;td>показать в виде дерева USB устройства&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>date&lt;/td>
- &lt;td>вывести системную дату&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cal 2007&lt;/td>
- &lt;td>вывести таблицу-календарь 2007-го года&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>date 041217002007.00&lt;/td>
- &lt;td>установить системные дату и время ММДДЧЧммГГГГ.СС (МесяцДеньЧасМинутыГод.Секунды)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>clock -w&lt;/td>
- &lt;td>сохранить системное время в BIOS&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/useful-commands/#системная-информация" class="gdoc-page__anchor clip flex align-center" title=" Системная информация" aria-label=" Системная информация" href="#%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%bd%d0%b0%d1%8f-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;&lt;strong&gt;Команда&lt;/strong&gt;&lt;/th&gt;
+ &lt;th&gt;&lt;strong&gt;Описание&lt;/strong&gt;&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;arch&lt;/td&gt;
+ &lt;td&gt;отобразить архитектуру компьютера&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;uname -m&lt;/td&gt;
+ &lt;td&gt;&amp;ndash; // &amp;ndash;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;uname -r&lt;/td&gt;
+ &lt;td&gt;отобразить используемую версию ядра&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;dmidecode -q&lt;/td&gt;
+ &lt;td&gt;показать аппаратные системные компоненты - (SMBIOS / DMI)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;hdparm -i /dev/hda&lt;/td&gt;
+ &lt;td&gt;вывести характеристики жесткого диска&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;hdparm -tT /dev/sda&lt;/td&gt;
+ &lt;td&gt;протестировать производительность чтения данных с жесткого диска&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cat /proc/cpuinfo&lt;/td&gt;
+ &lt;td&gt;отобразить информацию о процессоре&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cat /proc/interrupts&lt;/td&gt;
+ &lt;td&gt;показать прерывания&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cat /proc/meminfo&lt;/td&gt;
+ &lt;td&gt;проверить использование памяти&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cat /proc/swaps&lt;/td&gt;
+ &lt;td&gt;показать файл(ы) подкачки&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cat /proc/version&lt;/td&gt;
+ &lt;td&gt;вывести версию ядра&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cat /proc/net/dev&lt;/td&gt;
+ &lt;td&gt;показать сетевые интерфейсы и статистику по ним&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cat /proc/mounts&lt;/td&gt;
+ &lt;td&gt;отобразить смонтированные файловые системы&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;lspci -tv&lt;/td&gt;
+ &lt;td&gt;показать в виде дерева PCI устройства&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;lsusb -tv&lt;/td&gt;
+ &lt;td&gt;показать в виде дерева USB устройства&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;date&lt;/td&gt;
+ &lt;td&gt;вывести системную дату&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cal 2007&lt;/td&gt;
+ &lt;td&gt;вывести таблицу-календарь 2007-го года&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;date 041217002007.00&lt;/td&gt;
+ &lt;td&gt;установить системные дату и время ММДДЧЧммГГГГ.СС (МесяцДеньЧасМинутыГод.Секунды)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;clock -w&lt;/td&gt;
+ &lt;td&gt;сохранить системное время в BIOS&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="остановка-системы"
- >
+ &gt;
  Остановка системы
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/useful-commands/#остановка-системы" class="gdoc-page__anchor clip flex align-center" title=" Остановка системы" aria-label=" Остановка системы" href="#%d0%be%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d1%8b">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>| &lt;strong>Команда&lt;/strong> | &lt;strong>Описание&lt;/strong> |&lt;/p></description></item><item><title>iptables</title><link>https://maxtar.github.io/administration/linux/iptables/</link><pubDate>Tue, 08 Nov 2022 17:01:34 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/iptables/</guid><description>&lt;p>Различные настройки iptables&lt;/p>
-&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#masquerade">MASQUERADE&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#разрешить-подключения-к-нужным-портам">Разрешить подключения к нужным портам&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#все-входящие-запрещены">Все входящие запрещены&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#разрешить-уже-установленные-соединения">Разрешить уже установленные соединения&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#разрешить-ping">Разрешить ping&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#сохранение-настроек-между-запусками">Сохранение настроек между запусками&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="http://vasilisc.com/21-examples-iptables" target="_blank" >Полезные примеры&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/useful-commands/#остановка-системы" class="gdoc-page__anchor clip flex align-center" title=" Остановка системы" aria-label=" Остановка системы" href="#%d0%be%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d1%8b"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;| &lt;strong&gt;Команда&lt;/strong&gt; | &lt;strong&gt;Описание&lt;/strong&gt; |&lt;/p&gt;</description></item><item><title>iptables</title><link>https://maxtar.github.io/administration/linux/iptables/</link><pubDate>Tue, 08 Nov 2022 17:01:34 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/iptables/</guid><description>&lt;p&gt;Различные настройки iptables&lt;/p&gt;
+&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#masquerade"&gt;MASQUERADE&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#разрешить-подключения-к-нужным-портам"&gt;Разрешить подключения к нужным портам&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#все-входящие-запрещены"&gt;Все входящие запрещены&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#разрешить-уже-установленные-соединения"&gt;Разрешить уже установленные соединения&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#разрешить-ping"&gt;Разрешить ping&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#сохранение-настроек-между-запусками"&gt;Сохранение настроек между запусками&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://vasilisc.com/21-examples-iptables" target="_blank" &gt;Полезные примеры&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="masquerade"
- >
+ &gt;
  MASQUERADE
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/iptables/#masquerade" class="gdoc-page__anchor clip flex align-center" title=" MASQUERADE" aria-label=" MASQUERADE" href="#masquerade">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">iptables -t nat -A POSTROUTING -o eth0 -s 192.168.0.0/24 -j MASQUERADE
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/iptables/#masquerade" class="gdoc-page__anchor clip flex align-center" title=" MASQUERADE" aria-label=" MASQUERADE" href="#masquerade"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;iptables -t nat -A POSTROUTING -o eth0 -s 192.168.0.0/24 -j MASQUERADE
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="разрешить-подключения-к-нужным-портам"
- >
+ &gt;
  Разрешить подключения к нужным портам
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/iptables/#разрешить-подключения-к-нужным-портам" class="gdoc-page__anchor clip flex align-center" title=" Разрешить подключения к нужным портам" aria-label=" Разрешить подключения к нужным портам" href="#%d1%80%d0%b0%d0%b7%d1%80%d0%b5%d1%88%d0%b8%d1%82%d1%8c-%d0%bf%d0%be%d0%b4%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%bd%d0%b8%d1%8f-%d0%ba-%d0%bd%d1%83%d0%b6%d0%bd%d1%8b%d0%bc-%d0%bf%d0%be%d1%80%d1%82%d0%b0%d0%bc">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">iptables -A INPUT -p tcp --dport &lt;span class="m">22&lt;/span> -j ACCEPT
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>где &lt;strong>22&lt;/strong> - это порт, который надо открыть&lt;/p></description></item><item><title>Решение разных проблем</title><link>https://maxtar.github.io/administration/linux/troubleshooting/</link><pubDate>Sun, 09 Oct 2022 02:09:29 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/troubleshooting/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#networkmanager-не-управляет-сетью-по-различным-причинам">NetworkManager не управляет сетью по различным причинам&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/iptables/#разрешить-подключения-к-нужным-портам" class="gdoc-page__anchor clip flex align-center" title=" Разрешить подключения к нужным портам" aria-label=" Разрешить подключения к нужным портам" href="#%d1%80%d0%b0%d0%b7%d1%80%d0%b5%d1%88%d0%b8%d1%82%d1%8c-%d0%bf%d0%be%d0%b4%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%bd%d0%b8%d1%8f-%d0%ba-%d0%bd%d1%83%d0%b6%d0%bd%d1%8b%d0%bc-%d0%bf%d0%be%d1%80%d1%82%d0%b0%d0%bc"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;iptables -A INPUT -p tcp --dport &lt;span class="m"&gt;22&lt;/span&gt; -j ACCEPT
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;где &lt;strong&gt;22&lt;/strong&gt; - это порт, который надо открыть&lt;/p&gt;</description></item><item><title>Решение разных проблем</title><link>https://maxtar.github.io/administration/linux/troubleshooting/</link><pubDate>Sun, 09 Oct 2022 02:09:29 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/troubleshooting/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#networkmanager-не-управляет-сетью-по-различным-причинам"&gt;NetworkManager не управляет сетью по различным причинам&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="networkmanager-не-управляет-сетью-по-различным-причинам"
- >
+ &gt;
  NetworkManager не управляет сетью по различным причинам
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/troubleshooting/#networkmanager-не-управляет-сетью-по-различным-причинам" class="gdoc-page__anchor clip flex align-center" title=" NetworkManager не управляет сетью по различным причинам" aria-label=" NetworkManager не управляет сетью по различным причинам" href="#networkmanager-%d0%bd%d0%b5-%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d1%8f%d0%b5%d1%82-%d1%81%d0%b5%d1%82%d1%8c%d1%8e-%d0%bf%d0%be-%d1%80%d0%b0%d0%b7%d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%bc-%d0%bf%d1%80%d0%b8%d1%87%d0%b8%d0%bd%d0%b0%d0%bc">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>В случае, если интерфейсов немного. Например, как на обычном компьютере то быстро исправить проблему можно следующим образом.
-В файл &lt;code>/etc/network/interfaces&lt;/code> добавить следующие настройки для нужного проводного интерфейса:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">auto eth0
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">iface eth0 inet dhcp
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Таким образом будет инициализировать интерфейс eth0 без участия NetworkManager.&lt;/p></description></item><item><title>Список команд POSIX и их описание</title><link>https://maxtar.github.io/administration/linux/commands/</link><pubDate>Sat, 08 Oct 2022 21:02:30 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/commands/</guid><description>&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Название&lt;/th>
- &lt;th>Краткое описание&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>type&lt;/td>
- &lt;td>Выводит тип команды (внутренняя, внешняя, alias)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>set&lt;/td>
- &lt;td>+x - включение расширенного логирования для команд _&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>-x - выключение логирования для команд&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>whatis&lt;/td>
- &lt;td>Краткое описание команды&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>apropos&lt;/td>
- &lt;td>описание команд по поиску&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>who am i&lt;/td>
- &lt;td>Информация о текущем пользователе&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>w&lt;/td>
- &lt;td>Информация о подключённых пользователях&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>mkdir -p&lt;/td>
- &lt;td>Создание вложенных директорий&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>stat&lt;/td>
- &lt;td>Информация из inode&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ls -i&lt;/td>
- &lt;td>Показ inodes в списке&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>lsof&lt;/td>
- &lt;td>Список открытых файлов&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>df -i&lt;/td>
- &lt;td>Показывает использование inodes&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>touch&lt;/td>
- &lt;td>Изменение даты создания файла&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>file&lt;/td>
- &lt;td>Информация о файле&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>strings&lt;/td>
- &lt;td>Показывает все читаемые символы (разные операции со строками)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>profile&lt;/td>
- &lt;td>В текущем каталоге пользователя&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>env _&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>export&lt;/td>
- &lt;td>Показ переменных окружения (и задания для последующей команды)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>set&lt;/td>
- &lt;td>bash и системные переменные&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>unset&lt;/td>
- &lt;td>Очистка переменной&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>source&lt;/td>
- &lt;td>Выполнение из файла&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>tee&lt;/td>
- &lt;td>Перенаправление потока вывода в файл и дальше в поток вывода по pipe&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>wc&lt;/td>
- &lt;td>Подсчёт слов, строк, символов&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>strace&lt;/td>
- &lt;td>Трассировка вызова команд&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>sort&lt;/td>
- &lt;td>Сортировка строк:&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;/td>
- &lt;td>-n сортировка как чисел (-t - разделитель)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;/td>
- &lt;td>-u вывод только уникальных значений&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;/td>
- &lt;td>h сортировка значений, представляенных в удобном для человека виде. Например, вывод команды ls -lh&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>tr&lt;/td>
- &lt;td>Замена символов&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>sed&lt;/td>
- &lt;td>Изменение символов на потоке&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>awk&lt;/td>
- &lt;td>Мощный редактор обработки строк. Например:&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;/td>
- &lt;td>-F: разделитель&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>paste&lt;/td>
- &lt;td>Объединение файлов в виде колонок&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>split&lt;/td>
- &lt;td>Разделение файлов на отдельные&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>comm&lt;/td>
- &lt;td>Сравнение сортированных файлов&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>diff&lt;/td>
- &lt;td>Сравнение файлов построчно&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ps&lt;/td>
- &lt;td>Просмотр запущенных процессов&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;/td>
- &lt;td>-L - количество запущенных потоков&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ulimit&lt;/td>
- &lt;td>Ограничения процессов пользователя&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>nice&lt;/td>
- &lt;td>Задание приоритета&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>renice&lt;/td>
- &lt;td>Установка приоритета для запущенного процесса&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>vmstat&lt;/td>
- &lt;td>Информацияо памяти&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>fuser&lt;/td>
- &lt;td>Процессы, использующие указанную директорию&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>pkill&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>ldd&lt;/td>
- &lt;td>Показывает какие библиотеки использует программа&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>LD_LIBRARY_PATH&lt;/td>
- &lt;td>Переменная указывающая пути, в которых ищутся библиотеки&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>find&lt;/td>
- &lt;td>Поиск файлов&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;/td>
- &lt;td>-iname - регистронезависимый поиск&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;/td>
- &lt;td>-exec - выполнить команду с результатами поиска в качестве результатов&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>tar&lt;/td>
- &lt;td>Архиватор, разорхиватор&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>slevipt???&lt;/td>
- &lt;td>Запись терминала УТОЧНИТЬ!&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>dd&lt;/td>
- &lt;td>disk dump - Утилита для работы с диском&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>run level&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>telinit&lt;/td>
- &lt;td>Изменение уровня загрузки (/etc/rc.d/init.d)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>chkconfig&lt;/td>
- &lt;td>Статус сервисов&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>sysctl&lt;/td>
- &lt;td>Настройка ядра (/etc/sysctl.config)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>systemctl&lt;/td>
- &lt;td>Управление systemd&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>journalctl&lt;/td>
- &lt;td>Чтение журнала операционной системы&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cron&lt;/td>
- &lt;td>Демон расписания&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>af&lt;/td>
- &lt;td>Отложенное выполнение по времени&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>vimtutor&lt;/td>
- &lt;td>Обучение Vi&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Ctrl+z&lt;/td>
- &lt;td>Остановка процесса&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>bg&lt;/td>
- &lt;td>Перевод процесса в фоновый режим&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>fg&lt;/td>
- &lt;td>Перевод процесса обратно на консоль&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>nohup&lt;/td>
- &lt;td>Отвязка процесса от консоли&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>nstat&lt;/td>
- &lt;td>Сетевая информация&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;/td>
- &lt;td>-r - показ таблицы маршрутизации&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>nslookup&lt;/td>
- &lt;td>Определение IP по имени хоста&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>dig&lt;/td>
- &lt;td>Получение информации по домену&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>host&lt;/td>
- &lt;td>Как nslookup, только сокращённая информация&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;p>&lt;code>/etc/resolv.conf&lt;/code> - настройка DNS.&lt;/p></description></item><item><title>Установка проприетарных драйверов NVidia</title><link>https://maxtar.github.io/administration/linux/install-nvidia/</link><pubDate>Sat, 08 Oct 2022 20:52:28 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/install-nvidia/</guid><description>&lt;ol>
-&lt;li>
-&lt;p>Добавить &lt;a href="https://launchpad.net/~graphics-drivers/&amp;#43;archive/ubuntu/ppa" target="_blank" >этот&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> репозиторий.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo add-apt-repository ppa:graphics-drivers/ppa
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt-get update
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
-&lt;li>
-&lt;p>Поставить родные драйверы от NVIDIA:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo apt-get install nvidia-&amp;lt;actual_number&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
-&lt;li>
-&lt;p>Удалить свободные драйвера для NVIDIA:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo apt-get purge nouveau
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
-&lt;li>
-&lt;p>Перегрузиться. Проверить, что в меню настроек появились настройки NVIDIA. Открыть, проверить, что видеокарта определилась нормально.&lt;/p>
-&lt;/li>
-&lt;/ol>
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/troubleshooting/#networkmanager-не-управляет-сетью-по-различным-причинам" class="gdoc-page__anchor clip flex align-center" title=" NetworkManager не управляет сетью по различным причинам" aria-label=" NetworkManager не управляет сетью по различным причинам" href="#networkmanager-%d0%bd%d0%b5-%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d1%8f%d0%b5%d1%82-%d1%81%d0%b5%d1%82%d1%8c%d1%8e-%d0%bf%d0%be-%d1%80%d0%b0%d0%b7%d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%bc-%d0%bf%d1%80%d0%b8%d1%87%d0%b8%d0%bd%d0%b0%d0%bc"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;В случае, если интерфейсов немного. Например, как на обычном компьютере то быстро исправить проблему можно следующим образом.
+В файл &lt;code&gt;/etc/network/interfaces&lt;/code&gt; добавить следующие настройки для нужного проводного интерфейса:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;auto eth0
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;iface eth0 inet dhcp
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Таким образом будет инициализировать интерфейс eth0 без участия NetworkManager.&lt;/p&gt;</description></item><item><title>Список команд POSIX и их описание</title><link>https://maxtar.github.io/administration/linux/commands/</link><pubDate>Sat, 08 Oct 2022 21:02:30 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/commands/</guid><description>&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Название&lt;/th&gt;
+ &lt;th&gt;Краткое описание&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;type&lt;/td&gt;
+ &lt;td&gt;Выводит тип команды (внутренняя, внешняя, alias)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;set&lt;/td&gt;
+ &lt;td&gt;+x - включение расширенного логирования для команд _&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;-x - выключение логирования для команд&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;whatis&lt;/td&gt;
+ &lt;td&gt;Краткое описание команды&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;apropos&lt;/td&gt;
+ &lt;td&gt;описание команд по поиску&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;who am i&lt;/td&gt;
+ &lt;td&gt;Информация о текущем пользователе&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;w&lt;/td&gt;
+ &lt;td&gt;Информация о подключённых пользователях&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;mkdir -p&lt;/td&gt;
+ &lt;td&gt;Создание вложенных директорий&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;stat&lt;/td&gt;
+ &lt;td&gt;Информация из inode&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ls -i&lt;/td&gt;
+ &lt;td&gt;Показ inodes в списке&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;lsof&lt;/td&gt;
+ &lt;td&gt;Список открытых файлов&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;df -i&lt;/td&gt;
+ &lt;td&gt;Показывает использование inodes&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;touch&lt;/td&gt;
+ &lt;td&gt;Изменение даты создания файла&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;file&lt;/td&gt;
+ &lt;td&gt;Информация о файле&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;strings&lt;/td&gt;
+ &lt;td&gt;Показывает все читаемые символы (разные операции со строками)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;profile&lt;/td&gt;
+ &lt;td&gt;В текущем каталоге пользователя&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;env _&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;export&lt;/td&gt;
+ &lt;td&gt;Показ переменных окружения (и задания для последующей команды)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;set&lt;/td&gt;
+ &lt;td&gt;bash и системные переменные&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;unset&lt;/td&gt;
+ &lt;td&gt;Очистка переменной&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;source&lt;/td&gt;
+ &lt;td&gt;Выполнение из файла&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;tee&lt;/td&gt;
+ &lt;td&gt;Перенаправление потока вывода в файл и дальше в поток вывода по pipe&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;wc&lt;/td&gt;
+ &lt;td&gt;Подсчёт слов, строк, символов&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;strace&lt;/td&gt;
+ &lt;td&gt;Трассировка вызова команд&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;sort&lt;/td&gt;
+ &lt;td&gt;Сортировка строк:&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;-n сортировка как чисел (-t - разделитель)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;-u вывод только уникальных значений&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;h сортировка значений, представляенных в удобном для человека виде. Например, вывод команды ls -lh&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;tr&lt;/td&gt;
+ &lt;td&gt;Замена символов&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;sed&lt;/td&gt;
+ &lt;td&gt;Изменение символов на потоке&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;awk&lt;/td&gt;
+ &lt;td&gt;Мощный редактор обработки строк. Например:&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;-F: разделитель&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;paste&lt;/td&gt;
+ &lt;td&gt;Объединение файлов в виде колонок&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;split&lt;/td&gt;
+ &lt;td&gt;Разделение файлов на отдельные&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;comm&lt;/td&gt;
+ &lt;td&gt;Сравнение сортированных файлов&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;diff&lt;/td&gt;
+ &lt;td&gt;Сравнение файлов построчно&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ps&lt;/td&gt;
+ &lt;td&gt;Просмотр запущенных процессов&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;-L - количество запущенных потоков&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ulimit&lt;/td&gt;
+ &lt;td&gt;Ограничения процессов пользователя&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;nice&lt;/td&gt;
+ &lt;td&gt;Задание приоритета&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;renice&lt;/td&gt;
+ &lt;td&gt;Установка приоритета для запущенного процесса&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;vmstat&lt;/td&gt;
+ &lt;td&gt;Информацияо памяти&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;fuser&lt;/td&gt;
+ &lt;td&gt;Процессы, использующие указанную директорию&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;pkill&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ldd&lt;/td&gt;
+ &lt;td&gt;Показывает какие библиотеки использует программа&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;LD_LIBRARY_PATH&lt;/td&gt;
+ &lt;td&gt;Переменная указывающая пути, в которых ищутся библиотеки&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;find&lt;/td&gt;
+ &lt;td&gt;Поиск файлов&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;-iname - регистронезависимый поиск&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;-exec - выполнить команду с результатами поиска в качестве результатов&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;tar&lt;/td&gt;
+ &lt;td&gt;Архиватор, разорхиватор&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;slevipt???&lt;/td&gt;
+ &lt;td&gt;Запись терминала УТОЧНИТЬ!&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;dd&lt;/td&gt;
+ &lt;td&gt;disk dump - Утилита для работы с диском&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;run level&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;telinit&lt;/td&gt;
+ &lt;td&gt;Изменение уровня загрузки (/etc/rc.d/init.d)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;chkconfig&lt;/td&gt;
+ &lt;td&gt;Статус сервисов&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;sysctl&lt;/td&gt;
+ &lt;td&gt;Настройка ядра (/etc/sysctl.config)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;systemctl&lt;/td&gt;
+ &lt;td&gt;Управление systemd&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;journalctl&lt;/td&gt;
+ &lt;td&gt;Чтение журнала операционной системы&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cron&lt;/td&gt;
+ &lt;td&gt;Демон расписания&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;af&lt;/td&gt;
+ &lt;td&gt;Отложенное выполнение по времени&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;vimtutor&lt;/td&gt;
+ &lt;td&gt;Обучение Vi&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Ctrl+z&lt;/td&gt;
+ &lt;td&gt;Остановка процесса&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;bg&lt;/td&gt;
+ &lt;td&gt;Перевод процесса в фоновый режим&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;fg&lt;/td&gt;
+ &lt;td&gt;Перевод процесса обратно на консоль&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;nohup&lt;/td&gt;
+ &lt;td&gt;Отвязка процесса от консоли&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;nstat&lt;/td&gt;
+ &lt;td&gt;Сетевая информация&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;-r - показ таблицы маршрутизации&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;nslookup&lt;/td&gt;
+ &lt;td&gt;Определение IP по имени хоста&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;dig&lt;/td&gt;
+ &lt;td&gt;Получение информации по домену&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;host&lt;/td&gt;
+ &lt;td&gt;Как nslookup, только сокращённая информация&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;code&gt;/etc/resolv.conf&lt;/code&gt; - настройка DNS.&lt;/p&gt;</description></item><item><title>Установка проприетарных драйверов NVidia</title><link>https://maxtar.github.io/administration/linux/install-nvidia/</link><pubDate>Sat, 08 Oct 2022 20:52:28 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/install-nvidia/</guid><description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Добавить &lt;a href="https://launchpad.net/~graphics-drivers/&amp;#43;archive/ubuntu/ppa" target="_blank" &gt;этот&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; репозиторий.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo add-apt-repository ppa:graphics-drivers/ppa
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Поставить родные драйверы от NVIDIA:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt-get install nvidia-&amp;lt;actual_number&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Удалить свободные драйвера для NVIDIA:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt-get purge nouveau
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Перегрузиться. Проверить, что в меню настроек появились настройки NVIDIA. Открыть, проверить, что видеокарта определилась нормально.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 
 
 
-&lt;blockquote class="gdoc-hint tip">
- &lt;div class="gdoc-hint__title flex gap-8 align-center">&lt;i class="fa tip">&lt;/i>
- &lt;span>Tip&lt;/span>&lt;/div>
- &lt;div class="gdoc-hint__text">&lt;p>Если после этого blender не определил видеокарту, нужно будет доставить &lt;code>nvidia-cuda-toolkit&lt;/code>:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo apt-get install nvidia-cuda-toolkit
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>После этого должно всё заработать.&lt;/p></description></item><item><title>Настройка swap</title><link>https://maxtar.github.io/administration/linux/swap/</link><pubDate>Sat, 08 Oct 2022 20:33:35 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/swap/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#процент-при-котором-информация-из-памяти-скидывается-в-swap">Процент, при котором информация из памяти скидывается в swap&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#как-задать-нужный-размер-swap-файла">Как задать нужный размер Swap-файла&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+&lt;blockquote class="gdoc-hint tip"&gt;
+ &lt;div class="gdoc-hint__title flex gap-8 align-center"&gt;&lt;i class="fa tip"&gt;&lt;/i&gt;
+ &lt;span&gt;Tip&lt;/span&gt;&lt;/div&gt;
+ &lt;div class="gdoc-hint__text"&gt;&lt;p&gt;Если после этого blender не определил видеокарту, нужно будет доставить &lt;code&gt;nvidia-cuda-toolkit&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt-get install nvidia-cuda-toolkit
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;После этого должно всё заработать.&lt;/p&gt;</description></item><item><title>Настройка swap</title><link>https://maxtar.github.io/administration/linux/swap/</link><pubDate>Sat, 08 Oct 2022 20:33:35 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/swap/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#процент-при-котором-информация-из-памяти-скидывается-в-swap"&gt;Процент, при котором информация из памяти скидывается в swap&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#как-задать-нужный-размер-swap-файла"&gt;Как задать нужный размер Swap-файла&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="процент-при-котором-информация-из-памяти-скидывается-в-swap"
- >
+ &gt;
  Процент, при котором информация из памяти скидывается в swap
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/swap/#процент-при-котором-информация-из-памяти-скидывается-в-swap" class="gdoc-page__anchor clip flex align-center" title=" Процент, при котором информация из памяти скидывается в swap" aria-label=" Процент, при котором информация из памяти скидывается в swap" href="#%d0%bf%d1%80%d0%be%d1%86%d0%b5%d0%bd%d1%82-%d0%bf%d1%80%d0%b8-%d0%ba%d0%be%d1%82%d0%be%d1%80%d0%be%d0%bc-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f-%d0%b8%d0%b7-%d0%bf%d0%b0%d0%bc%d1%8f%d1%82%d0%b8-%d1%81%d0%ba%d0%b8%d0%b4%d1%8b%d0%b2%d0%b0%d0%b5%d1%82%d1%81%d1%8f-%d0%b2-swap">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>&lt;a href="http://kubuntu.ru/node/13153" target="_blank" >Информация взята отсюда&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/p>
-&lt;p>Обычно рано или поздно у всех возникает вопрос: &amp;ldquo;Почему начинает заполнятся swap, когда у меня ещё много свободной оперативной памяти?&amp;rdquo;. И вот тут нам приходит в помощь такой параметр, как &lt;code>vm.swappiness&lt;/code>. Для начала в консоли выполним команду:&lt;/p></description></item><item><title>Оптимизация KDE5</title><link>https://maxtar.github.io/administration/linux/kde/</link><pubDate>Wed, 05 Oct 2022 01:54:53 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/kde/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#решение-проблем-кривой-табуляции-в-консоли">Решение проблем кривой табуляции в консоли&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#отключение-akonadi">Отключение Akonadi&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#настройка-горячих-клавиш">Настройка горячих клавиш&lt;/a>
- &lt;ul>
- &lt;li>&lt;a href="#отключение-altf2-для-быстрого-доступа">Отключение Alt+F2 для быстрого доступа&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;p>&lt;a href="https://losst.ru/kak-uskorit-kde-5" target="_blank" >Оптимизация KDE 5&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/p>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/swap/#процент-при-котором-информация-из-памяти-скидывается-в-swap" class="gdoc-page__anchor clip flex align-center" title=" Процент, при котором информация из памяти скидывается в swap" aria-label=" Процент, при котором информация из памяти скидывается в swap" href="#%d0%bf%d1%80%d0%be%d1%86%d0%b5%d0%bd%d1%82-%d0%bf%d1%80%d0%b8-%d0%ba%d0%be%d1%82%d0%be%d1%80%d0%be%d0%bc-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f-%d0%b8%d0%b7-%d0%bf%d0%b0%d0%bc%d1%8f%d1%82%d0%b8-%d1%81%d0%ba%d0%b8%d0%b4%d1%8b%d0%b2%d0%b0%d0%b5%d1%82%d1%81%d1%8f-%d0%b2-swap"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="http://kubuntu.ru/node/13153" target="_blank" &gt;Информация взята отсюда&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Обычно рано или поздно у всех возникает вопрос: &amp;ldquo;Почему начинает заполнятся swap, когда у меня ещё много свободной оперативной памяти?&amp;rdquo;. И вот тут нам приходит в помощь такой параметр, как &lt;code&gt;vm.swappiness&lt;/code&gt;. Для начала в консоли выполним команду:&lt;/p&gt;</description></item><item><title>Оптимизация KDE5</title><link>https://maxtar.github.io/administration/linux/kde/</link><pubDate>Wed, 05 Oct 2022 01:54:53 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/kde/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#решение-проблем-кривой-табуляции-в-консоли"&gt;Решение проблем кривой табуляции в консоли&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#отключение-akonadi"&gt;Отключение Akonadi&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#настройка-горячих-клавиш"&gt;Настройка горячих клавиш&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#отключение-altf2-для-быстрого-доступа"&gt;Отключение Alt+F2 для быстрого доступа&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;p&gt;&lt;a href="https://losst.ru/kak-uskorit-kde-5" target="_blank" &gt;Оптимизация KDE 5&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="решение-проблем-кривой-табуляции-в-консоли"
- >
+ &gt;
  Решение проблем кривой табуляции в консоли
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/kde/#решение-проблем-кривой-табуляции-в-консоли" class="gdoc-page__anchor clip flex align-center" title=" Решение проблем кривой табуляции в консоли" aria-label=" Решение проблем кривой табуляции в консоли" href="#%d1%80%d0%b5%d1%88%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d0%b1%d0%bb%d0%b5%d0%bc-%d0%ba%d1%80%d0%b8%d0%b2%d0%be%d0%b9-%d1%82%d0%b0%d0%b1%d1%83%d0%bb%d1%8f%d1%86%d0%b8%d0%b8-%d0%b2-%d0%ba%d0%be%d0%bd%d1%81%d0%be%d0%bb%d0%b8">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>Если в приложении Konsole съехала табуляция (например расстояние между курсором и последним символом увеличивается по мере набора), то, скорее всего проблема в шрифте.
-Чтобы исправить ситуацию нужно поменять шрифт. Для этого в меню открываем &lt;em>Настройка/Настроить профиль&amp;hellip;&lt;/em>.
-Далее:&lt;/p></description></item><item><title>Полезные установки</title><link>https://maxtar.github.io/administration/linux/settings-after-installing/</link><pubDate>Wed, 05 Oct 2022 01:47:02 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/settings-after-installing/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#установка-oracle-java">Установка Oracle Java&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#добавить-переменную-окружения-в-систему">Добавить переменную окружения в систему&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#настройка-grub">Настройка GRUB&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#чтобы-отключить-заставку-при-загрузке-надо-оставить">Чтобы отключить заставку при загрузке надо оставить&lt;/a>
- &lt;ul>
- &lt;li>&lt;a href="#чтобы-подправить-иконку-в-меню-kde">Чтобы подправить иконку в меню KDE&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#сброс-мыши-microsoft-после-рестарта">Сброс мыши Microsoft после рестарта&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#хранитель-экрана">Хранитель экрана&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/kde/#решение-проблем-кривой-табуляции-в-консоли" class="gdoc-page__anchor clip flex align-center" title=" Решение проблем кривой табуляции в консоли" aria-label=" Решение проблем кривой табуляции в консоли" href="#%d1%80%d0%b5%d1%88%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d0%b1%d0%bb%d0%b5%d0%bc-%d0%ba%d1%80%d0%b8%d0%b2%d0%be%d0%b9-%d1%82%d0%b0%d0%b1%d1%83%d0%bb%d1%8f%d1%86%d0%b8%d0%b8-%d0%b2-%d0%ba%d0%be%d0%bd%d1%81%d0%be%d0%bb%d0%b8"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;Если в приложении Konsole съехала табуляция (например расстояние между курсором и последним символом увеличивается по мере набора), то, скорее всего проблема в шрифте.
+Чтобы исправить ситуацию нужно поменять шрифт. Для этого в меню открываем &lt;em&gt;Настройка/Настроить профиль&amp;hellip;&lt;/em&gt;.
+Далее:&lt;/p&gt;</description></item><item><title>Полезные установки</title><link>https://maxtar.github.io/administration/linux/settings-after-installing/</link><pubDate>Wed, 05 Oct 2022 01:47:02 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/settings-after-installing/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#установка-oracle-java"&gt;Установка Oracle Java&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#добавить-переменную-окружения-в-систему"&gt;Добавить переменную окружения в систему&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#настройка-grub"&gt;Настройка GRUB&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#чтобы-отключить-заставку-при-загрузке-надо-оставить"&gt;Чтобы отключить заставку при загрузке надо оставить&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#чтобы-подправить-иконку-в-меню-kde"&gt;Чтобы подправить иконку в меню KDE&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#сброс-мыши-microsoft-после-рестарта"&gt;Сброс мыши Microsoft после рестарта&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#хранитель-экрана"&gt;Хранитель экрана&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="установка-oracle-java"
- >
+ &gt;
  Установка Oracle Java
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/settings-after-installing/#установка-oracle-java" class="gdoc-page__anchor clip flex align-center" title=" Установка Oracle Java" aria-label=" Установка Oracle Java" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-oracle-java">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>Про разные способы установки написано &lt;a href="http://help.ubuntu.ru/wiki/java" target="_blank" >здесь&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.
-Чтобы установить родную Oracle Java необходимо добавить репозиторий &lt;strong>ppa:webupd8team/java&lt;/strong> со скриптом установки:&lt;/p></description></item><item><title>Настройка hibernate на linux без использования swap раздела</title><link>https://maxtar.github.io/administration/linux/hibernate/</link><pubDate>Mon, 03 Oct 2022 13:28:23 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/hibernate/</guid><description>&lt;p>Взято &lt;a href="https://ubuntuhandbook.org/index.php/2021/08/enable-hibernate-ubuntu-21-10" target="_blank" >отсюда&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p>
-&lt;p>Для начала надо проверить поддержку спящего режима:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">systemctl hibernate
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Если выдаётся ошибка типа &lt;code>Failed to hibernate system via logind: Sleep verb “hibernate” not supported”&lt;/code>, то, скорее всего, в BIOS включён &lt;em>secure boot&lt;/em>. Необходимо его отключить.&lt;/p>
-&lt;p>Современные дистрибутивы, как правило, используют swap файл, а не swap раздел.&lt;/p>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/settings-after-installing/#установка-oracle-java" class="gdoc-page__anchor clip flex align-center" title=" Установка Oracle Java" aria-label=" Установка Oracle Java" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-oracle-java"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;Про разные способы установки написано &lt;a href="http://help.ubuntu.ru/wiki/java" target="_blank" &gt;здесь&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.
+Чтобы установить родную Oracle Java необходимо добавить репозиторий &lt;strong&gt;ppa:webupd8team/java&lt;/strong&gt; со скриптом установки:&lt;/p&gt;</description></item><item><title>Настройка hibernate на linux без использования swap раздела</title><link>https://maxtar.github.io/administration/linux/hibernate/</link><pubDate>Mon, 03 Oct 2022 13:28:23 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/hibernate/</guid><description>&lt;p&gt;Взято &lt;a href="https://ubuntuhandbook.org/index.php/2021/08/enable-hibernate-ubuntu-21-10" target="_blank" &gt;отсюда&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Для начала надо проверить поддержку спящего режима:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;systemctl hibernate
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Если выдаётся ошибка типа &lt;code&gt;Failed to hibernate system via logind: Sleep verb “hibernate” not supported”&lt;/code&gt;, то, скорее всего, в BIOS включён &lt;em&gt;secure boot&lt;/em&gt;. Необходимо его отключить.&lt;/p&gt;
+&lt;p&gt;Современные дистрибутивы, как правило, используют swap файл, а не swap раздел.&lt;/p&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="настройка-файла-swap"
- >
+ &gt;
  Настройка файла swap
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/hibernate/#настройка-файла-swap" class="gdoc-page__anchor clip flex align-center" title=" Настройка файла swap" aria-label=" Настройка файла swap" href="#%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b0-%d1%84%d0%b0%d0%b9%d0%bb%d0%b0-swap">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/hibernate/#настройка-файла-swap" class="gdoc-page__anchor clip flex align-center" title=" Настройка файла swap" aria-label=" Настройка файла swap" href="#%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b0-%d1%84%d0%b0%d0%b9%d0%bb%d0%b0-swap"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h3 id="1-создать-файл-нужного-раздела"
- >
+ &gt;
  1. Создать файл нужного раздела
- &lt;/h3>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/hibernate/#1-создать-файл-нужного-раздела" class="gdoc-page__anchor clip flex align-center" title=" 1. Создать файл нужного раздела" aria-label=" 1. Создать файл нужного раздела" href="#1-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d1%84%d0%b0%d0%b9%d0%bb-%d0%bd%d1%83%d0%b6%d0%bd%d0%be%d0%b3%d0%be-%d1%80%d0%b0%d0%b7%d0%b4%d0%b5%d0%bb%d0%b0">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo dd &lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>/dev/zero &lt;span class="nv">of&lt;/span>&lt;span class="o">=&lt;/span>/swapfile &lt;span class="nv">count&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">16384&lt;/span> &lt;span class="nv">bs&lt;/span>&lt;span class="o">=&lt;/span>1MiB
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>где:&lt;/p></description></item><item><title>Установка Firefox из репозитория</title><link>https://maxtar.github.io/administration/linux/install-firefox-from-rep/</link><pubDate>Mon, 03 Oct 2022 12:59:56 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/install-firefox-from-rep/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#от-самой-mozilla">От самой Mozilla&lt;/a>
- &lt;ul>
- &lt;li>&lt;a href="#установка-других-языков-в-firefox-с-помощью-deb-файлов">Установка других языков в Firefox с помощью .deb-файлов&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;li>&lt;a href="#вариант-с-beta-версиями">Вариант с beta-версиями&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h3&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/hibernate/#1-создать-файл-нужного-раздела" class="gdoc-page__anchor clip flex align-center" title=" 1. Создать файл нужного раздела" aria-label=" 1. Создать файл нужного раздела" href="#1-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d1%84%d0%b0%d0%b9%d0%bb-%d0%bd%d1%83%d0%b6%d0%bd%d0%be%d0%b3%d0%be-%d1%80%d0%b0%d0%b7%d0%b4%d0%b5%d0%bb%d0%b0"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo dd &lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/dev/zero &lt;span class="nv"&gt;of&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/swapfile &lt;span class="nv"&gt;count&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;16384&lt;/span&gt; &lt;span class="nv"&gt;bs&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;1MiB
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;где:&lt;/p&gt;</description></item><item><title>Установка Firefox из репозитория</title><link>https://maxtar.github.io/administration/linux/install-firefox-from-rep/</link><pubDate>Mon, 03 Oct 2022 12:59:56 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/install-firefox-from-rep/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#от-самой-mozilla"&gt;От самой Mozilla&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#установка-других-языков-в-firefox-с-помощью-deb-файлов"&gt;Установка других языков в Firefox с помощью .deb-файлов&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#вариант-с-beta-версиями"&gt;Вариант с beta-версиями&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="от-самой-mozilla"
- >
+ &gt;
  От самой Mozilla
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/install-firefox-from-rep/#от-самой-mozilla" class="gdoc-page__anchor clip flex align-center" title=" От самой Mozilla" aria-label=" От самой Mozilla" href="#%d0%be%d1%82-%d1%81%d0%b0%d0%bc%d0%be%d0%b9-mozilla">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>&lt;a href="https://support.mozilla.org/ru/kb/ustanovka-firefox-na-linux#w_ustanovka-deb-paketa-firefox-dlia-osnovannykh-na-debian-distributivov" target="_blank" >Установка .deb-пакета Firefox для основанных на Debian дистрибутивов&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/p>
-&lt;p>Чтобы установить пакет &lt;strong>.deb&lt;/strong> из репозитория APT, сделайте следующее:&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>Создайте директорию для хранения ключей репозитория APT, если её ещё нет:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo install -d -m &lt;span class="m">0755&lt;/span> /etc/apt/keyrings
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
-&lt;li>
-&lt;p>Импортируйте подписанные ключи APT-репозитория Mozilla:&lt;/p></description></item><item><title>Автозагрузка</title><link>https://maxtar.github.io/administration/linux/autostart/</link><pubDate>Sat, 01 Oct 2022 22:15:36 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/autostart/</guid><description>&lt;ul>
-&lt;li>&lt;a href="https://losst.ru/avtozagruzka-linux" target="_blank" >Описание для новичков&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://losst.ru/protsess-zagruzki-linux" target="_blank" >Процесс загрузки&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Linux</title><link>https://maxtar.github.io/administration/linux/</link><pubDate>Sat, 01 Oct 2022 20:00:42 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/</guid><description>&lt;p>Здесь собирается полезная информация касательно настройки Linux.&lt;/p>
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/install-firefox-from-rep/#от-самой-mozilla" class="gdoc-page__anchor clip flex align-center" title=" От самой Mozilla" aria-label=" От самой Mozilla" href="#%d0%be%d1%82-%d1%81%d0%b0%d0%bc%d0%be%d0%b9-mozilla"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://support.mozilla.org/ru/kb/ustanovka-firefox-na-linux#w_ustanovka-deb-paketa-firefox-dlia-osnovannykh-na-debian-distributivov" target="_blank" &gt;Установка .deb-пакета Firefox для основанных на Debian дистрибутивов&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Чтобы установить пакет &lt;strong&gt;.deb&lt;/strong&gt; из репозитория APT, сделайте следующее:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Создайте директорию для хранения ключей репозитория APT, если её ещё нет:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo install -d -m &lt;span class="m"&gt;0755&lt;/span&gt; /etc/apt/keyrings
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Импортируйте подписанные ключи APT-репозитория Mozilla:&lt;/p&gt;</description></item><item><title>Автозагрузка</title><link>https://maxtar.github.io/administration/linux/autostart/</link><pubDate>Sat, 01 Oct 2022 22:15:36 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/autostart/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://losst.ru/avtozagruzka-linux" target="_blank" &gt;Описание для новичков&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://losst.ru/protsess-zagruzki-linux" target="_blank" &gt;Процесс загрузки&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Linux</title><link>https://maxtar.github.io/administration/linux/</link><pubDate>Sat, 01 Oct 2022 20:00:42 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/</guid><description>&lt;p&gt;Здесь собирается полезная информация касательно настройки Linux.&lt;/p&gt;
 
- &lt;div class="gdoc-toc gdoc-toc__level--6">
+ &lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
  
- &lt;ul>
- 
- 
-
- 
+ &lt;ul&gt;
  
  
 
  
- &lt;li>
- &lt;span>
- &lt;a href="https://maxtar.github.io/administration/linux/iptables/" class="gdoc-toc__entry">iptables
- &lt;/a>
- &lt;/span>
- &lt;/li>
- &lt;li>
- &lt;span>
- &lt;a href="https://maxtar.github.io/administration/linux/autostart/" class="gdoc-toc__entry">Автозагрузка
- &lt;/a>
- &lt;/span>
- &lt;/li>
- &lt;li>
- &lt;span>
- &lt;a href="https://maxtar.github.io/administration/linux/hibernate/" class="gdoc-toc__entry">Настройка hibernate на linux без использования swap раздела
- &lt;/a>
- &lt;/span>
- &lt;/li>
- &lt;li>
- &lt;span>
- &lt;a href="https://maxtar.github.io/administration/linux/swap/" class="gdoc-toc__entry">Настройка swap
- &lt;/a>
- &lt;/span>
- &lt;/li>
- &lt;li>
- &lt;span>
- &lt;a href="https://maxtar.github.io/administration/linux/kde/" class="gdoc-toc__entry">Оптимизация KDE5
- &lt;/a>
- &lt;/span>
- &lt;/li>
- &lt;li>
- &lt;span>
- &lt;a href="https://maxtar.github.io/administration/linux/useful-commands/" class="gdoc-toc__entry">Очень полезные команды Linux на одном листе
- &lt;/a>
- &lt;/span>
- &lt;/li>
- &lt;li>
- &lt;span>
- &lt;a href="https://maxtar.github.io/administration/linux/useful-information/" class="gdoc-toc__entry">Полезная информация по разным командам Linux
- &lt;/a>
- &lt;/span>
- &lt;/li>
- &lt;li>
- &lt;span>
- &lt;a href="https://maxtar.github.io/administration/linux/settings-after-installing/" class="gdoc-toc__entry">Полезные установки
- &lt;/a>
- &lt;/span>
- &lt;/li>
- &lt;li>
- &lt;span>
- &lt;a href="https://maxtar.github.io/administration/linux/troubleshooting/" class="gdoc-toc__entry">Решение разных проблем
- &lt;/a>
- &lt;/span>
- &lt;/li>
- &lt;li>
- &lt;span>
- &lt;a href="https://maxtar.github.io/administration/linux/commands/" class="gdoc-toc__entry">Список команд POSIX и их описание
- &lt;/a>
- &lt;/span>
- &lt;/li>
- &lt;li>
- &lt;span>
- &lt;a href="https://maxtar.github.io/administration/linux/install-firefox-from-rep/" class="gdoc-toc__entry">Установка Firefox из репозитория
- &lt;/a>
- &lt;/span>
- &lt;/li>
- &lt;li>
- &lt;span>
- &lt;a href="https://maxtar.github.io/administration/linux/install-nvidia/" class="gdoc-toc__entry">Установка проприетарных драйверов NVidia
- &lt;/a>
- &lt;/span>
- &lt;/li>
- &lt;/ul>
- &lt;/div>
+ 
+ 
+
+ 
+ &lt;li&gt;
+ &lt;span&gt;
+ &lt;a href="https://maxtar.github.io/administration/linux/iptables/" class="gdoc-toc__entry"&gt;iptables
+ &lt;/a&gt;
+ &lt;/span&gt;
+ &lt;/li&gt;
+ &lt;li&gt;
+ &lt;span&gt;
+ &lt;a href="https://maxtar.github.io/administration/linux/autostart/" class="gdoc-toc__entry"&gt;Автозагрузка
+ &lt;/a&gt;
+ &lt;/span&gt;
+ &lt;/li&gt;
+ &lt;li&gt;
+ &lt;span&gt;
+ &lt;a href="https://maxtar.github.io/administration/linux/hibernate/" class="gdoc-toc__entry"&gt;Настройка hibernate на linux без использования swap раздела
+ &lt;/a&gt;
+ &lt;/span&gt;
+ &lt;/li&gt;
+ &lt;li&gt;
+ &lt;span&gt;
+ &lt;a href="https://maxtar.github.io/administration/linux/swap/" class="gdoc-toc__entry"&gt;Настройка swap
+ &lt;/a&gt;
+ &lt;/span&gt;
+ &lt;/li&gt;
+ &lt;li&gt;
+ &lt;span&gt;
+ &lt;a href="https://maxtar.github.io/administration/linux/kde/" class="gdoc-toc__entry"&gt;Оптимизация KDE5
+ &lt;/a&gt;
+ &lt;/span&gt;
+ &lt;/li&gt;
+ &lt;li&gt;
+ &lt;span&gt;
+ &lt;a href="https://maxtar.github.io/administration/linux/useful-commands/" class="gdoc-toc__entry"&gt;Очень полезные команды Linux на одном листе
+ &lt;/a&gt;
+ &lt;/span&gt;
+ &lt;/li&gt;
+ &lt;li&gt;
+ &lt;span&gt;
+ &lt;a href="https://maxtar.github.io/administration/linux/useful-information/" class="gdoc-toc__entry"&gt;Полезная информация по разным командам Linux
+ &lt;/a&gt;
+ &lt;/span&gt;
+ &lt;/li&gt;
+ &lt;li&gt;
+ &lt;span&gt;
+ &lt;a href="https://maxtar.github.io/administration/linux/settings-after-installing/" class="gdoc-toc__entry"&gt;Полезные установки
+ &lt;/a&gt;
+ &lt;/span&gt;
+ &lt;/li&gt;
+ &lt;li&gt;
+ &lt;span&gt;
+ &lt;a href="https://maxtar.github.io/administration/linux/troubleshooting/" class="gdoc-toc__entry"&gt;Решение разных проблем
+ &lt;/a&gt;
+ &lt;/span&gt;
+ &lt;/li&gt;
+ &lt;li&gt;
+ &lt;span&gt;
+ &lt;a href="https://maxtar.github.io/administration/linux/commands/" class="gdoc-toc__entry"&gt;Список команд POSIX и их описание
+ &lt;/a&gt;
+ &lt;/span&gt;
+ &lt;/li&gt;
+ &lt;li&gt;
+ &lt;span&gt;
+ &lt;a href="https://maxtar.github.io/administration/linux/install-firefox-from-rep/" class="gdoc-toc__entry"&gt;Установка Firefox из репозитория
+ &lt;/a&gt;
+ &lt;/span&gt;
+ &lt;/li&gt;
+ &lt;li&gt;
+ &lt;span&gt;
+ &lt;a href="https://maxtar.github.io/administration/linux/install-nvidia/" class="gdoc-toc__entry"&gt;Установка проприетарных драйверов NVidia
+ &lt;/a&gt;
+ &lt;/span&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/div&gt;
 
 
 
 
-&lt;ul>
-&lt;li>&lt;a href="https://explainshell.com" target="_blank" >Сервис по расшифровке команд shell (https://explainshell.com/)&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>Полезная статься &lt;a href="https://proninyaroslav.gitbooks.io/linux-insides-ru/content/" target="_blank" >Linux-insides на русском&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://github.com/learnbyexample/Command-line-text-processing" target="_blank" >Примеры различных POSIX команд (AWK, GREP и прочее)&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://fishshell.com/" target="_blank" >Fishshell&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - новая командная оболочка. &lt;a href="https://github.com/fish-shell/fish-shell" target="_blank" >Исходники на GitHub&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://fishshell.com/docs/current/index.html" target="_blank" >Документация&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://fishshell.com/docs/current/tutorial.html" target="_blank" >Обучалка&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://github.com/jorgebucaran/fish-shell-cookbook" target="_blank" >CookBook&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://wiki.enchtex.info/doc/linux_file_attributes" target="_blank" >Работа с атрибутами файлов&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://snapcraft.io/cheat" target="_blank" >Cheat&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - подсказки по разным командам linux в консоли.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://explainshell.com" target="_blank" &gt;Сервис по расшифровке команд shell (https://explainshell.com/)&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Полезная статься &lt;a href="https://proninyaroslav.gitbooks.io/linux-insides-ru/content/" target="_blank" &gt;Linux-insides на русском&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/learnbyexample/Command-line-text-processing" target="_blank" &gt;Примеры различных POSIX команд (AWK, GREP и прочее)&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fishshell.com/" target="_blank" &gt;Fishshell&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - новая командная оболочка. &lt;a href="https://github.com/fish-shell/fish-shell" target="_blank" &gt;Исходники на GitHub&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. &lt;a href="https://fishshell.com/docs/current/index.html" target="_blank" &gt;Документация&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. &lt;a href="https://fishshell.com/docs/current/tutorial.html" target="_blank" &gt;Обучалка&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. &lt;a href="https://github.com/jorgebucaran/fish-shell-cookbook" target="_blank" &gt;CookBook&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wiki.enchtex.info/doc/linux_file_attributes" target="_blank" &gt;Работа с атрибутами файлов&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://snapcraft.io/cheat" target="_blank" &gt;Cheat&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - подсказки по разным командам linux в консоли.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="дистрибутивы"
- >
+ &gt;
  Дистрибутивы
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/#дистрибутивы" class="gdoc-page__anchor clip flex align-center" title=" Дистрибутивы" aria-label=" Дистрибутивы" href="#%d0%b4%d0%b8%d1%81%d1%82%d1%80%d0%b8%d0%b1%d1%83%d1%82%d0%b8%d0%b2%d1%8b">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://system76.com/pop" target="_blank" >Pop&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - интересный новый дистрибутив на базе Ubuntu.&lt;/li>
-&lt;li>&lt;a href="https://www.digi77.com/linux-kodachi/" target="_blank" >Kodachi&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - дистрибутив, ориентированный на безопасность.&lt;/li>
-&lt;li>&lt;a href="https://tails.boum.org/" target="_blank" >Tails&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - тоже нацелен на безопасность. Забывают всю информацию при перезагрузке.&lt;/li>
-&lt;li>&lt;a href="https://manjaro.org/" target="_blank" >Manjaro&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - набирающий популярность. Надо следить.&lt;/li>
-&lt;li>&lt;a href="https://clearlinux.org/" target="_blank" >Clearlinux&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - интересная концепция при поддержке Intel. &lt;a href="https://pingvinus.ru/distribution/clear-linux" target="_blank" >Описание&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/#дистрибутивы" class="gdoc-page__anchor clip flex align-center" title=" Дистрибутивы" aria-label=" Дистрибутивы" href="#%d0%b4%d0%b8%d1%81%d1%82%d1%80%d0%b8%d0%b1%d1%83%d1%82%d0%b8%d0%b2%d1%8b"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://system76.com/pop" target="_blank" &gt;Pop&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - интересный новый дистрибутив на базе Ubuntu.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.digi77.com/linux-kodachi/" target="_blank" &gt;Kodachi&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - дистрибутив, ориентированный на безопасность.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tails.boum.org/" target="_blank" &gt;Tails&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - тоже нацелен на безопасность. Забывают всю информацию при перезагрузке.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://manjaro.org/" target="_blank" &gt;Manjaro&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - набирающий популярность. Надо следить.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://clearlinux.org/" target="_blank" &gt;Clearlinux&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - интересная концепция при поддержке Intel. &lt;a href="https://pingvinus.ru/distribution/clear-linux" target="_blank" &gt;Описание&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h3 id="мультимедиа"
- >
+ &gt;
  Мультимедиа
- &lt;/h3>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/#мультимедиа" class="gdoc-page__anchor clip flex align-center" title=" Мультимедиа" aria-label=" Мультимедиа" href="#%d0%bc%d1%83%d0%bb%d1%8c%d1%82%d0%b8%d0%bc%d0%b5%d0%b4%d0%b8%d0%b0">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://kodi.tv/" target="_blank" >Kodi&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - мультимедийный комбайн. &lt;a href="https://libreelec.wiki/releases" target="_blank" >Libreelec&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - дистрибутив с kodi.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h3&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/#мультимедиа" class="gdoc-page__anchor clip flex align-center" title=" Мультимедиа" aria-label=" Мультимедиа" href="#%d0%bc%d1%83%d0%bb%d1%8c%d1%82%d0%b8%d0%bc%d0%b5%d0%b4%d0%b8%d0%b0"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://kodi.tv/" target="_blank" &gt;Kodi&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - мультимедийный комбайн. &lt;a href="https://libreelec.wiki/releases" target="_blank" &gt;Libreelec&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - дистрибутив с kodi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h3 id="семейство-ubuntu"
- >
+ &gt;
  Семейство Ubuntu
- &lt;/h3>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/#семейство-ubuntu" class="gdoc-page__anchor clip flex align-center" title=" Семейство Ubuntu" aria-label=" Семейство Ubuntu" href="#%d1%81%d0%b5%d0%bc%d0%b5%d0%b9%d1%81%d1%82%d0%b2%d0%be-ubuntu">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://www.ubuntu.com" target="_blank" >Ubuntu&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://kubuntu.org/" target="_blank" >Kubuntu&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - основан на Ubuntu. В качестве рабочей среды используется KDE.&lt;/li>
-&lt;li>&lt;a href="https://lubuntu.me" target="_blank" >Lubuntu&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - лёгкий дистрибутив, основанный на Ubuntu. В качестве рабочей среды используется LXQt.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h3&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/#семейство-ubuntu" class="gdoc-page__anchor clip flex align-center" title=" Семейство Ubuntu" aria-label=" Семейство Ubuntu" href="#%d1%81%d0%b5%d0%bc%d0%b5%d0%b9%d1%81%d1%82%d0%b2%d0%be-ubuntu"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.ubuntu.com" target="_blank" &gt;Ubuntu&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kubuntu.org/" target="_blank" &gt;Kubuntu&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - основан на Ubuntu. В качестве рабочей среды используется KDE.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://lubuntu.me" target="_blank" &gt;Lubuntu&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - лёгкий дистрибутив, основанный на Ubuntu. В качестве рабочей среды используется LXQt.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="резервное-копирование-системы"
- >
+ &gt;
  Резервное копирование системы
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/#резервное-копирование-системы" class="gdoc-page__anchor clip flex align-center" title=" Резервное копирование системы" aria-label=" Резервное копирование системы" href="#%d1%80%d0%b5%d0%b7%d0%b5%d1%80%d0%b2%d0%bd%d0%be%d0%b5-%d0%ba%d0%be%d0%bf%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d1%8b">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>&lt;a href="http://compizomania.blogspot.com/2014/07/systemback-linux.html" target="_blank" >Здесь&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> описана программа &lt;a href="https://launchpad.net/~nemh/&amp;#43;archive/ubuntu/systemback" target="_blank" >Systemback&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p></description></item><item><title>Полезная информация по разным командам Linux</title><link>https://maxtar.github.io/administration/linux/useful-information/</link><pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate><guid>https://maxtar.github.io/administration/linux/useful-information/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#просмотр-журнала">Просмотр журнала&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#описание-networkmanager">&lt;a href="https://help.ubuntu.com/community/NetworkManager">Описание NetworkManager&lt;/a>&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#необновляемые-пакеты">Необновляемые пакеты&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#просмотр-версии-дистрибутива-только-для-lsb-дистрибутивов">Просмотр версии дистрибутива (только для LSB дистрибутивов)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#команда-удаления-всех-старых-версий-ядра">Команда удаления всех старых версий ядра&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#автоматическое-подтверждение-перезаписи-файлов-при-копировании">Автоматическое подтверждение перезаписи файлов при копировании&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#снятие-сетевого-дампа">Снятие сетевого дампа&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#разрешение-приложению-слушать-порты-ниже-1024">Разрешение приложению слушать порты ниже 1024&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#увеличение-используемого-диапазона-портов">Увеличение используемого диапазона портов&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#запуск-процесса-в-фоне-с-перенаправлением-вывода-в-указанный-файл">Запуск процесса в фоне с перенаправлением вывода в указанный файл&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#проверка-dns">Проверка DNS&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#дефрагментация">Дефрагментация&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#копированиеперемещение-заданного-количества-файлов-из-одного-каталога-в-другой">Копирование/перемещение заданного количества файлов из одного каталога в другой&lt;/a>
- &lt;ul>
- &lt;li>&lt;a href="#перемещение">Перемещение&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#копирование">Копирование**&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#можно-использовать-find">Можно использовать find&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#чтобы-не-пыталось-копировать-файл--лучше-задать-фильтр-файлов">Чтобы не пыталось копировать файл &amp;ldquo;.&amp;rdquo; лучше задать фильтр файлов&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#также-можно-использовать-параметр--exec">Также можно использовать параметр -exec&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;li>&lt;a href="#изменение-временной-зоны-из-консоли">Изменение временной зоны из консоли&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#создание-архива-zip">Создание архива zip&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#настройка-максимального-количества-открытых-файлов">Настройка максимального количества открытых файлов&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/#резервное-копирование-системы" class="gdoc-page__anchor clip flex align-center" title=" Резервное копирование системы" aria-label=" Резервное копирование системы" href="#%d1%80%d0%b5%d0%b7%d0%b5%d1%80%d0%b2%d0%bd%d0%be%d0%b5-%d0%ba%d0%be%d0%bf%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d1%8b"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="http://compizomania.blogspot.com/2014/07/systemback-linux.html" target="_blank" &gt;Здесь&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; описана программа &lt;a href="https://launchpad.net/~nemh/&amp;#43;archive/ubuntu/systemback" target="_blank" &gt;Systemback&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Полезная информация по разным командам Linux</title><link>https://maxtar.github.io/administration/linux/useful-information/</link><pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate><guid>https://maxtar.github.io/administration/linux/useful-information/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#просмотр-журнала"&gt;Просмотр журнала&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#описание-networkmanager"&gt;Описание NetworkManager&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#необновляемые-пакеты"&gt;Необновляемые пакеты&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#просмотр-версии-дистрибутива-только-для-lsb-дистрибутивов"&gt;Просмотр версии дистрибутива (только для LSB дистрибутивов)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#команда-удаления-всех-старых-версий-ядра"&gt;Команда удаления всех старых версий ядра&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#автоматическое-подтверждение-перезаписи-файлов-при-копировании"&gt;Автоматическое подтверждение перезаписи файлов при копировании&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#снятие-сетевого-дампа"&gt;Снятие сетевого дампа&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#разрешение-приложению-слушать-порты-ниже-1024"&gt;Разрешение приложению слушать порты ниже 1024&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#увеличение-используемого-диапазона-портов"&gt;Увеличение используемого диапазона портов&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#запуск-процесса-в-фоне-с-перенаправлением-вывода-в-указанный-файл"&gt;Запуск процесса в фоне с перенаправлением вывода в указанный файл&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#проверка-dns"&gt;Проверка DNS&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#дефрагментация"&gt;Дефрагментация&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#копированиеперемещение-заданного-количества-файлов-из-одного-каталога-в-другой"&gt;Копирование/перемещение заданного количества файлов из одного каталога в другой&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#перемещение"&gt;Перемещение&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#копирование"&gt;Копирование**&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#можно-использовать-find"&gt;Можно использовать find&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#чтобы-не-пыталось-копировать-файл--лучше-задать-фильтр-файлов"&gt;Чтобы не пыталось копировать файл &amp;ldquo;.&amp;rdquo; лучше задать фильтр файлов&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#также-можно-использовать-параметр--exec"&gt;Также можно использовать параметр -exec&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#изменение-временной-зоны-из-консоли"&gt;Изменение временной зоны из консоли&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#создание-архива-zip"&gt;Создание архива zip&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#настройка-максимального-количества-открытых-файлов"&gt;Настройка максимального количества открытых файлов&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="просмотр-журнала"
- >
+ &gt;
  Просмотр журнала
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/useful-information/#просмотр-журнала" class="gdoc-page__anchor clip flex align-center" title=" Просмотр журнала" aria-label=" Просмотр журнала" href="#%d0%bf%d1%80%d0%be%d1%81%d0%bc%d0%be%d1%82%d1%80-%d0%b6%d1%83%d1%80%d0%bd%d0%b0%d0%bb%d0%b0">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">journalctl -b -xe -u NetworkManager
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>где:&lt;/p></description></item></channel></rss>
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/useful-information/#просмотр-журнала" class="gdoc-page__anchor clip flex align-center" title=" Просмотр журнала" aria-label=" Просмотр журнала" href="#%d0%bf%d1%80%d0%be%d1%81%d0%bc%d0%be%d1%82%d1%80-%d0%b6%d1%83%d1%80%d0%bd%d0%b0%d0%bb%d0%b0"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;journalctl -b -xe -u NetworkManager
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;где:&lt;/p&gt;</description></item></channel></rss>

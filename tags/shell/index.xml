@@ -1,188 +1,188 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shell on Max Wiki Site</title><link>https://maxtar.github.io/tags/shell/</link><description>Recent content in Shell on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 12 Apr 2023 22:29:30 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml"/><item><title>Очень полезные команды Linux на одном листе</title><link>https://maxtar.github.io/administration/linux/useful-commands/</link><pubDate>Wed, 12 Apr 2023 22:29:30 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/useful-commands/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#системная-информация">Системная информация&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#остановка-системы">Остановка системы&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#файлы-и-директории">Файлы и директории&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#поиск-файлов">Поиск файлов&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#монтирование-файловых-систем">Монтирование файловых систем&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#дисковое-пространство">Дисковое пространство&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#пользователи-и-группы">Пользователи и группы&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#выставлениеизменение-полномочий-на-файлы">Выставление/изменение полномочий на файлы&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#специальные-атрибуты-файлов">Специальные атрибуты файлов&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#архивирование-и-сжатие-файлов">Архивирование и сжатие файлов&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#rpm-пакеты-fedora-red-hat-и-тому-подобное">RPM пакеты (Fedora, Red Hat и тому подобное)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#yum---средство-обновления-пакетовfedora-redhat-и-тому-подобное">YUM - средство обновления пакетов(Fedora, RedHat и тому подобное)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#deb-пакеты-debian-ubuntu-и-тому-подобное">DEB пакеты (Debian, Ubuntu и тому подобное)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#apt---средство-управление-пакетами-debian-ubuntu-и-тому-подобное">APT - средство управление пакетами (Debian, Ubuntu и тому подобное)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#просмотр-содержимого-файлов">Просмотр содержимого файлов&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#манипуляции-с-текстом">Манипуляции с текстом&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#преобразование-наборов-символов-и-файловых-форматов">Преобразование наборов символов и файловых форматов&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#анализ-файловых-систем">Анализ файловых систем&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#форматирование-файловых-систем">Форматирование файловых систем&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#swap-пространство">swap-пространство&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#создание-резервных-копий-backup">Создание резервных копий (backup)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#cdrom">CDROM&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#сеть-lan-и-wifi">Сеть (LAN и WiFi)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#microsoft-windows-networkssamba">Microsoft Windows networks(SAMBA)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#iptables-firewall">IPTABLES (firewall)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#мониторинг-и-отладка">Мониторинг и отладка&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#другие-полезные-команды">Другие полезные команды&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shell on Max Wiki Site</title><link>https://maxtar.github.io/tags/shell/</link><description>Recent content in Shell on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 12 Apr 2023 22:29:30 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml"/><item><title>Очень полезные команды Linux на одном листе</title><link>https://maxtar.github.io/administration/linux/useful-commands/</link><pubDate>Wed, 12 Apr 2023 22:29:30 +0300</pubDate><guid>https://maxtar.github.io/administration/linux/useful-commands/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#системная-информация"&gt;Системная информация&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#остановка-системы"&gt;Остановка системы&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#файлы-и-директории"&gt;Файлы и директории&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#поиск-файлов"&gt;Поиск файлов&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#монтирование-файловых-систем"&gt;Монтирование файловых систем&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#дисковое-пространство"&gt;Дисковое пространство&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#пользователи-и-группы"&gt;Пользователи и группы&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#выставлениеизменение-полномочий-на-файлы"&gt;Выставление/изменение полномочий на файлы&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#специальные-атрибуты-файлов"&gt;Специальные атрибуты файлов&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#архивирование-и-сжатие-файлов"&gt;Архивирование и сжатие файлов&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#rpm-пакеты-fedora-red-hat-и-тому-подобное"&gt;RPM пакеты (Fedora, Red Hat и тому подобное)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#yum---средство-обновления-пакетовfedora-redhat-и-тому-подобное"&gt;YUM - средство обновления пакетов(Fedora, RedHat и тому подобное)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#deb-пакеты-debian-ubuntu-и-тому-подобное"&gt;DEB пакеты (Debian, Ubuntu и тому подобное)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#apt---средство-управление-пакетами-debian-ubuntu-и-тому-подобное"&gt;APT - средство управление пакетами (Debian, Ubuntu и тому подобное)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#просмотр-содержимого-файлов"&gt;Просмотр содержимого файлов&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#манипуляции-с-текстом"&gt;Манипуляции с текстом&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#преобразование-наборов-символов-и-файловых-форматов"&gt;Преобразование наборов символов и файловых форматов&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#анализ-файловых-систем"&gt;Анализ файловых систем&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#форматирование-файловых-систем"&gt;Форматирование файловых систем&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#swap-пространство"&gt;swap-пространство&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#создание-резервных-копий-backup"&gt;Создание резервных копий (backup)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#cdrom"&gt;CDROM&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#сеть-lan-и-wifi"&gt;Сеть (LAN и WiFi)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#microsoft-windows-networkssamba"&gt;Microsoft Windows networks(SAMBA)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#iptables-firewall"&gt;IPTABLES (firewall)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#мониторинг-и-отладка"&gt;Мониторинг и отладка&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#другие-полезные-команды"&gt;Другие полезные команды&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="системная-информация"
- >
+ &gt;
  Системная информация
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/useful-commands/#системная-информация" class="gdoc-page__anchor clip flex align-center" title=" Системная информация" aria-label=" Системная информация" href="#%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%bd%d0%b0%d1%8f-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>&lt;strong>Команда&lt;/strong>&lt;/th>
- &lt;th>&lt;strong>Описание&lt;/strong>&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>arch&lt;/td>
- &lt;td>отобразить архитектуру компьютера&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>uname -m&lt;/td>
- &lt;td>&amp;ndash; // &amp;ndash;&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>uname -r&lt;/td>
- &lt;td>отобразить используемую версию ядра&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>dmidecode -q&lt;/td>
- &lt;td>показать аппаратные системные компоненты - (SMBIOS / DMI)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>hdparm -i /dev/hda&lt;/td>
- &lt;td>вывести характеристики жесткого диска&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>hdparm -tT /dev/sda&lt;/td>
- &lt;td>протестировать производительность чтения данных с жесткого диска&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cat /proc/cpuinfo&lt;/td>
- &lt;td>отобразить информацию о процессоре&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cat /proc/interrupts&lt;/td>
- &lt;td>показать прерывания&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cat /proc/meminfo&lt;/td>
- &lt;td>проверить использование памяти&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cat /proc/swaps&lt;/td>
- &lt;td>показать файл(ы) подкачки&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cat /proc/version&lt;/td>
- &lt;td>вывести версию ядра&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cat /proc/net/dev&lt;/td>
- &lt;td>показать сетевые интерфейсы и статистику по ним&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cat /proc/mounts&lt;/td>
- &lt;td>отобразить смонтированные файловые системы&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>lspci -tv&lt;/td>
- &lt;td>показать в виде дерева PCI устройства&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>lsusb -tv&lt;/td>
- &lt;td>показать в виде дерева USB устройства&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>date&lt;/td>
- &lt;td>вывести системную дату&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>cal 2007&lt;/td>
- &lt;td>вывести таблицу-календарь 2007-го года&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>date 041217002007.00&lt;/td>
- &lt;td>установить системные дату и время ММДДЧЧммГГГГ.СС (МесяцДеньЧасМинутыГод.Секунды)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>clock -w&lt;/td>
- &lt;td>сохранить системное время в BIOS&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/useful-commands/#системная-информация" class="gdoc-page__anchor clip flex align-center" title=" Системная информация" aria-label=" Системная информация" href="#%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%bd%d0%b0%d1%8f-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;&lt;strong&gt;Команда&lt;/strong&gt;&lt;/th&gt;
+ &lt;th&gt;&lt;strong&gt;Описание&lt;/strong&gt;&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;arch&lt;/td&gt;
+ &lt;td&gt;отобразить архитектуру компьютера&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;uname -m&lt;/td&gt;
+ &lt;td&gt;&amp;ndash; // &amp;ndash;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;uname -r&lt;/td&gt;
+ &lt;td&gt;отобразить используемую версию ядра&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;dmidecode -q&lt;/td&gt;
+ &lt;td&gt;показать аппаратные системные компоненты - (SMBIOS / DMI)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;hdparm -i /dev/hda&lt;/td&gt;
+ &lt;td&gt;вывести характеристики жесткого диска&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;hdparm -tT /dev/sda&lt;/td&gt;
+ &lt;td&gt;протестировать производительность чтения данных с жесткого диска&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cat /proc/cpuinfo&lt;/td&gt;
+ &lt;td&gt;отобразить информацию о процессоре&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cat /proc/interrupts&lt;/td&gt;
+ &lt;td&gt;показать прерывания&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cat /proc/meminfo&lt;/td&gt;
+ &lt;td&gt;проверить использование памяти&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cat /proc/swaps&lt;/td&gt;
+ &lt;td&gt;показать файл(ы) подкачки&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cat /proc/version&lt;/td&gt;
+ &lt;td&gt;вывести версию ядра&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cat /proc/net/dev&lt;/td&gt;
+ &lt;td&gt;показать сетевые интерфейсы и статистику по ним&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cat /proc/mounts&lt;/td&gt;
+ &lt;td&gt;отобразить смонтированные файловые системы&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;lspci -tv&lt;/td&gt;
+ &lt;td&gt;показать в виде дерева PCI устройства&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;lsusb -tv&lt;/td&gt;
+ &lt;td&gt;показать в виде дерева USB устройства&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;date&lt;/td&gt;
+ &lt;td&gt;вывести системную дату&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;cal 2007&lt;/td&gt;
+ &lt;td&gt;вывести таблицу-календарь 2007-го года&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;date 041217002007.00&lt;/td&gt;
+ &lt;td&gt;установить системные дату и время ММДДЧЧммГГГГ.СС (МесяцДеньЧасМинутыГод.Секунды)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;clock -w&lt;/td&gt;
+ &lt;td&gt;сохранить системное время в BIOS&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="остановка-системы"
- >
+ &gt;
  Остановка системы
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/useful-commands/#остановка-системы" class="gdoc-page__anchor clip flex align-center" title=" Остановка системы" aria-label=" Остановка системы" href="#%d0%be%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d1%8b">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>| &lt;strong>Команда&lt;/strong> | &lt;strong>Описание&lt;/strong> |&lt;/p></description></item><item><title>Полезная информация по разным командам Linux</title><link>https://maxtar.github.io/administration/linux/useful-information/</link><pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate><guid>https://maxtar.github.io/administration/linux/useful-information/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#просмотр-журнала">Просмотр журнала&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#описание-networkmanager">&lt;a href="https://help.ubuntu.com/community/NetworkManager">Описание NetworkManager&lt;/a>&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#необновляемые-пакеты">Необновляемые пакеты&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#просмотр-версии-дистрибутива-только-для-lsb-дистрибутивов">Просмотр версии дистрибутива (только для LSB дистрибутивов)&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#команда-удаления-всех-старых-версий-ядра">Команда удаления всех старых версий ядра&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#автоматическое-подтверждение-перезаписи-файлов-при-копировании">Автоматическое подтверждение перезаписи файлов при копировании&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#снятие-сетевого-дампа">Снятие сетевого дампа&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#разрешение-приложению-слушать-порты-ниже-1024">Разрешение приложению слушать порты ниже 1024&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#увеличение-используемого-диапазона-портов">Увеличение используемого диапазона портов&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#запуск-процесса-в-фоне-с-перенаправлением-вывода-в-указанный-файл">Запуск процесса в фоне с перенаправлением вывода в указанный файл&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#проверка-dns">Проверка DNS&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#дефрагментация">Дефрагментация&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#копированиеперемещение-заданного-количества-файлов-из-одного-каталога-в-другой">Копирование/перемещение заданного количества файлов из одного каталога в другой&lt;/a>
- &lt;ul>
- &lt;li>&lt;a href="#перемещение">Перемещение&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#копирование">Копирование**&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#можно-использовать-find">Можно использовать find&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#чтобы-не-пыталось-копировать-файл--лучше-задать-фильтр-файлов">Чтобы не пыталось копировать файл &amp;ldquo;.&amp;rdquo; лучше задать фильтр файлов&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#также-можно-использовать-параметр--exec">Также можно использовать параметр -exec&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;li>&lt;a href="#изменение-временной-зоны-из-консоли">Изменение временной зоны из консоли&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#создание-архива-zip">Создание архива zip&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#настройка-максимального-количества-открытых-файлов">Настройка максимального количества открытых файлов&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/useful-commands/#остановка-системы" class="gdoc-page__anchor clip flex align-center" title=" Остановка системы" aria-label=" Остановка системы" href="#%d0%be%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d1%8b"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;| &lt;strong&gt;Команда&lt;/strong&gt; | &lt;strong&gt;Описание&lt;/strong&gt; |&lt;/p&gt;</description></item><item><title>Полезная информация по разным командам Linux</title><link>https://maxtar.github.io/administration/linux/useful-information/</link><pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate><guid>https://maxtar.github.io/administration/linux/useful-information/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#просмотр-журнала"&gt;Просмотр журнала&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#описание-networkmanager"&gt;Описание NetworkManager&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#необновляемые-пакеты"&gt;Необновляемые пакеты&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#просмотр-версии-дистрибутива-только-для-lsb-дистрибутивов"&gt;Просмотр версии дистрибутива (только для LSB дистрибутивов)&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#команда-удаления-всех-старых-версий-ядра"&gt;Команда удаления всех старых версий ядра&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#автоматическое-подтверждение-перезаписи-файлов-при-копировании"&gt;Автоматическое подтверждение перезаписи файлов при копировании&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#снятие-сетевого-дампа"&gt;Снятие сетевого дампа&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#разрешение-приложению-слушать-порты-ниже-1024"&gt;Разрешение приложению слушать порты ниже 1024&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#увеличение-используемого-диапазона-портов"&gt;Увеличение используемого диапазона портов&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#запуск-процесса-в-фоне-с-перенаправлением-вывода-в-указанный-файл"&gt;Запуск процесса в фоне с перенаправлением вывода в указанный файл&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#проверка-dns"&gt;Проверка DNS&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#дефрагментация"&gt;Дефрагментация&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#копированиеперемещение-заданного-количества-файлов-из-одного-каталога-в-другой"&gt;Копирование/перемещение заданного количества файлов из одного каталога в другой&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#перемещение"&gt;Перемещение&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#копирование"&gt;Копирование**&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#можно-использовать-find"&gt;Можно использовать find&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#чтобы-не-пыталось-копировать-файл--лучше-задать-фильтр-файлов"&gt;Чтобы не пыталось копировать файл &amp;ldquo;.&amp;rdquo; лучше задать фильтр файлов&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#также-можно-использовать-параметр--exec"&gt;Также можно использовать параметр -exec&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#изменение-временной-зоны-из-консоли"&gt;Изменение временной зоны из консоли&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#создание-архива-zip"&gt;Создание архива zip&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#настройка-максимального-количества-открытых-файлов"&gt;Настройка максимального количества открытых файлов&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="просмотр-журнала"
- >
+ &gt;
  Просмотр журнала
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/useful-information/#просмотр-журнала" class="gdoc-page__anchor clip flex align-center" title=" Просмотр журнала" aria-label=" Просмотр журнала" href="#%d0%bf%d1%80%d0%be%d1%81%d0%bc%d0%be%d1%82%d1%80-%d0%b6%d1%83%d1%80%d0%bd%d0%b0%d0%bb%d0%b0">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">journalctl -b -xe -u NetworkManager
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>где:&lt;/p></description></item></channel></rss>
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/linux/useful-information/#просмотр-журнала" class="gdoc-page__anchor clip flex align-center" title=" Просмотр журнала" aria-label=" Просмотр журнала" href="#%d0%bf%d1%80%d0%be%d1%81%d0%bc%d0%be%d1%82%d1%80-%d0%b6%d1%83%d1%80%d0%bd%d0%b0%d0%bb%d0%b0"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;journalctl -b -xe -u NetworkManager
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;где:&lt;/p&gt;</description></item></channel></rss>

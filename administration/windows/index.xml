@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Max Wiki Site</title><link>https://maxtar.github.io/administration/windows/</link><description>Recent content in Windows on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 12 Oct 2022 18:36:05 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/administration/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Полезные программы</title><link>https://maxtar.github.io/administration/windows/useful-programs/</link><pubDate>Wed, 12 Oct 2022 18:36:05 +0300</pubDate><guid>https://maxtar.github.io/administration/windows/useful-programs/</guid><description>&lt;p>Список программ, полезных для администрирования Windows.&lt;/p>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Max Wiki Site</title><link>https://maxtar.github.io/administration/windows/</link><description>Recent content in Windows on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Wed, 12 Oct 2022 18:36:05 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/administration/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Полезные программы</title><link>https://maxtar.github.io/administration/windows/useful-programs/</link><pubDate>Wed, 12 Oct 2022 18:36:05 +0300</pubDate><guid>https://maxtar.github.io/administration/windows/useful-programs/</guid><description>&lt;p&gt;Список программ, полезных для администрирования Windows.&lt;/p&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="системные-утилиты"
- >
+ &gt;
  Системные утилиты
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/administration/windows/useful-programs/#системные-утилиты" class="gdoc-page__anchor clip flex align-center" title=" Системные утилиты" aria-label=" Системные утилиты" href="#%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%bd%d1%8b%d0%b5-%d1%83%d1%82%d0%b8%d0%bb%d0%b8%d1%82%d1%8b">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/Yamato-Security/hayabusa" target="_blank" >Hayabusa&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - утилита для анализа Windows Events.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/administration/windows/useful-programs/#системные-утилиты" class="gdoc-page__anchor clip flex align-center" title=" Системные утилиты" aria-label=" Системные утилиты" href="#%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%bd%d1%8b%d0%b5-%d1%83%d1%82%d0%b8%d0%bb%d0%b8%d1%82%d1%8b"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Yamato-Security/hayabusa" target="_blank" &gt;Hayabusa&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - утилита для анализа Windows Events.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

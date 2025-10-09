@@ -1,133 +1,133 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blender on Max Wiki Site</title><link>https://maxtar.github.io/3d-vfx-video/blender/</link><description>Recent content in Blender on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sat, 08 Oct 2022 20:29:42 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/3d-vfx-video/blender/index.xml" rel="self" type="application/rss+xml"/><item><title>Разные вопросы по renderman</title><link>https://maxtar.github.io/3d-vfx-video/blender/renderman/</link><pubDate>Sat, 08 Oct 2022 20:29:42 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/blender/renderman/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#установка-в-ubuntu">Установка в ubuntu&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#решение-проблем-с-лицензией-в-windows">Решение проблем с лицензией в windows&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blender on Max Wiki Site</title><link>https://maxtar.github.io/3d-vfx-video/blender/</link><description>Recent content in Blender on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sat, 08 Oct 2022 20:29:42 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/3d-vfx-video/blender/index.xml" rel="self" type="application/rss+xml"/><item><title>Разные вопросы по renderman</title><link>https://maxtar.github.io/3d-vfx-video/blender/renderman/</link><pubDate>Sat, 08 Oct 2022 20:29:42 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/blender/renderman/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#установка-в-ubuntu"&gt;Установка в ubuntu&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#решение-проблем-с-лицензией-в-windows"&gt;Решение проблем с лицензией в windows&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="установка-в-ubuntu"
- >
+ &gt;
  Установка в ubuntu
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/blender/renderman/#установка-в-ubuntu" class="gdoc-page__anchor clip flex align-center" title=" Установка в ubuntu" aria-label=" Установка в ubuntu" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b2-ubuntu">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ol>
-&lt;li>
-&lt;p>Скачать установщик.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Преобразовать в deb формат командой&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">alien -c renderman-installer...rpm
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
-&lt;li>
-&lt;p>На выходе получится .deb файл. Дальше его установить как обычно:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo dpkg -i renderman-installer...deb
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
-&lt;li>
-&lt;p>Если в процессе не запустится установщик сервера:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> /opt/pixar/RenderMan-Installer-ncr-&amp;lt;version&amp;gt;/bin
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo ./RenderManInstaller
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
-&lt;/ol>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/blender/renderman/#установка-в-ubuntu" class="gdoc-page__anchor clip flex align-center" title=" Установка в ubuntu" aria-label=" Установка в ubuntu" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b2-ubuntu"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Скачать установщик.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Преобразовать в deb формат командой&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;alien -c renderman-installer...rpm
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;На выходе получится .deb файл. Дальше его установить как обычно:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo dpkg -i renderman-installer...deb
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Если в процессе не запустится установщик сервера:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /opt/pixar/RenderMan-Installer-ncr-&amp;lt;version&amp;gt;/bin
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo ./RenderManInstaller
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="решение-проблем-с-лицензией-в-windows"
- >
+ &gt;
  Решение проблем с лицензией в windows
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/blender/renderman/#решение-проблем-с-лицензией-в-windows" class="gdoc-page__anchor clip flex align-center" title=" Решение проблем с лицензией в windows" aria-label=" Решение проблем с лицензией в windows" href="#%d1%80%d0%b5%d1%88%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d0%b1%d0%bb%d0%b5%d0%bc-%d1%81-%d0%bb%d0%b8%d1%86%d0%b5%d0%bd%d0%b7%d0%b8%d0%b5%d0%b9-%d0%b2-windows">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>&lt;a href="https://renderman.pixar.com/forum/ncrdownload.php" target="_blank" >Скачать&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> установщик RenderMan.&lt;/p></description></item><item><title>Полезные команды и клавиатурные сокращения Blender</title><link>https://maxtar.github.io/3d-vfx-video/blender/keys/</link><pubDate>Wed, 05 Oct 2022 02:17:22 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/blender/keys/</guid><description>&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/blender/renderman/#решение-проблем-с-лицензией-в-windows" class="gdoc-page__anchor clip flex align-center" title=" Решение проблем с лицензией в windows" aria-label=" Решение проблем с лицензией в windows" href="#%d1%80%d0%b5%d1%88%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d0%b1%d0%bb%d0%b5%d0%bc-%d1%81-%d0%bb%d0%b8%d1%86%d0%b5%d0%bd%d0%b7%d0%b8%d0%b5%d0%b9-%d0%b2-windows"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://renderman.pixar.com/forum/ncrdownload.php" target="_blank" &gt;Скачать&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; установщик RenderMan.&lt;/p&gt;</description></item><item><title>Полезные команды и клавиатурные сокращения Blender</title><link>https://maxtar.github.io/3d-vfx-video/blender/keys/</link><pubDate>Wed, 05 Oct 2022 02:17:22 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/blender/keys/</guid><description>&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="выравнивание-одного-объекта-относительно-другого"
- >
+ &gt;
  Выравнивание одного объекта относительно другого
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/blender/keys/#выравнивание-одного-объекта-относительно-другого" class="gdoc-page__anchor clip flex align-center" title=" Выравнивание одного объекта относительно другого" aria-label=" Выравнивание одного объекта относительно другого" href="#%d0%b2%d1%8b%d1%80%d0%b0%d0%b2%d0%bd%d0%b8%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%be%d0%b4%d0%bd%d0%be%d0%b3%d0%be-%d0%be%d0%b1%d1%8a%d0%b5%d0%ba%d1%82%d0%b0-%d0%be%d1%82%d0%bd%d0%be%d1%81%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be-%d0%b4%d1%80%d1%83%d0%b3%d0%be%d0%b3%d0%be">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>&lt;strong>Клавиши&lt;/strong>: &lt;code>ctrl+alt+space&lt;/code>.&lt;/p>
-&lt;p>Необходимо выбрать, например, грань объекта, относительно какого нужно выравнивать, затем нажать &lt;code>ctrl+alt+space&lt;/code>. В списке &lt;em>transform orientation&lt;/em> появится новая привязка.
-Затем выбираем второй объект и его координаты перемещения будут рассчитываться относительно этого объекта.&lt;/p>
-&lt;hr>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/blender/keys/#выравнивание-одного-объекта-относительно-другого" class="gdoc-page__anchor clip flex align-center" title=" Выравнивание одного объекта относительно другого" aria-label=" Выравнивание одного объекта относительно другого" href="#%d0%b2%d1%8b%d1%80%d0%b0%d0%b2%d0%bd%d0%b8%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%be%d0%b4%d0%bd%d0%be%d0%b3%d0%be-%d0%be%d0%b1%d1%8a%d0%b5%d0%ba%d1%82%d0%b0-%d0%be%d1%82%d0%bd%d0%be%d1%81%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be-%d0%b4%d1%80%d1%83%d0%b3%d0%be%d0%b3%d0%be"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Клавиши&lt;/strong&gt;: &lt;code&gt;ctrl+alt+space&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Необходимо выбрать, например, грань объекта, относительно какого нужно выравнивать, затем нажать &lt;code&gt;ctrl+alt+space&lt;/code&gt;. В списке &lt;em&gt;transform orientation&lt;/em&gt; появится новая привязка.
+Затем выбираем второй объект и его координаты перемещения будут рассчитываться относительно этого объекта.&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="сдвинуть-вершины-относительно-координат"
- >
+ &gt;
  Сдвинуть вершины относительно координат
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/blender/keys/#сдвинуть-вершины-относительно-координат" class="gdoc-page__anchor clip flex align-center" title=" Сдвинуть вершины относительно координат" aria-label=" Сдвинуть вершины относительно координат" href="#%d1%81%d0%b4%d0%b2%d0%b8%d0%bd%d1%83%d1%82%d1%8c-%d0%b2%d0%b5%d1%80%d1%88%d0%b8%d0%bd%d1%8b-%d0%be%d1%82%d0%bd%d0%be%d1%81%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be-%d0%ba%d0%be%d0%be%d1%80%d0%b4%d0%b8%d0%bd%d0%b0%d1%82">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>&lt;strong>Команда&lt;/strong>: Shear.&lt;/p></description></item><item><title>Полезные ссылки</title><link>https://maxtar.github.io/3d-vfx-video/blender/links/</link><pubDate>Wed, 05 Oct 2022 01:44:43 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/blender/links/</guid><description>&lt;p>На странице представлены всякие полезные ссылки по изучению Blender, архивы моделей и прочего.&lt;/p>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/blender/keys/#сдвинуть-вершины-относительно-координат" class="gdoc-page__anchor clip flex align-center" title=" Сдвинуть вершины относительно координат" aria-label=" Сдвинуть вершины относительно координат" href="#%d1%81%d0%b4%d0%b2%d0%b8%d0%bd%d1%83%d1%82%d1%8c-%d0%b2%d0%b5%d1%80%d1%88%d0%b8%d0%bd%d1%8b-%d0%be%d1%82%d0%bd%d0%be%d1%81%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be-%d0%ba%d0%be%d0%be%d1%80%d0%b4%d0%b8%d0%bd%d0%b0%d1%82"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Команда&lt;/strong&gt;: Shear.&lt;/p&gt;</description></item><item><title>Полезные ссылки</title><link>https://maxtar.github.io/3d-vfx-video/blender/links/</link><pubDate>Wed, 05 Oct 2022 01:44:43 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/blender/links/</guid><description>&lt;p&gt;На странице представлены всякие полезные ссылки по изучению Blender, архивы моделей и прочего.&lt;/p&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="авторские-сайты"
- >
+ &gt;
  Авторские сайты
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/blender/links/#авторские-сайты" class="gdoc-page__anchor clip flex align-center" title=" Авторские сайты" aria-label=" Авторские сайты" href="#%d0%b0%d0%b2%d1%82%d0%be%d1%80%d1%81%d0%ba%d0%b8%d0%b5-%d1%81%d0%b0%d0%b9%d1%82%d1%8b">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/blender/links/#авторские-сайты" class="gdoc-page__anchor clip flex align-center" title=" Авторские сайты" aria-label=" Авторские сайты" href="#%d0%b0%d0%b2%d1%82%d0%be%d1%80%d1%81%d0%ba%d0%b8%d0%b5-%d1%81%d0%b0%d0%b9%d1%82%d1%8b"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h3 id="witold-jaworski"
- >
- &lt;a href="http://airplanes3d.net/downloads-000_e.xml" target="_blank" >Witold Jaworski&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>
- &lt;/h3>
- &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/blender/links/#witold-jaworski" class="gdoc-page__anchor clip flex align-center" title=" Witold Jaworski" aria-label=" Witold Jaworski" href="#witold-jaworski">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>Пишет о моделировании самолётов. Также можно скачать некоторые бесплатные модели.&lt;/p>
-&lt;p>На сайте представлена книга по разработке плагинов для Blender.&lt;/p></description></item><item><title>Как избавиться от светлячков</title><link>https://maxtar.github.io/3d-vfx-video/blender/remove-fireflies/</link><pubDate>Mon, 03 Oct 2022 21:47:14 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/blender/remove-fireflies/</guid><description>&lt;p>Если при рендеринге тёмных сцен появляются светлячки, как на показанном изображении:&lt;/p>
-&lt;p>&lt;img
+ &gt;
+ &lt;a href="http://airplanes3d.net/downloads-000_e.xml" target="_blank" &gt;Witold Jaworski&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;
+ &lt;/h3&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/3d-vfx-video/blender/links/#witold-jaworski" class="gdoc-page__anchor clip flex align-center" title=" Witold Jaworski" aria-label=" Witold Jaworski" href="#witold-jaworski"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;Пишет о моделировании самолётов. Также можно скачать некоторые бесплатные модели.&lt;/p&gt;
+&lt;p&gt;На сайте представлена книга по разработке плагинов для Blender.&lt;/p&gt;</description></item><item><title>Как избавиться от светлячков</title><link>https://maxtar.github.io/3d-vfx-video/blender/remove-fireflies/</link><pubDate>Mon, 03 Oct 2022 21:47:14 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/blender/remove-fireflies/</guid><description>&lt;p&gt;Если при рендеринге тёмных сцен появляются светлячки, как на показанном изображении:&lt;/p&gt;
+&lt;p&gt;&lt;img
  src="fireflies.png"
  alt="alt"
  
-/>&lt;/p>
-&lt;p>То необходимо установить параметр &amp;ldquo;Clamp Indirect&amp;rdquo; равным единице как на скриншоте:&lt;/p>
-&lt;p>&lt;img
+/&gt;&lt;/p&gt;
+&lt;p&gt;То необходимо установить параметр &amp;ldquo;Clamp Indirect&amp;rdquo; равным единице как на скриншоте:&lt;/p&gt;
+&lt;p&gt;&lt;img
  src="render-settings.png"
  alt="alt"
  
-/>&lt;/p>
-&lt;p>После этого &amp;ldquo;светлячки&amp;rdquo; должны пропасть:&lt;/p>
-&lt;p>&lt;img
+/&gt;&lt;/p&gt;
+&lt;p&gt;После этого &amp;ldquo;светлячки&amp;rdquo; должны пропасть:&lt;/p&gt;
+&lt;p&gt;&lt;img
  src="wo-fireflies.png"
  alt="alt"
  
-/>&lt;/p>
-&lt;hr>
-&lt;p>Тестовое изображение с habrastorage:&lt;/p>
-&lt;p>&lt;img
+/&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Тестовое изображение с habrastorage:&lt;/p&gt;
+&lt;p&gt;&lt;img
  src="https://habrastorage.org/web/3d1/194/d3b/3d1194d3b85440c99bfca150b5a59fe9.png"
  alt="alt"
  
-/>&lt;/p></description></item><item><title>Addons</title><link>https://maxtar.github.io/3d-vfx-video/blender/addons/</link><pubDate>Sat, 01 Oct 2022 22:23:09 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/blender/addons/</guid><description>&lt;ul>
-&lt;li>&lt;a href="https://github.com/JacquesLucke/animation_nodes/releases" target="_blank" >Animation nodes&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="http://animation-nodes-manual.readthedocs.io/en/latest/index.html" target="_blank" >Документация&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. &lt;a href="https://blenderartists.org/forum/showthread.php?350296-Addon-Animation-Nodes" target="_blank" >Форум&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Позволяет анимировать различные сущности Blender. Сейчас уже не очень актуально, так как добавили геометрические ноды в Blender.&lt;/li>
-&lt;li>&lt;a href="https://github.com/sybrenstuvel/pose_thumbnails" target="_blank" >Pose Thumbnails&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - вроде тоже уже не актуально, так как имеется встроенная библиотека.&lt;/li>
-&lt;li>&lt;a href="https://gumroad.com/l/gLFsh" target="_blank" >Font Selector&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - дополнение позволяет сразу применять шрифт, который показывается в виде списка, к объекту. А не лазить по директориям в поисках нужного.&lt;/li>
-&lt;li>&lt;a href="https://github.com/sergeod9/Easy_Align_Addon" target="_blank" >EasyAlign&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - позволяет выравнивать объекты относительно друг друга. &lt;a href="https://blenderartists.org/t/addon-easy-align/685704" target="_blank" >BlenderArtist.org&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://github.com/Shriinivas/writinganimation" target="_blank" >Writinganimation&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - позволяет автоматически делать анимацию написания. &lt;a href="https://blenderartists.org/t/add-on-for-generating-writing-animation-free/1138985" target="_blank" >BlenderArtist&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://fspy.io/" target="_blank" >Fspy&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> привязка фотографий к 3d миру. &lt;a href="https://github.com/stuffmatic/fSpy-Blender" target="_blank" >Сам плагин&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="http://zeffii.github.io/mesh_tiny_cad/" target="_blank" >mesh_tiny_cad&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - несколько инструментов в стиле CAD. Очень полезная вещь. &lt;a href="https://github.com/zeffii/mesh_tiny_cad" target="_blank" >GitHub&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://remingtongraphics.net/tools/d-noise" target="_blank" >D-Noise&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - удаление шума с использованием GPU NVIDIA. Работает только под виндой. &lt;a href="https://github.com/grantwilk/DNOISE" target="_blank" >GitHub&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>. Сейчас, опять же, есть встроенный шумодав.&lt;/li>
-&lt;li>&lt;a href="https://github.com/nutti/Screencast-Keys" target="_blank" >Screencast-Keys&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - показ нажатых клавиш для скринкастов.&lt;/li>
-&lt;li>&lt;a href="https://github.com/stuarta0/blender-photogrammetry" target="_blank" >blender-photogrammetry&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - плагин для фотограмметрии. &lt;a href="https://www.youtube.com/watch?time_continue=3&amp;amp;v=hk5ovQ6-IbM" target="_blank" >Видео&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> как использовать.&lt;/li>
-&lt;li>&lt;a href="https://blenderartists.org/t/interactive-tools-for-blender-2-8/1164932" target="_blank" >Interactive Tools for Blender&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - позволяет автоматизировать множество рутиных операций.&lt;/li>
-&lt;li>&lt;a href="https://github.com/GDquest/Blender-power-sequencer" target="_blank" >Sequenser&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> для видео. Облегчает работу при видеомонтаже. &lt;a href="https://www.gdquest.com/blender/power-sequencer/docs" target="_blank" >Документация&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://github.com/vilemduha/optiloops" target="_blank" >optiloops&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - позволяет оптимизировать сетку с сохранением приемлемого качества.&lt;/li>
-&lt;li>&lt;a href="https://remington.pro/software/blender/atomic" target="_blank" >atomic&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - плагин позволяющий облегчить ведение проекта. Поиск, пропавших файлов и тому подобное.&lt;/li>
-&lt;li>&lt;a href="https://blenderartists.org/t/welder/672478?u=peetie" target="_blank" >Welder&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - плагин позволяет делать сварные швы.&lt;/li>
-&lt;li>&lt;a href="https://github.com/mifth/mifthtools" target="_blank" >Mira Tools&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - плагин для ретопологии и прочее. &lt;a href="https://blenderartists.org/t/miratools/637385" target="_blank" >BlenderArtist&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+/&gt;&lt;/p&gt;</description></item><item><title>Addons</title><link>https://maxtar.github.io/3d-vfx-video/blender/addons/</link><pubDate>Sat, 01 Oct 2022 22:23:09 +0300</pubDate><guid>https://maxtar.github.io/3d-vfx-video/blender/addons/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/JacquesLucke/animation_nodes/releases" target="_blank" &gt;Animation nodes&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. &lt;a href="http://animation-nodes-manual.readthedocs.io/en/latest/index.html" target="_blank" &gt;Документация&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. &lt;a href="https://blenderartists.org/forum/showthread.php?350296-Addon-Animation-Nodes" target="_blank" &gt;Форум&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. Позволяет анимировать различные сущности Blender. Сейчас уже не очень актуально, так как добавили геометрические ноды в Blender.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/sybrenstuvel/pose_thumbnails" target="_blank" &gt;Pose Thumbnails&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - вроде тоже уже не актуально, так как имеется встроенная библиотека.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gumroad.com/l/gLFsh" target="_blank" &gt;Font Selector&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - дополнение позволяет сразу применять шрифт, который показывается в виде списка, к объекту. А не лазить по директориям в поисках нужного.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/sergeod9/Easy_Align_Addon" target="_blank" &gt;EasyAlign&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - позволяет выравнивать объекты относительно друг друга. &lt;a href="https://blenderartists.org/t/addon-easy-align/685704" target="_blank" &gt;BlenderArtist.org&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Shriinivas/writinganimation" target="_blank" &gt;Writinganimation&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - позволяет автоматически делать анимацию написания. &lt;a href="https://blenderartists.org/t/add-on-for-generating-writing-animation-free/1138985" target="_blank" &gt;BlenderArtist&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fspy.io/" target="_blank" &gt;Fspy&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; привязка фотографий к 3d миру. &lt;a href="https://github.com/stuffmatic/fSpy-Blender" target="_blank" &gt;Сам плагин&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://zeffii.github.io/mesh_tiny_cad/" target="_blank" &gt;mesh_tiny_cad&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - несколько инструментов в стиле CAD. Очень полезная вещь. &lt;a href="https://github.com/zeffii/mesh_tiny_cad" target="_blank" &gt;GitHub&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://remingtongraphics.net/tools/d-noise" target="_blank" &gt;D-Noise&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - удаление шума с использованием GPU NVIDIA. Работает только под виндой. &lt;a href="https://github.com/grantwilk/DNOISE" target="_blank" &gt;GitHub&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. Сейчас, опять же, есть встроенный шумодав.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nutti/Screencast-Keys" target="_blank" &gt;Screencast-Keys&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - показ нажатых клавиш для скринкастов.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/stuarta0/blender-photogrammetry" target="_blank" &gt;blender-photogrammetry&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - плагин для фотограмметрии. &lt;a href="https://www.youtube.com/watch?time_continue=3&amp;amp;v=hk5ovQ6-IbM" target="_blank" &gt;Видео&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; как использовать.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blenderartists.org/t/interactive-tools-for-blender-2-8/1164932" target="_blank" &gt;Interactive Tools for Blender&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - позволяет автоматизировать множество рутиных операций.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/GDquest/Blender-power-sequencer" target="_blank" &gt;Sequenser&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; для видео. Облегчает работу при видеомонтаже. &lt;a href="https://www.gdquest.com/blender/power-sequencer/docs" target="_blank" &gt;Документация&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/vilemduha/optiloops" target="_blank" &gt;optiloops&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - позволяет оптимизировать сетку с сохранением приемлемого качества.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://remington.pro/software/blender/atomic" target="_blank" &gt;atomic&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - плагин позволяющий облегчить ведение проекта. Поиск, пропавших файлов и тому подобное.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blenderartists.org/t/welder/672478?u=peetie" target="_blank" &gt;Welder&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - плагин позволяет делать сварные швы.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mifth/mifthtools" target="_blank" &gt;Mira Tools&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - плагин для ретопологии и прочее. &lt;a href="https://blenderartists.org/t/miratools/637385" target="_blank" &gt;BlenderArtist&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

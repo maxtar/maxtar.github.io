@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker on Max Wiki Site</title><link>https://maxtar.github.io/tags/docker/</link><description>Recent content in Docker on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 01:53:38 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker</title><link>https://maxtar.github.io/programming/docker/</link><pubDate>Sun, 09 Oct 2022 01:53:38 +0300</pubDate><guid>https://maxtar.github.io/programming/docker/</guid><description>&lt;p>Полезная информация по &lt;a href="https://www.docker.com/" target="_blank" >Docker&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/p>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker on Max Wiki Site</title><link>https://maxtar.github.io/tags/docker/</link><description>Recent content in Docker on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 01:53:38 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker</title><link>https://maxtar.github.io/programming/docker/</link><pubDate>Sun, 09 Oct 2022 01:53:38 +0300</pubDate><guid>https://maxtar.github.io/programming/docker/</guid><description>&lt;p&gt;Полезная информация по &lt;a href="https://www.docker.com/" target="_blank" &gt;Docker&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="как-полностью-удалить-образы-вместе-с-контейнерами"
- >
+ &gt;
  Как полностью удалить образы вместе с контейнерами
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/docker/#как-полностью-удалить-образы-вместе-с-контейнерами" class="gdoc-page__anchor clip flex align-center" title=" Как полностью удалить образы вместе с контейнерами" aria-label=" Как полностью удалить образы вместе с контейнерами" href="#%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d0%bb%d0%bd%d0%be%d1%81%d1%82%d1%8c%d1%8e-%d1%83%d0%b4%d0%b0%d0%bb%d0%b8%d1%82%d1%8c-%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d1%8b-%d0%b2%d0%bc%d0%b5%d1%81%d1%82%d0%b5-%d1%81-%d0%ba%d0%be%d0%bd%d1%82%d0%b5%d0%b9%d0%bd%d0%b5%d1%80%d0%b0%d0%bc%d0%b8">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>Чтобы посмотреть все контейнеры нужно выполнить команду:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">docker container ls -a
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Ключ &lt;strong>-a&lt;/strong> указывает, что надо показывать все существующие контейнеры.&lt;/p>
-&lt;p>После того, как мы получим список образов выбираем нужный и удаляем его следующей командой:&lt;/p></description></item></channel></rss>
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/docker/#как-полностью-удалить-образы-вместе-с-контейнерами" class="gdoc-page__anchor clip flex align-center" title=" Как полностью удалить образы вместе с контейнерами" aria-label=" Как полностью удалить образы вместе с контейнерами" href="#%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d0%bb%d0%bd%d0%be%d1%81%d1%82%d1%8c%d1%8e-%d1%83%d0%b4%d0%b0%d0%bb%d0%b8%d1%82%d1%8c-%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d1%8b-%d0%b2%d0%bc%d0%b5%d1%81%d1%82%d0%b5-%d1%81-%d0%ba%d0%be%d0%bd%d1%82%d0%b5%d0%b9%d0%bd%d0%b5%d1%80%d0%b0%d0%bc%d0%b8"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;Чтобы посмотреть все контейнеры нужно выполнить команду:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;docker container ls -a
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ключ &lt;strong&gt;-a&lt;/strong&gt; указывает, что надо показывать все существующие контейнеры.&lt;/p&gt;
+&lt;p&gt;После того, как мы получим список образов выбираем нужный и удаляем его следующей командой:&lt;/p&gt;</description></item></channel></rss>

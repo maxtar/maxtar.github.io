@@ -1,74 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Тестирование on Max Wiki Site</title><link>https://maxtar.github.io/testing/</link><description>Recent content in Тестирование on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 15:41:09 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/testing/index.xml" rel="self" type="application/rss+xml"/><item><title>Библиотеки для автоматизации</title><link>https://maxtar.github.io/testing/libraries/</link><pubDate>Sun, 09 Oct 2022 15:41:09 +0300</pubDate><guid>https://maxtar.github.io/testing/libraries/</guid><description>&lt;p>Библиотеки для автоматизированного тестирования&lt;/p>
-&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#java">Java&lt;/a>
- &lt;ul>
- &lt;li>&lt;a href="#rest">REST&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#web">WEB&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#http">HTTP&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#генерация-данных">Генерация данных&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#json">JSON&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#прочие">Прочие&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;li>&lt;a href="#kotlin">Kotlin&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#net">.Net&lt;/a>
- &lt;ul>
- &lt;li>&lt;a href="#specflow">Specflow&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;li>&lt;a href="#golang">Golang&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#groovy">Groovy&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Тестирование on Max Wiki Site</title><link>https://maxtar.github.io/testing/</link><description>Recent content in Тестирование on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 15:41:09 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/testing/index.xml" rel="self" type="application/rss+xml"/><item><title>Библиотеки для автоматизации</title><link>https://maxtar.github.io/testing/libraries/</link><pubDate>Sun, 09 Oct 2022 15:41:09 +0300</pubDate><guid>https://maxtar.github.io/testing/libraries/</guid><description>&lt;p&gt;Библиотеки для автоматизированного тестирования&lt;/p&gt;
+&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#java"&gt;Java&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#rest"&gt;REST&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#web"&gt;WEB&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#http"&gt;HTTP&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#генерация-данных"&gt;Генерация данных&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#json"&gt;JSON&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#прочие"&gt;Прочие&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#kotlin"&gt;Kotlin&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#net"&gt;.Net&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#specflow"&gt;Specflow&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#golang"&gt;Golang&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#groovy"&gt;Groovy&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="java"
- >
+ &gt;
  Java
- &lt;/h2>
- &lt;a data-clipboard-text="https://maxtar.github.io/testing/libraries/#java" class="gdoc-page__anchor clip flex align-center" title=" Java" aria-label=" Java" href="#java">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h2&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/testing/libraries/#java" class="gdoc-page__anchor clip flex align-center" title=" Java" aria-label=" Java" href="#java"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h3 id="rest"
- >
+ &gt;
  REST
- &lt;/h3>
- &lt;a data-clipboard-text="https://maxtar.github.io/testing/libraries/#rest" class="gdoc-page__anchor clip flex align-center" title=" REST" aria-label=" REST" href="#rest">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://rest-assured.io" target="_blank" >rest-assured.io&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> &lt;a href="https://github.com/rest-assured/rest-assured/wiki/GettingStarted" target="_blank" >Документация&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://square.github.io/retrofit" target="_blank" >retrofit&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - одна из популярных библиотек.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h3&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/testing/libraries/#rest" class="gdoc-page__anchor clip flex align-center" title=" REST" aria-label=" REST" href="#rest"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rest-assured.io" target="_blank" &gt;rest-assured.io&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; &lt;a href="https://github.com/rest-assured/rest-assured/wiki/GettingStarted" target="_blank" &gt;Документация&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://square.github.io/retrofit" target="_blank" &gt;retrofit&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - одна из популярных библиотек.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h3 id="web"
- >
+ &gt;
  WEB
- &lt;/h3>
- &lt;a data-clipboard-text="https://maxtar.github.io/testing/libraries/#web" class="gdoc-page__anchor clip flex align-center" title=" WEB" aria-label=" WEB" href="#web">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;ul>
-&lt;li>&lt;a href="https://www.thucydides.info/docs/serenity/" target="_blank" >Severenity&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - это фреймворк с открытым исходным кодом для написания функциональных тестов, в который из коробки встроена система генерации отчетов о выполненных тестах.&lt;/li>
-&lt;/ul>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+ &lt;/h3&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/testing/libraries/#web" class="gdoc-page__anchor clip flex align-center" title=" WEB" aria-label=" WEB" href="#web"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.thucydides.info/docs/serenity/" target="_blank" &gt;Severenity&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - это фреймворк с открытым исходным кодом для написания функциональных тестов, в который из коробки встроена система генерации отчетов о выполненных тестах.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h3 id="http"
- >
+ &gt;
  HTTP
- &lt;/h3>
- &lt;a data-clipboard-text="https://maxtar.github.io/testing/libraries/#http" class="gdoc-page__anchor clip flex align-center" title=" HTTP" aria-label=" HTTP" href="#http">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>&lt;a href="https://www.mock-server.com" target="_blank" >mock-server&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a> - настраиваемый mock-сервер. &lt;a href="https://github.com/jamesdbloom/mockserver" target="_blank" >GitHub&lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>&lt;/a>.&lt;/p></description></item></channel></rss>
+ &lt;/h3&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/testing/libraries/#http" class="gdoc-page__anchor clip flex align-center" title=" HTTP" aria-label=" HTTP" href="#http"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://www.mock-server.com" target="_blank" &gt;mock-server&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - настраиваемый mock-сервер. &lt;a href="https://github.com/jamesdbloom/mockserver" target="_blank" &gt;GitHub&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

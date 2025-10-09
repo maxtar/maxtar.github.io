@@ -1,37 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Regexp on Max Wiki Site</title><link>https://maxtar.github.io/tags/regexp/</link><description>Recent content in Regexp on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 01:14:30 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/regexp/index.xml" rel="self" type="application/rss+xml"/><item><title>Регулярные выражения</title><link>https://maxtar.github.io/programming/regexp/</link><pubDate>Sun, 09 Oct 2022 01:14:30 +0300</pubDate><guid>https://maxtar.github.io/programming/regexp/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">
- &lt;nav id="TableOfContents">
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>
- &lt;ul>
- &lt;li>&lt;a href="#исключение-строк-содержащих-определённое-значение">Исключение строк, содержащих определённое значение&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#время-с-обязательным-ведущим-нулём-в-часе">Время с обязательным ведущим нулём в часе&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#время-без-обязательного-ведущего-нуля-в-часе">Время без обязательного ведущего нуля в часе&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#полный-путь-файла-в-windows">Полный путь файла в Windows&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#просто-название-файла-в-windows">Просто название файла в Windows&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#e-mail">e-mail&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#url">URL&lt;/a>&lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
- &lt;/li>
- &lt;/ul>
-&lt;/nav>
- &lt;hr />
- &lt;/div>
-&lt;div class="flex align-center gdoc-page__anchorwrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Regexp on Max Wiki Site</title><link>https://maxtar.github.io/tags/regexp/</link><description>Recent content in Regexp on Max Wiki Site</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 09 Oct 2022 01:14:30 +0300</lastBuildDate><atom:link href="https://maxtar.github.io/tags/regexp/index.xml" rel="self" type="application/rss+xml"/><item><title>Регулярные выражения</title><link>https://maxtar.github.io/programming/regexp/</link><pubDate>Sun, 09 Oct 2022 01:14:30 +0300</pubDate><guid>https://maxtar.github.io/programming/regexp/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6"&gt;
+ &lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#исключение-строк-содержащих-определённое-значение"&gt;Исключение строк, содержащих определённое значение&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#время-с-обязательным-ведущим-нулём-в-часе"&gt;Время с обязательным ведущим нулём в часе&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#время-без-обязательного-ведущего-нуля-в-часе"&gt;Время без обязательного ведущего нуля в часе&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#полный-путь-файла-в-windows"&gt;Полный путь файла в Windows&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#просто-название-файла-в-windows"&gt;Просто название файла в Windows&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#e-mail"&gt;e-mail&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#url"&gt;URL&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;hr /&gt;
+ &lt;/div&gt;
+&lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h3 id="исключение-строк-содержащих-определённое-значение"
- >
+ &gt;
  Исключение строк, содержащих определённое значение
- &lt;/h3>
- &lt;a data-clipboard-text="https://maxtar.github.io/programming/regexp/#исключение-строк-содержащих-определённое-значение" class="gdoc-page__anchor clip flex align-center" title=" Исключение строк, содержащих определённое значение" aria-label=" Исключение строк, содержащих определённое значение" href="#%d0%b8%d1%81%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d1%82%d1%80%d0%be%d0%ba-%d1%81%d0%be%d0%b4%d0%b5%d1%80%d0%b6%d0%b0%d1%89%d0%b8%d1%85-%d0%be%d0%bf%d1%80%d0%b5%d0%b4%d0%b5%d0%bb%d1%91%d0%bd%d0%bd%d0%be%d0%b5-%d0%b7%d0%bd%d0%b0%d1%87%d0%b5%d0%bd%d0%b8%d0%b5">
- &lt;svg class="gdoc-icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
-&lt;/div>
-&lt;p>Например есть список файлов:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="cl">MaxFullResult.txt
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">8fd88cjjd88cjjjbbj simple.txt
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">resultSimple.txt
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">8fd88cjjd88cjjjbbj full.txt
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Чтобы исключить все файлы, содержащие &amp;ldquo;result&amp;rdquo; можно использовать следующее выражение:&lt;/p></description></item></channel></rss>
+ &lt;/h3&gt;
+ &lt;a data-clipboard-text="https://maxtar.github.io/programming/regexp/#исключение-строк-содержащих-определённое-значение" class="gdoc-page__anchor clip flex align-center" title=" Исключение строк, содержащих определённое значение" aria-label=" Исключение строк, содержащих определённое значение" href="#%d0%b8%d1%81%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d1%82%d1%80%d0%be%d0%ba-%d1%81%d0%be%d0%b4%d0%b5%d1%80%d0%b6%d0%b0%d1%89%d0%b8%d1%85-%d0%be%d0%bf%d1%80%d0%b5%d0%b4%d0%b5%d0%bb%d1%91%d0%bd%d0%bd%d0%be%d0%b5-%d0%b7%d0%bd%d0%b0%d1%87%d0%b5%d0%bd%d0%b8%d0%b5"&gt;
+ &lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;Например есть список файлов:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-txt" data-lang="txt"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;MaxFullResult.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;8fd88cjjd88cjjjbbj simple.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;resultSimple.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;8fd88cjjd88cjjjbbj full.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Чтобы исключить все файлы, содержащие &amp;ldquo;result&amp;rdquo; можно использовать следующее выражение:&lt;/p&gt;</description></item></channel></rss>
