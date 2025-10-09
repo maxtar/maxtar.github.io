@@ -414,6 +414,7 @@ tags: [go, программирование]
 ## Интеграция с другими ЯП
 
 * [py](https://gitlab.com/pygolo/py) - интеграция с Python. [GoDoc](https://pkg.go.dev/gitlab.com/pygolo/py).
+* [JS](https://github.com/fastschema/qjs) - релизация JS. [GoDoc](https://pkg.go.dev/github.com/fastschema/qjs).
 
 ---
 
