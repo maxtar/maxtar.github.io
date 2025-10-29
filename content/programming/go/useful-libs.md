@@ -147,6 +147,7 @@ tags: [go, программирование]
 * [quicktest](https://github.com/frankban/quicktest) - набор удобных методов.
 * [chromedr](https://github.com/chromedp/chromedp) - реализация Chrome driver API на Go. [GoDoc](https://pkg.go.dev/github.com/chromedp/chromedp?tab=doc).
 * [gocheck](https://labix.org/gocheck) - конкурент [testify](https://github.com/stretchr/testify).
+* [gotests](https://github.com/cweill/gotests) - автоматический генератор тестов.
 
 ### Генерация данных
 
