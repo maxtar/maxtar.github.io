@@ -385,6 +385,7 @@ tags: [go, программирование]
 ## Офис
 
 * [excelize](https://github.com/360EntSecGroup-Skylar/excelize) - работа с excel файлами из Go. [Документация](https://xuri.me/excelize). [GoDoc](https://pkg.go.dev/github.com/360EntSecGroup-Skylar/excelize/v2).
+* [docxgo](https://github.com/mmonterroca/docxgo) - работа с документами word. [GoDoc](https://pkg.go.dev/github.com/mmonterroca/docxgo).
 
 ---
 
