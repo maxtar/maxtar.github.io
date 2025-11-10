@@ -260,7 +260,7 @@ tags: [go, программирование]
   Позволяет писать микропрограммы для ARM Cortex-M based MCUs. Репозиторий на [Github](https://github.com/ziutek/emgo). [Блог](https://ziutek.github.io/2018/03/30/go_on_very_small_hardware.html) как это всё работает.
 * [Periph](https://periph.io/) от команды google [GitHub](https://github.com/google/periph). [GoDoc](https://godoc.org/periph.io/x/periph).
 * [Tinygo](https://tinygo.org/) [GitHub](https://github.com/tinygo-org/tinygo).
-* [TamaGo](https://github.com/f-secure-foundry/tamago) - bare metal Go for ARM SoCs . Позволяет писать на GO для голых чипов AMD.
+* [TamaGo](https://github.com/usbarmory/tamago) - bare metal Go for ARM SoCs . Позволяет писать на GO для голых AMD64, ARM, ARM64, RISCV64 без операционки.
 * [ghw](https://github.com/jaypipes/ghw) - Golang HardWare discovery/inspection library. Позволяет получать информацию о конфигурации оборудовании, текущем состоянии.
 
 ---
