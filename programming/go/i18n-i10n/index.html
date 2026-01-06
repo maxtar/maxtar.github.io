@@ -1,4 +1,4 @@
-<!doctype html><html lang=ru class=color-toggle-hidden><head><meta charset=UTF-8><meta name=referrer content="no-referrer"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=color-scheme content="light dark"><meta name=generator content="Hugo 0.152.2"><meta name=description content="Информация взята отсюда
+<!doctype html><html lang=ru class=color-toggle-hidden><head><meta charset=UTF-8><meta name=referrer content="no-referrer"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=color-scheme content="light dark"><meta name=generator content="Hugo 0.154.2"><meta name=description content="Информация взята отсюда
 Альтернативный пакет (https://github.com/nicksnyder/go-i18n).
 Internationalization (i18n) Localization (l10n) Internationalization (i18n) Для форматирования вывода информации в национальном формате (например, чисел) используются следующие пакеты:
 golang.org/x/text/language golang.org/x/text/message По-умолчанию, они не установлены. Необходимо их скачать:
@@ -93,32 +93,32 @@ hidden-mobile" itemprop=breadcrumb><div><svg class="gdoc-icon gdoc_path hidden-m
 </span></span></code></pre></div><p>Для вывода информации на основании языка используется тип <code>message.Printer</code>.
 Используется он следующий образом:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=kn>import</span><span class=w> </span><span class=p>(</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=p>(</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=s>&#34;fmt&#34;</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=s>&#34;golang.org/x/text/language&#34;</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=s>&#34;golang.org/x/text/message&#34;</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>)</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>p</span><span class=w> </span><span class=p>=</span><span class=w> </span><span class=nx>message</span><span class=p>.</span><span class=nf>NewPrinter</span><span class=p>(</span><span class=nx>language</span><span class=p>.</span><span class=nx>Russian</span><span class=p>)</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>p</span><span class=p>.</span><span class=nf>Printf</span><span class=p>(</span><span class=s>&#34;Вы получили %.2f монет.\n&#34;</span><span class=p>,</span><span class=w> </span><span class=mf>16521.56</span><span class=p>)</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
 </span></span></span></code></pre></div><hr><div class="flex align-center gdoc-page__anchorwrap"><h2 id=localization-l10n>Localization (l10n)</h2><a data-clipboard-text=https://maxtar.github.io/programming/go/i18n-i10n/#localization-l10n class="gdoc-page__anchor clip flex align-center" title=" Localization (l10n)" aria-label=" Localization (l10n)" href=#localization-l10n><svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"/></svg></a></div><p>Для локализации используются те же пакеты. Чтобы выводить сообщение в зависимости от языка необходимо задать шаблоны используя метод <em>message.SetString()</em>.</p><p>Пример кода:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>package</span><span class=w> </span><span class=nx>main</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=kn>import</span><span class=w> </span><span class=p>(</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kn>import</span><span class=w> </span><span class=p>(</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=s>&#34;fmt&#34;</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=s>&#34;golang.org/x/text/language&#34;</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=s>&#34;golang.org/x/text/message&#34;</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>)</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=kd>func</span><span class=w> </span><span class=nf>init</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>init</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>message</span><span class=p>.</span><span class=nf>SetString</span><span class=p>(</span><span class=nx>language</span><span class=p>.</span><span class=nx>Russian</span><span class=p>,</span><span class=w> </span><span class=s>&#34;You&#39;ve got %.2f coins.&#34;</span><span class=p>,</span><span class=w> </span><span class=s>&#34;Вы получили %.2f монет.&#34;</span><span class=p>)</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>message</span><span class=p>.</span><span class=nf>SetString</span><span class=p>(</span><span class=nx>language</span><span class=p>.</span><span class=nx>English</span><span class=p>,</span><span class=w> </span><span class=s>&#34;You&#39;ve got %.2f coins.&#34;</span><span class=p>,</span><span class=w> </span><span class=s>&#34;You&#39;ve got %.2f coins.&#34;</span><span class=p>)</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kd>func</span><span class=w> </span><span class=nf>main</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>p</span><span class=w> </span><span class=o>:=</span><span class=w> </span><span class=nx>message</span><span class=p>.</span><span class=nf>NewPrinter</span><span class=p>(</span><span class=nx>language</span><span class=p>.</span><span class=nx>English</span><span class=p>)</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>p</span><span class=p>.</span><span class=nf>Printf</span><span class=p>(</span><span class=s>&#34;You&#39;ve got %.2f coins.&#34;</span><span class=p>,</span><span class=w> </span><span class=mf>16521.56</span><span class=p>)</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>()</span><span class=w>
@@ -126,7 +126,7 @@ hidden-mobile" itemprop=breadcrumb><div><svg class="gdoc-icon gdoc_path hidden-m
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>p</span><span class=w> </span><span class=p>=</span><span class=w> </span><span class=nx>message</span><span class=p>.</span><span class=nf>NewPrinter</span><span class=p>(</span><span class=nx>language</span><span class=p>.</span><span class=nx>Russian</span><span class=p>)</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>p</span><span class=p>.</span><span class=nf>Printf</span><span class=p>(</span><span class=s>&#34;You&#39;ve got %.2f coins.&#34;</span><span class=p>,</span><span class=w> </span><span class=mf>16521.56</span><span class=p>)</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>()</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
 </span></span></span></code></pre></div></article><div class="gdoc-page__footer flex flex-wrap justify-between"><span class=gdoc-page__nav><a class="gdoc-page__nav--prev flex align-center" href=/programming/go/ title=Go><i class=gdoc-icon>gdoc_arrow_left_alt</i>
 Go
 </a></span><span class=gdoc-page__nav><a class="gdoc-page__nav--next flex align-center" href=/programming/go/useful-libs/ title="Полезные библиотеки">Полезные библиотеки
