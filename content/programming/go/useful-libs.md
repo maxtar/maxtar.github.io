@@ -80,7 +80,8 @@ tags: [go, программирование]
 * Анимация в командной строке [Wow](https://github.com/gernest/wow).
 * [progressbar](https://github.com/schollz/progressbar) от автора croc. [GoDoc](https://pkg.go.dev/github.com/schollz/progressbar/v3).
 * [color](https://github.com/fatih/color) - позволяет раскрашивать вывод в консоль. [GoDoc](https://pkg.go.dev/github.com/fatih/color).
-* [ishell](https://github.com/abiosoft/ishell) - библиотека позволяет создавать интерактивные консольные приложения. 
+* [ishell](https://github.com/abiosoft/ishell) - библиотека позволяет создавать интерактивные консольные приложения.
+* [ASCIIGraph](https://github.com/guptarohit/asciigraph) - вывод графиков в консоли при помощи ASCII символов. [GoDoc](https://pkg.go.dev/github.com/guptarohit/asciigraph?tab=doc).
 
 ---
 
@@ -318,6 +319,7 @@ tags: [go, программирование]
 * [Machinery](https://github.com/RichardKnop/machinery) обработка сообщений. Работа с различными источниками. [Godoc](https://godoc.org/github.com/RichardKnop/machinery/v1).
 * [Bigslice](https://bigslice.io/) - аналог Spark на Go. [GitHub](https://github.com/grailbio/bigslice). [GoDoc](https://pkg.go.dev/github.com/grailbio/bigslice?tab=doc).
 * [watermill](https://github.com/ThreeDotsLabs/watermill) - работа с сообщениями. Возможность интегрироваться с Kafka, RabbitMQ.
+* [chans](https://github.com/nalgeon/chans) - типа стримов как в java, kotlin. [GoDoc](https://github.com/nalgeon/chans).
 
 ### Kafka
 
@@ -436,7 +438,7 @@ tags: [go, программирование]
 * Работа с клавиатурой [keyboard](https://github.com/eiannone/keyboard).
 * Глобальных перехват Ctrl+C и прочих прерываний [Goodbye](https://github.com/TheCodeTeam/goodbye). [Статья от автора](https://blog.thecodeteam.com/2017/10/02/say-hello-goodbye/).
 * Работа с изображениями [govips](https://github.com/davidbyttow/govips).
-* Клиент для [elasticsearch](https://github.com/olivere/elastic).  Запись в [блоге](https://www.ribice.ba/golang-elastic).
+* Клиент для [elasticsearch](https://github.com/olivere/elastic). Запись в [блоге](https://www.ribice.ba/golang-elastic).
 * [Gosec](https://github.com/securego/gosec). Библиотека для сканирования исходного кода на Go и выявление проблем с безопасностью.
 * [Detective](https://github.com/sohamkamani/detective) - мониторинг распределённых систем. [GoDoc](https://godoc.org/github.com/sohamkamani/detective).
 * [Charlatan](https://github.com/percolate/charlatan) позволяет автоматически создавать заглушки для программных интерфейсов.
@@ -445,7 +447,6 @@ tags: [go, программирование]
 * [Prototool](https://github.com/uber/prototool) от Uber. Альтернативная работа с protobuf. [Godoc](https://godoc.org/github.com/uber/prototool).
 * [BigMachine](https://github.com/grailbio/bigmachine) - библиотека для развертывания кластера. Например, работает в связке с [Bigslice](https://bigslice.io/).
 * [g-locale](https://github.com/Xuanwo/go-locale) - определение установленной локали пользователя. [GoDoc](https://pkg.go.dev/github.com/Xuanwo/go-locale?tab=doc).
-* [ASCIIGraph](https://github.com/guptarohit/asciigraph) - вывод графиков в консоли при помощи ASCII символов. [GoDoc](https://pkg.go.dev/github.com/guptarohit/asciigraph?tab=doc).
 * [validator](https://github.com/go-playground/validator) - проверка значений в структурах. [GoDoc](https://pkg.go.dev/github.com/go-playground/validator?tab=doc).
 * [go-humanize](https://github.com/dustin/go-humanize) - позволяет переводить числа в байты, удобное время и прочее. [GoDoc](https://pkg.go.dev/github.com/dustin/go-humanize?tab=doc).
 * [error](https://github.com/cockroachdb/errors) - набор обёрток для обработки ошибок.
