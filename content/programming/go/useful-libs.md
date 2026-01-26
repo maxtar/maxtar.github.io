@@ -169,6 +169,7 @@ tags: [go, программирование]
 * [fasthttp](https://github.com/valyala/fasthttp) - на сегодняшний момент самая быстрая реализация http сервера на Go. [API](https://godoc.org/github.com/valyala/fasthttp)
 * [resty](https://github.com/go-resty/resty) - rest-client, позволяющий удобно делать запросы и разбирать ответы. Автоматически измеряет время ответа от сервера. [GoDoc](https://godoc.org/gopkg.in/resty.v1).
 * [quic-go](https://github.com/lucas-clemente/quic-go) - реализация протокола quic на Go.
+* [GoProxy](https://github.com/elazarl/goproxy) - библиотека для создания прокси. [GoDoc](https://pkg.go.dev/github.com/elazarl/goproxy).
 
 ---
 
