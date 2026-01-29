@@ -35,6 +35,7 @@ tags: [go, программирование]
 * [httpretty](https://github.com/henvic/httpretty) - удобное логирование в консоль http запросов как на сервере, так и на клиенте. [GoDoc](https://pkg.go.dev/github.com/henvic/httpretty?tab=doc).
 * [zlog](https://github.com/m-mizutani/zlog) - логер позволяет скрывать чувствительную информацию из логирования. [GoDoc](https://pkg.go.dev/github.com/m-mizutani/zlog@v0.2.0).
 * [Log](https://github.com/charmbracelet/log) - простенький логер с подсветкой вывода от создателей [Bubble Tea](https://github.com/charmbracelet/bubbletea). [GoDoc](https://pkg.go.dev/github.com/charmbracelet/log).
+* [godump](https://github.com/goforj/godump) - библиотека для красивого вывода структуры в консоль, web. [GoDoc](https://pkg.go.dev/github.com/goforj/godump).
 
 ---
 
