@@ -46,6 +46,7 @@ tags: [go, программы]
 
 * [K6](https://github.com/loadimpact/k6). [Документация](https://docs.k6.io/docs/running-k6).
 * [vegeta (https://github.com/tsenart/vegeta)](https://github.com/tsenart/vegeta) - подключается, либо как библиотека, либо используется из командной строки.
+* [plow](https://deepwiki.com/six-ddc/plow) - высокопроизводительное средство. Рисует графики в процессе. [GitHub](https://github.com/six-ddc/plow).
 
 ## WEB
 
