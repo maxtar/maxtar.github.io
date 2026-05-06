@@ -216,6 +216,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/loadimpact/k6" target="_blank" &gt;K6&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;. &lt;a href="https://docs.k6.io/docs/running-k6" target="_blank" &gt;Документация&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/tsenart/vegeta" target="_blank" &gt;vegeta (https://github.com/tsenart/vegeta)&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - подключается, либо как библиотека, либо используется из командной строки.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://deepwiki.com/six-ddc/plow" target="_blank" &gt;plow&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt; - высокопроизводительное средство. Рисует графики в процессе. &lt;a href="https://github.com/six-ddc/plow" target="_blank" &gt;GitHub&lt;svg class="gdoc-icon gdoc_link"&gt;&lt;use xlink:href="#gdoc_link"&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="flex align-center gdoc-page__anchorwrap"&gt;
  &lt;h2 id="web"
