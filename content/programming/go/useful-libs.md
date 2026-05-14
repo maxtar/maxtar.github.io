@@ -406,7 +406,7 @@ tags: [go, программирование]
 
 ## Шифровние
 
-* [age](https://github.com/FiloSottile/age) -библиотека для семмитричного и ассиметриченого шифрования. Может использоватся как отдельная утилита [GoDoc](https://pkg.go.dev/filippo.io/age#section-documentation).
+* [age](https://github.com/FiloSottile/age) - библиотека для семмитричного и ассиметриченого шифрования. Может использоватся как отдельная утилита [GoDoc](https://pkg.go.dev/filippo.io/age#section-documentation).
 
 ---
 
@@ -421,6 +421,7 @@ tags: [go, программирование]
 
 * [py](https://gitlab.com/pygolo/py) - интеграция с Python. [GoDoc](https://pkg.go.dev/gitlab.com/pygolo/py).
 * [JS](https://github.com/fastschema/qjs) - релизация JS. [GoDoc](https://pkg.go.dev/github.com/fastschema/qjs).
+* [C](https://github.com/ebitengine/purego) - вызов C-функций без использования cgo.
 
 ---
 
