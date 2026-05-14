@@ -424,6 +424,12 @@ tags: [go, программирование]
 
 ---
 
+## Нейросети
+
+* [Kronk](https://www.kronkai.com) - библиотека позволяет взаимодействовать с нейросетью из кода на Go. [GitHub](https://github.com/ardanlabs/kronk).
+
+---
+
 ## Разное
 
 * [Распознавание естественных языков](https://github.com/abadojack/whatlanggo).
