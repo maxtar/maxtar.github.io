@@ -333,6 +333,7 @@ tags: [go, программирование]
 ## Парсеры
 
 * Интерпретатор GO [Yaegi](https://github.com/containous/yaegi). [Введение](https://blog.containo.us/announcing-yaegi-263a1e2d070a). [GoDoc](https://godoc.org/github.com/containous/yaegi). Работает как библиотека, так и как приложение командной строки. Позволяет парсить и запускать код на Go.
+* [mvm](https://mvm.sh) - встраемый интерпретатор Go. Можно выполнять скрипты на Go внутри программ на Go. [GitHub](https://github.com/mvm-sh/mvm).
 
 ---
 
