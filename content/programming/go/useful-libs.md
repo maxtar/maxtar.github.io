@@ -305,6 +305,7 @@ tags: [go, программирование]
 ## Видео
 
 * [Go Fluent FFmpeg](https://github.com/modfy/go-fluent-ffmpeg) - wrapper для ffmpeg. Позволяет работать с видеофайлами из программы на Go. [GoDoc](https://pkg.go.dev/github.com/modfy/fluent-ffmpeg#section-readme).
+* [gopeg](https://m8sh.su/x/gopeg) - реализация части fffmpeg на Go. [Статья](https://habr.com/ru/articles/1042916) на Хабре. [Зеркало](https://codeberg.org/d1nch8g/gopeg) на codeberg.
 
 ---
 
