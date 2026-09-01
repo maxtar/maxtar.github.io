@@ -50,6 +50,7 @@ tags: [go, программирование]
 * [gocui](https://github.com/jroimartin/gocui). [Godoc](https://godoc.org/github.com/jroimartin/gocui).
 * [TermUI](https://github.com/gizak/termui). [Документация](https://github.com/gizak/termui/wiki).
 * [Bubble Tea](https://github.com/charmbracelet/bubbletea) - от создателей [Glow](https://github.com/charmbracelet/glow).
+  * [bubbles](https://github.com/charmbracelet/bubbles) - набор визуальных компонентов для BubbleTea.
 * [Box CLI Maker](https://github.com/Delta456/box-cli-maker) - позволяет создавать приветственные окна.
 
 ### GUI
@@ -77,12 +78,13 @@ tags: [go, программирование]
 * [go-pretty](https://github.com/jedib0t/go-pretty) - упрощает вывод текста, таблиц, списков в консоль. Progressbar. [GoDoc](https://pkg.go.dev/github.com/jedib0t/go-pretty?tab=doc)
 * [gchalk](https://github.com/jwalton/gchalk) - позволяет выводить в консоль разноцветный текст. [GoDoc](https://pkg.go.dev/github.com/jwalton/gchalk?readme=expanded#section-documentation).
 * [PTerm](https://pterm.sh) - ещё одна реализация цветного терминала. Очень прикольный. [GitHub](https://github.com/pterm/pterm).
-* [lipgloss](https://github.com/charmbracelet/lipgloss) - ещё одна библиотека для создания интерфсов в терминале.
+* [lipgloss](https://github.com/charmbracelet/lipgloss) - ещё одна библиотека для создания интерфейсов в терминале.
 * Анимация в командной строке [Wow](https://github.com/gernest/wow).
 * [progressbar](https://github.com/schollz/progressbar) от автора croc. [GoDoc](https://pkg.go.dev/github.com/schollz/progressbar/v3).
 * [color](https://github.com/fatih/color) - позволяет раскрашивать вывод в консоль. [GoDoc](https://pkg.go.dev/github.com/fatih/color).
 * [ishell](https://github.com/abiosoft/ishell) - библиотека позволяет создавать интерактивные консольные приложения.
 * [ASCIIGraph](https://github.com/guptarohit/asciigraph) - вывод графиков в консоли при помощи ASCII символов. [GoDoc](https://pkg.go.dev/github.com/guptarohit/asciigraph?tab=doc).
+* [spinq](https://github.com/Veitangie/spinq) - позволяет делать лёгкие спиннеры в консоли.
 
 ---
 
