@@ -85,6 +85,7 @@ tags: [go, программирование]
 * [ishell](https://github.com/abiosoft/ishell) - библиотека позволяет создавать интерактивные консольные приложения.
 * [ASCIIGraph](https://github.com/guptarohit/asciigraph) - вывод графиков в консоли при помощи ASCII символов. [GoDoc](https://pkg.go.dev/github.com/guptarohit/asciigraph?tab=doc).
 * [spinq](https://github.com/Veitangie/spinq) - позволяет делать лёгкие спиннеры в консоли.
+* [vhs](https://github.com/charmbracelet/vhs) - позволяет делать анимацию типа команды в консоли и выводить её в gif.
 
 ---
 
