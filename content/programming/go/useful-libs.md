@@ -436,6 +436,12 @@ tags: [go, программирование]
 
 ---
 
+## Мапперы
+
+* [goverter](https://github.com/jmattheis/goverter) - позволяет генерить конвертреы из одного типа в другой.
+
+---
+
 ## Разное
 
 * [Распознавание естественных языков](https://github.com/abadojack/whatlanggo).
